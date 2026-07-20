@@ -1,0 +1,72 @@
+---
+name: seo-audit
+description: Use when organic search visibility, crawling, indexing, rankings, or search traffic need diagnosis, including focused page reviews, technical audits, migrations, and evidence-backed SEO reports.
+---
+
+# SEO Audit
+
+Diagnose from inspectable evidence; separate observations, hypotheses, and missing inputs.
+
+## Intake
+
+Use known context. Establish the business outcome, target market, affected scope, recent changes, and available first-party data; ask only about consequential gaps.
+
+## Set Scope
+
+Choose the smallest sufficient mode:
+
+- **focused**: one symptom, template, URL set, or question.
+- **page**: one page and its search purpose.
+- **site**: property patterns with an explicit inventory or sample.
+- **incident**: a sudden loss, migration, release regression, or indexing emergency.
+
+Never inflate a focused request. Use [audit-playbooks.md](references/audit-playbooks.md) for modes, stopping rules, and site-type routing.
+
+## Inventory Capabilities
+
+Record available and absent capabilities: rendered browser, raw HTTP, shell/files, lab or field performance, first-party analytics/search/index/log data, and backlink or private market data. Never imply access or rendering not performed.
+
+## Evidence Contract
+
+Label every result:
+
+- **verified**: directly observed in an inspectable artifact.
+- **inferred**: supported indirectly; name the check needed to confirm it.
+- **unavailable**: required evidence or capability was not accessible.
+
+Unavailable evidence is a limitation, never a negative finding. Set impact and confidence to **not-assessed**, state its consequence, and request the smallest useful input.
+
+Use [evidence-and-prioritization.md](references/evidence-and-prioritization.md) for rating and ordering rules. Each record has: title, status, evidence, impact, confidence, action, completion condition, and effort.
+
+## Operate Safely
+
+Default checks to bounded, read-only access. Require explicit authorization for authenticated/private access, high-volume crawling, broad automated requests, or tests that could affect service. Never bypass access controls; honor agreed rate and concurrency limits. Minimize or redact credentials, tokens, cookies, personal data, private paths, and sensitive exports in reports. Follow the playbook stopping rules.
+
+## Diagnose in Dependency Order
+
+1. Discovery, crawling, and indexability.
+2. Canonical behavior and site integrity, including redirects and variants.
+3. Performance and mobile behavior.
+4. Relevance and search intent.
+5. Content quality and internal discovery.
+6. Authority and market signals, only when supporting evidence exists.
+
+Downstream polish cannot outrank an upstream blocker. Consult [source-notes.md](references/source-notes.md) for factual search-engine or platform rules, and expose relevant sources in the report.
+
+## Report
+
+Default report: scope, available and unavailable evidence/capabilities, executive assessment, priority findings, grouped findings, a dependency-sequenced action plan, and limitations. Keep claims within the inspected sample.
+
+Create HTML only when requested; follow [html-report.md](references/html-report.md). Do not promise visual verification unless a suitable viewing capability is available and used.
+
+## Boundaries
+
+A request solely to implement structured data or another SEO change is not an audit. Clarify the desired deliverable or hand off to implementation; do not force a full audit. Stay within the requested surface.
+
+## Common Mistakes
+
+- Treating missing private data as proof of failure.
+- Extrapolating one URL to the whole site.
+- Reporting rendered behavior from raw source alone.
+- Prioritizing metadata before access, indexing, or canonical defects.
+- Presenting generic advice without evidence or a completion condition.

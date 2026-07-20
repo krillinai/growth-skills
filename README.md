@@ -1,6 +1,6 @@
 # Growth Skills
 
-[中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md)
 
 An open collection of reusable skills for growth and marketing work. Growth Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
 
