@@ -16,10 +16,10 @@ An open collection of reusable skills for growth and marketing work. Growth Skil
 
 ### Content Creation
 
-| Project | What it does |
+| Skill | Description |
 | --- | --- |
-| [KrillinAI](https://github.com/krillinai/KrillinAI) | Video translation and dubbing |
-| [AutoSocial Skills](https://github.com/krillinai/autosocial-skills) | Automated social media publishing |
+| [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Translate and dub videos into other languages |
+| [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Publish content across social media platforms |
 
 ## The Growth Lifecycle
 

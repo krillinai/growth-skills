@@ -16,10 +16,10 @@
 
 ### 内容创作
 
-| 项目 | 用途 |
+| 技能 | 说明 |
 | --- | --- |
-| [KrillinAI](https://github.com/krillinai/KrillinAI) | 视频翻译与配音 |
-| [AutoSocial Skills](https://github.com/krillinai/autosocial-skills) | 社交媒体自动发布 |
+| [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 将视频翻译并配音为其他语言 |
+| [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 将内容自动发布到社交媒体平台 |
 
 ## 增长全生命周期
 
