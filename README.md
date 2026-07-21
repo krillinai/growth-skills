@@ -21,6 +21,12 @@ An open collection of reusable skills for growth and marketing work. Growth Skil
 | [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Translate and dub videos into other languages |
 | [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Publish content across social media platforms |
 
+### Acquisition and Conversion
+
+| Skill | Description |
+| --- | --- |
+| [SEO Audit](skills/seo-audit/) | Diagnose technical, content, and search visibility issues with evidence-backed recommendations |
+
 ## The Growth Lifecycle
 
 The collection is designed to support connected workflows from first contact to compounding growth:

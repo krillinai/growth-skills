@@ -21,6 +21,12 @@
 | [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 将视频翻译并配音为其他语言 |
 | [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 将内容自动发布到社交媒体平台 |
 
+### 获客转化
+
+| 技能 | 说明 |
+| --- | --- |
+| [SEO 诊断](skills/seo-audit/) | 基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议 |
+
 ## 增长全生命周期
 
 这个集合致力于支持从首次触达到持续增长的连贯工作流：
