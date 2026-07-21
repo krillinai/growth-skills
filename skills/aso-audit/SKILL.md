@@ -7,13 +7,16 @@ description: Use when auditing an Apple App Store or Google Play listing, compar
 
 Audit store listings, not product implementation, release submission, or app code. Route those requests to engineering or release operations; state that a later audit needs a dated listing capture, store identifier or canonical URL, country, locale, and requested surfaces.
 
-## Choose The Smallest Mode
+## Compose The Smallest Scope
 
-- `listing`: assess a bounded Apple App Store or Google Play product page.
-- `focused`: inspect only named listing surfaces, such as the first three screenshots; do not expand to metadata, reviews, or the app.
-- `competitive`: compare supplied listings on one store, country, locale, date, and fixed card. Listing-page evidence cannot establish query rank.
-- `performance`: investigate a reported store-performance signal. Treat it as a signal until dated, segmented measurement verifies it.
-- `out-of-scope`: use for implementation, onboarding, deep links, release submission, or unrelated engineering. Give a concise ownership handoff instead of an audit.
+Choose one primary mode from the decision requested, then add only necessary modifiers:
+
+- `listing` primary: assess a bounded Apple App Store or Google Play product page when the decision concerns the listing overall.
+- `focused` primary: decide a question about only named listing surfaces, such as the first three screenshots; do not expand to metadata, reviews, or the app.
+- `performance` primary: investigate a reported store-performance signal. Treat it as a signal until dated, segmented measurement verifies it; keep performance primary when adding comparison or surface bounds.
+- `competitive` modifier: compare supplied listings using the same store, fixed card, country, locale, and date. Label the work competitive, but retain the decision's primary mode; a performance comparison is `performance + competitive`, not competitive primary. Listing-page evidence cannot establish query rank.
+- `focused` bound: constrain a performance or competitive assessment to the named surfaces without changing its primary decision. For example, a performance diagnosis comparing only two screenshots is `performance + competitive`, focused to those screenshots.
+- `out-of-scope`: own implementation-only requests for onboarding, deep links, release submission, or unrelated engineering. Give a concise ownership handoff instead of an audit. For mixed requests, audit only the ASO portion and hand off implementation work.
 
 ## Establish Scope And Evidence
 
