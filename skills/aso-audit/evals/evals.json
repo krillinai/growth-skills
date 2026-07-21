@@ -3,7 +3,7 @@
   "evals": [
     {
       "id": 201,
-      "prompt": "Audit this captured public Apple App Store listing for Trail Ledger before the autumn release. Store ID: 123456789; canonical URL: https://apps.apple.com/us/app/trail-ledger/id123456789; storefront: US; locale: en-US; capture date: 2026-07-20. Captured fields: name 'Trail Ledger'; subtitle 'Plan every hike'; promotional text 'Offline trail maps for summer'; description opens with 'Save routes, record mileage, and share trail notes.'; screenshots: 3 portrait images with captions 'Choose a route', 'Track the climb', and 'Save notes'; app preview: 15-second route-recording demo; rating 4.6 from 842 ratings; visible review excerpt: 'Easy to use, but export is hard to find.'; age rating 4+; release notes dated 2026-07-12; dated query-result capture supplied for 'trail planner'. The App Store Connect keyword field, product-page optimization plan, and experiment result are unavailable. Use the fixed Apple six-dimension card and this exact check trace: APL-DSC-01 partial 5/10 finding F-DSC-01; APL-DSC-02 unavailable max 10; APL-MET-01 partial 3/6 finding F-MET-01; APL-MET-02 pass 5/5; APL-MET-03 fail 0/3 finding F-MET-03; APL-MET-04 partial 3/6 finding F-MET-04; APL-CRT-01 partial 4/8 finding F-CRT-01; APL-CRT-02 partial 4/8 finding F-CRT-02; APL-CRT-03 fail 0/5 finding F-CRT-03; APL-CRT-04 partial 2/4 finding F-CRT-04; APL-TRU-01 pass 3/3; APL-TRU-02 partial 2.5/5 finding F-TRU-02; APL-TRU-03 partial 3.5/7 finding F-TRU-03; APL-LOC-01 pass 5/5; APL-LOC-02 pass 5/5; APL-EXP-01 unavailable max 5; APL-EXP-02 unavailable max 5. Report the calculated evidence coverage and score.",
+      "prompt": "Audit this captured public Apple App Store listing for Trail Ledger before the autumn release. Store ID: 123456789; canonical URL: https://apps.apple.com/us/app/trail-ledger/id123456789; storefront: US; locale: en-US; capture date: 2026-07-20. Captured fields: name 'Trail Ledger'; subtitle 'Plan every hike'; promotional text 'Offline trail maps for summer'; description opens with 'Save routes, record mileage, and share trail notes.' The dated campaign record says the summer promotion ended 2026-07-01 and the current autumn brief emphasizes all-season offline navigation. Store-browse viewport is 412x732 CSS px with screenshots rendered at 360 CSS px wide. Screenshot 1 says 'Choose a route' at 26 CSS px with 5.2:1 contrast and no obstruction; it shows route selection but does not show offline navigation or mileage recording. Screenshot 2 says 'Track the climb' at 16 CSS px with 1.9:1 contrast and has 20 CSS px of its lower caption obscured by the phone mockup. Screenshot 3 says 'Save notes' at 24 CSS px with 6.1:1 contrast and no obstruction. The sequence covers planning, tracking, and notes but supplies no concluding user benefit. App preview: present, 15 seconds, opens on an unlabeled map, shows route recording, and ends before a saved-route result. Rating 4.6 from 842 ratings; visible review excerpt: 'Easy to use, but export is hard to find.'; age rating 4+; release notes dated 2026-07-12 mention widgets without connecting them to visible listing claims; dated query-result capture supplied for 'trail planner'. The App Store Connect keyword field, product-page optimization plan, and experiment result are unavailable. Use the fixed Apple six-dimension card and this exact check trace: APL-DSC-01 partial 5/10 finding F-DSC-01; APL-DSC-02 unavailable max 10; APL-MET-01 partial 3/6 finding F-MET-01; APL-MET-02 pass 5/5; APL-MET-03 fail 0/3 finding F-MET-03; APL-MET-04 partial 3/6 finding F-MET-04; APL-CRT-01 partial 4/8 finding F-CRT-01; APL-CRT-02 partial 4/8 finding F-CRT-02; APL-CRT-03 fail 0/5 finding F-CRT-03; APL-CRT-04 partial 2/4 finding F-CRT-04; APL-TRU-01 pass 3/3; APL-TRU-02 partial 2.5/5 finding F-TRU-02; APL-TRU-03 partial 1.5/3 finding F-TRU-03; APL-TRU-04 partial 2/4 finding F-TRU-04; APL-LOC-01 pass 5/5; APL-LOC-02 pass 5/5; APL-EXP-01 unavailable max 5; APL-EXP-02 unavailable max 5. Report the calculated evidence coverage and score.",
       "expected_output": "Runs a public-first Apple listing audit from the dated capture before requesting private evidence. It uses the approved six-dimension Apple card, applies only 100/50/0 awards to assessed checks, keeps unavailable checks outside score math, and reports the exact check-level trace with finding-linked deductions.",
       "assertions": [
         "Selects listing mode.",
@@ -40,7 +40,8 @@
         "Reports APL-CRT-04 as partial at 2/4.",
         "Reports APL-TRU-01 as pass at 3/3.",
         "Reports APL-TRU-02 as partial at 2.5/5.",
-        "Reports APL-TRU-03 as partial at 3.5/7.",
+        "Reports APL-TRU-03 as partial at 1.5/3.",
+        "Reports APL-TRU-04 as partial at 2/4.",
         "Reports APL-LOC-01 as pass at 5/5.",
         "Reports APL-LOC-02 as pass at 5/5.",
         "Reports APL-EXP-01 unavailable with maximum 5.",
@@ -146,8 +147,8 @@
     },
     {
       "id": 204,
-      "prompt": "Compare these captured UK Apple App Store listings for the query 'video editor'. Capture date: 2026-07-20. FlowCut: ID 1111111111, canonical URL https://apps.apple.com/gb/app/flowcut/id1111111111, name 'FlowCut', subtitle 'Fast clips for creators', rating 4.7 from 9,100 ratings, first screenshot headline 'Cut a reel in seconds'. Slice Studio: ID 2222222222, canonical URL https://apps.apple.com/gb/app/slice-studio/id2222222222, name 'Slice Studio', subtitle 'Edit videos with precision', rating 4.3 from 2,040 ratings, first screenshot headline 'Frame-perfect trimming'. Trimly: ID 3333333333, canonical URL https://apps.apple.com/gb/app/trimly/id3333333333, name 'Trimly', subtitle 'Simple video maker', rating 4.5 from 680 ratings, first screenshot headline 'Make a video today'. No query-result capture is supplied. Do not compare them to Google Play versions or claim who ranks first.",
-      "expected_output": "Runs a competitive comparison on the same platform and market from the supplied listing snapshots. It keeps listing-page evidence distinct from absent query-result evidence and reports differences without asserting unverified rankings or cross-platform equivalence.",
+      "prompt": "Compare these captured UK Apple App Store listings for the query 'video editor'. Capture date: 2026-07-20. FlowCut: ID 1111111111, canonical URL https://apps.apple.com/gb/app/flowcut/id1111111111, name 'FlowCut', subtitle 'Fast clips for creators', rating 4.7 from 9,100 ratings, first screenshot headline 'Cut a reel in seconds'. Slice Studio: ID 2222222222, canonical URL https://apps.apple.com/gb/app/slice-studio/id2222222222, name 'Slice Studio', subtitle 'Edit videos with precision', rating 4.3 from 2,040 ratings, first screenshot headline 'Frame-perfect trimming'. Trimly: ID 3333333333, canonical URL https://apps.apple.com/gb/app/trimly/id3333333333, name 'Trimly', subtitle 'Simple video maker', rating 4.5 from 680 ratings, first screenshot headline 'Make a video today'. No dated written-review sample is supplied for any app. No query-result capture is supplied. Do not compare them to Google Play versions or claim who ranks first.",
+      "expected_output": "Runs a competitive comparison on the same platform and market from the supplied listing snapshots. It compares available metadata, creative, and rating evidence, marks each app's written-review check unavailable without awarding or deducting points, and keeps listing-page evidence distinct from absent query-result evidence.",
       "assertions": [
         "Selects competitive mode.",
         "Keeps all compared apps on the Apple App Store.",
@@ -159,7 +160,14 @@
         "Compares positioning across the listings.",
         "Compares visible creative approaches across the listings.",
         "Compares visible ratings across the listings.",
-        "Compares visible review themes across the listings.",
+        "Marks FlowCut APL-TRU-02 unavailable.",
+        "Marks Slice Studio APL-TRU-02 unavailable.",
+        "Marks Trimly APL-TRU-02 unavailable.",
+        "Requests a dated written-review sample for FlowCut.",
+        "Requests a dated written-review sample for Slice Studio.",
+        "Requests a dated written-review sample for Trimly.",
+        "Does not award points for unavailable written-review evidence.",
+        "Does not deduct points for unavailable written-review evidence.",
         "Uses consistent shared dimensions for every competitor.",
         "Uses the fixed Apple rubric for every competitor.",
         "Separates listing-page observations from search-result observations.",
@@ -387,7 +395,7 @@
     },
     {
       "id": 213,
-      "prompt": "Run a bounded Apple evidence-table assessment for this capture. Apple ID 4444444444; canonical URL https://apps.apple.com/us/app/field-notes/id4444444444; storefront US; locale en-US; capture date 2026-07-20; name 'Field Notes'; subtitle 'Write anywhere'; promotional text 'Capture every thought'; description opens 'A private notebook for field work.' A supplied product-page optimization plan and decision record are attributable but incomplete. The bounded scope makes Apple Discovery, Metadata, Localization, and Experimentation applicable; Apple Creative and Trust are outside scope and not applicable. Google Play feature graphic and Google Play short description are also not applicable. Use the fixed Apple check maxima and this exact trace: APL-DSC-01 unavailable max 10; APL-DSC-02 unavailable max 10; APL-MET-01 pass 6/6; APL-MET-02 fail 0/5 finding F-MET-02; APL-MET-03 partial 1.5/3 finding F-MET-03; APL-MET-04 pass 6/6; APL-LOC-01 pass 5/5; APL-LOC-02 partial 2.5/5 finding F-LOC-02; APL-EXP-01 partial 2.5/5 finding F-EXP-01; APL-EXP-02 partial 2.5/5 finding F-EXP-02. Mark APL-CRT-01, APL-CRT-02, APL-CRT-03, APL-CRT-04, APL-TRU-01, APL-TRU-02, and APL-TRU-03 not applicable. Report evidence coverage and score.",
+      "prompt": "Run a bounded Apple evidence-table assessment for this capture. Apple ID 4444444444; canonical URL https://apps.apple.com/us/app/field-notes/id4444444444; storefront US; locale en-US; capture date 2026-07-20; name 'Field Notes'; subtitle 'Write anywhere'; promotional text 'Capture every thought'; description opens 'A private notebook for field work.' A supplied product-page optimization plan and decision record are attributable but incomplete. The bounded scope makes Apple Discovery, Metadata, Localization, and Experimentation applicable; Apple Creative and Trust are outside scope and not applicable. Google Play feature graphic and Google Play short description are also not applicable. Use the fixed Apple check maxima and this exact trace: APL-DSC-01 unavailable max 10; APL-DSC-02 unavailable max 10; APL-MET-01 pass 6/6; APL-MET-02 fail 0/5 finding F-MET-02; APL-MET-03 partial 1.5/3 finding F-MET-03; APL-MET-04 pass 6/6; APL-LOC-01 pass 5/5; APL-LOC-02 partial 2.5/5 finding F-LOC-02; APL-EXP-01 partial 2.5/5 finding F-EXP-01; APL-EXP-02 partial 2.5/5 finding F-EXP-02. Mark APL-CRT-01, APL-CRT-02, APL-CRT-03, APL-CRT-04, APL-TRU-01, APL-TRU-02, APL-TRU-03, and APL-TRU-04 not applicable. Report evidence coverage and score.",
       "expected_output": "Runs the bounded assessment with the approved Apple check maxima and 100/50/0 awards. It keeps unavailable Discovery checks in the coverage denominator but outside score math, excludes every not-applicable Apple and Google Play check from both denominators, and reports the exact check-level trace.",
       "assertions": [
         "Selects listing mode.",
@@ -413,6 +421,7 @@
         "Marks APL-TRU-01 not applicable.",
         "Marks APL-TRU-02 not applicable.",
         "Marks APL-TRU-03 not applicable.",
+        "Marks APL-TRU-04 not applicable.",
         "Marks the Google Play feature graphic not applicable.",
         "Marks the Google Play short description not applicable.",
         "Does not mark the Google Play feature graphic unavailable.",
