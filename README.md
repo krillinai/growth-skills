@@ -4,6 +4,8 @@
 
 An open collection of reusable skills for growth and marketing work. Growth Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
 
+Use the [Growth Playbook](https://github.com/krillinai/growth-playbook) for diagnosis, strategy, and proven methods; use Growth Skills for bounded, reusable AI execution; and use [clawee.ai](https://clawee.ai/) when growth work requires persistent systems, private data, governance, or cross-team coordination.
+
 ## What It Covers
 
 - **Content creation** - Research, ideation, writing, editing, and content distribution.

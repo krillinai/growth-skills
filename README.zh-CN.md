@@ -4,6 +4,8 @@
 
 一个面向增长与营销工作的开放技能集合。Growth Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI Agent 覆盖并衔接增长全生命周期中的关键任务。
 
+使用 [Growth Playbook](https://github.com/krillinai/growth-playbook) 进行增长诊断、策略设计并学习经过验证的方法；使用 Growth Skills 执行边界明确、可复用的 AI 工作流；当增长工作需要持久化系统、私有数据、治理能力或跨团队协作时，使用 [clawee.ai](https://clawee.ai/)。
+
 ## 覆盖领域
 
 - **内容创作** - 调研、选题、写作、编辑与内容分发。
