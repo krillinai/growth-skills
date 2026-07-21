@@ -1,6 +1,6 @@
 # Growth Skills
 
-[English](README.md) | 简体中文
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 一个面向增长与营销工作的开放技能集合。Growth Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI Agent 覆盖并衔接增长全生命周期中的关键任务。
 
