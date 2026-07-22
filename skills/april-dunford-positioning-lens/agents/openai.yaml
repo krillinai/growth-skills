@@ -1,0 +1,4 @@
+interface:
+  display_name: "April Dunford Positioning Lens"
+  short_description: "Diagnose positioning, value, category, and sales narrative"
+  default_prompt: "Use $april-dunford-positioning-lens to diagnose this product positioning and produce an evidence-backed execution plan."

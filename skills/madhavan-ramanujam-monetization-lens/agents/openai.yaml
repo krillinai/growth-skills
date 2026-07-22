@@ -1,0 +1,4 @@
+interface:
+  display_name: "Madhavan Ramanujam Monetization Lens"
+  short_description: "Diagnose willingness to pay, packaging, and pricing models"
+  default_prompt: "Use $madhavan-ramanujam-monetization-lens to diagnose this product monetization system and define an evidence-backed pricing plan."
