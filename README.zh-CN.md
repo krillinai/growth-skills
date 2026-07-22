@@ -23,6 +23,7 @@
     <tr><th width="32%">技能</th><th>说明</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="skills/andrew-chen-network-growth-lens/">Andrew&nbsp;Chen&nbsp;网络增长视角</a></td><td>基于 Andrew Chen 的公开工作，诊断冷启动、原子网络、Marketplace 流动性、网络效应、增长循环、渠道衰减、生命周期触达与增长组织</td></tr>
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
   </tbody>
 </table>

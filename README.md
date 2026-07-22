@@ -23,6 +23,7 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
     <tr><th width="32%">Skill</th><th>Description</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="skills/andrew-chen-network-growth-lens/">Andrew&nbsp;Chen&nbsp;Network&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose cold starts, atomic networks, marketplace liquidity, network effects, growth loops, channel decay, lifecycle reach, and growth ownership through Andrew Chen's public work</td></tr>
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, Four Fits, channels, metrics, launches, retention, and loops through frameworks documented in Brian Balfour's public work</td></tr>
   </tbody>
 </table>
