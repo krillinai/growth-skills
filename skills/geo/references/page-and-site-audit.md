@@ -26,7 +26,7 @@ For each in-scope URL, preserve separate dated artifacts for:
 3. A material-element inventory: title, canonical identity, headings, core body content, claims, prices or availability, tables, lists, evidence links, entity facts, and structured data actually observed.
 4. A raw/rendered parity trace for every material element. State `raw only`, `rendered only`, `both and consistent`, `both but different`, or `unavailable`.
 
-Raw and rendered observations are independently `verified` when their captures are inspectable. A rendered-only claim is verified as page content, not as a supported claim and not as proof that an unspecified crawler receives it. If a required representation cannot be captured, the affected required property and fixed row are unavailable under the deterministic collection rule.
+Raw and rendered observations are independently `verified` when their captures are inspectable. A rendered-only claim is verified as page content, not as a supported claim and not as proof that an unspecified crawler receives it. Route a captured access denial under `ACC-01` as described below. When that denial or an uncaptured representation leaves the body, rendered DOM, material elements, or claim sources uninspectable, the dependent `EXT-01` and `EVD-01` properties are `unavailable` and require unavailable-register entries; do not treat inaccessible content as an extractability or evidence defect.
 
 ## Representative Site Sampling
 
@@ -48,6 +48,8 @@ If one required sample member is unavailable, the relevant collection row is una
 ### Access & Eligibility (`ACC-01`, 20)
 
 For every declared URL or mechanism, inspect the final outcome, usable content, redirects, status, authentication/paywall/CAPTCHA state, and controls applicable to that mechanism. Record robots rules exactly, including user-agent and path scope. Use `platform-notes.md` for current provider distinctions.
+
+For a declared access unit, a dated capture that verifies a mechanism-specific denial, such as HTTP 403, a CAPTCHA gate, or an authentication/paywall block, supplies an objective failing property: record the exact mechanism and condition, assign `ACC-01` using the fixed-row aggregation rules, and create the required unique finding for a partial or fail row. An attempt with no inspectable response or product state is `unavailable`, not fail. Never bypass the block or infer the concealed body. The verified access result does not make dependent content available: if the body or required rendered representation cannot be inspected, route `EXT-01`, `EVD-01`, and any other content-dependent property to their unavailable-evidence registers with the lawful access/artifact request and verification step.
 
 Do not infer search indexing, model training, automated search/browse retrieval, or a user-triggered fetch from a generic robots rule, one public search result, or another bot's behavior. A dated search result verifies indexing only for the observed URL and search product. Provider fetch behavior or training remains unavailable without mechanism-specific evidence.
 
@@ -90,6 +92,18 @@ Completion: an attributable inspectable artifact records all required conditions
 When the modifier is limited to `/llms.txt`, OKF, a knowledge bundle, or a similar discovery artifact, inspect only the declared paths. Record status, media type, parse validity, content date/currentness, and exact contents or bounded inventory. A `200` verifies delivery only. Invalid syntax and stale content are observations about that artifact, not benchmark deductions.
 
 Treat every such artifact as optional experimentation unless a current primary platform source explicitly documents support and effect. Never require an AI-only file or schema, claim that a crawler consumes it, infer visibility, or award/deduct readiness points merely because it exists, is absent, or is invalid. For unknown formats, mark the primary format source or platform support `unavailable`.
+
+Serialize each requested artifact separately with `optional_feature_status`:
+
+| Optional feature status | Use only when | Scoring treatment |
+| --- | --- | --- |
+| `implemented` | An inspectable implementation artifact exists at the declared path. Record its HTTP result, validity, and currentness separately; `implemented` does not mean valid, supported, or effective. | Observation only; no fixed-row award or deduction. |
+| `no-feature` | An attributable implementation inventory or explicit owner record says the optional capability was not built or promised. A 404 alone does not establish this state. | Observation only; not `unavailable`, not fail, and no finding. |
+| `unavailable` | Implementation status cannot be established from an inspectable artifact or attributable inventory. | Optional-feature evidence gap only; no fixed-row result, finding, or deduction. |
+
+`optional_feature_status=no-feature` is not the visibility-panel `answer=no-feature` in `visibility-observation.md`; the fields, scopes, and denominators are unrelated. Record a delivered but invalid artifact as `optional_feature_status=implemented` plus `format_validity=fail`, never as a readiness failure.
+
+A focused modifier does not make an optional path a required unit of `ACC-01`, `EXT-01`, `EVD-01`, `ENT-01`, or `MEA-01`. Do not use its 200, 404, invalid syntax, staleness, absence, or unknown support to assign any fixed-row property. If the request contains only optional-feature inspection and supplies no independently declared readiness units, still render the five-row readiness card: mark all five rows `unavailable`, assessed applicable maximum `0`, all applicable maximum `100`, evidence coverage `0.00%`, and readiness `Not scored`. Keep the optional-feature results outside the fixed-row traces. Any required unavailable-register entries describe the missing underlying readiness evidence, never the optional file's absence or status.
 
 ## Audit Completion Gate
 
