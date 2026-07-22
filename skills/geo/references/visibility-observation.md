@@ -4,7 +4,7 @@
 
 Visibility is an observed answer-panel result, not a readiness-score input. A panel can record what an accessible product returned under stated controls; it cannot establish a stable rank, market share, provider behavior outside the capture, causality, traffic, conversion, or uplift.
 
-Use a primary mode of `visibility` for a repeated answer panel, or `incident` for a matched before/after comparison. Competitive comparison is a modifier to visibility, not a separate primary mode.
+Use a primary mode of `visibility` for a repeated answer panel. Select primary `incident` whenever a stakeholder reports a citation or mention decline, whether or not comparison artifacts are supplied. Competitive comparison is a modifier to visibility, not a separate primary mode.
 
 ## Evidence And Panel Schema
 
@@ -30,7 +30,7 @@ Every panel must identify its artifact and these conditions. Preserve literal qu
 | third-party citation | Each citation to an observed non-owned property. |
 | error | Exact observed error code or message. |
 
-An attributable private export can support its stated aggregate counts, but absent raw answer artifacts are unavailable for answer-level verification. It is not public evidence. A stakeholder statement with no inspectable capture is a reported signal, unscored: request a matched panel rather than manufacture a baseline.
+An attributable private export can support its stated aggregate counts, but absent raw answer artifacts are unavailable for answer-level verification. It is not public evidence. A stakeholder-reported citation or mention decline with no inspectable capture selects `incident` mode and remains a reported signal, unscored: change metrics and causes are unavailable until matched before/after evidence is supplied.
 
 ## Outcome Distinctions
 
@@ -54,7 +54,7 @@ Repeat the same controls to show observed variation. Record every attempt, inclu
 
 For a competitive modifier, compare named entities only on the same matched panel: identical platform, product, model/exposure status, search mode, query, market, language, login state, timestamp window, repetition count, and answer/citation definitions. Report entity counts with the shared denominator. Do not label an entity rank one or infer an enduring advantage from a panel.
 
-For an incident, retain dated before and after artifacts and verify that all controls match. Report counts before and after, for example mentions `4/4 -> 1/4`, owned citations `3/4 -> 0/4`, answers, and errors. Without deployment logs, provider changelogs, traffic, crawl data, or other primary evidence, incident cause is unavailable or inferred only.
+For an incident, select the mode from the reported citation or mention decline. Without comparison artifacts, label the decline a reported signal, unscored; do not calculate a change, verify a decline, or diagnose a cause. Request dated matched before/after answer artifacts with identical controls. Matched evidence is required to verify the change, not to select incident mode. When it is available, retain the before and after artifacts and verify that all controls match. Report counts before and after, for example mentions `4/4 -> 1/4`, owned citations `3/4 -> 0/4`, answers, and errors. Without deployment logs, provider changelogs, traffic, crawl data, or other primary evidence, incident cause is unavailable or inferred only.
 
 ## Access And Reporting Limits
 
