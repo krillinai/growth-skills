@@ -84,13 +84,23 @@ Use lower limits supplied by the user or fixture manifest when present; never ra
 
 For every candidate, run this order:
 
-1. Fetch through a bounded HTTP(S) request only when permitted. Record final URL, redirects, status, declared media type, and exact source byte count. Abort during streaming once the source-byte limit is exceeded.
+1. Acquire a supplied local file through a separate non-network path, or fetch through the bounded HTTP(S) procedure below only when permitted. Record every request decision, destination, redirect, rejection, final URL, status, declared media type, and exact source byte count. Abort during streaming once the source-byte limit is exceeded.
 2. Before full decode, compare exact bytes against known raster signatures and container structure. Accept only PNG, JPEG, or WebP candidates. Reject CSS/text, HTML disguised as an image, SVG (including external references or scripts), GIF, unknown formats, and mismatched declarations.
 3. Parse sufficient trusted decoder metadata to enforce width, height, pixel count, and frame count before allocating a full raster. Reject animated PNG/WebP and every multi-frame asset. Treat malformed lengths, decompression failures, and ambiguous animation state as rejection.
 4. Decode with a maintained raster decoder under resource limits. Inspect the pixels to verify that the content is the expected logo or relevant static evidence; do not embed merely because decoding succeeds.
 5. Flatten only a verified single frame, remove metadata/profiles/comments, and re-encode through a trusted encoder as PNG, JPEG, or static WebP. Never copy original encoded bytes into the report.
 6. Reinspect the re-encoded output for signature, dimensions, pixels, one-frame status, and encoded size. Update aggregate asset count, decoded pixels, and encoded bytes before embedding; reject the asset if any aggregate limit would be exceeded.
 7. Base64-encode the safe output and use an allowlisted raster data URI. Record source, selection rationale, original/re-encoded format, bytes, dimensions, frames, and rejection reason for every candidate.
+
+### Network Fetch Boundary
+
+Before the initial request and after every redirect, parse and canonicalize the destination anew. Allow only `http` or `https`, a conventional domain hostname, an allowed port, and no URL credentials. Reject raw numeric IP hosts, alternative numeric encodings, mixed or obfuscated host syntax, malformed or ambiguous names, userinfo, fragments used to disguise authority, and destinations whose identity cannot be established unambiguously. Cap redirects at a small declared number; do not follow a redirect until its destination passes the same checks.
+
+Resolve every accepted hostname with a trusted resolver before connecting. Require every returned IPv4 and IPv6 address to be public and globally routable. Reject loopback, link-local, private/RFC1918, carrier-grade NAT, unique-local IPv6, IPv4-mapped local IPv6, multicast, reserved/documentation, benchmarking, unspecified, broadcast, and any other non-global or special-purpose range. Revalidate all address results for every redirect.
+
+Pin the validated resolution for the connection so a later DNS answer cannot redirect the request. Connect only to a validated pinned address while preserving the canonical hostname for HTTP host handling and TLS certificate verification; verify that the actual peer address is one of the pinned public addresses. Do not retry against an unvalidated address. If the URL changes, resolution changes, any answer is non-global, the peer differs, TLS identity fails, the redirect limit is reached, or validation is unavailable or ambiguous, stop and reject the candidate. Do not partially trust or embed bytes from a rejected fetch.
+
+Fail closed: no validation result means no network request, and any failure leaves a complete request/resolution/redirect/rejection trace in the method record. Never reinterpret a rejected network URL as a local file path. Local supplied files are inspected directly under the same byte, signature, decode, frame, pixel, re-encoding, and aggregate limits without DNS or HTTP handling.
 
 Do not fully decode or re-encode a source that fails byte preflight, signature/container validation, dimension/pixel preflight, or frame validation. Screenshots and answer captures follow the same pipeline. When unsafe or over budget, preserve their ordered evidence as escaped text rather than losing the evidence or embedding active content.
 
