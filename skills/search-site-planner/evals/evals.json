@@ -52,7 +52,8 @@
         "Assigns exactly one decision to `/guides/api`.",
         "Uses only keep, move, merge, retire, or needs-evidence as restructure decisions.",
         "Provides a unique source row for every scoped current URL.",
-        "Does not fabricate traffic or ranking evidence.",
+        "Does not fabricate traffic evidence.",
+        "Does not fabricate ranking evidence.",
         "Separates observed crawl facts from owner-reported signals.",
         "Separates planning inferences from unavailable evidence."
       ],
@@ -127,7 +128,10 @@
         "仅规划六个已批准候选页。",
         "不把子目录视为普遍正确结构。",
         "不把 Google 的规则套用于百度。",
-        "把 ICP 与托管决策记录为不可用证据或实施约束。",
+        "将 ICP 决策记录为不可用。",
+        "将托管决策记录为不可用。",
+        "不以实施约束讨论替代 ICP 决策的不可用状态。",
+        "不以实施约束讨论替代托管决策的不可用状态。",
         "为每个 Locale 保留唯一的 URL。"
       ],
       "files": []
