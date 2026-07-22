@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krillinai/growth-playbook/blob/main/handbook/diagnosis/protocol.schema.json",
+  "title": "Growth Diagnosis Protocol",
+  "description": "A machine-readable contract for evidence-backed growth diagnosis and execution routing.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["context", "outcome", "constraint", "evidence", "actions", "execution"],
+  "properties": {
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["product", "customer", "business_model", "stage", "diagnosis_area"],
+      "properties": {
+        "product": { "type": "string", "minLength": 1 },
+        "customer": { "type": "string", "minLength": 1 },
+        "business_model": { "type": "string", "minLength": 1 },
+        "market": { "type": "string" },
+        "stage": { "type": "string", "enum": ["pre_pmf", "early_repeatability", "scaling", "expansion", "mature_optimization"] },
+        "diagnosis_area": { "$ref": "#/$defs/diagnosisArea" },
+        "decision_window_days": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["metric", "baseline", "target", "segment", "time_window"],
+      "properties": {
+        "metric": { "type": "string", "minLength": 1 },
+        "baseline": { "$ref": "#/$defs/metricValue" },
+        "target": { "$ref": "#/$defs/metricValue" },
+        "segment": { "type": "string", "minLength": 1 },
+        "time_window": { "type": "string", "minLength": 1 },
+        "symptom": { "type": "string" },
+        "metrics": { "type": "array", "items": { "$ref": "#/$defs/metric" } }
+      }
+    },
+    "constraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "diagnosis_area", "confidence"],
+      "properties": {
+        "primary": { "type": "string", "minLength": 1 },
+        "diagnosis_area": { "$ref": "#/$defs/diagnosisArea" },
+        "mechanism": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "selection_rationale": { "type": "string" },
+        "alternative_constraints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["constraint", "reason_not_primary"],
+            "properties": {
+              "constraint": { "type": "string", "minLength": 1 },
+              "reason_not_primary": { "type": "string", "minLength": 1 },
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["supporting", "contradictory", "missing_evidence"],
+      "properties": {
+        "supporting": { "type": "array", "items": { "$ref": "#/$defs/evidenceItem" } },
+        "contradictory": { "type": "array", "items": { "$ref": "#/$defs/evidenceItem" } },
+        "missing_evidence": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "actions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["priorities", "experiments"],
+      "properties": {
+        "priorities": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/action" } },
+        "experiments": { "type": "array", "items": { "$ref": "#/$defs/experiment" } },
+        "handbook_references": { "type": "array", "items": { "$ref": "#/$defs/reference" } },
+        "case_references": { "type": "array", "items": { "$ref": "#/$defs/reference" } }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["route", "owners", "dependencies", "guardrails"],
+      "properties": {
+        "route": { "type": "string", "enum": ["self_serve", "growth_skills", "clawee_enterprise"] },
+        "skill_references": { "type": "array", "items": { "$ref": "#/$defs/reference" } },
+        "enterprise_requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["persistent_system_access", "private_data", "custom_data_modeling", "continuous_agent_execution", "cross_team_coordination", "permissions_and_approvals", "audit_and_governance", "multi_product_or_market"]
+          }
+        },
+        "owners": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "dependencies": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "guardrails": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    }
+  },
+  "$defs": {
+    "diagnosisArea": { "type": "string", "enum": ["acquisition", "activation", "retention", "monetization", "growth_loops", "growth_system"] },
+    "metricValue": { "oneOf": [{ "type": "number" }, { "type": "string", "minLength": 1 }] },
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "value"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "value": { "$ref": "#/$defs/metricValue" },
+        "unit": { "type": "string" },
+        "segment": { "type": "string" },
+        "period": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "evidenceItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "finding"],
+      "properties": {
+        "type": { "type": "string", "enum": ["behavioral", "economic", "qualitative", "experimental", "external"] },
+        "finding": { "type": "string", "minLength": 1 },
+        "source": { "type": "string" },
+        "segment": { "type": "string" },
+        "period": { "type": "string" },
+        "quality_notes": { "type": "string" }
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["priority", "action", "owner", "decision_date"],
+      "properties": {
+        "priority": { "type": "integer", "minimum": 1 },
+        "action": { "type": "string", "minLength": 1 },
+        "rationale": { "type": "string" },
+        "owner": { "type": "string", "minLength": 1 },
+        "decision_date": { "type": "string", "format": "date" },
+        "success_signal": { "type": "string" },
+        "dependencies": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "guardrails": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "experiment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hypothesis", "decision_rule", "primary_metric", "guardrails"],
+      "properties": {
+        "hypothesis": { "type": "string", "minLength": 1 },
+        "intervention": { "type": "string" },
+        "primary_metric": { "type": "string", "minLength": 1 },
+        "decision_rule": { "type": "string", "minLength": 1 },
+        "guardrails": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "owner": { "type": "string" },
+        "duration": { "type": "string" }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri-reference" },
+        "relevance": { "type": "string" }
+      }
+    }
+  }
+}

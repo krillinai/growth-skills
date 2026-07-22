@@ -36,6 +36,17 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   </tbody>
 </table>
 
+### Strategy & Diagnosis
+
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/growth-diagnosis/">Growth&nbsp;Diagnosis</a></td><td>Identify the primary growth constraint from attributable evidence and route a market-aware 30-day decision plan across acquisition, activation, retention, monetization, growth loops, and growth systems</td></tr>
+  </tbody>
+</table>
+
 ### Acquisition and Conversion
 
 <table>

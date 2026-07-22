@@ -36,6 +36,17 @@
   </tbody>
 </table>
 
+### 策略与诊断
+
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/growth-diagnosis/">增长诊断</a></td><td>基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径</td></tr>
+  </tbody>
+</table>
+
 ### 获客转化
 
 <table>
