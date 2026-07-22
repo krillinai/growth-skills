@@ -4,7 +4,7 @@
 
 This reference defines the evidence ledger and the readiness score for an audit. It applies only to the audited property and the stated collection boundary. It does not measure answer visibility, search ranking, traffic, conversion, or uplift; record those observations separately in `visibility-observation.md`.
 
-Start public-first. A finding must identify the property, scope item, capture or export, timestamp, evidence status, and the exact observation or conclusion. Do not turn a browser observation into a crawler, provider, training, or model conclusion without evidence specific to that mechanism.
+Start public-first. Each required adverse finding must identify the property, scope item, capture or export, timestamp, evidence status, and the exact observation or conclusion. Do not turn a browser observation into a crawler, provider, training, or model conclusion without evidence specific to that mechanism.
 
 ## Evidence States
 
@@ -25,14 +25,14 @@ An artifact is not evidence of more than it shows. A dated PDF can verify its ow
 
 ## Finding And Evidence Ledger
 
-Every scored pass, partial, or fail needs a unique property-qualified finding ID. Use `<property-key>-<row-id>-<sequence>`, for example `harbor-pricing-EXT-01-001`. Do not reuse an ID for a different property, check, or assertion.
+Only assessed adverse results, `partial` and `fail`, require a unique row-qualified finding ID. Use `<property-key>-<row-id>-<sequence>`, for example `harbor-pricing-EXT-01-001`. Do not reuse an ID for a different property, row, or assertion. A `pass` requires an evidence and point trace, but no finding. `unavailable` and `not applicable` use their separate registers and do not use a finding.
 
 | Field | Required record |
 | --- | --- |
-| Finding ID | Unique property-qualified identifier. |
+| Finding ID | Required only for `partial` and `fail`; unique property-qualified identifier. |
 | Priority | `P0` verified material blocker, `P1` material evidence or readiness gap, or `P2` bounded improvement. Priority orders action; it does not change a row maximum, evidence state, or score. |
 | Property and scope item | Exact URL, record, sample member, or bounded collection item. |
-| Row and result | One fixed row ID and `pass`, `partial`, `fail`, `unavailable`, or `not applicable`. |
+| Row and result | One fixed row ID and `pass`, `partial`, `fail`, `unavailable`, or `not applicable`. A finding ID is required only for `partial` and `fail`. |
 | Evidence trace | Source/export ID, type, URL or owner, capture/generated timestamp, and the exact observed fragment, response, count, or quote. |
 | Evidence state | Exactly one serialized `evidence_state`: `verified`, `inferred`, `unavailable`, or `not applicable`. |
 | Evidence origin | `public artifact` or `private export`, plus the required artifact metadata. |
@@ -43,9 +43,11 @@ Priority is not a substitute for evidence. Every prioritized finding retains its
 
 Maintain an Unavailable-evidence register for every material missing artifact. It is a collection-completeness record, not a deduction list.
 
-| Unavailable ID | Property and scope | Needed primary evidence | Why unavailable | Requested or lawful next step | Linked finding ID |
+| Unavailable ID | Property and scope | Needed primary evidence | Why unavailable | Requested or lawful next step | Related fixed row |
 | --- | --- | --- | --- | --- | --- |
-| `UNAV-001` | `harbor-pricing`, claim A | Current source URL, publication date, methodology | Not supplied | Request source from property owner | `harbor-pricing-EVD-01-001` |
+| `UNAV-001` | `harbor-pricing`, claim A | Current source URL, publication date, methodology | Not supplied | Request source from property owner | `EVD-01` |
+
+Maintain a Not-applicable register for each excluded row, recording the property and scope, fixed row, rationale, and evidence state `not applicable`. It is separate from the finding ledger and unavailable-evidence register.
 
 For a collection such as a supplied page sample, claim set, or observed directory list, record `collected / required`, the fixed collection boundary, and each unavailable member. A bounded sample remains a sample: incomplete or unavailable collection evidence cannot be promoted to site-wide verified truth. Aggregate a property only after all applicable fixed rows and required collection members are recorded; do not average selected rows, silently omit members, or substitute a broader claim for missing collection evidence.
 
@@ -80,7 +82,7 @@ A positive inference cannot receive pass. An inference cannot convert unknown mo
 
 ## Calculation And Presentation
 
-For each property, show the five fixed rows, row result, earned points, maximum, linked finding ID or unavailable-register ID, and collection completeness. Do not emit a readiness percentage when no applicable row has assessed evidence; show `Not scored`.
+For each property, show the five fixed rows, row result, earned points, maximum, and collection completeness. Show an evidence and point trace for `pass`; a required finding ID for `partial` and `fail`; an unavailable-register ID for `unavailable`; and a not-applicable-register ID for `not applicable`. Do not emit a readiness percentage when no applicable row has assessed evidence; show `Not scored`.
 
 ```text
 all applicable maximum = sum(maximum for pass, partial, fail, unavailable)
@@ -96,11 +98,11 @@ Example fixed-row trace:
 
 | Row | Result | Earned / maximum | Exact trace |
 | --- | --- | ---: | --- |
-| ACC-01 | pass | 20 / 20 | `harbor-pricing-ACC-01-001` |
+| ACC-01 | pass | 20 / 20 | `SRC-ACC-01`: verified evidence and point trace; no finding |
 | EXT-01 | partial | 12.5 / 25 | `harbor-pricing-EXT-01-001` |
-| EVD-01 | unavailable | 0 / 25 | `UNAV-001` -> `harbor-pricing-EVD-01-001` |
+| EVD-01 | unavailable | 0 / 25 | `UNAV-001` -> `EVD-01`; no finding |
 | ENT-01 | fail | 0 / 20 | `harbor-pricing-ENT-01-001` |
-| MEA-01 | not applicable | 0 / 10 | Scope record |
+| MEA-01 | not applicable | 0 / 10 | `NA-001` scope record; no finding |
 
 For this example: all applicable maximum = 90; assessed applicable maximum = 65; assessed earned = 32.5; evidence coverage = 65 / 90 * 100 = 72.22%; readiness score = 32.5 / 65 * 100 = 50.00%.
 
