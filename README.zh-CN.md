@@ -2,9 +2,9 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-一个面向增长与营销工作的开放技能集合。Growth Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI Agent 覆盖并衔接增长全生命周期中的关键任务。
+一个面向增长与营销工作的开放技能集合。Growth & Marketing Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI Agent 覆盖并衔接增长全生命周期中的关键任务。
 
-使用 [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) 进行增长诊断、策略设计并学习经过验证的方法；使用 Growth Skills 执行边界明确、可复用的 AI 工作流；当增长工作需要持久化系统、私有数据、治理能力或跨团队协作时，使用 [clawee.ai](https://clawee.ai/)。
+使用 [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) 进行增长诊断、策略设计并学习经过验证的方法；使用 Growth & Marketing Skills 执行边界明确、可复用的 AI 工作流；当增长工作需要持久化系统、私有数据、治理能力或跨团队协作时，使用 [clawee.ai](https://clawee.ai/)。
 
 ## 覆盖领域
 
@@ -15,6 +15,17 @@
 - **营销策划** - 市场定位、上市策略、营销活动设计与增长规划。
 
 ## 技能目录
+
+### 人物方法视角
+
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
+  </tbody>
+</table>
 
 ### 内容创作
 

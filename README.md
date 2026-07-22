@@ -2,9 +2,9 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-An open collection of reusable skills for growth and marketing work. Growth Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
+An open collection of reusable skills for growth and marketing work. Growth & Marketing Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
 
-Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) for diagnosis, strategy, and proven methods; use Growth Skills for bounded, reusable AI execution; and use [clawee.ai](https://clawee.ai/) when growth work requires persistent systems, private data, governance, or cross-team coordination.
+Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) for diagnosis, strategy, and proven methods; use Growth & Marketing Skills for bounded, reusable AI execution; and use [clawee.ai](https://clawee.ai/) when growth work requires persistent systems, private data, governance, or cross-team coordination.
 
 ## What It Covers
 
@@ -15,6 +15,17 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
 - **Marketing strategy** - Positioning, go-to-market planning, campaign design, and growth planning.
 
 ## Skill Catalog
+
+### Practitioner Lenses
+
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, Four Fits, channels, metrics, launches, retention, and loops through frameworks documented in Brian Balfour's public work</td></tr>
+  </tbody>
+</table>
 
 ### Content Creation
 
