@@ -25,6 +25,7 @@
   <tbody>
     <tr><td><a href="skills/alex-schultz-data-growth-lens/">Alex&nbsp;Schultz&nbsp;数据增长视角</a></td><td>基于 Alex Schultz 的公开工作，诊断留存、Growth Accounting、激活、North Star、数据债务、边际用户消息、获客顺序、国际化与病毒机制</td></tr>
     <tr><td><a href="skills/andrew-chen-network-growth-lens/">Andrew&nbsp;Chen&nbsp;网络增长视角</a></td><td>基于 Andrew Chen 的公开工作，诊断冷启动、原子网络、Marketplace 流动性、网络效应、增长循环、渠道衰减、生命周期触达与增长组织</td></tr>
+    <tr><td><a href="skills/april-dunford-positioning-lens/">April&nbsp;Dunford&nbsp;定位视角</a></td><td>基于 April Dunford 的公开工作，诊断竞争替代方案、差异化价值、最佳客户、市场品类、销售叙事、客户资格、产品组合定位与 AI 差异化</td></tr>
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
     <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;产品增长视角</a></td><td>基于 Casey Winters 的公开工作，诊断留存、Onboarding、Marketplace 供给、扩张、SEO、转化、可持续获客与增长组织</td></tr>
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;增长视角</a></td><td>基于 Elena Verna 的公开工作，诊断增长模型、PLG、Product-Led Sales、免费模式、变现、分发、实验、AI-native PMF 与发现渠道</td></tr>
