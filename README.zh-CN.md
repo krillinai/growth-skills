@@ -1,4 +1,4 @@
-# Growth Skills by clawee.ai
+# Growth & Marketing Skills by clawee.ai
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
