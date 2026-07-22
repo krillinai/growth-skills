@@ -1,6 +1,6 @@
 ---
 name: geo
-description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences, including a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
+description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences across declared markets and languages, including Mainland China, a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
 ---
 
 # GEO Audit
@@ -19,13 +19,13 @@ Choose one primary mode and the smallest sufficient boundary:
 | `incident` | A reported change in mentions, citations, or attributable traffic | Dated before/after evidence under matched conditions |
 | `out-of-scope` | Traditional SEO or implementation-only work | Route to the appropriate audit or implementation capability |
 
-Add `competitive` only for a matched comparison using the same product/platform, query, market, language, login state, date window, and protocol. Add `focused` to constrain any primary mode to one surface, such as robots, raw/rendered parity, claim provenance, entity consistency, third-party sources, an optional discovery artifact, or one query cluster. HTML is an output format, not a mode.
+Add `competitive` only for a matched comparison using the same platform, product, surface, shown model/exposure, search/network state, query, market, language, login and access state, date window, collection method, and protocol. Add `focused` to constrain any primary mode to one surface, such as robots, raw/rendered parity, claim provenance, entity consistency, third-party sources, an optional discovery artifact, or one query cluster. HTML is an output format, not a mode.
 
 Route organic rankings, backlinks, and conventional search-performance analysis to `seo-audit`. Route content rewrites, Schema changes, rendering changes, robots edits, publication, and deployment to implementation work; require fresh post-change evidence for verification.
 
 ## Establish The Evidence Boundary
 
-1. Declare mode, modifiers, audited properties/URLs, market, language, dates, exclusions, supplied artifacts, and inaccessible evidence.
+1. Declare mode, modifiers, audited properties/URLs, market, language, dates, exclusions, supplied artifacts, and inaccessible evidence. Select market and language before collection; never infer either from operator location, IP address, interface language, domain, or query text.
 2. Start with bounded public evidence. Treat analytics, Search Console, logs, paid tools, and private monitoring as optional enhancements, never prerequisites.
 3. Preserve these states exactly:
    - `verified`: directly observed in a dated inspectable public artifact or attributable private export.
@@ -42,11 +42,11 @@ Never bypass authentication, CAPTCHA, paywalls, rate limits, robots controls, re
 
 For `page`, `site`, or focused technical work, read [page-and-site-audit.md](references/page-and-site-audit.md) and [evidence-and-scoring.md](references/evidence-and-scoring.md). Capture raw and rendered representations separately. Freeze a site sample before inspection, retain every selected URL including failures, report `fetched / selected`, and limit conclusions to the sample.
 
-For `visibility`, `incident`, or a competitive query panel, read [visibility-observation.md](references/visibility-observation.md). Record every attempt, including answered, no-answer, no-feature, brand-absent, unavailable, and error states. Preserve exact denominators and do not call stochastic observations rankings.
+For `visibility`, `incident`, or a competitive query panel, read [visibility-observation.md](references/visibility-observation.md). Record every attempt, including answered, no-answer, no-feature, brand-absent, unavailable, and error states. Preserve exact denominators and do not call stochastic observations rankings. For Mainland China observations on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, also read [mainland-china-platforms.md](references/mainland-china-platforms.md).
 
 For robots, provider behavior, AI search requirements, or optional protocols such as `llms.txt`, OKF, or knowledge bundles, read [platform-notes.md](references/platform-notes.md). Treat optional artifacts as experiments unless a current primary platform source establishes support and effect. Their existence, absence, validity, or staleness does not itself affect fixed readiness rows.
 
-For an incident, accept only matched before/after panels for comparison. If platform, product, model/exposure, mode, query, market, language, login state, or collection method differs materially, show the captures separately and do not calculate a decline or diagnose a cause. A stakeholder report without artifacts remains a `reported signal`; request the missing observation conditions and repeated answer/citation records.
+For an incident, accept only matched before/after panels for comparison. If platform, product, surface, shown model/exposure, search/network state, query, market, language, login or access state, or collection method differs, show the captures separately and do not calculate a decline or diagnose a cause. A stakeholder report without artifacts remains a `reported signal`; request the missing observation conditions and repeated answer/citation records.
 
 ## Score Readiness, Not Visibility
 
@@ -70,7 +70,7 @@ Lead with scope and evidence, then present:
 1. primary constraint and next decision;
 2. readiness score, evidence coverage, arithmetic, and full fixed-row trace;
 3. observed visibility counts and conditions in a separate section;
-4. the platform/query matrix with unavailable distinct from absence;
+4. the platform/product/surface/market/language/query matrix with unavailable distinct from absence;
 5. verified findings, bounded effects, actions, and testable completion conditions;
 6. unavailable-evidence requests, citation sources, and any matched competitor observations;
 7. a dependency-sequenced roadmap and repeat-test protocol;
@@ -82,4 +82,4 @@ When the user requests HTML, a shareable/visual report, or a browser-openable ar
 
 ## Completion Gate
 
-Before delivery, confirm that scope remained bounded; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact conditions and denominators; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.
+Before delivery, confirm that scope remained bounded; market and language were selected explicitly; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact product, surface, shown model/exposure, search/network, login/access, market, language, time, repetition, answer, mention, citation/source URL, and error conditions with denominators; comparisons are condition-matched; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.
