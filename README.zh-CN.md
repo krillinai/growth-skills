@@ -23,6 +23,7 @@
     <tr><th width="32%">技能</th><th>说明</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="skills/alex-schultz-data-growth-lens/">Alex&nbsp;Schultz&nbsp;数据增长视角</a></td><td>基于 Alex Schultz 的公开工作，诊断留存、Growth Accounting、激活、North Star、数据债务、边际用户消息、获客顺序、国际化与病毒机制</td></tr>
     <tr><td><a href="skills/andrew-chen-network-growth-lens/">Andrew&nbsp;Chen&nbsp;网络增长视角</a></td><td>基于 Andrew Chen 的公开工作，诊断冷启动、原子网络、Marketplace 流动性、网络效应、增长循环、渠道衰减、生命周期触达与增长组织</td></tr>
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
     <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;产品增长视角</a></td><td>基于 Casey Winters 的公开工作，诊断留存、Onboarding、Marketplace 供给、扩张、SEO、转化、可持续获客与增长组织</td></tr>
