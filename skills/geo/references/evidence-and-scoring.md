@@ -13,7 +13,7 @@ Serialize `evidence_state` using exactly one of these lowercase values for each 
 | State | Meaning | Scoring treatment |
 | --- | --- | --- |
 | `verified` | A dated, inspectable artifact directly supports the observation. A public raw HTTP capture, rendered DOM capture, response record, dated document, observed third-party record, or attributable private export can be verified when its metadata is complete. | May support pass, partial, or fail when it meets the row rule. |
-| `inferred` | A clearly labeled interpretation drawn from available evidence. | An adverse inference can receive partial only. A positive inference cannot receive pass. |
+| `inferred` | A clearly labeled interpretation drawn from available evidence. | Unscored as a property result; it cannot assign pass, partial, or fail. Missing evidence required for an objective result makes the row unavailable. |
 | `unavailable` | The needed artifact, source, access, or observation was not supplied or could not lawfully be obtained. | No award or automatic penalty. It stays in the coverage denominator and out of the assessed-score denominator. |
 | `not applicable` | The fixed row genuinely does not apply to the stated scope. | Excluded from both denominators. |
 
@@ -44,14 +44,25 @@ Priority is not a substitute for evidence. Every prioritized finding retains its
 Maintain an Unavailable-evidence register for every material missing artifact. It is a collection-completeness record, not a deduction list, and every unavailable row has one register entry.
 
 | Unavailable ID | Row ID | Scope | Missing evidence | Reason unavailable | Exact request | Acquisition / verification step | Dependency | Evidence-request priority / order | Completion condition |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `UNAV-001` | `EVD-01` | `harbor-pricing`, claim A | Current source URL, publication date, methodology | Not supplied | Property owner: provide the current source URL, publication date, and methodology for claim A. | Capture the supplied artifact; inspect the claim, date, and methodology against the exact claim wording. | `EVD-01` remains unavailable; no remediation finding is created. | `ER-P0 / 1` | Requested artifact is captured and verified, or the lawful acquisition attempt and continuing unavailability are recorded. |
+| `UNAV-002` | `MEA-01` | `harbor-pricing`, page audit | Attributable panel, change artifact, or measurement record with conditions and denominators | Not supplied | Audit owner: provide a dated attributable measurement artifact for this page-audit scope, including method, conditions, observations, and denominators. | Capture the artifact; verify attribution, scope, conditions, observation records, counts, and denominators. | `MEA-01` remains unavailable; no remediation finding is created. | `ER-P1 / 2` | A scope-matched measurement artifact is captured and verified, or the lawful acquisition attempt and continuing unavailability are recorded. |
 
 `Evidence-request priority / order` sequences collection work only, for example `ER-P0 / 1` before `ER-P1 / 2`. It is separate from remediation finding priority (`P0`/`P1`/`P2`), never creates a finding, and has no score effect. A report may sequence an evidence request before any dependent finding: collect and verify the requested artifact first, then assess the dependent row if evidence becomes available. Do not merge the unavailable-evidence register with the finding ledger or the not-applicable register.
 
-Maintain a Not-applicable register for each excluded row, recording the property and scope, fixed row, rationale, and evidence state `not applicable`. It is separate from the finding ledger and unavailable-evidence register.
+Maintain a required Not-applicable register for every excluded row. An in-scope GEO audit cannot mark a readiness row not applicable; `not applicable` is allowed only when the entire request is routed out of GEO audit scope and no readiness score is produced.
 
-For a collection such as a supplied page sample, claim set, or observed directory list, record `collected / required`, the fixed collection boundary, and each unavailable member. A bounded sample remains a sample: incomplete or unavailable collection evidence cannot be promoted to site-wide verified truth. Aggregate a property only after all applicable fixed rows and required collection members are recorded; do not average selected rows, silently omit members, or substitute a broader claim for missing collection evidence.
+| N/A ID | Row ID | Scope | Objective routing evidence | Reason | Completion condition |
+| --- | --- | --- | --- | --- | --- |
+| `NA-001` | `ACC-01` | Out-of-scope request | Exact request and routing decision | No GEO property, page, site, visibility panel, or incident is in scope | Routing is recorded and no readiness score is emitted |
+
+The not-applicable register is separate from the finding ledger and unavailable-evidence register. Create one entry for each excluded fixed row; never use N/A to avoid collecting missing evidence or to shrink an in-scope denominator.
+
+### Collection Completeness
+
+Before collection, declare the exact required units for every row: URLs or records for `ACC-01` and `EXT-01`, material claims and their sources for `EVD-01`, entity facts and comparison records for `ENT-01`, and measurement artifacts and conditions for `MEA-01`. Report `collected / required` for each row and list every unit by stable ID.
+
+`collected` counts a unit only when its dated artifact is inspectable and sufficient to assign the unit an objective pass or fail. A verified defect counts as collected; a missing, inaccessible, uninspectable, or underspecified unit does not. If `collected < required`, at least one required property is unavailable and the whole row is `unavailable`. A bounded sample remains a sample: do not promote it to site-wide completeness, change the required count after inspection, silently omit members, or substitute a broader conclusion for missing collection evidence.
 
 ## Fixed Readiness Card
 
@@ -68,19 +79,43 @@ The readiness card has exactly five atomic rows. Each row has one fixed maximum,
 
 Do not split an atomic row into subweights, borrow unused points from another row, add points for optional formats, or deduct a benchmark score for an absent optional artifact. The same five row IDs and maxima apply to every property. A modifier can constrain scope but cannot change the card.
 
+### Required Properties And Objective Tests
+
+Declare every required property below for the bounded audit scope. A property passes or fails only from dated, inspectable evidence; missing evidence makes the property unavailable.
+
+| Row | Required properties | Property pass criteria | Property fail criteria | Objective N/A rule |
+| --- | --- | --- | --- | --- |
+| ACC-01 | For every in-scope URL, record, or product condition: final response/outcome; content availability; and observed authentication, paywall, CAPTCHA, robots, or other mechanism-specific access restriction. | The required unit is lawfully reachable under the stated condition, returns the expected usable artifact, and has no observed restriction that blocks the specifically audited retrieval mechanism. | The captured response or product state verifies that the required unit is missing, unusable, denied, or blocked for the specifically audited mechanism. A directive is evidence only for the mechanism it governs. | Only when the entire request is routed out of GEO audit scope. |
+| EXT-01 | For every in-scope page or record: raw representation; rendered representation when rendering is part of delivery; material headings, claims, facts, links, and structured text; and raw/rendered parity for those material elements. | Every required material element is present, readable, and extractable in each required representation, and material raw/rendered content is consistent. | A captured required representation omits, obscures, corrupts, or makes a required material element non-extractable, or verifies a material raw/rendered mismatch. | Only when the entire request is routed out of GEO audit scope. |
+| EVD-01 | For every declared material claim: exact claim wording; source link or source identifier; source artifact and date; and source support for the claim's subject, magnitude, time period, and methodology. | The claim has a resolvable, inspectable source that directly supports every required claim component and is current for the stated use. | The inspected source contradicts or does not support one or more required claim components, or an observed citation/link does not resolve. A source that was not supplied or inspected is unavailable, not a fail. | Only when the entire request is routed out of GEO audit scope. |
+| ENT-01 | Declare the required entity facts before inspection, including applicable name, canonical domain, product identity, address, phone, and locale identifiers; capture the owned canonical record and every required comparison record. | Each inspected required fact in every required comparison record matches the owned canonical fact. ENT-01 passes only when all inspected required entity facts are consistent and collection is complete. | A captured comparison record verifies a mismatch for a required fact. All required facts mismatching yields fail; a mix of matches and mismatches yields partial. An absent or inaccessible required comparison record is unavailable, never fail. | Only when the entire request is routed out of GEO audit scope. |
+| MEA-01 | For every page, site, visibility, or incident audit: an attributable panel, change artifact, or measurement record; complete platform/product/model/exposure/search/query/market/language/login/time conditions where relevant; planned and actual repetitions or observations; outcomes, counts, and denominators; and matched baseline/comparison controls when change is claimed. | Every required measurement artifact and condition is present, attributable, inspectable, and internally consistent; a claimed comparison is matched on all required controls. | Supplied measurement evidence verifies an invalid condition, denominator, attribution, repetition record, or unmatched comparison. If no panel, change, or measurement evidence is supplied, MEA-01 is unavailable, not fail or N/A. | Only when the entire request is routed out of GEO audit scope. MEA-01 is applicable to every in-scope page, site, visibility, and incident audit. |
+
+### Deterministic Row Aggregation
+
+Apply these rules in order to each fixed row; do not use judgment to choose a different result.
+
+1. If the request is wholly out of GEO scope and the row has a required N/A-register entry, the row is `not applicable`.
+2. Otherwise, if any required property is unavailable or `collected < required`, the whole row is `unavailable`, regardless of other observed passes or fails.
+3. With complete collection, all required properties pass means row `pass`.
+4. With complete collection, all required properties fail means row `fail`.
+5. With complete collection, a mix of property passes and fails means row `partial`.
+
+Assign property pass or fail only from verified evidence. An inference cannot assign a property result or change the deterministic aggregate; when evidence required for an objective result is missing, the property and whole row are unavailable. Never reweight properties within a row.
+
 ### Row Results
 
 Use `pass / partial / fail` as `100 / 50 / 0` percent of the row maximum.
 
 | Result | When allowed |
 | --- | --- |
-| Pass | Sufficient `evidence_state=verified`, with documented public-artifact or private-export origin metadata, directly satisfies the atomic row. |
-| Partial | `evidence_state=verified` shows a partial condition; or a clearly adverse inference warrants a conservative partial result. |
-| Fail | `evidence_state=verified` directly shows the row condition is not met. Link the exact finding ID. |
-| Unavailable | Required `evidence_state=unavailable`. Record `0` earned for display but do not assess its maximum or call it a deduction. |
-| `not applicable` | The row does not apply to the bounded scope. Exclude it from all applicable maximum. Its `evidence_state` is `not applicable`. |
+| Pass | Complete collection and all required properties pass. Evidence and point trace required; no finding. |
+| Partial | Complete collection and required properties contain a mix of verified passes and fails. Link the exact adverse finding ID. |
+| Fail | Complete collection and all required properties fail from verified evidence. Link the exact adverse finding ID. |
+| Unavailable | Any required property is unavailable or `collected < required`. Record `0` earned for display but do not assess its maximum or create a finding. |
+| `not applicable` | The entire request is objectively out of GEO scope and the row has a required N/A-register entry. Exclude it from both denominators and do not create a finding. |
 
-A positive inference cannot receive pass. An inference cannot convert unknown model behavior, currentness, causality, or outcomes into verified fact. Findings must be exact: a verified delivery defect may support `EXT-01`; an unavailable source supports an unavailable `EVD-01`, not a fail.
+An inference cannot convert unknown model behavior, currentness, causality, or outcomes into a property result. Findings must be exact: a verified delivery defect may support `EXT-01`; an unavailable source supports an unavailable `EVD-01`, not a fail.
 
 ## Calculation And Presentation
 
@@ -104,8 +139,8 @@ Example fixed-row trace:
 | EXT-01 | partial | 12.5 / 25 | `harbor-pricing-EXT-01-001` |
 | EVD-01 | unavailable | 0 / 25 | `UNAV-001` -> `EVD-01`; no finding |
 | ENT-01 | fail | 0 / 20 | `harbor-pricing-ENT-01-001` |
-| MEA-01 | not applicable | 0 / 10 | `NA-001` scope record; no finding |
+| MEA-01 | unavailable | 0 / 10 | `UNAV-002` -> `MEA-01`; no finding |
 
-For this example: all applicable maximum = 90; assessed applicable maximum = 65; assessed earned = 32.5; evidence coverage = 65 / 90 * 100 = 72.22%; readiness score = 32.5 / 65 * 100 = 50.00%.
+For this in-scope page example: all applicable maximum = 100; assessed applicable maximum = 65; assessed earned = 32.5; evidence coverage = 65 / 100 * 100 = 65.00%; readiness score = 32.5 / 65 * 100 = 50.00%.
 
 Report unavailable primary sources, private analytics, model crawls, third-party validation, and answer panels explicitly rather than filling the gap with a score, rank, causal explanation, or projected uplift.
