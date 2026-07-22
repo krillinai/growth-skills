@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elena Verna PLG Growth Lens"
+  short_description: "Diagnose PLG, monetization, and AI-native growth"
+  default_prompt: "Use $elena-verna-plg-growth-lens to diagnose this product-led growth system and prioritize its next constraint."
