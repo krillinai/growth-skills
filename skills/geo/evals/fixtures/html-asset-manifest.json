@@ -14,6 +14,29 @@
     "html_disguised_as_raster": "reject",
     "source_oversize": "exclude_before_decode"
   },
+  "network_fetch_policy": {
+    "case_count": 14,
+    "maximum_redirects": 3,
+    "fail_closed": true,
+    "rejection_trace_required": true,
+    "embed_rejected_bytes": false,
+    "cases": [
+      {"id": "ipv4-loopback", "url": "https://loopback.fixture/image.png", "resolved_addresses": ["127.0.0.1"], "expected_decision": "reject_before_fetch", "reason": "loopback"},
+      {"id": "ipv4-link-local", "url": "https://metadata.fixture/image.png", "resolved_addresses": ["169.254.169.254"], "expected_decision": "reject_before_fetch", "reason": "link-local"},
+      {"id": "rfc1918-10", "url": "https://private-a.fixture/image.png", "resolved_addresses": ["10.0.0.1"], "expected_decision": "reject_before_fetch", "reason": "private-rfc1918"},
+      {"id": "rfc1918-172", "url": "https://private-b.fixture/image.png", "resolved_addresses": ["172.16.0.1"], "expected_decision": "reject_before_fetch", "reason": "private-rfc1918"},
+      {"id": "rfc1918-192", "url": "https://private-c.fixture/image.png", "resolved_addresses": ["192.168.1.1"], "expected_decision": "reject_before_fetch", "reason": "private-rfc1918"},
+      {"id": "carrier-grade-nat", "url": "https://cgnat.fixture/image.png", "resolved_addresses": ["100.64.0.1"], "expected_decision": "reject_before_fetch", "reason": "carrier-grade-nat"},
+      {"id": "reserved-documentation", "url": "https://reserved.fixture/image.png", "resolved_addresses": ["192.0.2.1"], "expected_decision": "reject_before_fetch", "reason": "reserved-documentation"},
+      {"id": "ipv6-loopback", "url": "https://ipv6-loopback.fixture/image.png", "resolved_addresses": ["::1"], "expected_decision": "reject_before_fetch", "reason": "ipv6-loopback"},
+      {"id": "ipv6-link-local", "url": "https://ipv6-link-local.fixture/image.png", "resolved_addresses": ["fe80::1"], "expected_decision": "reject_before_fetch", "reason": "ipv6-link-local"},
+      {"id": "ipv6-unique-local", "url": "https://ipv6-ula.fixture/image.png", "resolved_addresses": ["fc00::1"], "expected_decision": "reject_before_fetch", "reason": "ipv6-unique-local"},
+      {"id": "ipv4-mapped-local-ipv6", "url": "https://ipv4-mapped.fixture/image.png", "resolved_addresses": ["::ffff:127.0.0.1"], "expected_decision": "reject_before_fetch", "reason": "ipv4-mapped-local-ipv6"},
+      {"id": "dns-rebinding", "url": "https://rebind.fixture/image.png", "resolution_sequence": [["93.184.216.34"], ["127.0.0.1"]], "expected_decision": "reject_before_fetch", "reason": "dns-answer-changed-to-loopback"},
+      {"id": "redirect-to-private", "url": "https://public.fixture/private-redirect", "redirect_locations": ["http://10.0.0.1/image.png"], "expected_decision": "reject_before_redirect_fetch", "reason": "redirect-private-rfc1918"},
+      {"id": "redirect-to-link-local", "url": "https://public.fixture/link-local-redirect", "redirect_locations": ["http://169.254.169.254/latest/meta-data"], "expected_decision": "reject_before_redirect_fetch", "reason": "redirect-link-local"}
+    ]
+  },
   "assets": [
     {
       "id": "css-text",
