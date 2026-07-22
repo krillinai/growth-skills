@@ -1,0 +1,85 @@
+---
+name: geo
+description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences, including a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
+---
+
+# GEO Audit
+
+Diagnose what the supplied evidence supports. Keep website readiness, observed AI answers, reported signals, and proposed actions separate; never promise a citation, rank, traffic result, or uplift.
+
+## Route The Request
+
+Choose one primary mode and the smallest sufficient boundary:
+
+| Mode | Use for | Boundary |
+| --- | --- | --- |
+| `visibility` | Mentions, owned citations, third-party citations, and answer variation | A declared query panel with repeated, condition-matched observations |
+| `page` | Access, rendering, extraction, claims, entity facts, and citation readiness for one URL | The named page and representations |
+| `site` | Shared controls or patterns across a property | A frozen, representative URL sample from a dated inventory |
+| `incident` | A reported change in mentions, citations, or attributable traffic | Dated before/after evidence under matched conditions |
+| `out-of-scope` | Traditional SEO or implementation-only work | Route to the appropriate audit or implementation capability |
+
+Add `competitive` only for a matched comparison using the same product/platform, query, market, language, login state, date window, and protocol. Add `focused` to constrain any primary mode to one surface, such as robots, raw/rendered parity, claim provenance, entity consistency, third-party sources, an optional discovery artifact, or one query cluster. HTML is an output format, not a mode.
+
+Route organic rankings, backlinks, and conventional search-performance analysis to `seo-audit`. Route content rewrites, Schema changes, rendering changes, robots edits, publication, and deployment to implementation work; require fresh post-change evidence for verification.
+
+## Establish The Evidence Boundary
+
+1. Declare mode, modifiers, audited properties/URLs, market, language, dates, exclusions, supplied artifacts, and inaccessible evidence.
+2. Start with bounded public evidence. Treat analytics, Search Console, logs, paid tools, and private monitoring as optional enhancements, never prerequisites.
+3. Preserve these states exactly:
+   - `verified`: directly observed in a dated inspectable public artifact or attributable private export.
+   - `inferred`: a reasoned explanation not directly measured; state the evidence needed to verify it.
+   - `unavailable`: applicable evidence or capability could not be inspected, was not supplied, or failed to render.
+   - `not applicable`: outside the declared product, property, mode, or surface.
+   - `reported signal`: a stakeholder statement without an inspectable artifact. Store it outside `evidence_state` and do not score it.
+4. Verify private metrics only when the artifact identifies its source/system, definition, scope, window, segment, and value. Missing private data creates neither a negative finding nor a score award or deduction.
+5. Keep every conclusion traceable to a source ID, URL or artifact identifier, capture timestamp, and source status. For time-sensitive platform claims, use a current direct primary source or mark the rule unavailable.
+
+Never bypass authentication, CAPTCHA, paywalls, rate limits, robots controls, regional restrictions, or product controls. A lawful failed retrieval describes only that tested mechanism. Do not infer concealed content or transfer behavior between ordinary indexing, training collection, automated search/browse retrieval, and user-triggered fetching.
+
+## Run The Selected Audit
+
+For `page`, `site`, or focused technical work, read [page-and-site-audit.md](references/page-and-site-audit.md) and [evidence-and-scoring.md](references/evidence-and-scoring.md). Capture raw and rendered representations separately. Freeze a site sample before inspection, retain every selected URL including failures, report `fetched / selected`, and limit conclusions to the sample.
+
+For `visibility`, `incident`, or a competitive query panel, read [visibility-observation.md](references/visibility-observation.md). Record every attempt, including answered, no-answer, no-feature, brand-absent, unavailable, and error states. Preserve exact denominators and do not call stochastic observations rankings.
+
+For robots, provider behavior, AI search requirements, or optional protocols such as `llms.txt`, OKF, or knowledge bundles, read [platform-notes.md](references/platform-notes.md). Treat optional artifacts as experiments unless a current primary platform source establishes support and effect. Their existence, absence, validity, or staleness does not itself affect fixed readiness rows.
+
+For an incident, accept only matched before/after panels for comparison. If platform, product, model/exposure, mode, query, market, language, login state, or collection method differs materially, show the captures separately and do not calculate a decline or diagnose a cause. A stakeholder report without artifacts remains a `reported signal`; request the missing observation conditions and repeated answer/citation records.
+
+## Score Readiness, Not Visibility
+
+Use only the fixed inventory in [evidence-and-scoring.md](references/evidence-and-scoring.md): Access & Eligibility 20, Extractability 25, Evidence & Citationworthiness 25, Entity & Source Consistency 20, and Measurement & Experimentation 10. Do not invent, split, move, or reweight checks.
+
+Assign assessed checks deterministically: pass earns 100%, partial 50%, and fail 0%. A supported adverse inference can be partial until verified; a positive inference cannot pass. Unavailable checks are excluded from assessed score arithmetic but remain in evidence coverage. Not-applicable checks are excluded from both. Show `Not scored` when assessed applicable maximum is zero.
+
+Keep these formulas explicit:
+
+```text
+readiness score = assessed earned / assessed applicable maximum * 100
+evidence coverage = assessed applicable maximum / all applicable maximum * 100
+```
+
+Every partial or fail row requires one unique property-and-check finding. Never turn unavailable evidence into a finding. Instead, create a separate unavailable-register row containing its ID, check row, scope, missing evidence, reason, exact request, acquisition step, verification step, dependency, evidence-request priority/order, and completion condition.
+
+## Report Evidence And Action
+
+Lead with scope and evidence, then present:
+
+1. primary constraint and next decision;
+2. readiness score, evidence coverage, arithmetic, and full fixed-row trace;
+3. observed visibility counts and conditions in a separate section;
+4. the platform/query matrix with unavailable distinct from absence;
+5. verified findings, bounded effects, actions, and testable completion conditions;
+6. unavailable-evidence requests, citation sources, and any matched competitor observations;
+7. a dependency-sequenced roadmap and repeat-test protocol;
+8. method, sources, unavailable evidence, and limitations.
+
+Order evidence acquisition before dependent remediation. Recommend diagnostic next steps and bounded validation experiments only. Do not silently implement changes or strengthen an inference into a fact.
+
+When the user requests HTML, a shareable/visual report, or a browser-openable artifact, read and follow [html-report.md](references/html-report.md). Generate exactly one standalone `{domain-slug}-geo-audit.html` file and preserve semantic parity with the canonical audit record.
+
+## Completion Gate
+
+Before delivery, confirm that scope remained bounded; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact conditions and denominators; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.
