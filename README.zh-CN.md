@@ -29,6 +29,7 @@
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
     <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;产品增长视角</a></td><td>基于 Casey Winters 的公开工作，诊断留存、Onboarding、Marketplace 供给、扩张、SEO、转化、可持续获客与增长组织</td></tr>
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;增长视角</a></td><td>基于 Elena Verna 的公开工作，诊断增长模型、PLG、Product-Led Sales、免费模式、变现、分发、实验、AI-native PMF 与发现渠道</td></tr>
+    <tr><td><a href="skills/james-currier-network-effects-lens/">James&nbsp;Currier&nbsp;网络效应视角</a></td><td>基于 James Currier 的公开工作，诊断网络效应类型、White-Hot Center、Hard Side、Marketplace 结构、Market Networks、Multi-homing、防御性与 AI 时代网络</td></tr>
     <tr><td><a href="skills/luis-von-ahn-habit-growth-lens/">Luis&nbsp;von&nbsp;Ahn&nbsp;习惯增长视角</a></td><td>基于 Luis von Ahn 的公开工作，设计使命一致的 Freemium、伦理激励、Streak、提醒、产品型品牌、品类扩张与 AI 学习护栏</td></tr>
     <tr><td><a href="skills/madhavan-ramanujam-monetization-lens/">Madhavan&nbsp;Ramanujam&nbsp;商业化视角</a></td><td>基于 Madhavan Ramanujam 的公开工作，诊断支付意愿、分群、套餐、计价单位、收入模型、商业化失败模式、盈利增长与 AI 定价</td></tr>
     <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;增长视角</a></td><td>基于 Sean Ellis 的公开工作，评估 must-have PMF、激活、留存、增长阶段、价值型 North Star、实验系统、优先级与推荐循环</td></tr>
