@@ -3,7 +3,7 @@
   "version": 1,
   "inspection_contract": {
     "candidate_asset_count": 7,
-    "aggregate_source_bytes": 12583271,
+    "aggregate_source_bytes": 12583359,
     "maximum_source_asset_bytes": 8388608,
     "maximum_output_asset_count": 3,
     "aggregate_output_budget_bytes": 262144,
@@ -53,13 +53,18 @@
       "inspection_result": "exclude_animation"
     },
     {
-      "id": "animated-webp-header",
+      "id": "animated-webp",
       "declared_media_type": "image/webp",
       "payload_encoding": "base64",
-      "payload": "UklGRiQAAABXRUJQVlA4WAoAAAACAAAAAAAAAAAAQU5JTQYAAAAAAAAAAABBTk1GAAAAAA==",
-      "source_bytes": 52,
-      "expected_header_hex": "524946462400000057454250",
-      "inspection_markers": ["ANIM", "ANMF"],
+      "payload": "UklGRoQAAABXRUJQVlA4WAoAAAACAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GKAAAAAAAAAAAAAAAAAAAAGQAAAJWUDhMDwAAAC8AAAAABxD9j/4HIqL/AQBBTk1GKAAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDwAAAC8AAAAABxDR//4HIqL/AQA=",
+      "source_bytes": 140,
+      "riff_declared_length": 132,
+      "expected_header_hex": "524946468400000057454250",
+      "frame_count": 2,
+      "frame_duration_ms": 100,
+      "width": 1,
+      "height": 1,
+      "expected_chunks": ["VP8X", "ANIM", "ANMF", "ANMF"],
       "inspection_result": "exclude_animation"
     },
     {
