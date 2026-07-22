@@ -1,4 +1,0 @@
-interface:
-  display_name: "Xu Hongliang Growth Infrastructure Lens"
-  short_description: "Design scalable growth platforms and risk controls"
-  default_prompt: "Use $xu-hongliang-growth-infrastructure-lens to diagnose this growth infrastructure, automation, incentive, and localization system."

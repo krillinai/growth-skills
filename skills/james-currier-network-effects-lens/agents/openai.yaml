@@ -1,4 +1,0 @@
-interface:
-  display_name: "James Currier Network Effects Lens"
-  short_description: "Diagnose network effects, marketplaces, and defensibility"
-  default_prompt: "Use $james-currier-network-effects-lens to diagnose this network product and identify its strongest value and defensibility constraints."
