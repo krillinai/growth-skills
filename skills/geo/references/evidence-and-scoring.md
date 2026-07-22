@@ -39,13 +39,15 @@ Only assessed adverse results, `partial` and `fail`, require a unique row-qualif
 | Conclusion and limit | What follows from the artifact and what remains unavailable or inferred. |
 | Action and completion | A testable next action and completion evidence. |
 
-Priority is not a substitute for evidence. Every prioritized finding retains its exact trace: source or export ID, artifact type, URL or owner, timestamp, observed fragment or count, evidence state, and linked fixed row. An unavailable item can be prioritized for collection while remaining unscored.
+Priority is not a substitute for evidence. Every prioritized finding retains its exact trace: source or export ID, artifact type, URL or owner, timestamp, observed fragment or count, evidence state, and linked fixed row. An unavailable row never uses a finding; it belongs only in the unavailable-evidence register.
 
-Maintain an Unavailable-evidence register for every material missing artifact. It is a collection-completeness record, not a deduction list.
+Maintain an Unavailable-evidence register for every material missing artifact. It is a collection-completeness record, not a deduction list, and every unavailable row has one register entry.
 
-| Unavailable ID | Property and scope | Needed primary evidence | Why unavailable | Requested or lawful next step | Related fixed row |
-| --- | --- | --- | --- | --- | --- |
-| `UNAV-001` | `harbor-pricing`, claim A | Current source URL, publication date, methodology | Not supplied | Request source from property owner | `EVD-01` |
+| Unavailable ID | Row ID | Scope | Missing evidence | Reason unavailable | Exact request | Acquisition / verification step | Dependency | Evidence-request priority / order | Completion condition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `UNAV-001` | `EVD-01` | `harbor-pricing`, claim A | Current source URL, publication date, methodology | Not supplied | Property owner: provide the current source URL, publication date, and methodology for claim A. | Capture the supplied artifact; inspect the claim, date, and methodology against the exact claim wording. | `EVD-01` remains unavailable; no remediation finding is created. | `ER-P0 / 1` | Requested artifact is captured and verified, or the lawful acquisition attempt and continuing unavailability are recorded. |
+
+`Evidence-request priority / order` sequences collection work only, for example `ER-P0 / 1` before `ER-P1 / 2`. It is separate from remediation finding priority (`P0`/`P1`/`P2`), never creates a finding, and has no score effect. A report may sequence an evidence request before any dependent finding: collect and verify the requested artifact first, then assess the dependent row if evidence becomes available. Do not merge the unavailable-evidence register with the finding ledger or the not-applicable register.
 
 Maintain a Not-applicable register for each excluded row, recording the property and scope, fixed row, rationale, and evidence state `not applicable`. It is separate from the finding ledger and unavailable-evidence register.
 
