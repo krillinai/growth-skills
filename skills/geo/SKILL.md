@@ -19,7 +19,7 @@ Choose one primary mode and the smallest sufficient boundary:
 | `incident` | A reported change in mentions, citations, or attributable traffic | Dated before/after evidence under matched conditions |
 | `out-of-scope` | Traditional SEO or implementation-only work | Route to the appropriate audit or implementation capability |
 
-Add `competitive` only for a matched comparison using the same platform, product, surface, shown model/exposure, search/network state, query, market, language, login and access state, date window, collection method, and protocol. Add `focused` to constrain any primary mode to one surface, such as robots, raw/rendered parity, claim provenance, entity consistency, third-party sources, an optional discovery artifact, or one query cluster. HTML is an output format, not a mode.
+Add `competitive` only after every field in the single canonical comparison match key from [visibility-observation.md](references/visibility-observation.md) is present and matched. Use that identical key for incident comparisons. Add `focused` to constrain any primary mode to one surface, such as robots, raw/rendered parity, claim provenance, entity consistency, third-party sources, an optional discovery artifact, or one query cluster. HTML is an output format, not a mode.
 
 Route organic rankings, backlinks, and conventional search-performance analysis to `seo-audit`. Route content rewrites, Schema changes, rendering changes, robots edits, publication, and deployment to implementation work; require fresh post-change evidence for verification.
 
@@ -46,7 +46,7 @@ For `visibility`, `incident`, or a competitive query panel, read [visibility-obs
 
 For robots, provider behavior, AI search requirements, or optional protocols such as `llms.txt`, OKF, or knowledge bundles, read [platform-notes.md](references/platform-notes.md). Treat optional artifacts as experiments unless a current primary platform source establishes support and effect. Their existence, absence, validity, or staleness does not itself affect fixed readiness rows.
 
-For an incident, accept only matched before/after panels for comparison. If platform, product, surface, shown model/exposure, search/network state, query, market, language, login or access state, or collection method differs, show the captures separately and do not calculate a decline or diagnose a cause. A stakeholder report without artifacts remains a `reported signal`; request the missing observation conditions and repeated answer/citation records.
+For an incident, accept only before/after panels that satisfy the same canonical comparison match key used for competitive work. If any key is absent, unavailable, or unmatched under its field rule, show the captures separately and do not calculate a decline or diagnose a cause. A stakeholder report without artifacts remains a `reported signal`; request the missing observation conditions and repeated answer/citation records.
 
 ## Score Readiness, Not Visibility
 
@@ -70,7 +70,7 @@ Lead with scope and evidence, then present:
 1. primary constraint and next decision;
 2. readiness score, evidence coverage, arithmetic, and full fixed-row trace;
 3. observed visibility counts and conditions in a separate section;
-4. the platform/product/surface/market/language/query matrix with unavailable distinct from absence;
+4. the provider/platform/product/surface/market/language/query matrix with unavailable distinct from absence;
 5. verified findings, bounded effects, actions, and testable completion conditions;
 6. unavailable-evidence requests, citation sources, and any matched competitor observations;
 7. a dependency-sequenced roadmap and repeat-test protocol;
@@ -82,4 +82,4 @@ When the user requests HTML, a shareable/visual report, or a browser-openable ar
 
 ## Completion Gate
 
-Before delivery, confirm that scope remained bounded; market and language were selected explicitly; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact product, product source URL when applicable, surface, shown model/exposure, search/network, login/access, market/language preselection and product controls, time, repetition, response metadata, answer, mention, owned and third-party citation classifications/counts/URLs, and error conditions with denominators; legacy fields are mapped deterministically without guessing; comparisons are condition-matched; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.
+Before delivery, confirm that scope remained bounded; provider/platform/product labels and canonical IDs are separate; market and language were selected explicitly; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact product source URL when applicable, surface, shown model/exposure, search/network, login/access, market/language preselection and product controls, timestamp window, repetition, collection method/protocol, answer/citation definitions, response metadata, answer, mention, per-attempt normalized URL arrays and URL-instance counts, panel citation aggregates, and errors; every legacy required field is normalized deterministically; competitive and incident comparisons use the identical canonical match key; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.
