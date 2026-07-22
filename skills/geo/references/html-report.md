@@ -65,7 +65,7 @@ Use a logo only when its decoded pixels visibly match the claimed brand and its 
 
 ## Raster Asset Pipeline
 
-Inspect the complete candidate manifest and each supplied fixture/payload before selecting assets. Process at most 12 candidates and preserve rejection reasons and measurable metadata in the method record. Never hotlink an asset.
+Inspect every candidate in the complete manifest and each supplied fixture/payload before selecting assets. Preserve rejection reasons and measurable metadata for every candidate in the method record. The 12-asset limit applies only to successfully validated embedded outputs, not to candidates inspected. Never hotlink an asset.
 
 Apply these hard limits:
 
