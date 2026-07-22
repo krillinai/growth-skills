@@ -3,7 +3,8 @@
   "version": 1,
   "inspection_contract": {
     "candidate_asset_count": 7,
-    "aggregate_source_bytes": 12583276,
+    "aggregate_source_bytes": 12583271,
+    "maximum_source_asset_bytes": 8388608,
     "maximum_output_asset_count": 3,
     "aggregate_output_budget_bytes": 262144,
     "maximum_output_asset_bytes": 131072,
@@ -11,7 +12,7 @@
     "network_dependencies": "reject",
     "animation": "reject",
     "html_disguised_as_raster": "reject",
-    "source_oversize": "reencode_or_exclude"
+    "source_oversize": "exclude_before_decode"
   },
   "assets": [
     {
@@ -37,7 +38,7 @@
       "declared_media_type": "image/png",
       "payload_encoding": "hex",
       "payload": "3c68746d6c3e3c626f64793e6e6f74206120706e673c2f626f64793e3c2f",
-      "source_bytes": 35,
+      "source_bytes": 30,
       "expected_magic_hex": "3c68746d6c3e",
       "inspection_result": "exclude_type_mismatch"
     },
@@ -76,15 +77,16 @@
     {
       "id": "oversized-raster-source",
       "declared_media_type": "image/png",
-      "payload_encoding": "repeat_hex_byte",
-      "payload": "00",
-      "repeat_count": 12582912,
+      "payload_encoding": "base64_prefix_plus_repeat_hex_byte",
+      "prefix_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGNgAAACAAFUok9dAAAAAElFTkSuQmCC",
+      "prefix_bytes": 66,
+      "append_hex_byte": "00",
+      "append_repeat_count": 12582846,
       "source_bytes": 12582912,
-      "width": 6000,
-      "height": 6000,
-      "pixels": 36000000,
-      "reencode_output_bytes": 65536,
-      "inspection_result": "reencode_to_budget_or_exclude"
+      "expected_header_hex": "89504e470d0a1a0a",
+      "construction": "decode prefix_base64, then append append_hex_byte append_repeat_count times",
+      "preflight": "compare source_bytes before full decode",
+      "inspection_result": "exclude_source_size_preflight"
     }
   ]
 }
