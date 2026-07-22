@@ -18,17 +18,27 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
 
 ### Content Creation
 
-| Skill | Description |
-| --- | --- |
-| [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering |
-| [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata |
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="https://github.com/krillinai/KrillinAI">Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing</a></td><td>Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering</td></tr>
+    <tr><td><a href="https://github.com/krillinai/autosocial-skills">Social&nbsp;Media&nbsp;Publishing</a></td><td>Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata</td></tr>
+  </tbody>
+</table>
 
 ### Acquisition and Conversion
 
-| Skill | Description |
-| --- | --- |
-| [SEO Audit](skills/seo-audit/) | Diagnose technical, content, and search visibility issues with evidence-backed recommendations |
-| [ASO Audit](skills/aso-audit/) | Diagnose App Store and Google Play visibility, listing, creative, and conversion issues with evidence-backed recommendations |
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/seo-audit/">SEO&nbsp;Audit</a></td><td>Diagnose technical, content, and search visibility issues with evidence-backed recommendations</td></tr>
+    <tr><td><a href="skills/aso-audit/">ASO&nbsp;Audit</a></td><td>Diagnose App Store and Google Play visibility, listing, creative, and conversion issues with evidence-backed recommendations</td></tr>
+  </tbody>
+</table>
 
 ## The Growth Lifecycle
 

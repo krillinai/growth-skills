@@ -18,17 +18,27 @@
 
 ### 内容创作
 
-| 技能 | 说明 |
-| --- | --- |
-| [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化 |
-| [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号 |
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="https://github.com/krillinai/KrillinAI">视频翻译与配音</a></td><td>完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化</td></tr>
+    <tr><td><a href="https://github.com/krillinai/autosocial-skills">社交媒体自动发布</a></td><td>使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号</td></tr>
+  </tbody>
+</table>
 
 ### 获客转化
 
-| 技能 | 说明 |
-| --- | --- |
-| [SEO 诊断](skills/seo-audit/) | 基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议 |
-| [ASO 诊断](skills/aso-audit/) | 基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议 |
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/seo-audit/">SEO 诊断</a></td><td>基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议</td></tr>
+    <tr><td><a href="skills/aso-audit/">ASO 诊断</a></td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
+  </tbody>
+</table>
 
 ## 增长全生命周期
 
