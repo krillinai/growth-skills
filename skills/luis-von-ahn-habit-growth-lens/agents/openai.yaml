@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luis von Ahn Habit Growth Lens"
+  short_description: "Design ethical habits, freemium, and learning growth"
+  default_prompt: "Use $luis-von-ahn-habit-growth-lens to evaluate this habit system, its user value, ethics, and sustainable growth model."

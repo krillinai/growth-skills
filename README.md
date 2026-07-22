@@ -28,6 +28,7 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, Four Fits, channels, metrics, launches, retention, and loops through frameworks documented in Brian Balfour's public work</td></tr>
     <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;Product&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose retention, onboarding, marketplace supply, expansion, SEO, conversion, sustainable acquisition, and growth ownership through Casey Winters' public work</td></tr>
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, PLG, product-led sales, free models, monetization, distribution, experimentation, AI-native PMF, and discovery through Elena Verna's public work</td></tr>
+    <tr><td><a href="skills/luis-von-ahn-habit-growth-lens/">Luis&nbsp;von&nbsp;Ahn&nbsp;Habit&nbsp;Growth&nbsp;Lens</a></td><td>Design mission-aligned freemium, ethical motivation, streaks, reminders, product-led brand, category expansion, and AI learning safeguards through Luis von Ahn's public work</td></tr>
     <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;Growth&nbsp;Lens</a></td><td>Evaluate must-have PMF, activation, retention, growth stages, value-based North Stars, experiment systems, prioritization, and referrals through Sean Ellis's public work</td></tr>
   </tbody>
 </table>
