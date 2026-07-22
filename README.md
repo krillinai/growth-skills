@@ -30,6 +30,7 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, PLG, product-led sales, free models, monetization, distribution, experimentation, AI-native PMF, and discovery through Elena Verna's public work</td></tr>
     <tr><td><a href="skills/luis-von-ahn-habit-growth-lens/">Luis&nbsp;von&nbsp;Ahn&nbsp;Habit&nbsp;Growth&nbsp;Lens</a></td><td>Design mission-aligned freemium, ethical motivation, streaks, reminders, product-led brand, category expansion, and AI learning safeguards through Luis von Ahn's public work</td></tr>
     <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;Growth&nbsp;Lens</a></td><td>Evaluate must-have PMF, activation, retention, growth stages, value-based North Stars, experiment systems, prioritization, and referrals through Sean Ellis's public work</td></tr>
+    <tr><td><a href="skills/xu-hongliang-growth-infrastructure-lens/">Xu&nbsp;Hongliang&nbsp;Growth&nbsp;Infrastructure&nbsp;Lens</a></td><td>Design shared growth platforms, multi-horizon value models, governed automation, creative-risk systems, incentives, anti-abuse, portfolio allocation, and localization through Xu Hongliang's public interviews</td></tr>
   </tbody>
 </table>
 

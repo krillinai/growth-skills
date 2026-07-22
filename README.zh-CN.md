@@ -30,6 +30,7 @@
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;增长视角</a></td><td>基于 Elena Verna 的公开工作，诊断增长模型、PLG、Product-Led Sales、免费模式、变现、分发、实验、AI-native PMF 与发现渠道</td></tr>
     <tr><td><a href="skills/luis-von-ahn-habit-growth-lens/">Luis&nbsp;von&nbsp;Ahn&nbsp;习惯增长视角</a></td><td>基于 Luis von Ahn 的公开工作，设计使命一致的 Freemium、伦理激励、Streak、提醒、产品型品牌、品类扩张与 AI 学习护栏</td></tr>
     <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;增长视角</a></td><td>基于 Sean Ellis 的公开工作，评估 must-have PMF、激活、留存、增长阶段、价值型 North Star、实验系统、优先级与推荐循环</td></tr>
+    <tr><td><a href="skills/xu-hongliang-growth-infrastructure-lens/">徐洪亮增长基础设施视角</a></td><td>基于徐洪亮的公开访谈，设计共享增长平台、多周期价值模型、受治理的自动化、素材与风控系统、激励、防作弊、产品组合流量与国际化</td></tr>
   </tbody>
 </table>
 
