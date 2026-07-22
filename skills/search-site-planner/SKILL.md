@@ -5,7 +5,7 @@ description: Use when planning or reviewing a website or section hierarchy, navi
 
 # Search Site Planner
 
-Turn a declared, bounded inventory into an implementable site-structure plan. Keep captured facts, owner-reported signals, planning inferences, unavailable evidence, and not-applicable items distinct. A partial crawl supports conclusions about its inspected scope only.
+Turn a declared, bounded inventory into an implementable site-structure plan. Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` as evidence states. Keep an attributable but uninspected owner statement separate as signal status `reported signal` with a blank evidence state; it is not evidence. A partial crawl supports conclusions about its inspected scope only.
 
 ## Route The Work
 
@@ -49,7 +49,7 @@ For Mainland China work requested in Simplified Chinese, write user-facing outpu
 ## Deliver In Order
 
 1. mode and boundary record;
-2. inventory coverage and evidence-state register;
+2. inventory coverage, evidence-state register, and signal-status register;
 3. readable ASCII hierarchy;
 4. URL map with identity and collision checks;
 5. navigation specification;
@@ -64,4 +64,4 @@ Default to local deliverables. Broad crawling, authenticated analytics or webmas
 
 ## Completion Gate
 
-Confirm that the boundary is reproducible; coverage arithmetic reconciles; no partial capture became a site-wide conclusion; every scoped item has the mode-required decision; distinct pages do not silently collide on one URL; the ASCII tree, URL map, navigation, breadcrumbs, and link rules agree; migration sources appear exactly once; redirects have exact targets and rationale; loops, chains, ambiguous targets, missing rows, query and fragment behavior, locale or market loss, orphan targets, parity, rollback, and validation were checked where applicable; unavailable private evidence was not penalized; provider claims remain provider-specific; and no external action occurred without explicit authorization.
+Confirm that the boundary is reproducible; evidence states use only the canonical four values; every reported signal has a blank evidence state; no signal was promoted to evidence; every inference names its basis and confirmation step; coverage arithmetic reconciles; no partial capture became a site-wide conclusion; every scoped item has the mode-required decision; distinct pages do not silently collide on one URL; the ASCII tree, URL map, navigation, breadcrumbs, and link rules agree; raw migration URLs and request-source server mappings both reconcile; release readiness is blocked by any hold; redirects have exact targets and rationale; loops, chains, ambiguous targets, missing rows, query and fragment behavior, locale or market loss, orphan targets, parity, rollback, and validation were checked where applicable; unavailable private evidence was not penalized; provider claims remain provider-specific; and no external action occurred without explicit authorization.

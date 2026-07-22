@@ -17,7 +17,7 @@ Create the boundary before recommending structure. Do not backfill it from concl
 | Locale | Locale identifier, recorded independently |
 | Limits | Partial capture, inaccessible systems, missing evidence, and implementation constraints |
 
-An inventory unit is one declared page candidate or one declared URL, depending on mode. Preserve the submitted form of each URL and parse scheme, host, port, path, query, and fragment separately. Do not silently erase case, trailing slashes, encodings, query parameters, or fragments to make two entries appear equal.
+An inventory unit is one declared page candidate or one declared raw URL, depending on mode. Preserve the submitted form of each URL. For migration parsing and server-rule grouping, use the raw-versus-request-source contract in [migration-and-validation.md](migration-and-validation.md). Do not silently erase case, trailing slashes, encodings, query parameters, or fragments to make two inventory entries appear equal.
 
 ### Coverage arithmetic
 
@@ -33,19 +33,20 @@ If the full count is unknown, report `K = unknown`, the inspected count, and the
 
 ## Evidence Register
 
-Label each consequential statement with one state:
+Evidence state is exactly `verified`, `inferred`, `unavailable`, or `not applicable`:
 
 | State | Meaning |
 | --- | --- |
-| `observed` | Directly visible in the captured inventory, page, response, or supplied inspectable artifact |
-| `reported` | Attributable owner or stakeholder statement not independently observed |
-| `inferred` | Reasoned interpretation from identified observed or reported inputs |
+| `verified` | Directly inspectable in the captured inventory, page, response, supplied artifact, or measurement; record source, capture time, and scope |
+| `inferred` | Reasoned interpretation; record its named basis and the step that would confirm it |
 | `unavailable` | Applicable evidence was not captured, supplied, accessible, or authorized |
-| `not-applicable` | The evidence or check does not apply to the declared scope or mode |
+| `not applicable` | The evidence or check does not apply to the declared scope or mode |
 
-Name the source beside `observed` and `reported` records. State the reasoning and confirming check for an `inferred` record. Missing private data remains `unavailable`; do not convert it to a defect, a zero, or a score deduction.
+Signal status is a separate field. When an attributable owner or stakeholder statement has no inspectable artifact, set signal status to `reported signal` and leave evidence state blank. Record the speaker or owner, statement, date when known, and scope. A reported signal is not evidence and must not be promoted to `verified` or presented as evidentiary support for an inference.
 
-Public pages and supplied artifacts are the default evidence layer. If an owner supplies a private export, record its artifact ID, owner, generation time, covered period, URL and market scope, completeness statement, and privacy restrictions. Use it only within that scope and avoid reproducing sensitive rows unnecessarily.
+For `verified`, name the inspectable source, capture time, and bounded scope. For `inferred`, name its basis and confirmation step; if the basis includes a reported signal, keep that signal's evidence state blank. For `unavailable`, name the missing artifact or access and the decision it would inform. Missing private data remains `unavailable`; do not convert it to a defect, a zero, or a score deduction.
+
+Public pages and supplied inspectable artifacts are the default evidence layer. If an owner supplies a private export, record its artifact ID, owner, generation time, covered period, URL and market scope, completeness statement, and privacy restrictions. Inspectable export facts may be `verified` within that scope. A statement that an unsupplied export exists remains a `reported signal` with blank evidence state. Avoid reproducing sensitive rows unnecessarily.
 
 ## Mode Reconciliation
 
@@ -99,7 +100,7 @@ The tree is a proposed information relationship, not proof of search demand or r
 
 ### URL map
 
-Include unit ID, current URL if one exists, decision, proposed URL, parent, market, language, locale, evidence state, and rationale. Check:
+Include unit ID, current URL if one exists, decision, proposed URL, parent, market, language, locale, evidence state, signal status, and rationale. Check:
 
 - every scoped unit appears once;
 - every distinct retained page has one destination identity;
@@ -112,7 +113,7 @@ Choose readable, stable URLs from page identity, relationships, locale strategy,
 
 ### Navigation specification
 
-For each captured or proposed navigation surface, state its scope, audience or task, item labels, destinations, order basis, visibility rules, locale behavior, and evidence state. Separate global, section, utility, footer, mobile, and in-page navigation when they are actually in scope. Do not fill an uncaptured global menu from assumptions or force a fixed item count.
+For each captured or proposed navigation surface, state its scope, audience or task, item labels, destinations, order basis, visibility rules, locale behavior, evidence state, and signal status. Separate global, section, utility, footer, mobile, and in-page navigation when they are actually in scope. Do not fill an uncaptured global menu from assumptions or force a fixed item count.
 
 ### Breadcrumb behavior
 
