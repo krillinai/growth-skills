@@ -56,13 +56,13 @@ Record the following before composing:
 - format, length, legal, brand, and operational constraints;
 - public, supplied, private, inaccessible, and missing sources.
 
-Start with supplied and bounded public context. Private analytics, research, customer lists, account access, and internal systems are optional enhancements, not prerequisites. Do not repeatedly request private access the user has declined.
+Start with supplied and bounded public context. Use bounded public artifacts to confirm working facts before requesting private access. Private analytics, research, customer lists, account access, and internal systems are optional enhancements, not prerequisites. Do not repeatedly request private access the user has declined.
 
 ## Apply The Context Gate
 
 Use the deterministic rules in [copy-contract.md](references/copy-contract.md):
 
-1. If product or offer truth, audience, or desired action is missing, return a focused intake and no final copy.
+1. If product or offer identity, enough descriptive truth, audience, or desired action is missing, return a focused intake and no copy. A low-risk user-supplied product identity or ordinary capability may satisfy descriptive context only for the bounded working-fact path below.
 2. For localization, also require the target market, target language, and target locale; do not guess one from another.
 3. For a channel-specific asset, require the channel. If only a numeric channel limit is missing, create a conservative bounded draft, state that the limit is unavailable, and request the current limit.
 4. When the blocking facts are present, allow a bounded assumption-labelled draft for missing awareness, objections, voice, or other reversible context only when the work is low risk and the user asks for an immediate draft.
@@ -81,6 +81,10 @@ Assign each evidence-bearing ledger row exactly one evidence state from `verifie
 - Use `unavailable` when applicable support is missing, inaccessible, stale, or too weak for the proposed wording.
 - Use `not applicable` only when the claim or evidence category is outside the declared asset.
 - Keep `reported signal` outside evidence state. Record it only as the exact signal-status label for an unattributed stakeholder or user statement without an inspectable artifact.
+
+Treat an ordinary user statement without an inspectable artifact as a user-supplied working fact only when it describes low-risk product identity or an ordinary capability. It remains signal status `reported signal` with blank evidence state. It may appear only in an output labeled exactly `Bounded draft`; label it as a user-supplied working fact beside the draft, repeat it under unresolved evidence, and request confirmation from a bounded public or supplied artifact.
+
+The working-fact path never makes copy final, approved, publication-ready, or ready to upload. Do not use it for metrics, outcomes, comparisons, testimonials, customer names, awards, certifications, prices, discounts, trials, refunds, guarantees, regulatory or legal claims, or health, financial, safety, employment, privacy, or other sensitive claims. Omit those claims or request attributable support.
 
 Never upgrade a source because the requested wording is stronger. Omit the claim, narrow it to the supported scope, qualify it without changing its truth conditions, or request evidence. Preserve conflicting sources in the ledger; do not choose the larger number, average incompatible results, or generalize a bounded case.
 
@@ -114,7 +118,7 @@ Honor only supplied or currently sourced channel limits. If the requested form c
 
 For final or bounded draft work, include every section required by [copy-contract.md](references/copy-contract.md):
 
-1. final copy, with draft status when assumptions remain;
+1. copy labeled `Final copy` or `Bounded draft`; any assumption, user-supplied working fact, or unresolved channel limit requires `Bounded draft`;
 2. message hierarchy;
 3. claim/source ledger;
 4. CTA alternatives;
@@ -131,4 +135,4 @@ Copy production does not authorize publishing, authenticated access, CMS edits, 
 
 ## Completion Gate
 
-Before delivery, confirm that wholly out-of-scope requests were routed before mode selection and have no fixed copy mode; every in-scope delivery or focused copy intake has exactly one mode; the asset boundary is explicit; product or offer truth, audience, and desired action are present; localization has a declared target market, target language, and target locale; every final or bounded draft states market, language, and locale separately; market and channel are not inferred from language; every evidence-bearing claim uses exactly `verified`, `inferred`, `unavailable`, or `not applicable`; every stakeholder-only statement uses `reported signal` outside evidence state; reported signals are not promoted; unsupported quantitative, testimonial, award, price, guarantee, capability, regulatory, or sensitive claims are omitted, narrowed, qualified, or requested; conflicts remain visible; Chinese is natively composed; channel constraints are sourced or marked unavailable; all six output sections are present for a draft; unresolved evidence is explicit; and no execution action occurred without a separate authorized workflow.
+Before delivery, confirm that wholly out-of-scope requests were routed before mode selection and have no fixed copy mode; every in-scope delivery or focused copy intake has exactly one mode; the asset boundary is explicit; product or offer identity, descriptive context, audience, and desired action are present; localization has a declared target market, target language, and target locale; every final or bounded draft states market, language, and locale separately; market and channel are not inferred from language; every evidence-bearing claim uses exactly `verified`, `inferred`, `unavailable`, or `not applicable`; every stakeholder-only statement uses `reported signal` outside evidence state; every used user-supplied working fact is limited to low-risk identity or ordinary capability, labeled in the draft, repeated under unresolved evidence, and paired with a confirmation request; any working fact, assumption, or unresolved channel limit forces the exact status `Bounded draft`; a bounded draft is not final, approved, publication-ready, or ready to upload; the working-fact allowance is never applied to quantitative, comparative, testimonial, customer-name, award, certification, commercial-term, regulatory, legal, or sensitive claims; reported signals are not promoted; unsupported claims are omitted, narrowed, qualified, or requested; conflicts remain visible; Chinese is natively composed; channel constraints are sourced or marked unavailable; all six output sections are present for a draft; unresolved evidence is explicit; and no execution action occurred without a separate authorized workflow.

@@ -10,7 +10,7 @@ Treat these as blocking facts:
 2. audience;
 3. desired action.
 
-If any blocking fact is missing, return focused intake only. Blocking facts can never be assumptions. Do not create a generic fill-in-the-blank asset, invent a business, choose a broad audience, or guess the conversion action.
+If any blocking fact is missing, return focused intake only. Blocking facts can never be assumptions. Do not create a generic fill-in-the-blank asset, invent a business, choose a broad audience, or guess the conversion action. A user-supplied low-risk product identity or ordinary capability can satisfy descriptive context only for the working-fact bounded-draft path below; it does not become verified truth.
 
 User permission to `pick`, `choose`, `make up`, `assume`, or use the `broadest possible` answer does not supply a blocking fact. Treat these instructions as confirmation that the fact is missing, preserve the context that is known, ask for the missing fact, and produce no copy.
 
@@ -24,7 +24,7 @@ When all blocking facts are supplied, missing awareness, objections, voice, deta
 - the assumption is reversible and does not create a product, commercial, legal, regulatory, safety, health, financial, employment, privacy, or performance fact;
 - the draft labels each assumption before the copy;
 - the draft repeats each assumption under unresolved evidence;
-- the draft does not present itself as approved or publication-ready.
+- the draft does not present itself as final, approved, publication-ready, or ready to upload.
 
 Do not assume market, language, or locale for localization. Do not assume a claim source, permission, price, guarantee, award, metric, capability, certification, legal status, or sensitive outcome in any mode.
 
@@ -48,7 +48,7 @@ Return these six sections in this order:
 
 ### 1. Final Copy
 
-Label the artifact `Final copy` when no material assumptions remain. Label it `Bounded draft` and list assumptions immediately above it when reversible context is assumed. Match the requested asset and channel; do not expand scope automatically.
+Label the artifact `Final copy` only when no material assumptions, user-supplied working facts, or unresolved channel limits remain. Label it exactly `Bounded draft` when any of those conditions exist. List assumptions and working facts immediately above it. A `Bounded draft` is useful working copy, not final, approved, publication-ready, or ready to upload. Match the requested asset and channel; do not expand scope automatically.
 
 ### 2. Message Hierarchy
 
@@ -80,6 +80,19 @@ Use exactly these evidence-state labels:
 
 Use `reported signal` only as the exact signal-status label for a stakeholder or user statement without an inspectable artifact. Leave evidence state unset for that statement. Do not place `reported signal` in evidence state and do not relabel it verified, inferred, unavailable, or not applicable merely to fill the field.
 
+#### User-Supplied Working Facts
+
+Permit a user statement without an inspectable artifact to appear in copy only when it is a low-risk product identity or ordinary capability needed for a useful first pass. Apply all of these rules:
+
+- label the statement `user-supplied working fact` beside the `Bounded draft`;
+- set signal status to `reported signal`;
+- leave evidence state blank;
+- keep the wording within the user's exact scope;
+- repeat the fact under unresolved evidence;
+- request the smallest bounded public or supplied artifact that can confirm it.
+
+This allowance never applies to metrics, outcomes, comparisons, testimonials, customer names, awards, certifications, prices, discounts, trials, refunds, guarantees, regulatory or legal claims, or health, financial, safety, employment, privacy, or other sensitive claims. Omit those claims or request attributable support. A disclaimer or `Bounded draft` label does not make them usable.
+
 Use `not applicable` only when the claim or source surface is outside the declared product, offer, market, mode, channel, or asset. For example, an App Store rating is not applicable to a web-only product with no mobile app; it is not merely unavailable.
 
 ### 4. CTA Alternatives
@@ -88,7 +101,7 @@ Provide two or three alternatives that preserve the same desired action. Vary di
 
 ### 5. Unresolved Evidence
 
-List every missing item that could materially strengthen, narrow, or approve the copy. For each item, state the claim it affects and the smallest useful source. Keep private data optional unless the requested claim can only be supported by private evidence.
+List every missing item that could materially strengthen, narrow, or approve the copy. Repeat every user-supplied working fact here and request its smallest confirmation source. For each other item, state the claim it affects and the smallest useful source. Keep private data optional unless the requested claim can only be supported by private evidence.
 
 ### 6. Market, Language, Locale, And Channel Notes
 
