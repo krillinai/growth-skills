@@ -402,8 +402,8 @@
     },
     {
       "id": 312,
-      "prompt": "Triage activation using public information only. Do not ask for analytics, CRM, warehouse, support, interview, or authenticated product access. Target outcome: identify the highest-value activation evidence to collect during the next 30 days. Market: Australia; locale: en-AU. Supplied inline artifact AU-TRIAL-PAGE-2026-07-20 is owned by Product Marketing, captured on 2026-07-20 from the public trial landing page by a manual full-page HTML save, and contains the exact text 'Start a 14-day free trial. Connect your first inventory source to begin.' Its limits are one public page, no authenticated-flow capture, no behavioral data, and no proof that connecting a source is the validated activation event. No customer definition, business model, product stage, outcome baseline, outcome target, action owner, decision date, or execution dependencies are supplied.",
-      "expected_output": "Selects triage because schema-required context, outcome, action, and execution inputs are missing, while preserving activation as the candidate area. It verifies only the exact dated inline artifact statement, treats connecting a first inventory source as an inferred candidate activation moment, and marks behavioral evidence unavailable. It proposes bounded public-first evidence acquisition without requiring private access, selecting a primary constraint, or emitting final protocol JSON.",
+      "prompt": "Triage activation using public information only. Do not ask for analytics, CRM, warehouse, support, interview, or authenticated product access. Target outcome: identify the highest-value activation evidence to collect during the next 30 days. Market: Australia; locale: en-AU. Supplied inline artifact AU-TRIAL-PAGE-2026-07-20 is owned by Product Marketing, captured on 2026-07-20 from the public trial landing page by a manual full-page HTML save, and contains the exact text 'Start a 14-day free trial. Connect your first inventory source to begin.' Its limits are one public page, no authenticated-flow capture, no behavioral data, and no proof that connecting a source is the validated activation event. No customer definition, business model, product stage, outcome baseline, outcome target, action owner, or decision date is supplied. For the bounded triage handoff, route public checks and reusable analysis work to self_serve; request an accountable owner rather than inventing one; dependencies are the supplied artifact and an agreed activation definition; guardrails are public-only read access and no authenticated collection without separate authorization.",
+      "expected_output": "Selects triage because schema-required context, outcome, action, and execution inputs are missing, while preserving activation as the candidate area. It verifies only the exact dated inline artifact statement, treats connecting a first inventory source as an inferred candidate activation moment, and marks behavioral evidence unavailable. It routes bounded public checks and reusable analysis work to self_serve, requests the missing accountable owner, states the artifact and activation-definition dependencies, and preserves the public-only and authorization guardrails. It does not require private access, select a primary constraint, or emit final protocol JSON.",
       "assertions": [
         "Selects triage mode.",
         "Records activation as the candidate area.",
@@ -427,7 +427,12 @@
         "Prioritizes evidence acquisition within 30 days.",
         "Defines completion conditions for evidence acquisition.",
         "Uses self_serve for user-executable public checks.",
-        "Uses growth_skills for reusable analysis work.",
+        "Uses self_serve for reusable analysis work.",
+        "Requests an accountable owner for self-serve analysis.",
+        "States the supplied artifact as a self-serve analysis dependency.",
+        "States an agreed activation definition as a self-serve analysis dependency.",
+        "States public-only read access as a self-serve analysis guardrail.",
+        "States no authenticated collection as a self-serve analysis guardrail.",
         "Requires separate authorization for authenticated collection."
       ],
       "files": []
