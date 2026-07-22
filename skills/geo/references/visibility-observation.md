@@ -17,25 +17,40 @@ Every panel must identify its artifact and these conditions. Preserve literal qu
 | Artifact | Dated inspectable public answer capture, or attributable private export with owner, generated time, run ID, method, and limits. |
 | platform | The platform observed. |
 | product | The user-facing product observed. |
+| product source URL | The current direct official product entry URL when product identity or capability scope depends on it; otherwise record `not applicable` with the reason. |
 | surface | The exact user-facing surface, such as `web chat answer`, `web AI search`, or a named app view. |
 | shown model | Exact model identifier displayed on that surface, or `unexposed`; do not backfill from product marketing or another surface. |
 | exposure | Stated exposure condition or `unexposed`. |
 | search/network state | Exact displayed search mode and network state, such as `search shown on, network use unexposed`; use `unexposed` for any part not shown and never infer a fetch from a toggle. |
 | query | Exact query text. |
-| market | Preselected market or country condition, plus whether its product control was shown or `unexposed`. |
-| language | Preselected language condition, plus whether its product control was shown or `unexposed`. |
+| market | Preselected market or country value. |
+| market product control | Exact market value shown by the product control, or `unexposed`; do not infer it from the preselected value. |
+| language | Preselected language value. |
+| language product control | Exact language value shown by the product control, or `unexposed`; do not infer it from the preselected value. |
 | login state | Logged-out, logged-in, or the exact state observed. |
 | timestamp | Capture time for each attempt or a dated series. |
 | repetition | Attempt number and total planned repetitions. |
-| access status | `success`, `error`, or `unavailable`, with the observed HTTP/product status, login/paywall/CAPTCHA state, and response metadata. |
+| access status | `success`, `error`, or `unavailable`, with the observed HTTP/product status and login/paywall/CAPTCHA state. |
+| response metadata | Exact retained response-state metadata, or `none` with the reason when no response observation was collected. |
 | answer | Canonical status `answered`, `no answer`, `error`, `no-feature`, or `unavailable`; retain the response-state artifact when available. |
 | mention | Whether each named entity is mentioned in an answered attempt. |
 | citation/source URLs | Every inspectable URL displayed as an answer citation or source. Use `[]` only after inspecting the complete citation/source surface; otherwise use `unavailable` with the reason. |
-| owned citation | Each citation to a declared owned property. |
-| third-party citation | Each citation to an observed non-owned property. |
+| owned citation | Classification, count, and exact URL list for citations to declared owned properties; use explicit `none observed`, `0`, and `[]` only after complete inspection, or `unavailable` for all three when uninspectable. |
+| third-party citation | Classification, count, and exact URL list for observed non-owned citations; use explicit `none observed`, `0`, and `[]` only after complete inspection, or `unavailable` for all three when uninspectable. |
 | error | Exact observed error code or message, or `none` when access completed without error. |
 
 An attributable private export can support its stated aggregate counts, but absent raw answer artifacts are unavailable for answer-level verification. It is not public evidence. Serialize an unsupported stakeholder report as `signal_status=reported signal`; `reported signal` is unscored and is not an `evidence_state`. A stakeholder-reported citation or mention decline with no inspectable capture selects `incident` mode, but change metrics and causes are unavailable until matched before/after evidence is supplied.
+
+## Legacy Field Compatibility
+
+Normalize a supplied legacy panel record deterministically and retain its original keys and values in the evidence trace:
+
+- Map legacy `model=<value>` to `shown model=<same literal value>`. Preserve a separately supplied exposure value; use `exposure=unexposed` only when the artifact did not show it.
+- Map legacy `search_mode=<value>` to `search/network state="search mode <same literal value>; network state unexposed"` unless the artifact independently shows a network state. A legacy search mode never proves a network fetch.
+- Map an absent legacy surface to `surface=unexposed` only when the retained artifact did not show a surface. If it did, record the exact shown surface; never derive one from platform, product, URL, model, or search mode.
+- Treat legacy market and language values as the preselected values. Record each corresponding product control as `unexposed` only when the artifact did not show it; never copy the preselected value into the product-control field.
+
+Compatibility is only for already supplied legacy records. It does not permit omission of any field from a newly collected panel and never permits silent guessing.
 
 For Mainland China panels on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, read [mainland-china-platforms.md](mainland-china-platforms.md). Use a current direct official source only for the exact product or surface statement it supports. If official documentation does not establish a capability, record it `unavailable`; only an explicitly captured manual observation may describe the bounded product behavior actually displayed.
 
