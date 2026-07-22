@@ -24,7 +24,7 @@
 
 ## 技能目录
 
-### 内容创作
+### 内容与创意
 
 <table>
   <thead>
@@ -33,6 +33,7 @@
   <tbody>
     <tr><td><a href="https://github.com/krillinai/KrillinAI">视频翻译与配音</a></td><td>完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化</td></tr>
     <tr><td><a href="https://github.com/krillinai/autosocial-skills">社交媒体自动发布</a></td><td>使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号</td></tr>
+    <tr><td><a href="skills/conversion-copy/">转化文案</a></td><td>面向明确的受众、市场、语言与渠道，撰写基于证据的页面、营销活动、产品、优惠与本地化文案，并支持面向中国大陆的原生简体中文表达</td></tr>
   </tbody>
 </table>
 
