@@ -53,9 +53,11 @@ Use exact substrings in `Original span` and `Revised span`. For structured asset
 | Original span | Exact submitted wording, or `[none]` for an addition |
 | Revised span | Exact delivered wording, or `[removed]` for a deletion |
 | Reason | The concrete defect or constraint addressed |
-| Evidence state | `verified`, `inferred`, `unavailable`, `not applicable`, or blank for reported signals |
-| Signal status | `reported signal` only when applicable; otherwise blank |
+| Evidence state | `verified`, `inferred`, `unavailable`, or `not applicable` when evidence is evaluated; otherwise blank |
+| Signal status | `reported signal` for a stakeholder-only statement; otherwise blank |
 | Meaning / risk effect | Preserved, narrowed, corrected, removed, or changed meaning and the resulting risk effect |
+
+A purely editorial grammar, punctuation, or tone edit that evaluates no factual evidence leaves both `Evidence state` and `Signal status` blank. Do not label an edit `inferred` merely because editorial judgment motivated it. A reported signal also has blank `Evidence state`, but its `Signal status` must be exactly `reported signal`.
 
 A spelling correction can state `meaning preserved`. Removing an unsupported guarantee should state that the guarantee was removed and factual or regulatory risk reduced. Never say `no meaning change` when scope, promise, eligibility, or action changed.
 

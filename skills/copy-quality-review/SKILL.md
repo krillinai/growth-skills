@@ -61,7 +61,7 @@ Use this order:
 2. **Original copy** - the complete submitted copy, verbatim. Keep variants or fields separately identifiable.
 3. **Findings** - prioritized observations with location, issue, reason, classification, and recommended disposition. For `full`, cover every review dimension even when no change is needed.
 4. **Revised copy** - a usable revision that preserves supported meaning and the requested action.
-5. **Exact change ledger** - one row per material edit with `Original span`, `Revised span`, `Reason`, `Evidence state`, `Signal status`, and `Meaning / risk effect`. Use `[removed]` or `[none]` when a span is deleted or added. Leave evidence state blank for stakeholder-only reported signals.
+5. **Exact change ledger** - one row per material edit with `Original span`, `Revised span`, `Reason`, `Evidence state`, `Signal status`, and `Meaning / risk effect`. Use `[removed]` or `[none]` when a span is deleted or added. For a stakeholder-only statement, leave `Evidence state` blank and use signal status `reported signal`. For a purely editorial edit that evaluates no factual evidence, leave both `Evidence state` and `Signal status` blank.
 6. **Unresolved inputs** - only gaps that affect confidence, approval, or a material claim; request the smallest useful source.
 
 Do not summarize several distinct changes into one approximate ledger row. Grammar and punctuation edits may be grouped only when the exact spans and meaning effect remain unambiguous.

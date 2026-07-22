@@ -15,6 +15,8 @@ Use an evidence state only when evidence is being evaluated:
 
 Stakeholder-only statements are not evidence. Record them with signal status `reported signal` and leave evidence state blank. Do not relabel a reported signal as `unavailable`; the missing confirmation source is what is unavailable.
 
+For a purely editorial grammar, punctuation, or tone edit that evaluates no factual evidence, leave both evidence state and signal status blank. Do not use `inferred` solely because the edit reflects editorial judgment; use it only when the row records an actual inference from stated observations.
+
 Low-risk user-supplied product identity or ordinary capability statements may remain as explicitly labeled working facts in a bounded revision when that is useful. Repeat them under unresolved inputs and request the smallest inspectable confirmation. This allowance does not apply to prices, metrics, outcomes, comparisons, superlatives, testimonials, customer identities, guarantees, certifications, legal or regulatory status, safety, health, finance, employment, privacy, or other material-risk claims.
 
 ## Claim Decisions
