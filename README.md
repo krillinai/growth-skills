@@ -5,10 +5,10 @@
 By [clawee.ai](https://clawee.ai/), an enterprise-grade Growth Agent platform.
 
 [![GitHub Stars](https://img.shields.io/github/stars/krillinai/growth-skills?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/growth-skills/stargazers)
-[![Growth & Marketing Playbook](https://img.shields.io/badge/Growth_%26_Marketing-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
+[![Growth Playbook](https://img.shields.io/badge/Growth-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
 
-> Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. The [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) is the open-source knowledge companion to Growth & Marketing Skills, providing the frameworks, cases, and methods that these reusable AI execution capabilities put into practice.
+> Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. [Growth Playbook](https://github.com/krillinai/growth-playbook) is the open-source knowledge companion to Growth & Marketing Skills, providing the frameworks, cases, and methods that these reusable AI execution capabilities put into practice.
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
