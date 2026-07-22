@@ -14,7 +14,7 @@ If any blocking fact is missing, return focused intake only. Blocking facts can 
 
 User permission to `pick`, `choose`, `make up`, `assume`, or use the `broadest possible` answer does not supply a blocking fact. Treat these instructions as confirmation that the fact is missing, preserve the context that is known, ask for the missing fact, and produce no copy.
 
-For `localization`, target market and target locale are also blocking. Source language, operator location, domain, currency, or interface language cannot substitute for either.
+For `localization`, target market, target language, and target locale are also blocking. Source language, operator location, domain, currency, or interface language cannot substitute for any of them.
 
 For a channel-specific request, the channel is blocking. A missing numeric channel limit is not blocking when a conservative draft remains useful: state the limit `unavailable`, avoid an exact compliance claim, and request a current platform or owner source.
 
@@ -26,19 +26,19 @@ When all blocking facts are supplied, missing awareness, objections, voice, deta
 - the draft repeats each assumption under unresolved evidence;
 - the draft does not present itself as approved or publication-ready.
 
-Do not assume market or locale for localization. Do not assume a claim source, permission, price, guarantee, award, metric, capability, certification, legal status, or sensitive outcome in any mode.
+Do not assume market, language, or locale for localization. Do not assume a claim source, permission, price, guarantee, award, metric, capability, certification, legal status, or sensitive outcome in any mode.
 
 ## Focused Intake Output
 
 Return only:
 
-1. `Mode`: one fixed mode.
+1. `Mode`: one fixed mode for an in-scope copy intake.
 2. `Known context`: supplied decision-relevant facts.
 3. `Blocking gaps`: missing facts that prevent truthful copy.
 4. `Questions`: the smallest ordered questions that resolve those gaps.
 5. `Useful evidence`: supplied or bounded public artifacts that could support the next draft.
 
-Ask product, audience, and action questions first. Ask market, locale, channel, constraints, and sources only to the degree they can change the asset. Do not repeatedly request private inputs the user declined.
+Ask product, audience, and action questions first. Ask market, language, locale, channel, constraints, and sources only to the degree they can change the asset. Do not repeatedly request private inputs the user declined.
 
 Do not include `Final Copy`, `Message Hierarchy`, `Claim/Source Ledger`, `CTA Alternatives`, `Unresolved Evidence`, or market notes as a draft package during focused intake. Those sections would imply that the gate passed.
 
@@ -66,18 +66,21 @@ Do not add a layer that the copy does not contain.
 
 Use one row per factual or implied claim:
 
-| Claim ID | Proposed or excluded claim | State | Source ID | Supported scope | Copy decision | Missing proof or limitation |
-| --- | --- | --- | --- | --- | --- | --- |
+| Claim ID | Proposed or excluded claim | Evidence state | Signal status | Source ID | Supported scope | Copy decision | Missing proof or limitation |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 
 Include excluded claims so the user can see why they are absent. Preserve source names, dates, markets, segments, windows, sample boundaries, permissions, and limitations when supplied.
 
-Use exactly these states:
+Use exactly these evidence-state labels:
 
 - `verified`: directly supported by a dated inspectable public artifact or attributable supplied/private artifact within the wording's exact scope.
 - `inferred`: a reasoned messaging interpretation that is not itself a product, customer, market, or outcome fact.
 - `unavailable`: applicable evidence was not supplied, could not be inspected, is stale, lacks provenance, or does not support the proposed scope.
 - `not applicable`: the evidence category or claim is outside the declared product, offer, market, mode, or asset.
-- `reported signal`: a stakeholder or user statement without an inspectable artifact. Do not relabel it verified.
+
+Use `reported signal` only as the exact signal-status label for a stakeholder or user statement without an inspectable artifact. Leave evidence state unset for that statement. Do not place `reported signal` in evidence state and do not relabel it verified, inferred, unavailable, or not applicable merely to fill the field.
+
+Use `not applicable` only when the claim or source surface is outside the declared product, offer, market, mode, channel, or asset. For example, an App Store rating is not applicable to a web-only product with no mobile app; it is not merely unavailable.
 
 ### 4. CTA Alternatives
 
@@ -87,9 +90,9 @@ Provide two or three alternatives that preserve the same desired action. Vary di
 
 List every missing item that could materially strengthen, narrow, or approve the copy. For each item, state the claim it affects and the smallest useful source. Keep private data optional unless the requested claim can only be supported by private evidence.
 
-### 6. Market, Locale, And Channel Notes
+### 6. Market, Language, Locale, And Channel Notes
 
-State the selected market, locale, language, channel, surface, supplied constraints, unresolved limits, and any risk or handoff note. Do not claim platform compliance unless checked against a current direct source or supplied owner constraint.
+State the selected market, language, locale, channel, surface, supplied constraints, unresolved limits, and any risk or handoff note. Keep market, language, and locale as separate fields. Do not claim platform compliance unless checked against a current direct source or supplied owner constraint.
 
 ## Claim Decisions
 
@@ -127,8 +130,9 @@ Prefer support by provenance and fit, not by magnitude or stakeholder seniority:
 
 1. current direct primary or approved source within the exact scope;
 2. attributable dated source with clear method and scope;
-3. bounded public observation;
-4. reported signal.
+3. bounded public observation.
+
+Keep `reported signal` outside this evidence order. It is an input to verify, not support for factual copy and not an evidence state.
 
 Keep conflicting values as separate rows. Do not average them, silently select the larger value, or call the conflict resolved. Narrow copy to the common supported truth or omit the claim until the conflict is resolved.
 

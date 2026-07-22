@@ -1,23 +1,31 @@
 ---
-name: conversion-copy
-description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs to be written or revised for a declared audience, market, locale, and channel, especially when claims require evidence handling or Simplified Chinese must be composed natively for Mainland China.
+name: evidence-led-copy
+description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel, especially for native Simplified Chinese or Mainland China work.
 ---
 
-# Conversion Copy
+# Evidence-Led Copy
 
-Write persuasive copy from supportable product truth. Match the audience, decision context, market, locale, and channel without inventing evidence or silently taking implementation actions.
+Write persuasive copy from supportable product truth. Match the audience, decision context, market, language, locale, and channel without inventing evidence or silently taking implementation actions.
 
 ## Read The References
 
 Read [copy-contract.md](references/copy-contract.md) before deciding whether to ask for intake, use bounded assumptions, classify a claim, or deliver final copy.
 
-Read [market-profiles.md](references/market-profiles.md) for every localization request, every Mainland China request, or whenever market and locale could change language, proof, offer presentation, or channel expectations.
+Read [market-profiles.md](references/market-profiles.md) for every localization request, every Mainland China request, or whenever market, language, or locale could change proof, offer presentation, or channel expectations.
 
 Read [channel-notes.md](references/channel-notes.md) for campaign assets, constrained formats, channel mismatch, mixed implementation requests, or capability routing.
 
+## Route Scope First
+
+Before selecting a mode, decide whether the primary request asks for in-scope copy delivery.
+
+If the request is wholly an email sequence, outbound program, lifecycle flow, SEO or ASO research or implementation, store submission, publication, ad-account setup, sending, contact operation, CMS change, or deployment, route it as described in [channel-notes.md](references/channel-notes.md) and stop. Select no fixed copy mode.
+
+For a mixed request, identify the exact bounded copy asset that remains in scope. Route the other work first, then select a mode only for the copy asset. A vague request to improve any copy does not create an in-scope asset.
+
 ## Select One Mode
 
-Select exactly one mode from the user's primary copy decision:
+For an in-scope copy delivery or focused copy intake, select exactly one mode from the user's primary copy decision:
 
 | Mode | Use for |
 | --- | --- |
@@ -28,8 +36,6 @@ Select exactly one mode from the user's primary copy decision:
 | `localization` | Adapting supplied source copy into a declared market, locale, and channel |
 
 Treat HTML, Markdown, a table, or plain text as an output format, not a mode. Keep the requested asset boundary; do not turn a hero request into a full site or a single ad into a lifecycle program.
-
-If the primary request is an email sequence, outbound program, lifecycle flow, SEO or ASO research or implementation, store submission, publication, ad-account setup, sending, or deployment, route it as described in [channel-notes.md](references/channel-notes.md). For mixed requests, complete only the bounded copy portion and provide a concise handoff for the rest.
 
 ## Establish The Brief
 
@@ -44,6 +50,7 @@ Record the following before composing:
 - desired action;
 - voice;
 - market;
+- language;
 - locale;
 - channel and surface;
 - format, length, legal, brand, and operational constraints;
@@ -56,24 +63,24 @@ Start with supplied and bounded public context. Private analytics, research, cus
 Use the deterministic rules in [copy-contract.md](references/copy-contract.md):
 
 1. If product or offer truth, audience, or desired action is missing, return a focused intake and no final copy.
-2. For localization, also require the target market and locale; do not guess them from the source language.
+2. For localization, also require the target market, target language, and target locale; do not guess one from another.
 3. For a channel-specific asset, require the channel. If only a numeric channel limit is missing, create a conservative bounded draft, state that the limit is unavailable, and request the current limit.
 4. When the blocking facts are present, allow a bounded assumption-labelled draft for missing awareness, objections, voice, or other reversible context only when the work is low risk and the user asks for an immediate draft.
 5. Never assume a metric, testimonial, award, price, guarantee, capability, regulatory status, sensitive claim, permission, or customer result.
 
 Product or offer truth, audience, and desired action are never reversible assumptions. A request to choose the broadest audience, invent a plausible product, pick a CTA, make up missing context, or otherwise decide one of these facts does not satisfy the gate. Ask for the fact and stop before drafting.
 
-Label every assumption beside the draft and repeat it under unresolved evidence. Assumptions are working choices, not facts and not permission to publish.
+Label every assumption beside the draft and repeat it under unresolved evidence. Assumptions are working choices, not facts and not permission to publish. Every final or bounded draft must state market, language, and locale as separate fields.
 
 ## Establish The Claim Boundary
 
-Classify each prospective claim exactly as `verified`, `inferred`, `unavailable`, `not applicable`, or `reported signal` under [copy-contract.md](references/copy-contract.md).
+Assign each evidence-bearing ledger row exactly one evidence state from `verified`, `inferred`, `unavailable`, or `not applicable` under [copy-contract.md](references/copy-contract.md).
 
 - Use `verified` only for what the named source directly supports within its scope.
 - Use `inferred` for a messaging interpretation, never as proof of a product or customer fact.
 - Use `unavailable` when applicable support is missing, inaccessible, stale, or too weak for the proposed wording.
 - Use `not applicable` only when the claim or evidence category is outside the declared asset.
-- Use `reported signal` for an unattributed stakeholder or user statement without an inspectable artifact.
+- Keep `reported signal` outside evidence state. Record it only as the exact signal-status label for an unattributed stakeholder or user statement without an inspectable artifact.
 
 Never upgrade a source because the requested wording is stronger. Omit the claim, narrow it to the supported scope, qualify it without changing its truth conditions, or request evidence. Preserve conflicting sources in the ledger; do not choose the larger number, average incompatible results, or generalize a bounded case.
 
@@ -112,7 +119,7 @@ For final or bounded draft work, include every section required by [copy-contrac
 3. claim/source ledger;
 4. CTA alternatives;
 5. unresolved evidence;
-6. market, locale, and channel notes.
+6. market, language, locale, and channel notes.
 
 Keep claims in the final copy consistent with the ledger. Do not leave placeholders, unsupported proof cues, or stronger wording than the source permits.
 
@@ -124,4 +131,4 @@ Copy production does not authorize publishing, authenticated access, CMS edits, 
 
 ## Completion Gate
 
-Before delivery, confirm that exactly one mode is selected; the asset boundary is explicit; product or offer truth, audience, and desired action are present; localization has a declared market and locale; market and channel are not inferred from language; every factual claim has a ledger decision; reported signals are not promoted; unsupported quantitative, testimonial, award, price, guarantee, capability, regulatory, or sensitive claims are omitted, narrowed, qualified, or requested; conflicts remain visible; Chinese is natively composed; channel constraints are sourced or marked unavailable; all six output sections are present for a draft; unresolved evidence is explicit; and no execution action occurred without a separate authorized workflow.
+Before delivery, confirm that wholly out-of-scope requests were routed before mode selection and have no fixed copy mode; every in-scope delivery or focused copy intake has exactly one mode; the asset boundary is explicit; product or offer truth, audience, and desired action are present; localization has a declared target market, target language, and target locale; every final or bounded draft states market, language, and locale separately; market and channel are not inferred from language; every evidence-bearing claim uses exactly `verified`, `inferred`, `unavailable`, or `not applicable`; every stakeholder-only statement uses `reported signal` outside evidence state; reported signals are not promoted; unsupported quantitative, testimonial, award, price, guarantee, capability, regulatory, or sensitive claims are omitted, narrowed, qualified, or requested; conflicts remain visible; Chinese is natively composed; channel constraints are sourced or marked unavailable; all six output sections are present for a draft; unresolved evidence is explicit; and no execution action occurred without a separate authorized workflow.

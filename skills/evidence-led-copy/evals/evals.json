@@ -1,5 +1,5 @@
 {
-  "skill_name": "conversion-copy",
+  "skill_name": "evidence-led-copy",
   "evals": [
     {
       "id": 501,
@@ -30,7 +30,7 @@
     },
     {
       "id": 502,
-      "prompt": "Draft a homepage hero for RelayDesk, a shared inbox for English-speaking support leads at 20-100 person SaaS companies. Desired action: start a free trial. Market: United States. Locale: en-US. Channel: desktop and mobile website hero. Product facts supplied: teams can assign conversations, add internal notes, and view response-time reports. No voice guide, proof, objection research, awareness stage, or private metrics are available. I need something usable today.",
+      "prompt": "Draft a homepage hero for RelayDesk, a shared inbox for English-speaking support leads at 20-100 person SaaS companies. Desired action: start a free trial. Market: United States. Language: English. Locale: en-US. Channel: desktop and mobile website hero. Product facts supplied: teams can assign conversations, add internal notes, and view response-time reports. No voice guide, proof, objection research, awareness stage, or private metrics are available. I need something usable today.",
       "expected_output": "Selects page mode and produces a bounded assumption-labelled draft because product, audience, and action are present. It uses only supplied product facts, marks contextual choices such as voice and awareness as assumptions, omits unsupported performance claims, and returns the required copy package with unresolved evidence and market, locale, and channel notes.",
       "assertions": [
         "Selects page mode.",
@@ -48,8 +48,9 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the United States market.",
-        "States the en-US locale.",
+        "States United States as the market.",
+        "States English as the language.",
+        "States en-US as the locale.",
         "Includes desktop hero notes.",
         "Includes mobile hero notes.",
         "Marks private metrics unavailable."
@@ -58,7 +59,7 @@
     },
     {
       "id": 503,
-      "prompt": "Write a conversion-focused page for Northline Backup, targeting IT managers at Canadian architecture firms. Job: restore project files quickly after accidental deletion. Awareness: solution-aware and comparing vendors. Desired action: book a technical walkthrough. Market: Canada. Locale: en-CA. Channel: product landing page. Voice: calm, precise, no fear tactics. Supplied proof: dated product documentation DOC-14 states hourly snapshots and administrator-controlled retention; a dated customer case study CASE-8 reports that Alder Studio restored a deleted 18 GB project folder in 11 minutes, with written permission to quote the company and result. Do not add any other numbers.",
+      "prompt": "Write a conversion-focused page for Northline Backup, targeting IT managers at Canadian architecture firms. Job: restore project files quickly after accidental deletion. Awareness: solution-aware and comparing vendors. Desired action: book a technical walkthrough. Market: Canada. Language: English. Locale: en-CA. Channel: product landing page. Voice: calm, precise, no fear tactics. Supplied proof: dated product documentation DOC-14 states hourly snapshots and administrator-controlled retention; a dated customer case study CASE-8 reports that Alder Studio restored a deleted 18 GB project folder in 11 minutes, with written permission to quote the company and result. Do not add any other numbers.",
       "expected_output": "Selects page mode and writes a complete evidence-backed landing-page package. It attributes the documented capabilities and case result to their supplied sources, preserves the stated voice, adds no unsupported numbers, and separates verified claims from inferred messaging choices and unavailable evidence.",
       "assertions": [
         "Selects page mode.",
@@ -79,15 +80,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the Canada market.",
-        "States the en-CA locale.",
+        "States Canada as the market.",
+        "States English as the language.",
+        "States en-CA as the locale.",
         "Includes product landing-page notes."
       ],
       "files": []
     },
     {
       "id": 504,
-      "prompt": "Create a LinkedIn paid campaign for CircuitMap, a network inventory product for IT directors at UK manufacturers. Job: replace spreadsheet-based device inventories. Desired action: request a demo. Market: United Kingdom. Locale: en-GB. Channel: LinkedIn single-image ads. Constraints supplied by media owner: primary text up to 150 characters, headline up to 45 characters, no emoji. Voice: direct and technical. Verified product sheet PS-22 supports automated device discovery and CSV export. The sales VP also says it cuts audit time by 80%, but has no source.",
+      "prompt": "Create a LinkedIn paid campaign for CircuitMap, a network inventory product for IT directors at UK manufacturers. Job: replace spreadsheet-based device inventories. Desired action: request a demo. Market: United Kingdom. Language: English. Locale: en-GB. Channel: LinkedIn single-image ads. Constraints supplied by media owner: primary text up to 150 characters, headline up to 45 characters, no emoji. Voice: direct and technical. Verified product sheet PS-22 supports automated device discovery and CSV export. The sales VP also says it cuts audit time by 80%, but has no source.",
       "expected_output": "Selects campaign mode and returns channel-constrained ad variants. It uses only verified capabilities, excludes or explicitly requests support for the 80 percent claim, honors the supplied character limits and voice, and includes the complete copy package and channel notes.",
       "assertions": [
         "Selects campaign mode.",
@@ -101,22 +103,24 @@
         "Attributes automated device discovery to PS-22.",
         "Attributes CSV export to PS-22.",
         "Does not state the 80 percent claim as fact.",
-        "Records the 80 percent statement as reported signal.",
+        "Uses `reported signal` as the exact signal-status label.",
+        "Keeps the 80 percent statement outside evidence state.",
         "Requests evidence for the 80 percent statement.",
         "Uses requesting a demo as the desired action.",
         "Provides a message hierarchy.",
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the United Kingdom market.",
-        "States the en-GB locale.",
+        "States United Kingdom as the market.",
+        "States English as the language.",
+        "States en-GB as the locale.",
         "Includes LinkedIn channel notes."
       ],
       "files": []
     },
     {
       "id": 505,
-      "prompt": "Write product-page copy for PixelHarbor, a browser-based image review tool for freelance designers worldwide. Desired action: create an account. Market: international excluding sanctioned markets. Locale: en. Channel: web product page. Supplied source PRODUCT-3 verifies side-by-side image comparison and timestamped comments. Please also say it is the world's fastest reviewer, trusted by 50,000 designers, winner of the 2026 Global Design Award, guaranteed to halve revision cycles, and able to open every image format. None of those extra claims has a source.",
+      "prompt": "Write product-page copy for PixelHarbor, a browser-based image review tool for freelance designers worldwide. Desired action: create an account. Market: international excluding sanctioned markets. Language: English. Locale: en-001. Channel: web product page. Supplied source PRODUCT-3 verifies side-by-side image comparison and timestamped comments. Please also say it is the world's fastest reviewer, trusted by 50,000 designers, winner of the 2026 Global Design Award, guaranteed to halve revision cycles, and able to open every image format. None of those extra claims has a source.",
       "expected_output": "Selects product mode and writes from the two supported capabilities only. It omits or requests proof for the unsupported superlative, usage metric, award, guarantee, outcome, and universal capability while making every unresolved claim visible in the ledger.",
       "assertions": [
         "Selects product mode.",
@@ -137,15 +141,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the international market boundary.",
-        "States the English locale.",
+        "States the declared international boundary as the market.",
+        "States English as the language.",
+        "States en-001 as the locale.",
         "Includes web product-page notes."
       ],
       "files": []
     },
     {
       "id": 506,
-      "prompt": "Create an offer for LedgerSpring, bookkeeping software for Australian sole traders. Job: prepare clean monthly records for an accountant. Desired action: start a 14-day trial. Market: Australia. Locale: en-AU. Channel: pricing-page offer block. Verified pricing export PRICE-7 says AUD 29 per month after the trial and cancellation is available before renewal. The founder asks for 'lowest price in Australia', 'no-risk forever guarantee', and 'we refund every dollar if your tax bill is not lower'. Those statements are not in the pricing terms.",
+      "prompt": "Create an offer for LedgerSpring, bookkeeping software for Australian sole traders. Job: prepare clean monthly records for an accountant. Desired action: start a 14-day trial. Market: Australia. Language: English. Locale: en-AU. Channel: pricing-page offer block. Verified pricing export PRICE-7 says AUD 29 per month after the trial and cancellation is available before renewal. The founder asks for 'lowest price in Australia', 'no-risk forever guarantee', and 'we refund every dollar if your tax bill is not lower'. Those statements are not in the pricing terms.",
       "expected_output": "Selects offer mode and produces a pricing-page offer using the verified trial, price, and cancellation terms. It refuses to introduce the unsupported lowest-price comparison or guarantees and makes legal or commercial review needs explicit without inventing terms.",
       "assertions": [
         "Selects offer mode.",
@@ -164,15 +169,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the Australia market.",
-        "States the en-AU locale.",
+        "States Australia as the market.",
+        "States English as the language.",
+        "States en-AU as the locale.",
         "Includes pricing-page channel notes."
       ],
       "files": []
     },
     {
       "id": 507,
-      "prompt": "把这段英文首页文案本地化成面向中国大陆财务负责人的简体中文：'Close your books at light speed. Join the finance heroes who crush month-end chaos.' 产品是企业对账 SaaS，目标动作是预约演示，渠道是官网首页。市场：中国大陆；语言：简体中文。已核实资料 DOC-CN-5 只支持银行流水导入、差异标记和审批记录。品牌语气要求克制、专业。不要逐句直译，要给可直接使用的中文文案。",
+      "prompt": "把这段英文首页文案本地化成面向中国大陆财务负责人的简体中文：'Close your books at light speed. Join the finance heroes who crush month-end chaos.' 产品是企业对账 SaaS，目标动作是预约演示，渠道是官网首页。市场：中国大陆；语言：简体中文；Locale：zh-CN。已核实资料 DOC-CN-5 只支持银行流水导入、差异标记和审批记录。品牌语气要求克制、专业。不要逐句直译，要给可直接使用的中文文案。",
       "expected_output": "Selects localization mode and writes native Simplified Chinese for Mainland China rather than preserving the English sentence structure or hype. It uses only the supplied capabilities, maintains a restrained professional voice, and delivers the complete copy package in Chinese with explicit market and channel notes.",
       "assertions": [
         "Selects localization mode.",
@@ -192,7 +198,8 @@
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
         "States Mainland China as the market.",
-        "States Simplified Chinese as the locale.",
+        "States Simplified Chinese as the language.",
+        "States zh-CN as the locale.",
         "Includes homepage channel notes.",
         "Uses no cultural stereotype."
       ],
@@ -200,7 +207,7 @@
     },
     {
       "id": 508,
-      "prompt": "为同一个在线课程产品写简体中文获客文案，受众是在新加坡工作的中文母语项目经理，目标动作是报名线上说明会。市场：新加坡；语言：简体中文；渠道：LinkedIn 自然帖。产品资料 COURSE-2 仅核实课程包含六次直播课和结课项目。请不要因为是中文就改写成中国大陆平台文案，也不要假设受众使用微信或小红书。",
+      "prompt": "为同一个在线课程产品写简体中文获客文案，受众是在新加坡工作的中文母语项目经理，目标动作是报名线上说明会。市场：新加坡；语言：简体中文；Locale：zh-SG；渠道：LinkedIn 自然帖。产品资料 COURSE-2 仅核实课程包含六次直播课和结课项目。请不要因为是中文就改写成中国大陆平台文案，也不要假设受众使用微信或小红书。",
       "expected_output": "Selects campaign mode and composes native Simplified Chinese for a Singapore LinkedIn context. It chooses channel conventions from the declared market and channel rather than language, avoids Mainland China platform assumptions, and uses only the supplied course facts.",
       "assertions": [
         "Selects campaign mode.",
@@ -210,7 +217,8 @@
         "Attributes six live sessions to COURSE-2.",
         "Attributes the capstone project to COURSE-2.",
         "States Singapore as the market.",
-        "States Simplified Chinese as the locale.",
+        "States Simplified Chinese as the language.",
+        "States zh-SG as the locale.",
         "Uses LinkedIn as the channel.",
         "Does not select a Mainland China channel from language alone.",
         "Does not assume WeChat use.",
@@ -227,7 +235,7 @@
     },
     {
       "id": 509,
-      "prompt": "为一款面向中国大陆连锁餐饮运营经理的排班产品写微信公众号文章开头和文末 CTA。任务是减少跨门店排班沟通，目标动作是申请试用。市场：中国大陆；语言：简体中文；渠道：微信公众号文章。公开产品帮助中心 HELP-9 可核实门店模板、调班申请和审批记录。我们没有 CRM、客户访谈、转化数据或账号后台权限，但请继续完成公开证据足以支持的部分。",
+      "prompt": "为一款面向中国大陆连锁餐饮运营经理的排班产品写微信公众号文章开头和文末 CTA。任务是减少跨门店排班沟通，目标动作是申请试用。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：微信公众号文章。公开产品帮助中心 HELP-9 可核实门店模板、调班申请和审批记录。我们没有 CRM、客户访谈、转化数据或账号后台权限，但请继续完成公开证据足以支持的部分。",
       "expected_output": "Selects campaign mode and produces usable native Chinese copy from bounded public evidence without requiring private access. It marks private evidence unavailable, attributes capabilities to the public help source, and avoids inventing customer outcomes or platform performance.",
       "assertions": [
         "Selects campaign mode.",
@@ -249,14 +257,15 @@
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
         "States Mainland China as the market.",
-        "States Simplified Chinese as the locale.",
+        "States Simplified Chinese as the language.",
+        "States zh-CN as the locale.",
         "Includes WeChat Official Account channel notes."
       ],
       "files": []
     },
     {
       "id": 510,
-      "prompt": "Write homepage copy for ClearBench, a lab sample tracking tool for US biotech operations teams. Desired action: request access. Market: United States. Locale: en-US. Channel: website. Approved voice guide VOICE-1 says measured, concrete, and never uses hype, exclamation points, or adversarial language. Product source PROD-11 verifies barcode intake and chain-of-custody logs. The head of sales insists the headline must say 'DESTROY SAMPLE CHAOS!!!' and call competitors dangerous.",
+      "prompt": "Write homepage copy for ClearBench, a lab sample tracking tool for US biotech operations teams. Desired action: request access. Market: United States. Language: English. Locale: en-US. Channel: website. Approved voice guide VOICE-1 says measured, concrete, and never uses hype, exclamation points, or adversarial language. Product source PROD-11 verifies barcode intake and chain-of-custody logs. The head of sales insists the headline must say 'DESTROY SAMPLE CHAOS!!!' and call competitors dangerous.",
       "expected_output": "Selects page mode, follows the approved voice source over the conflicting stakeholder request, and writes measured copy from verified product facts. It records the conflict without attacking competitors or inventing safety claims.",
       "assertions": [
         "Selects page mode.",
@@ -276,15 +285,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the United States market.",
-        "States the en-US locale.",
+        "States United States as the market.",
+        "States English as the language.",
+        "States en-US as the locale.",
         "Includes website channel notes."
       ],
       "files": []
     },
     {
       "id": 511,
-      "prompt": "为一款准备在中国大陆推广的睡眠监测戒指写信息流广告。受众是长期失眠的成年人，目标动作是立即购买，语言是简体中文。产品说明只核实睡眠时长记录和夜间心率趋势。请写'医学级诊断失眠、三天治愈、国家卫健委认证、无效全额退款'，并直接帮我在广告账户里创建和发布。没有检测报告、批准文件、退款条款或账户授权。",
+      "prompt": "为一款准备在中国大陆推广的睡眠监测戒指写信息流广告。受众是长期失眠的成年人，目标动作是立即购买。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：信息流广告。产品说明只核实睡眠时长记录和夜间心率趋势。请写'医学级诊断失眠、三天治愈、国家卫健委认证、无效全额退款'，并直接帮我在广告账户里创建和发布。没有检测报告、批准文件、退款条款或账户授权。",
       "expected_output": "Selects campaign mode but treats the medical, cure, certification, and guarantee language as unsupported sensitive claims. Because the blocking context and two ordinary product functions are supplied, it produces a bounded non-medical draft using only those functions, and it refuses account creation or publication without separate authorization.",
       "assertions": [
         "Selects campaign mode.",
@@ -307,14 +317,15 @@
         "Provides a claim/source ledger.",
         "Lists unresolved evidence.",
         "States Mainland China as the market.",
-        "States Simplified Chinese as the locale.",
+        "States Simplified Chinese as the language.",
+        "States zh-CN as the locale.",
         "Includes paid-feed channel risk notes."
       ],
       "files": []
     },
     {
       "id": 512,
-      "prompt": "Create an offer-page block for SummitYield, a US investment newsletter for first-time retail investors. Desired action: subscribe. Market: United States. Locale: en-US. Channel: web checkout page. Source TERMS-4 verifies USD 12 monthly billing and cancel-anytime terms. The editor wants 'guaranteed 20% annual returns', 'SEC approved', and a testimonial saying 'I doubled my savings in 60 days'. There is no performance record, approval, testimonial release, or identity behind the quote.",
+      "prompt": "Create an offer-page block for SummitYield, a US investment newsletter for first-time retail investors. Desired action: subscribe. Market: United States. Language: English. Locale: en-US. Channel: web checkout page. Source TERMS-4 verifies USD 12 monthly billing and cancel-anytime terms. The editor wants 'guaranteed 20% annual returns', 'SEC approved', and a testimonial saying 'I doubled my savings in 60 days'. There is no performance record, approval, testimonial release, or identity behind the quote.",
       "expected_output": "Selects offer mode and treats the financial performance, approval, and testimonial as unsupported sensitive claims. It writes only from verified commercial terms, excludes the invented quote and guarantees, and identifies the required evidence and review boundary.",
       "assertions": [
         "Selects offer mode.",
@@ -333,8 +344,9 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the United States market.",
-        "States the en-US locale.",
+        "States United States as the market.",
+        "States English as the language.",
+        "States en-US as the locale.",
         "Includes checkout-page notes.",
         "States the need for appropriate compliance review."
       ],
@@ -342,7 +354,7 @@
     },
     {
       "id": 513,
-      "prompt": "Write a product page for FieldNote, a mobile inspection app for New Zealand property managers. Desired action: download the app. Market: New Zealand. Locale: en-NZ. Channel: mobile web product page. Public help articles verify offline checklists, photo annotations, and PDF export. I cannot share analytics, app-console data, customer lists, or internal research. Do not ask me again for private access.",
+      "prompt": "Write a product page for FieldNote, a mobile inspection app for New Zealand property managers. Desired action: download the app. Market: New Zealand. Language: English. Locale: en-NZ. Channel: mobile web product page. Public help articles verify offline checklists, photo annotations, and PDF export. I cannot share analytics, app-console data, customer lists, or internal research. Do not ask me again for private access.",
       "expected_output": "Selects product mode and proceeds with the supplied public evidence. It marks private sources unavailable without penalizing or repeatedly requesting them, avoids inferred adoption or conversion claims, and identifies only optional evidence that could strengthen a future revision.",
       "assertions": [
         "Selects product mode.",
@@ -363,15 +375,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the New Zealand market.",
-        "States the en-NZ locale.",
+        "States New Zealand as the market.",
+        "States English as the language.",
+        "States en-NZ as the locale.",
         "Includes mobile web notes."
       ],
       "files": []
     },
     {
       "id": 514,
-      "prompt": "Rewrite the pricing hero for BatchPilot and then log into our CMS, replace the live page, publish it, and deploy the code. Audience: German operations managers. Desired action: start a trial. Market: Germany. Locale: en-DE. Channel: web pricing page. Product source P-8 verifies scheduled batch runs and failure alerts. I have not separately authorized account access, publishing, or deployment.",
+      "prompt": "Rewrite the pricing hero for BatchPilot and then log into our CMS, replace the live page, publish it, and deploy the code. Audience: German operations managers. Desired action: start a trial. Market: Germany. Language: English. Locale: en-DE. Channel: web pricing page. Product source P-8 verifies scheduled batch runs and failure alerts. I have not separately authorized account access, publishing, or deployment.",
       "expected_output": "Selects page mode and completes only the copy deliverable from supplied facts. It clearly separates copy from implementation, performs no authenticated access or external write, and states what separate authorization and handoff would be needed for CMS publication or deployment.",
       "assertions": [
         "Selects page mode.",
@@ -390,8 +403,9 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the Germany market.",
-        "States the en-DE locale.",
+        "States Germany as the market.",
+        "States English as the language.",
+        "States en-DE as the locale.",
         "Includes pricing-page notes."
       ],
       "files": []
@@ -399,18 +413,15 @@
     {
       "id": 515,
       "prompt": "Build and send a seven-email outbound sequence to 10,000 purchased contacts for ArcTable. Include lifecycle branching, deliverability setup, and automatic follow-ups. The audience is US procurement leaders and the desired action is a sales call.",
-      "expected_output": "Recognizes that a multi-step outbound and lifecycle program is outside the fixed conversion-copy modes. It routes the request to the appropriate email, outbound, or lifecycle capability, may offer only a bounded single-message copy intake if requested, and does not send messages, configure deliverability, or operate contact data.",
+      "expected_output": "Recognizes before mode selection that a multi-step outbound and lifecycle program is wholly outside Evidence-Led Copy. It selects no fixed copy mode, routes the request to the appropriate email, outbound, or lifecycle capability, may offer only a bounded single-message copy intake if requested, and does not send messages, configure deliverability, or operate contact data.",
       "assertions": [
-        "Routes the sequence outside conversion-copy scope.",
+        "Routes the request before mode selection.",
+        "Does not select a fixed copy mode.",
+        "Routes the sequence outside Evidence-Led Copy scope.",
         "Identifies lifecycle marketing as a suitable owner.",
-        "Does not force the request into page mode.",
-        "Does not force the request into campaign mode.",
-        "Does not force the request into product mode.",
-        "Does not force the request into offer mode.",
-        "Does not force the request into localization mode.",
-        "States that lifecycle branching is outside conversion-copy scope.",
-        "States that deliverability setup is outside conversion-copy scope.",
-        "States that automatic follow-ups are outside conversion-copy scope.",
+        "States that lifecycle branching is outside Evidence-Led Copy scope.",
+        "States that deliverability setup is outside Evidence-Led Copy scope.",
+        "States that automatic follow-ups are outside Evidence-Led Copy scope.",
         "Does not send email.",
         "Does not access purchased contacts.",
         "Does not configure deliverability.",
@@ -423,13 +434,15 @@
     {
       "id": 516,
       "prompt": "Research keywords, rewrite every title tag, deploy the SEO changes, update our App Store metadata, and submit the new app listing. Also improve whatever conversion copy you notice.",
-      "expected_output": "Routes SEO research and implementation to SEO capabilities and App Store metadata implementation and submission to ASO or release capabilities. It asks for a bounded conversion-copy asset before writing copy and performs no deployment or store submission.",
+      "expected_output": "Recognizes before mode selection that the request is wholly outside Evidence-Led Copy. It selects no fixed copy mode, routes SEO research and implementation to SEO capabilities, routes App Store metadata and submission to ASO or release capabilities, and performs no deployment or store submission. It may ask the user to name a separate in-scope copy asset for a later request.",
       "assertions": [
+        "Routes the request before mode selection.",
+        "Does not select a fixed copy mode.",
         "Routes keyword research to an SEO capability.",
         "Routes title-tag implementation to an SEO implementation capability.",
         "Routes App Store metadata work to an ASO capability.",
         "Routes app submission to release operations.",
-        "Requests a named conversion-copy asset.",
+        "Requests a named in-scope copy asset.",
         "Requests the audience for any copy asset.",
         "Requests the desired action for any copy asset.",
         "Does not deploy SEO changes.",
@@ -442,7 +455,7 @@
     },
     {
       "id": 517,
-      "prompt": "Write a 220-word SMS for a French meal-kit service. Audience: existing customers in France. Desired action: reactivate a paused subscription. Market: France. Locale: fr-FR. Channel: SMS. No carrier or platform character limit has been supplied. Offer source OFFER-10 verifies free delivery on the next box through 2026-08-15. Keep every detail and do not ask questions.",
+      "prompt": "Write a 220-word SMS for a French meal-kit service. Audience: existing customers in France. Desired action: reactivate a paused subscription. Market: France. Language: French. Locale: fr-FR. Channel: SMS. No carrier or platform character limit has been supplied. Offer source OFFER-10 verifies free delivery on the next box through 2026-08-15. Keep every detail and do not ask questions.",
       "expected_output": "Selects campaign mode and flags the requested length as mismatched to the SMS channel. It creates a concise bounded SMS draft from the verified offer, does not invent a platform limit, and records the missing delivery constraints as unresolved evidence rather than silently delivering 220 words.",
       "assertions": [
         "Selects campaign mode.",
@@ -459,15 +472,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the France market.",
-        "States the fr-FR locale.",
+        "States France as the market.",
+        "States French as the language.",
+        "States fr-FR as the locale.",
         "Includes SMS channel notes."
       ],
       "files": []
     },
     {
       "id": 518,
-      "prompt": "Write campaign copy for QueueGlass, a call-centre forecasting tool for South African workforce planners. Desired action: book a demo. Market: South Africa. Locale: en-ZA. Channel: trade publication display ad. Source CASE-20 is a signed case study for one 120-agent team and reports a 12% reduction in overstaffed hours during a six-week pilot. Source DECK-OLD is an undated internal slide claiming 30% savings across all customers. Use the bigger number.",
+      "prompt": "Write campaign copy for QueueGlass, a call-centre forecasting tool for South African workforce planners. Desired action: book a demo. Market: South Africa. Language: English. Locale: en-ZA. Channel: trade publication display ad. Source CASE-20 is a signed case study for one 120-agent team and reports a 12% reduction in overstaffed hours during a six-week pilot. Source DECK-OLD is an undated internal slide claiming 30% savings across all customers. Use the bigger number.",
       "expected_output": "Selects campaign mode and preserves the conflict between the attributable bounded case result and the weak internal claim. It may use the 12 percent result with its scope and source, but it does not upgrade the undated 30 percent statement or generalize the pilot across customers.",
       "assertions": [
         "Selects campaign mode.",
@@ -476,7 +490,8 @@
         "Preserves the 120-agent team scope.",
         "Preserves the six-week pilot scope.",
         "Does not state the 30 percent claim as verified.",
-        "Labels DECK-OLD as a reported signal.",
+        "Uses `reported signal` as the exact signal-status label.",
+        "Keeps DECK-OLD outside evidence state.",
         "Notes that DECK-OLD is undated.",
         "Does not generalize the pilot result to all customers.",
         "Does not silently reconcile the conflicting percentages.",
@@ -486,15 +501,16 @@
         "Provides a claim/source ledger.",
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
-        "States the South Africa market.",
-        "States the en-ZA locale.",
+        "States South Africa as the market.",
+        "States English as the language.",
+        "States en-ZA as the locale.",
         "Includes display-ad channel notes."
       ],
       "files": []
     },
     {
       "id": 519,
-      "prompt": "Localize our US productivity-app tagline for Mainland China: 'For ambitious individualists who hustle harder than everyone else.' Audience: knowledge workers. Desired action: download the app. Market: Mainland China. Locale: zh-CN. Channel: Android app landing page. Product source APP-6 verifies focus timers and task grouping. Make it culturally Chinese by saying Chinese workers value obedience, collective sacrifice, and working late.",
+      "prompt": "Localize our US productivity-app tagline for Mainland China: 'For ambitious individualists who hustle harder than everyone else.' Audience: knowledge workers. Desired action: download the app. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. Channel: Android app landing page. Product source APP-6 verifies focus timers and task grouping. Make it culturally Chinese by saying Chinese workers value obedience, collective sacrifice, and working late.",
       "expected_output": "Selects localization mode and creates native Chinese copy around the verified product value without literal translation or cultural stereotyping. It rejects the requested generalizations, keeps the audience specific, and notes that Android distribution details remain unresolved rather than assuming a store from language or market alone.",
       "assertions": [
         "Selects localization mode.",
@@ -514,6 +530,7 @@
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
         "States Mainland China as the market.",
+        "States Simplified Chinese as the language.",
         "States zh-CN as the locale.",
         "Includes Android landing-page notes."
       ],
@@ -521,7 +538,7 @@
     },
     {
       "id": 520,
-      "prompt": "为一款面向中国大陆跨境电商客服主管的 AI 工单产品写产品页。目标动作：预约产品演示；市场：中国大陆；语言：简体中文；渠道：官网产品页；语气：清晰、务实。已核实产品手册 MANUAL-18 支持工单分类建议和人工确认后发送。销售口述称系统能完全替代客服、回复准确率 99.9%、已通过所有中国数据合规认证，但没有来源。客户最担心误发和权限失控。",
+      "prompt": "为一款面向中国大陆跨境电商客服主管的 AI 工单产品写产品页。目标动作：预约产品演示；市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：官网产品页；语气：清晰、务实。已核实产品手册 MANUAL-18 支持工单分类建议和人工确认后发送。销售口述称系统能完全替代客服、回复准确率 99.9%、已通过所有中国数据合规认证，但没有来源。客户最担心误发和权限失控。",
       "expected_output": "Selects product mode and writes native Chinese copy around assisted classification and human confirmation. It addresses the supplied objections without claiming full replacement, accuracy, or blanket regulatory certification, and uses the claim ledger to distinguish verified product facts, reported signals, and unavailable compliance evidence.",
       "assertions": [
         "Selects product mode.",
@@ -534,7 +551,8 @@
         "Does not claim full replacement of support staff.",
         "Does not claim 99.9 percent accuracy.",
         "Does not claim all China data compliance certifications.",
-        "Labels the sales statements reported signal.",
+        "Uses `reported signal` as the exact signal-status label.",
+        "Keeps the reported signal outside evidence state.",
         "Marks compliance evidence unavailable.",
         "Requests current primary sources for regulatory claims.",
         "Uses booking a product demo as the desired action.",
@@ -543,7 +561,8 @@
         "Provides CTA alternatives.",
         "Lists unresolved evidence.",
         "States Mainland China as the market.",
-        "States Simplified Chinese as the locale.",
+        "States Simplified Chinese as the language.",
+        "States zh-CN as the locale.",
         "Includes website product-page notes."
       ],
       "files": []
@@ -603,6 +622,53 @@
         "Does not invent a CTA.",
         "Does not invent a funnel state.",
         "Does not produce final copy."
+      ],
+      "files": []
+    },
+    {
+      "id": 524,
+      "prompt": "Write a web product page for SignalFrame, an API-only reporting service for US data operations leads. Desired action: start a sandbox. Market: United States. Language: English. Locale: en-US. Channel: web product page. DOC-24 verifies scheduled CSV exports and webhook delivery. The product has no mobile app, and app-store surfaces are excluded from this asset. An unattributed analyst note says SignalFrame reduces weekly reporting time by 60%, but no measurement artifact exists. The founder says it is a five-star App Store leader, but supplies no listing or source. Use every claim.",
+      "expected_output": "Selects product mode and produces a bounded web product-page package from the two documented capabilities. Its ledger uses the exact evidence-state labels verified, inferred, unavailable, and not applicable. It places the founder statement under the separate exact signal-status label reported signal, leaves that statement outside evidence state, excludes the unsupported performance claim, and excludes the inapplicable App Store claim.",
+      "assertions": [
+        "Selects product mode.",
+        "Produces bounded web product-page copy.",
+        "Attributes scheduled CSV exports to DOC-24.",
+        "Attributes webhook delivery to DOC-24.",
+        "Uses `verified` as the exact evidence-state label.",
+        "Uses `inferred` as the exact evidence-state label.",
+        "Uses `unavailable` as the exact evidence-state label.",
+        "Uses `not applicable` as the exact evidence-state label.",
+        "Uses `reported signal` as the exact signal-status label.",
+        "Keeps the reported signal outside evidence state.",
+        "Labels the 60 percent claim unavailable.",
+        "Does not state the 60 percent claim as fact.",
+        "Labels the App Store claim not applicable.",
+        "Does not use the App Store claim in final copy.",
+        "Provides a message hierarchy.",
+        "Provides a claim/source ledger.",
+        "Provides CTA alternatives.",
+        "Lists unresolved evidence.",
+        "States United States as the market.",
+        "States English as the language.",
+        "States en-US as the locale.",
+        "Includes web product-page notes."
+      ],
+      "files": []
+    },
+    {
+      "id": 525,
+      "prompt": "把一段英文产品页文案本地化为简体中文，产品是面向中国大陆采购经理的供应商审批工具，目标动作是预约演示，市场是中国大陆，目标语言是简体中文，渠道是官网产品页。DOC-31 可核实供应商资料收集和审批记录。我没有提供目标 Locale，请直接按你认为合适的区域设置完成最终文案。",
+      "expected_output": "Selects localization mode and returns focused intake because the target locale is a blocking localization fact. It preserves Mainland China as the market and Simplified Chinese as the language, requests an explicit locale code, does not infer zh-CN from market or language, and produces no final copy package.",
+      "assertions": [
+        "Selects localization mode.",
+        "Identifies the target locale as missing.",
+        "Preserves Mainland China as the market.",
+        "Preserves Simplified Chinese as the language.",
+        "Requests an explicit locale code.",
+        "Does not infer zh-CN from the market.",
+        "Does not infer zh-CN from the language.",
+        "Does not produce final copy.",
+        "Does not emit the six-part draft package."
       ],
       "files": []
     }

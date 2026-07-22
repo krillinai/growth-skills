@@ -33,7 +33,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   <tbody>
     <tr><td><a href="https://github.com/krillinai/KrillinAI">Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing</a></td><td>Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering</td></tr>
     <tr><td><a href="https://github.com/krillinai/autosocial-skills">Social&nbsp;Media&nbsp;Publishing</a></td><td>Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata</td></tr>
-    <tr><td><a href="skills/conversion-copy/">Conversion&nbsp;Copy</a></td><td>Write evidence-backed page, campaign, product, offer, and localization copy for declared markets, locales, and channels, including native Simplified Chinese for Mainland China</td></tr>
+    <tr><td><a href="skills/evidence-led-copy/">Evidence-Led&nbsp;Copy</a></td><td>Write evidence-led page, campaign, product, offer, and localization copy with explicit market, language, locale, channel, and claim-source controls, including native Simplified Chinese for Mainland China</td></tr>
   </tbody>
 </table>
 
