@@ -20,8 +20,8 @@
 
 | 技能 | 说明 |
 | --- | --- |
-| [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 将视频翻译并配音为其他语言 |
-| [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 将内容自动发布到社交媒体平台 |
+| [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化 |
+| [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号 |
 
 ### 获客转化
 

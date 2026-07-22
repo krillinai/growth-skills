@@ -20,8 +20,8 @@ Use the [Growth Playbook](https://github.com/krillinai/growth-playbook) for diag
 
 | Skill | Description |
 | --- | --- |
-| [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Translate and dub videos into other languages |
-| [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Publish content across social media platforms |
+| [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering |
+| [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata |
 
 ### Acquisition and Conversion
 
