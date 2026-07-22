@@ -1,10 +1,18 @@
-# Growth & Marketing Skills by clawee.ai
+# Growth & Marketing Skills
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+**面向增长与营销、可由 AI 执行的复用技能**
+
+由企业级 Growth Agent 产品 [clawee.ai](https://clawee.ai/) 出品。
+
+[![GitHub Stars](https://img.shields.io/github/stars/krillinai/growth-skills?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/growth-skills/stargazers)
+[![Growth & Marketing Playbook](https://img.shields.io/badge/Growth_%26_Marketing-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
+[![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
+
+> 由专注于内容智能与全球增长的 AI 团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。[Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) 是 Growth & Marketing Skills 的开源知识配套，提供框架、案例与方法；Growth & Marketing Skills 则将其转化为可复用、可由 AI 执行的增长能力。
+
+**[English](README.md) | [简体中文](README.zh-CN.md)**
 
 一个面向增长与营销工作的开放技能集合。Growth & Marketing Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI Agent 覆盖并衔接增长全生命周期中的关键任务。
-
-使用 [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbook) 进行增长诊断、策略设计并学习经过验证的方法；使用 Growth & Marketing Skills 执行边界明确、可复用的 AI 工作流；当增长工作需要持久化系统、私有数据、治理能力或跨团队协作时，使用 [clawee.ai](https://clawee.ai/)。
 
 ## 覆盖领域
 
@@ -37,6 +45,7 @@
   <tbody>
     <tr><td><a href="skills/seo-audit/">SEO 诊断</a></td><td>基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO 诊断</a></td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
+    <tr><td><a href="skills/geo/">GEO 诊断</a></td><td>基于证据评估网站面向 AI 生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>
   </tbody>
 </table>
 
