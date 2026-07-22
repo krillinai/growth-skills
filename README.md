@@ -28,6 +28,7 @@ Use the [Growth Playbook](https://github.com/krillinai/growth-playbook) for diag
 | Skill | Description |
 | --- | --- |
 | [SEO Audit](skills/seo-audit/) | Diagnose technical, content, and search visibility issues with evidence-backed recommendations |
+| [ASO Audit](skills/aso-audit/) | Diagnose App Store and Google Play visibility, listing, creative, and conversion issues with evidence-backed recommendations |
 
 ## The Growth Lifecycle
 
