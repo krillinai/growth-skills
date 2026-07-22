@@ -52,7 +52,7 @@ For an incident, accept only matched before/after panels for comparison. If plat
 
 Use only the fixed inventory in [evidence-and-scoring.md](references/evidence-and-scoring.md): Access & Eligibility 20, Extractability 25, Evidence & Citationworthiness 25, Entity & Source Consistency 20, and Measurement & Experimentation 10. Do not invent, split, move, or reweight checks.
 
-Assign assessed checks deterministically: pass earns 100%, partial 50%, and fail 0%. A supported adverse inference can be partial until verified; a positive inference cannot pass. Unavailable checks are excluded from assessed score arithmetic but remain in evidence coverage. Not-applicable checks are excluded from both. Show `Not scored` when assessed applicable maximum is zero.
+Assign assessed checks deterministically: pass earns 100%, partial 50%, and fail 0%. Only verified evidence may assign pass, partial, or fail. An inference may guide evidence collection or action priority, but remains unscored until verified. Unavailable checks are excluded from assessed score arithmetic but remain in evidence coverage. Not-applicable checks are excluded from both. Show `Not scored` when assessed applicable maximum is zero.
 
 Keep these formulas explicit:
 
