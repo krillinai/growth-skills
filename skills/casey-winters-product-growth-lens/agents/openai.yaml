@@ -1,4 +1,0 @@
-interface:
-  display_name: "Casey Winters Product Growth Lens"
-  short_description: "Diagnose retention, onboarding, and marketplace growth"
-  default_prompt: "Use $casey-winters-product-growth-lens to diagnose this product growth constraint and propose a focused evidence plan."

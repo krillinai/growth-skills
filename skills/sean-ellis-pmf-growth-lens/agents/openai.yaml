@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sean Ellis PMF Growth Lens"
-  short_description: "Validate PMF, activation, and experiment systems"
-  default_prompt: "Use $sean-ellis-pmf-growth-lens to evaluate this product market fit evidence and define the next growth learning cycle."

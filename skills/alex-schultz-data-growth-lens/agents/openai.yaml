@@ -1,4 +1,0 @@
-interface:
-  display_name: "Alex Schultz Data Growth Lens"
-  short_description: "Diagnose retention, growth accounting, and activation"
-  default_prompt: "Use $alex-schultz-data-growth-lens to diagnose this growth system from retention, accounting, activation, and data evidence."

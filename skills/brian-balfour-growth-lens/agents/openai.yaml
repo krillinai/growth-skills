@@ -1,4 +1,0 @@
-interface:
-  display_name: "Brian Balfour Growth Lens"
-  short_description: "Diagnose growth through Brian Balfour frameworks"
-  default_prompt: "Use $brian-balfour-growth-lens to diagnose my growth constraint and recommend evidence-backed next actions."

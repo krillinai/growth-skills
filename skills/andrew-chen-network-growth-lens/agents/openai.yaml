@@ -1,4 +1,0 @@
-interface:
-  display_name: "Andrew Chen Network Growth Lens"
-  short_description: "Diagnose network products and marketplace growth"
-  default_prompt: "Use $andrew-chen-network-growth-lens to diagnose this network product and identify the highest-leverage growth constraint."

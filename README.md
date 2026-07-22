@@ -16,27 +16,6 @@ Use the [Growth & Marketing Playbook](https://github.com/krillinai/growth-playbo
 
 ## Skill Catalog
 
-### Practitioner Lenses
-
-<table>
-  <thead>
-    <tr><th width="32%">Skill</th><th>Description</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><a href="skills/alex-schultz-data-growth-lens/">Alex&nbsp;Schultz&nbsp;Data&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose retention, growth accounting, activation, North Stars, data debt, marginal-user messaging, acquisition sequencing, internationalization, and viral mechanics through Alex Schultz's public work</td></tr>
-    <tr><td><a href="skills/andrew-chen-network-growth-lens/">Andrew&nbsp;Chen&nbsp;Network&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose cold starts, atomic networks, marketplace liquidity, network effects, growth loops, channel decay, lifecycle reach, and growth ownership through Andrew Chen's public work</td></tr>
-    <tr><td><a href="skills/april-dunford-positioning-lens/">April&nbsp;Dunford&nbsp;Positioning&nbsp;Lens</a></td><td>Diagnose competitive alternatives, differentiated value, best-fit customers, market categories, sales narratives, qualification, portfolio positioning, and AI differentiation through April Dunford's public work</td></tr>
-    <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, Four Fits, channels, metrics, launches, retention, and loops through frameworks documented in Brian Balfour's public work</td></tr>
-    <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;Product&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose retention, onboarding, marketplace supply, expansion, SEO, conversion, sustainable acquisition, and growth ownership through Casey Winters' public work</td></tr>
-    <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;Growth&nbsp;Lens</a></td><td>Diagnose growth models, PLG, product-led sales, free models, monetization, distribution, experimentation, AI-native PMF, and discovery through Elena Verna's public work</td></tr>
-    <tr><td><a href="skills/james-currier-network-effects-lens/">James&nbsp;Currier&nbsp;Network&nbsp;Effects&nbsp;Lens</a></td><td>Diagnose network-effect types, white-hot centers, hard sides, marketplace structure, market networks, multi-homing, defensibility, and AI-era networks through James Currier's public work</td></tr>
-    <tr><td><a href="skills/luis-von-ahn-habit-growth-lens/">Luis&nbsp;von&nbsp;Ahn&nbsp;Habit&nbsp;Growth&nbsp;Lens</a></td><td>Design mission-aligned freemium, ethical motivation, streaks, reminders, product-led brand, category expansion, and AI learning safeguards through Luis von Ahn's public work</td></tr>
-    <tr><td><a href="skills/madhavan-ramanujam-monetization-lens/">Madhavan&nbsp;Ramanujam&nbsp;Monetization&nbsp;Lens</a></td><td>Diagnose willingness to pay, segmentation, packaging, price metrics, revenue models, monetization failure modes, profitable growth, and AI pricing through Madhavan Ramanujam's public work</td></tr>
-    <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;Growth&nbsp;Lens</a></td><td>Evaluate must-have PMF, activation, retention, growth stages, value-based North Stars, experiment systems, prioritization, and referrals through Sean Ellis's public work</td></tr>
-    <tr><td><a href="skills/xu-hongliang-growth-infrastructure-lens/">Xu&nbsp;Hongliang&nbsp;Growth&nbsp;Infrastructure&nbsp;Lens</a></td><td>Design shared growth platforms, multi-horizon value models, governed automation, creative-risk systems, incentives, anti-abuse, portfolio allocation, and localization through Xu Hongliang's public interviews</td></tr>
-  </tbody>
-</table>
-
 ### Content Creation
 
 <table>
