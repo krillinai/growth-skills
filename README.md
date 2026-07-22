@@ -59,6 +59,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
     <tr><td><a href="skills/seo-audit/">SEO&nbsp;Audit</a></td><td>Diagnose technical, content, and search visibility issues with evidence-backed recommendations</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO&nbsp;Audit</a></td><td>Diagnose App Store and Google Play visibility, listing, creative, and conversion issues with evidence-backed recommendations</td></tr>
     <tr><td><a href="skills/geo/">GEO&nbsp;Audit</a></td><td>Assess website readiness for AI-generated search with evidence-based scoring, while separately measuring observed mentions and citations across bounded query panels</td></tr>
+    <tr><td><a href="skills/structured-data-builder/">Structured&nbsp;Data&nbsp;Builder</a></td><td>Generate, audit, repair, or template evidence-traced JSON-LD from visible page content or attributable authoritative data, with provider-specific validation and market-aware limitations</td></tr>
   </tbody>
 </table>
 

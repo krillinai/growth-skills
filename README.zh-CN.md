@@ -59,6 +59,7 @@
     <tr><td><a href="skills/seo-audit/">SEO 诊断</a></td><td>基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO 诊断</a></td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/geo/">GEO 诊断</a></td><td>基于证据评估网站面向 AI 生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>
+    <tr><td><a href="skills/structured-data-builder/">结构化数据构建</a></td><td>基于页面可见内容或可归因的权威数据，生成、诊断、修复或模板化可追溯的 JSON-LD，并提供区分产品平台和市场情境的验证与限制说明</td></tr>
   </tbody>
 </table>
 
