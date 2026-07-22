@@ -27,6 +27,7 @@
     <tr><td><a href="skills/brian-balfour-growth-lens/">Brian&nbsp;Balfour&nbsp;增长视角</a></td><td>基于 Brian Balfour 公开工作中的框架，诊断增长模型、Four Fits、渠道、指标、发布、留存与增长循环</td></tr>
     <tr><td><a href="skills/casey-winters-product-growth-lens/">Casey&nbsp;Winters&nbsp;产品增长视角</a></td><td>基于 Casey Winters 的公开工作，诊断留存、Onboarding、Marketplace 供给、扩张、SEO、转化、可持续获客与增长组织</td></tr>
     <tr><td><a href="skills/elena-verna-plg-growth-lens/">Elena&nbsp;Verna&nbsp;PLG&nbsp;增长视角</a></td><td>基于 Elena Verna 的公开工作，诊断增长模型、PLG、Product-Led Sales、免费模式、变现、分发、实验、AI-native PMF 与发现渠道</td></tr>
+    <tr><td><a href="skills/sean-ellis-pmf-growth-lens/">Sean&nbsp;Ellis&nbsp;PMF&nbsp;增长视角</a></td><td>基于 Sean Ellis 的公开工作，评估 must-have PMF、激活、留存、增长阶段、价值型 North Star、实验系统、优先级与推荐循环</td></tr>
   </tbody>
 </table>
 
