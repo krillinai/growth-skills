@@ -59,6 +59,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   </thead>
   <tbody>
     <tr><td><a href="skills/experiment-design/">Experiment&nbsp;Design</a></td><td>Decide when to experiment, design or review trustworthy causal and alternative evidence plans, and interpret mature results through explicit assignment, exposure, metrics, power, SRM, interference, guardrails, and decision rules</td></tr>
+    <tr><td><a href="skills/funnel-analysis/">Funnel&nbsp;Analysis</a></td><td>Analyze conversion and absolute loss across value states with frozen entities, eligibility, events, denominators, windows, maturity, and cohorts; distinguish observed drop-off from cause, diagnose constraints, and design evidence-bounded improvements</td></tr>
   </tbody>
 </table>
 
