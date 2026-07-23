@@ -32,14 +32,14 @@ Retrieval date for every record: **2026-07-23**.
 - Exact supported claim: LinkedIn prohibits untargeted, irrelevant, obviously unwanted, unauthorized, inappropriate commercial/promotional, or gratuitously repetitive messages; invitation features must not be used for promotional messages to people the sender does not know; false identities and false or misleading content are prohibited.
 - Limitation/access state: `verified` for current retrieved text; public page returned HTTP 200. No stable exposed publication/effective date was found, so freshness beyond retrieval time is unavailable.
 
-### FTC CAN-SPAM Guide
+### CAN-SPAM Act: A Compliance Guide for Business
 
 - Title: **CAN-SPAM Act: A Compliance Guide for Business**
-- URL: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
-- Publisher/product: U.S. Federal Trade Commission
+- Direct URL: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
+- Publisher/product: U.S. Federal Trade Commission / business guidance
 - Exposed date: published 2023-08-09; modified 2025-07-22
-- Exact supported claim: the guide says CAN-SPAM covers commercial email, including business-to-business email; it identifies accurate headers, non-deceptive subjects, sender location, a clear opt-out, and honoring opt-outs as requirements.
-- Limitation/access state: `verified`; public page returned HTTP 200. Apply only through accountable U.S. legal review; this summary is not a compliance determination and must not be transferred to other markets.
+- Exact narrow supported claim: the guide covers commercial email including business-to-business email and identifies accurate header information, non-deceptive subject lines, a valid physical postal address for the sender's location, a clear opt-out, and honoring opt-outs.
+- Limitation/access state: `verified` only from the same-day direct inspectable HTTP 200 capture using a normal browser request profile; this is not a legal or compliance conclusion. A same-day default command-line client returned HTTP 403, showing that access varies by request profile, so re-check the direct page at execution time and do not infer facts from status alone. No access controls were bypassed.
 
 ### PRC Personal Information Protection Law
 

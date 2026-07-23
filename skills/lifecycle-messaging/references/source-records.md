@@ -113,9 +113,9 @@ Retrieval date for every record: **2026-07-23**.
 - Title: **CAN-SPAM Act: A Compliance Guide for Business**
 - Direct URL: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
 - Publisher/product: U.S. Federal Trade Commission / business guidance
-- Exposed date: `unavailable` from the blocked response
-- Exact narrow supported claim: `unavailable` from this retrieval.
-- Limitation/access state: the current request returned HTTP 403, so no email rule is asserted from this capture. Do not bypass access controls or reuse a prior summary as current verification; obtain direct current text and accountable U.S. legal review before making a claim.
+- Exposed date: published 2023-08-09; modified 2025-07-22
+- Exact narrow supported claim: the guide covers commercial email including business-to-business email and identifies accurate header information, non-deceptive subject lines, a valid physical postal address for the sender's location, a clear opt-out, and honoring opt-outs.
+- Limitation/access state: `verified` only from the same-day direct inspectable HTTP 200 capture using a normal browser request profile; this is not a legal or compliance conclusion. A same-day default command-line client returned HTTP 403, showing that access varies by request profile, so re-check the direct page at execution time and do not infer facts from status alone. No access controls were bypassed.
 
 ## Record New Claims
 
