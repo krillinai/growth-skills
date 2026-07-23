@@ -1,0 +1,4 @@
+interface:
+  display_name: "Attribution Analysis"
+  short_description: "Audit attribution journeys, models, and reconciliation"
+  default_prompt: "Use $attribution-analysis to audit our attribution model, reconcile source claims to business outcomes, and separate operational credit from incrementality."
