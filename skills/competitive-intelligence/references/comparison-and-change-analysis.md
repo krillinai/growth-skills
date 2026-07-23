@@ -1,64 +1,81 @@
 # Comparison And Change Analysis
 
-## Decision-Criteria Matrix
+Build comparisons for a declared choice. A universal competitor matrix combines incompatible decisions and ages quickly.
 
-Use one row per criterion that can change the scoped customer's decision:
+## Comparison Frame
 
-| Criterion | Customer consequence | Alternative | Claim | Evidence state | Availability and eligibility | Proof or observation | Limitation | Last verified |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+For each criterion define:
 
-Possible criteria include job coverage, time to value, workflow fit, interoperability, implementation, service, proof, trust, security review, data boundary, commercial terms, total cost, support, accessibility, market availability, and exit cost. Do not include criteria only because a vendor lists them.
+- customer, job, buying situation, and consequence;
+- criterion and acceptable evidence;
+- product, edition, plan, entitlement, market, platform, and version;
+- observation and effective dates;
+- state, value, unit, evidence, limitation, and contradiction;
+- importance source, blocker rule, sensitivity, and owner.
 
-Unknown is not absent. A listed capability is not enabled capability. Feature count is not customer value. More evidence does not automatically mean a better product; it may mean better documentation.
+Criteria can include workflow fit, capability, availability, integration, setup, migration, quality, reliability, performance, security and trust evidence, service, support, ecosystem, distribution, contract, price, switching, and customer outcome. Include a criterion only when it can change the decision.
 
-## Commercial Scenario
+## Capability State Model
 
-Freeze customer and payer, quantity, seats or usage, product and package, period, contract, currency, exchange-rate source and date, tax, implementation, service, support, platform and usage fees, promotion, refund, and exclusions.
+Keep the following states separate:
 
-Show:
+| State | Meaning |
+| --- | --- |
+| `announced` | A dated source describes an intended or introduced capability |
+| `documented` | Current official material describes behavior and scope |
+| `observed` | Authorized direct observation confirms behavior under recorded conditions |
+| `beta or limited` | Access is restricted by account, invitation, geography, platform, or readiness |
+| `generally available` | Evidence supports broad release within the declared market and plan boundary |
+| `deprecated or removed` | Dated evidence supports withdrawal or end-of-life within the declared scope |
+| `unavailable evidence` | The required state cannot be established |
+| `not applicable` | The capability cannot apply to the declared product or decision |
+
+Capability presence does not prove quality, reliability, integration depth, customer adoption, realized value, or differentiation. Record dependencies, limits, setup, usage caps, support, failure states, and proof separately.
+
+## Price And Offer Normalization
+
+Preserve each original offer before normalization. Record customer and billing unit, quantity, usage, package, included limits, overage, minimum, commitment, contract term, currency, exchange-rate source and date, tax treatment, payment frequency, discount, promotion, implementation, migration, support, service, partner, and exit costs.
+
+Compare bounded scenarios rather than one artificial unit:
 
 ```text
-list or quoted amount
-+ required base, platform, usage, implementation, service, and support amounts
-+ applicable tax or separately noted tax treatment
-= bounded scenario cost under stated assumptions
+scenario total cost
+= recurring fixed charges
++ expected metered usage and overages
++ required implementation and support
++ decision-relevant migration and operating costs
+- evidenced eligible discounts or credits
 ```
 
-Do not invent negotiated price or convert `contact sales` to zero. Do not compare monthly flexibility with annual commitment without naming the commitment difference. Price comparisons do not establish value or total economic outcome.
+Do not infer negotiated terms from list price, convert quote-only offers to zero, or call cheapest best value. Keep list, promotional, negotiated, legacy, and realized price states separate. Currency conversion enables arithmetic, not market equivalence.
 
-## Scoring Boundary
+## Scoring And Ranking
 
-Avoid one composite score by default. Prefer a criterion-level matrix and best-fit conditions. If a score is explicitly requested:
+Prefer a criterion ledger, blocker view, and scenarios over one score. If a decision owner requires scoring:
 
-1. name the decision and customer;
-2. use evidence-supported, decision-changing criteria;
-3. show weights and owner;
-4. keep unavailable distinct from zero;
-5. display evidence coverage separately;
-6. run weight and missingness sensitivity;
-7. show conditions under which rank changes;
-8. do not call the result universal, causal, or approved.
+1. define the exact choice and eligible alternatives;
+2. derive criteria and direction from customer and operating evidence;
+3. expose weights, transformations, missingness, and blocker rules;
+4. keep evidence coverage separate from performance score;
+5. run weight, missing-data, and scenario sensitivity;
+6. show where rank changes and where alternatives are indistinguishable;
+7. retain the underlying evidence and tradeoffs.
 
-## Change Log
+Never give unavailable evidence zero, use feature counts as value, average a verified blocker away, or present a weighted total as objective truth.
 
-| Field | Requirement |
-| --- | --- |
-| Signal | Exact observed claim or artifact, source, date, and access boundary |
-| State | `unverified signal`, `reported`, `announced`, `effective`, `observed`, `confirmed`, `corrected`, `reversed`, or `expired` |
-| Scope | Company, product, plan, version, market, platform, and customer condition |
-| Confirmation | Direct or multiple attributable support and exact limitation |
-| Materiality | Which frozen decision and criterion could change, and why |
-| Alternatives | Other mechanisms consistent with the evidence |
-| Governance | Owner, review date, expiry, correction, retraction, and handoff |
+## Change Detection
 
-Never overwrite the history of a changed page or conclusion. Preserve the prior record, new evidence, effective date, and reason for revision.
+Compare compatible snapshots and preserve both. A change row includes entity, product or offer version, market, field, prior and current states, source lineage, publication, capture, announced and effective dates, confidence, customer and decision consequence hypotheses, counterinterpretations, severity, owner, expiry, and next check.
 
-## Strategic Hypotheses
+Use these change states: `added`, `changed`, `removed`, `unchanged`, `reversed`, `rumored`, `disputed`, and `unknown`. Page wording, URL structure, missing documentation, screenshots, and sales reports may reflect measurement or publishing changes rather than product changes.
 
-Turn evidence into a hypothesis only when it can change a decision. State observation, inference, alternative explanations, counterevidence, confidence basis, decision consequence, evidence that would confirm or disconfirm it, owner, review date, and expiry.
+## Monitoring Rules
 
-Job openings, patents, acquisitions, executive comments, partner pages, screenshots, or isolated product observations may suggest several strategies. They do not verify a private roadmap. A later business outcome does not prove one competitive change caused it.
+- Alert only when a verified or explicitly labeled signal crosses a declared decision threshold.
+- Deduplicate repeated sources that share one origin.
+- Require greater corroboration for claims with greater customer, legal, reputational, financial, or roadmap consequence.
+- Expire rumors, stale claims, temporary promotions, and unverified states.
+- Reopen the relevant decision; do not automatically change product, price, campaign, budget, positioning, or sales claims.
+- Record false positives, missed changes, delayed verification, and decisions unaffected by the signal to improve the monitoring system.
 
-## Comparison Conclusion
-
-Return best-fit and poor-fit conditions, tradeoffs, evidence gaps, stale or conflicting rows, and the smallest next evidence that can change the decision. Do not return a universal winner, compulsory imitation, precise market-share claim, or causal effect without suitable evidence.
+Hiring, patents, partnerships, executive comments, and anonymous reports support bounded scenarios only. State what future observable evidence would strengthen, weaken, or falsify each scenario.

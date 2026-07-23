@@ -1,51 +1,62 @@
 # Decisions And Governance
 
-## Intelligence Does Not Own The Decision
+Competitive intelligence informs a named decision owner. It does not own product, positioning, pricing, market, launch, sales, campaign, or investment decisions.
 
-Competitive evidence can reopen a question, narrow alternatives, identify a customer criterion, expose a dependency, or define a test. It does not by itself authorize a product, positioning, pricing, acquisition, market, sales, or budget change.
+## Decision Brief
 
-| Decision | Specialist owner or Skill |
+For each implication state:
+
+- the decision and owner;
+- the customer, job, market, product, and time boundary;
+- the verified observation and evidence date;
+- the inferred mechanism and plausible counterinterpretations;
+- which alternatives gain or lose relevance and under what conditions;
+- the decision that may need review, not the action presumed correct;
+- evidence that would change the conclusion;
+- urgency, reversibility, customer risk, and review date;
+- specialist owner and separately authorized next action.
+
+Use `continue`, `review`, `validate`, `hold`, `escalate`, or `retire intelligence item` as workflow states. These are not approvals for operating changes.
+
+## Causal Boundary
+
+A competitor launch followed by lower win rate, search shifts, churn, or revenue movement is an observation. Preserve concurrent changes in segment mix, category demand, pricing, product quality, sales execution, distribution, seasonality, measurement, and your own product.
+
+Route attribution questions to `attribution-analysis` and counterfactual testing to `experiment-design`. Do not estimate incremental revenue, lost customers, or market-share transfer without compatible outcome, identity, time, and causal evidence.
+
+## Specialist Ownership
+
+| Intelligence implication | Route |
 | --- | --- |
-| Customer problem, language, and decision criteria | `customer-research` |
-| Best-fit customer and exclusions | `icp-segmentation` |
-| Position, category, differentiated value, and message | `positioning` |
-| Market readiness, beachhead, and entry | `market-entry-strategy` |
-| Price, package, offer, and contribution | `monetization` |
-| Channel and acquisition portfolio | `acquisition-strategy` |
-| Causal effect | `experiment-design` |
+| Customer motives, alternatives, prevalence, win-loss, or interviews | `customer-research` |
+| Competitive frame, differentiated value, category, or message | `positioning` |
+| ICP or segment rule | `icp-segmentation` |
+| Market size, local readiness, entry, expansion, or exit | `market-entry-strategy` |
+| Offer, package, price, discount, or economics | `monetization` |
+| Release sequencing, audience, readiness, or rollback | `product-launch-strategy` |
+| Seller and buyer materials | `sales-enablement` |
+| Channel strategy or budget allocation | `acquisition-strategy` |
+| Attribution or causal effect | `attribution-analysis` and `experiment-design` |
 | Primary growth constraint | `growth-diagnosis` |
 
-Route with the evidence ledger, alternatives, counterevidence, and unresolved fields. Do not turn a competitive convention into a mandatory strategy.
+The intelligence brief supplies evidence and uncertainty; the specialist Skill owns method and decision design.
 
-## Decision States
+## Privacy And Ethical Research
 
-Use one bounded state unless the user has an approved vocabulary:
+Use the minimum evidence needed. Prefer public, aggregate, redacted, pseudonymous, consented, and small-cell-suppressed records. Record purpose, authority, provenance, access, retention, deletion, quotation rights, and owner.
 
-- `evidence acquisition`: material facts or alternatives remain unavailable;
-- `monitor`: the signal is relevant but not confirmed or decision-changing;
-- `specialist review`: compatible evidence is sufficient for the accountable decision owner;
-- `bounded test`: a reversible, separately designed test can distinguish alternatives;
-- `no change`: current evidence does not justify reopening the decision;
-- `not comparable`: units or conditions cannot support the requested comparison.
+Do not request payment credentials, tax IDs, protected traits, personal contacts, private messages, employee notes, customer identities, complete account losses, confidential competitor materials, or raw call transcripts when bounded summaries are enough. Do not reidentify people or accounts. Do not use deception, impersonation, coercion, leaked data, unauthorized recording, private access, or terms violations.
 
-State owner, trigger, evidence, counterevidence, guardrail, review date, expiry, and completion proof. Competitive Intelligence does not execute the state.
+Keep customer, employee, sales, vendor, partner, analyst, public, and modeled evidence separate. Internal anecdotes are signals with selection bias, not automatically verified market facts.
 
-## Monitoring Governance
+## Market Transfer And China
 
-Define source inventory, material claims, cadence, owner, confirmation threshold, materiality threshold, expiry, correction, retraction, audit trail, and consumers. Monitor decisions, not every visible competitor event. Retire sources and fields that no longer change a decision or cannot be maintained responsibly.
+Revalidate the alternative set and every decision-changing state by market. Keep country or region, language, locale, customer role, job, category, product and offer version, platform and app access, price, currency, tax, payment, channel, partner, proof, trust, support, contract, identity, consent, data, storage, transfer, review, and local owner separate.
 
-Do not send alerts, update battlecards, change CRM records, or contact stakeholders automatically. A high volume of weak signals is not stronger evidence.
+For mainland China, require current direct sources and locally accountable review for time-sensitive product, platform, payment, data, advertising, and regulatory conditions. Do not assume that a global page, translated matrix, currency conversion, overseas app listing, or provider announcement proves local availability or permission. Do not provide legal, tax, accounting, or compliance conclusions.
 
-## Market Transfer
+## Operating Cadence
 
-Freeze market, language, locale, legal entity, company, product, version, platform, distribution, availability, eligibility, customer, payer, plan, price, currency, tax, invoice, contract, data, identity, consent, source coverage, and owner for each market.
+Set refresh frequency by volatility and decision consequence, not habit. Each intelligence item has an owner, next check, expiry, source health, contradiction status, affected decisions, and archive rule. Review monitoring quality through confirmed changes, false alerts, missed signals, stale evidence, unresolved high-impact gaps, and whether intelligence changed a decision.
 
-Alternative families and comparison principles may transfer. Competitor set, product access, pricing, customer behavior, provider methods, platform conditions, market shares, reviews, commercial terms, and legal or data conditions require current local evidence. Translation is not validation. Do not provide legal, tax, accounting, compliance, or security advice.
-
-## Privacy And Ethics
-
-Collect the minimum company-level evidence needed for the decision. Avoid personal dossiers, covert contact, pretexting, credential use, leaked data, restricted scraping, vulnerability discovery, and reidentification. Protect customer and employee sources, quote rights, access conditions, retention, correction, deletion, and small groups.
-
-## External Actions
-
-Competitive Intelligence may create local source ledgers, alternative maps, evidence matrices, price scenarios, monitoring specifications, hypotheses, and approval-ready handoffs. It must not access restricted systems, export data, impersonate, contact people, purchase services, publish briefs, change product or commercial systems, deploy, or claim results without explicit task-level authorization and required controls.
+Archive superseded evidence; do not overwrite it. Preserve what leadership knew at the decision time. Separate research completeness, evidence quality, decision usefulness, and business outcomes.
