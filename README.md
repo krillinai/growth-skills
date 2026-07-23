@@ -37,6 +37,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
     <tr><td><a href="skills/copy-editing/">Copy&nbsp;Editing</a></td><td>Review and edit existing copy for clarity, hierarchy, voice, claims, accessibility, CTA, and market, locale, and channel fit while preserving factual meaning and recording exact edits</td></tr>
     <tr><td><a href="skills/content-strategy/">Content&nbsp;Strategy</a></td><td>Build, audit, and operate evidence-led content portfolios through customer questions, content roles, pillars, claims and proof, native formats and channels, product paths, editorial workflows, reuse, measurement, refresh, and retirement</td></tr>
     <tr><td><a href="skills/ad-creative/">Ad&nbsp;Creative</a></td><td>Research, design, brief, audit, compare, localize, and learn from traceable advertising concepts and purposeful variants with explicit customer evidence, claims, proof, rights, placements, landing paths, accessibility, downstream outcomes, and fatigue controls</td></tr>
+    <tr><td><a href="skills/public-relations/">Public&nbsp;Relations</a></td><td>Plan, draft, audit, localize, and govern evidence-led PR narratives, press releases, media materials, spokesperson briefs, issue responses, facts, claims, quotes, rights, approvals, disclosures, corrections, coverage measurement, and crisis handoffs</td></tr>
   </tbody>
 </table>
 
