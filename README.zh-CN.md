@@ -101,6 +101,7 @@
   <tbody>
     <tr><td><a href="skills/monetization/">变现</a></td><td>梳理用户、购买者与付款人的价值关系，分析产品方案、包装、定价、付费转化、留存收入和单位经济性，并设计兼顾迁移、公平性与市场条件的商业体系</td></tr>
     <tr><td><a href="skills/referral-program-design/">推荐计划设计</a></td><td>围绕推荐人和接收人价值、触发时机、权限、落地连续性、奖励、身份、留存质量、增量性、经济性、反作弊、信任与运营，设计、诊断、测量并治理推荐计划</td></tr>
+    <tr><td><a href="skills/partnership-marketing/">合作伙伴营销</a></td><td>围绕共同客户价值、双方贡献、权利、数据、归因、经济性、运营与客户保护，评估、设计、试点、治理并退出联合营销、联合销售、渠道、联盟、集成、市场和生态合作</td></tr>
     <tr><td><a href="skills/sales-enablement/">销售赋能</a></td><td>围绕购买情境、资格判断、购买里程碑、声明、证据、替代方案、实施、价值实现与版本化一线学习，构建、诊断、本地化、治理并测量面向销售与买方的赋能资产</td></tr>
     <tr><td><a href="skills/landing-page-audit/">落地页诊断</a></td><td>通过固定六维评分与独立证据覆盖率，诊断来源到页面的信息连续性、价值、证据、层级、CTA、表单、摩擦、移动体验、无障碍、下游质量与测量准备度</td></tr>
     <tr><td><a href="skills/meta-ads-audit/">Meta Ads 诊断</a></td><td>在不访问或更改 Meta 实时账户的前提下，诊断用户提供的 Ads Manager CSV、创意清单、落地页、测量证据及聚合业务结果</td></tr>
