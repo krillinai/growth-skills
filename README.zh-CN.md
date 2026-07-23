@@ -79,6 +79,7 @@
     <tr><td><a href="skills/growth-metrics-design/">增长指标设计</a></td><td>审查 KPI（关键绩效指标）与北极星指标候选，设计连接客户价值的指标组合和标注证据关系的指标树，并在不虚构基准或因果关系的前提下，定义可复现的指标契约、护栏、目标、血缘、质量与治理机制</td></tr>
     <tr><td><a href="skills/tracking-plan/">数据追踪方案</a></td><td>通过明确的价值状态、事实来源、身份、同意、血缘、对账、QA、发布、回滚与废弃控制，设计、诊断或迁移可直接实施的事件与属性规范</td></tr>
     <tr><td><a href="skills/attribution-analysis/">归因分析</a></td><td>通过明确的结果、身份、来源、旅程、触点、回溯窗口、模型、未知状态、下游价值、收入、质量、隐私与增量边界，诊断、设计、比较并对账归因体系</td></tr>
+    <tr><td><a href="skills/ltv-analysis/">LTV（客户终身价值）分析</a></td><td>通过明确的客户实体、Cohort（同期群）、原始分母、价值与成本口径、成熟度、删失、时间范围、模型假设、不确定性、校准与决策边界，诊断、计算、预测、比较、验证并治理客户终身价值</td></tr>
     <tr><td><a href="skills/cohort-analysis/">Cohort 分析</a></td><td>定义基于时间、曝光、行为或状态的 Cohort，使用用户提供的事件或汇总数据构建考虑成熟度的矩阵，比较兼容群体，并在不虚构因果结论的前提下区分 Mix 变化与 Cohort 内部变化</td></tr>
     <tr><td><a href="skills/experiment-design/">实验设计</a></td><td>判断何时适合实验，设计或审查可信的因果及替代证据方案，并通过明确的分配、曝光、指标、功效、SRM、干扰、护栏和决策规则解读成熟结果</td></tr>
     <tr><td><a href="skills/funnel-analysis/">漏斗分析</a></td><td>冻结实体、资格、事件、分母、窗口、成熟度与 cohort 定义，分析价值状态间的转化和绝对流失，区分观察到的掉点与原因，诊断约束并设计证据边界清晰的改进方案</td></tr>
