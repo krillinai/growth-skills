@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Intelligence"
+  short_description: "Research and compare competitive alternatives"
+  default_prompt: "Use $competitive-intelligence to map alternatives, compare evidence, and monitor competitive changes for this decision."

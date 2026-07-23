@@ -60,6 +60,7 @@
     <tr><td><a href="skills/incentive-system-design/">激励系统设计</a></td><td>基于留存增量贡献、完整成本、激励后行为、欺诈、蚕食、公平与信任，诊断、设计、递减或停止奖励、折扣、额度、补贴、推荐、忠诚度、进度、身份与结构性激励</td></tr>
     <tr><td><a href="skills/product-market-fit-assessment/">产品市场匹配评估</a></td><td>综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证</td></tr>
     <tr><td><a href="skills/positioning/">市场定位</a></td><td>围绕明确的购买情境、真实替代方案、能力到价值的证据链、最佳适配与排除条件、品类决策、信息架构及验证计划，构建、诊断或修订证据边界清晰的市场定位</td></tr>
+    <tr><td><a href="skills/competitive-intelligence/">竞争情报</a></td><td>通过可归因来源、明确的新鲜度、产品与价格版本、能力与可用状态、客户证据、变化控制、不确定性和合乎伦理的访问边界，映射、研究、比较并监测与决策相关的替代方案</td></tr>
     <tr><td><a href="skills/icp-segmentation/">ICP&nbsp;与客户分群</a></td><td>通过可观察规则、明确排除条件、可比的价值与经济证据、差异化路径，以及隐私和公平性控制，发现、定义、验证并治理真正改变决策的客户分群与 ICP</td></tr>
     <tr><td><a href="skills/growth-loop-design/">增长循环设计</a></td><td>诊断增长机制是否真正闭合，衡量创造价值的关键转化，并在不执行外部操作的前提下，设计证据边界清晰的协作、推荐、内容、市场、数据或再投资循环</td></tr>
     <tr><td><a href="skills/network-effects-strategy/">网络效应策略</a></td><td>基于边界明确的网络单元、参与者价值、核心交互、难侧、本地流动性、质量、留存、多归属、拥堵、防御性、因果证据与市场特定的毕业门槛，诊断、冷启动、强化、复制、治理或停止网络效应策略</td></tr>
