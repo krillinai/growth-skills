@@ -35,6 +35,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
     <tr><td><a href="https://github.com/krillinai/autosocial-skills">Social&nbsp;Media&nbsp;Publishing</a></td><td>Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata</td></tr>
     <tr><td><a href="skills/copywriting/">Copywriting</a></td><td>Write evidence-led page, campaign, product, offer, and localization copy with explicit market, language, locale, channel, and claim-source controls, including native Simplified Chinese for China</td></tr>
     <tr><td><a href="skills/copy-editing/">Copy&nbsp;Editing</a></td><td>Review and edit existing copy for clarity, hierarchy, voice, claims, accessibility, CTA, and market, locale, and channel fit while preserving factual meaning and recording exact edits</td></tr>
+    <tr><td><a href="skills/content-strategy/">Content&nbsp;Strategy</a></td><td>Build, audit, and operate evidence-led content portfolios through customer questions, content roles, pillars, claims and proof, native formats and channels, product paths, editorial workflows, reuse, measurement, refresh, and retirement</td></tr>
   </tbody>
 </table>
 

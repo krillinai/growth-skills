@@ -35,6 +35,7 @@
     <tr><td><a href="https://github.com/krillinai/autosocial-skills">社交媒体自动发布</a></td><td>使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号</td></tr>
     <tr><td><a href="skills/copywriting/">文案创作</a></td><td>在明确市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案，并支持面向中国的原生简体中文表达</td></tr>
     <tr><td><a href="skills/copy-editing/">文案编辑</a></td><td>在不改变事实含义的前提下，审校并编辑现有文案的清晰度、信息层级、语气、声明、无障碍、行动号召及市场、区域设置与渠道适配，并记录逐项精确修改</td></tr>
+    <tr><td><a href="skills/content-strategy/">内容策略</a></td><td>通过客户问题、内容角色、主题支柱、声明与证据、原生格式与渠道、产品路径、编辑流程、复用、测量、更新与退场，构建、诊断并运营证据驱动的内容组合</td></tr>
   </tbody>
 </table>
 
