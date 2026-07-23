@@ -67,7 +67,7 @@ Return:
 8. validation, classification quality, experiment, governance, and retirement plan;
 9. owners, handoffs, Playbook references, and external-action boundary.
 
-Route customer evidence acquisition to `customer-research`, positioning implications to `positioning`, cohort construction to `cohort-analysis`, causal path tests to `experiment-design`, activation paths to `activation`, retention work to `retention`, commercial paths to `monetization`, and sales execution to the appropriate sales capability.
+Route customer evidence acquisition to `customer-research`, positioning implications to `positioning`, cohort construction to `cohort-analysis`, primary-constraint selection to `growth-diagnosis`, causal path tests to `experiment-design`, activation paths to `activation`, retention work to `retention`, commercial paths to `monetization`, campaign audiences to `campaign-planning`, and permitted one-to-one B2B execution to `b2b-outbound-messaging`.
 
 For China work, keep market, language, locale, product surface, participant unit, platform, channel, device, app distribution, payment, identity, consent, data access, applicable review, and competitive context separate. Do not infer a platform, payment method, regulatory condition, or customer trait from market or language. Use only decision-necessary sensitive data after appropriate privacy, fairness, legal, and ethical review.
 
