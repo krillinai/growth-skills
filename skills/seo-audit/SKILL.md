@@ -53,6 +53,12 @@ Default checks to bounded, read-only access. Require explicit authorization for 
 
 Downstream polish cannot outrank an upstream blocker. Consult [source-notes.md](references/source-notes.md) for factual search-engine or platform rules, and expose relevant sources in the report.
 
+## Handle Markets And China
+
+Treat each search provider, product or surface, property and canonical domain, market, language, locale, device context, capture date, inventory or sample, and private data source as a separate evidence boundary. A crawl, index state, ranking, webmaster export, traffic diagnosis, rule, or recommendation from one boundary does not validate another. Translation does not preserve search demand, intent, indexing, ranking, or performance evidence.
+
+For mainland China, keep market, legal entity, language, locale, property, provider, product, domain, app or web surface, crawling, rendering, indexing, webmaster data, structured data, content, advertising, data access, and locally accountable review separate. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct official sources for provider-specific rules or mark them `unavailable`; do not transfer Google or Bing behavior to Baidu or another provider, infer provider availability, or make legal, regulatory, causal, ranking, traffic, or performance conclusions. Missing local or provider evidence is a limitation, not a negative finding.
+
 ## Report
 
 Default report: scope, available and unavailable evidence/capabilities, executive assessment, priority findings, grouped findings, a dependency-sequenced action plan, and limitations. Keep claims within the inspected sample.
