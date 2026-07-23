@@ -91,6 +91,7 @@
     <tr><td><a href="skills/activation/">激活</a></td><td>基于证据定义并分析第一价值，诊断新手引导与激活路径约束，设计适用于不同入口状态、产品层级及消费级、B2B、平台型、AI、低频或人工辅助产品的激活干预</td></tr>
     <tr><td><a href="skills/lifecycle-marketing/">生命周期营销</a></td><td>在明确消息分类、渠道许可、抑制状态与外部操作边界的前提下，规划、撰写、审校和本地化覆盖欢迎、激活、事务服务、留存、召回与活动推广的邮件、短信、微信公众号、小程序订阅消息、企业微信和 WhatsApp 沟通</td></tr>
     <tr><td><a href="skills/retention/">留存</a></td><td>基于证据定义并分析同期群留存，诊断持续价值、流失与复活机制，设计覆盖用户、账户、产品和收入层级的留存体系</td></tr>
+    <tr><td><a href="skills/customer-expansion-strategy/">客户扩张策略</a></td><td>围绕活跃席位、使用深度、工作流、产品、团队、产品合格扩张信号、采用与商业结果对账、留存贡献和客户保护，审计、设计、排序、测量并治理既有客户关系内的价值扩张</td></tr>
   </tbody>
 </table>
 
@@ -106,6 +107,7 @@
     <tr><td><a href="skills/partnership-marketing/">合作伙伴营销</a></td><td>围绕共同客户价值、双方贡献、权利、数据、归因、经济性、运营与客户保护，评估、设计、试点、治理并退出联合营销、联合销售、渠道、联盟、集成、市场和生态合作</td></tr>
     <tr><td><a href="skills/sales-enablement/">销售赋能</a></td><td>围绕购买情境、资格判断、购买里程碑、声明、证据、替代方案、实施、价值实现与版本化一线学习，构建、诊断、本地化、治理并测量面向销售与买方的赋能资产</td></tr>
     <tr><td><a href="skills/landing-page-audit/">落地页诊断</a></td><td>通过固定六维评分与独立证据覆盖率，诊断来源到页面的信息连续性、价值、证据、层级、CTA、表单、摩擦、移动体验、无障碍、下游质量与测量准备度</td></tr>
+    <tr><td><a href="skills/popup-optimization/">弹窗优化</a></td><td>通过明确的相关性、资格、触发、频率、抑制、同意、关闭、无障碍、移动端、性能、下游价值与护栏，设计、诊断、本地化并实验尊重用户的弹窗、模态框、横幅、滑入层和插屏体验</td></tr>
     <tr><td><a href="skills/meta-ads-audit/">Meta Ads 诊断</a></td><td>在不访问或更改 Meta 实时账户的前提下，诊断用户提供的 Ads Manager CSV、创意清单、落地页、测量证据及聚合业务结果</td></tr>
     <tr><td><a href="skills/google-ads-audit/">Google Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 Google Ads 广告活动、转化、搜索、购物、Performance Max、创意、落地页、测量与聚合业务证据</td></tr>
     <tr><td><a href="skills/tiktok-ads-audit/">TikTok Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 TikTok 国际广告结构、短视频创意、Spark Ads 权限、落地页、事件、归因与聚合业务证据</td></tr>
