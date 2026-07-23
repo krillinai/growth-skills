@@ -71,7 +71,7 @@ Retrieval date for every record: **2026-07-23**.
 - Title: **概述 - 文档 - 企业微信开发者中心**
 - Direct URL: https://developer.work.weixin.qq.com/document/path/92109
 - Publisher/product: 企业微信开发者中心 / 客户联系
-- Exposed date: page section **接口调整说明 2025/11/18**; no stable overall page date exposed
+- Exposed date: last updated **2025-11-17**
 - Exact narrow supported claim: the page says enterprise employees can add contacts from external enterprises, distinguishes enterprise-WeCom and WeChat external contacts, and says administrators configure which members can use customer-contact functions; without that configuration, the described related interfaces cannot be called.
 - Limitation/access state: public page returned HTTP 200 with inspectable text. It describes product concepts and configuration, not recipient consent, a universal messaging right, or a particular enterprise/member/account's current status.
 
@@ -86,9 +86,9 @@ Retrieval date for every record: **2026-07-23**.
 - Exact narrow supported claim: the page says businesses must obtain opt-in before messaging people on WhatsApp and identifies clear disclosure of the business name and communication as opt-in requirements; it also says users should have clear opt-out instructions and requests should be honored.
 - Limitation/access state: direct Markdown returned HTTP 200 with inspectable text. The page leaves applicable-law assessment to the business and does not prove a specific recipient, purpose, account, template, or message is permitted or compliant.
 
-### Template Messages
+### WhatsApp Template Source
 
-- Title: **Template messages** from the redirected URL; relevant article text unavailable
+- Title: `unavailable` from the failed response; the HTTP 500 page title **Error** does not establish the official document title
 - Direct URL: https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/template-messages
 - Publisher/product: Meta / WhatsApp Business Platform
 - Exposed date: `unavailable`
@@ -102,7 +102,7 @@ Retrieval date for every record: **2026-07-23**.
 - Title: **Twilio Messaging Policy**
 - Direct URL: https://www.twilio.com/en-us/legal/messaging-policy
 - Publisher/product: Twilio / Messaging Services
-- Exposed date: `unavailable` in the inspected text
+- Exposed date: Last Updated **2026-04-13**
 - Exact narrow supported claim: Twilio's policy says consent must be informed and tied to each sender and message subject, distinguishes informational and promotional messages, requires sender identification and an accessible opt-out, and says later messages are prohibited after opt-out unless the recipient subsequently provides consent.
 - Limitation/access state: public page returned HTTP 200 with inspectable text. These are Twilio policy statements, not universal international SMS rules or a legal conclusion; destination-country, route, sender, provider, and current account requirements remain context-specific.
 
