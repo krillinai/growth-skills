@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copywriting"
+  short_description: "Write evidence-bounded conversion copy"
+  default_prompt: "Use $copywriting to draft a bounded page, campaign, product, offer, or localized copy package from supportable product truth."

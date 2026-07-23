@@ -1,0 +1,4 @@
+interface:
+  display_name: "ASO Audit"
+  short_description: "Audit App Store and Google Play listings"
+  default_prompt: "Use $aso-audit to audit a bounded App Store or Google Play listing with fixed evidence and scoring rules."

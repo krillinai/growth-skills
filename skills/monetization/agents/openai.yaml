@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monetization"
+  short_description: "Analyze and design sustainable value capture"
+  default_prompt: "Use $monetization to analyze or design value, offers, packaging, pricing, revenue, and sustainable economics."

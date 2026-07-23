@@ -1,0 +1,4 @@
+interface:
+  display_name: "Activation"
+  short_description: "Define and diagnose meaningful first value"
+  default_prompt: "Use $activation to define, analyze, or improve first value with explicit evidence, eligibility, maturity, and downstream validation."

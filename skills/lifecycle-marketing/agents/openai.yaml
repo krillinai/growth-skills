@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lifecycle Marketing"
+  short_description: "Plan permission-aware lifecycle messaging"
+  default_prompt: "Use $lifecycle-marketing to plan or draft bounded lifecycle messaging after classification, permission, and suppression gates are resolved."

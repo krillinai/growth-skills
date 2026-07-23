@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO Audit"
+  short_description: "Audit AI-search readiness and observed visibility"
+  default_prompt: "Use $geo to audit bounded AI-search readiness or observed visibility with traceable evidence and separate scoring."
