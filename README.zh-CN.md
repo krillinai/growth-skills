@@ -49,6 +49,17 @@
   </tbody>
 </table>
 
+### 生命周期运营
+
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/lifecycle-messaging/">生命周期消息运营</a></td><td>在明确消息分类、渠道许可、抑制状态与外部操作边界的前提下，规划、撰写、审校和本地化覆盖欢迎、激活、事务服务、留存、召回与活动推广的邮件、短信、微信公众号、小程序订阅消息、企业微信和 WhatsApp 沟通</td></tr>
+  </tbody>
+</table>
+
 ### 获客转化
 
 <table>

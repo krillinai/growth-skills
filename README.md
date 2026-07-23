@@ -49,6 +49,17 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   </tbody>
 </table>
 
+### Lifecycle Engagement
+
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/lifecycle-messaging/">Lifecycle&nbsp;Messaging</a></td><td>Plan, draft, review, and localize evidence-bounded welcome, activation, transactional, retention, win-back, and campaign messaging across email, SMS, WeChat, WeCom, and WhatsApp with explicit classification, permission, suppression, and external-action controls</td></tr>
+  </tbody>
+</table>
+
 ### Acquisition and Conversion
 
 <table>
