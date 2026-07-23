@@ -46,6 +46,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   </thead>
   <tbody>
     <tr><td><a href="skills/growth-diagnosis/">Growth&nbsp;Diagnosis</a></td><td>Identify the primary growth constraint from attributable evidence and route a market-aware 30-day decision plan across acquisition, activation, retention, monetization, growth loops, and growth systems</td></tr>
+    <tr><td><a href="skills/customer-research/">Customer&nbsp;Research</a></td><td>Plan responsible customer research, synthesize attributable interviews, reviews, surveys, support, win/loss, and behavioral evidence, and translate bounded findings and counterevidence into decision-ready customer insight</td></tr>
   </tbody>
 </table>
 

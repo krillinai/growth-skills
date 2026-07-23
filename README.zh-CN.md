@@ -46,6 +46,7 @@
   </thead>
   <tbody>
     <tr><td><a href="skills/growth-diagnosis/">增长诊断</a></td><td>基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径</td></tr>
+    <tr><td><a href="skills/customer-research/">客户研究</a></td><td>规划负责任的客户研究，综合可归因的访谈、评论、问卷、支持、赢单、输单和行为证据，并将边界清晰的发现、反证与不确定性转化为可决策的客户洞察</td></tr>
   </tbody>
 </table>
 
