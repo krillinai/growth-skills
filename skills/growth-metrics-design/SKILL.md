@@ -75,6 +75,20 @@ Treat every market as a new metric evidence boundary. Revalidate customer and pa
 
 For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data source, consent, storage and transfer, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, accounting, causal, or performance conclusions. Keep the system `partially specified` or `hypothesis` until compatible local contracts and evidence support another verdict.
 
+## Route Specialist Work
+
+This Skill owns metric roles, contracts, constellation and tree design, relationship labels, guardrails, and measurement governance. Route adjacent artifacts without recreating them:
+
+| Need | Route |
+| --- | --- |
+| Primary-constraint selection | `growth-diagnosis` |
+| Value-state transitions or equal-maturity comparisons | `funnel-analysis`, `cohort-analysis` |
+| Decision-critical identity, completeness, validity, lineage, or reconciliation defects | `growth-data-quality-audit` |
+| Organization target commitments or time-indexed projections | `growth-target-setting`, `growth-forecasting` |
+| One causal test or a cross-team experiment portfolio | `experiment-design`, `experiment-program-management` |
+| Recurring weekly, monthly, or quarterly decision review | `growth-operating-review` |
+| First value, recurring value, monetization, or returned-input mechanisms | `activation`, `retention`, `monetization`, `growth-loop-design` |
+
 ## Deliver In Order
 
 Return:
@@ -88,8 +102,6 @@ Return:
 7. evidence, compatibility, quality, lineage, target, benchmark, and limitation ledger;
 8. instrumentation, reconciliation, governance, and 30-day validation plan;
 9. Playbook sources, capability handoffs, and external-action boundary.
-
-Route primary-constraint selection to `growth-diagnosis`; value-state transitions to `funnel-analysis`; equal-maturity comparisons to `cohort-analysis`; causal validation to `experiment-design`; first value to `activation`; recurring value to `retention`; pricing and economics to `monetization`; and returned-input mechanisms to `growth-loop-design`.
 
 ## External-Action Boundary
 

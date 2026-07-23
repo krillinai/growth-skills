@@ -181,6 +181,22 @@
         "Does not access systems, change metrics, publish dashboards, or claim implementation. [eval 3611]"
       ],
       "files": []
+    },
+    {
+      "id": 3612,
+      "prompt": "Use $growth-metrics-design after the metric system is specified. Keep every downstream artifact inside metric design itself: audit decision-critical cross-source identity, completeness, validity, lineage, and reconciliation defects; set organization targets from versioned baselines and capacity; build a time-indexed forecast with vintages and uncertainty; govern 200 experiments across teams; and run a recurring monthly decision review using the approved metrics.",
+      "expected_output": "Keeps metric design responsible for metric roles, contracts, tree relationships, guardrails, and measurement governance while routing the five downstream artifacts to their owning Skills.",
+      "assertions": [
+        "Keeps growth-metrics-design responsible for metric roles, contracts, tree relationships, guardrails, and measurement governance. [eval 3612]",
+        "Routes decision-critical cross-source data defects to growth-data-quality-audit. [eval 3612]",
+        "Routes organization target commitments to growth-target-setting. [eval 3612]",
+        "Routes time-indexed projections, vintages, and uncertainty to growth-forecasting. [eval 3612]",
+        "Routes a cross-team experiment portfolio to experiment-program-management. [eval 3612]",
+        "Routes recurring monthly decision review to growth-operating-review. [eval 3612]",
+        "Does not recreate specialist artifacts inside metric design. [eval 3612]",
+        "Preserves compatible metric versions, evidence, owners, decision use, and authority in each handoff. [eval 3612]"
+      ],
+      "files": []
     }
   ]
 }
