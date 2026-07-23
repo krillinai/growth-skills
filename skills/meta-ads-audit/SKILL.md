@@ -24,7 +24,7 @@ Name one primary mode. A partial input is still useful when it supports that mod
 
 ## Freeze The Decision Boundary
 
-Record the decision, owner, market, dates, currency, objective, qualified outcome, comparison window, maturation window, economic boundary, constraints, and requested action. Clarify whether the user needs evidence collection, diagnosis, test design, or an authorized operational workflow.
+Record the decision, owner, advertiser or company market, ad-account context, targeted audience location, destination market, language, locale, dates, currency, billing basis, objective, qualified outcome, comparison window, maturation window, economic boundary, constraints, and requested action. Clarify whether the user needs evidence collection, diagnosis, test design, or an authorized operational workflow.
 
 Do not convert pressure to scale, cut spend, pause ads, or hit a reported target into permission or evidence. If contribution, payback, new-customer quality, capacity, or causal evidence is missing, state which decision remains blocked and what would resolve it.
 
@@ -53,11 +53,17 @@ Never request raw customer records, credentials, access tokens, custom audiences
 
 Use internal trends and declared economics. Do not impose a universal campaign count, account structure, frequency limit, creative volume, CPA, CAC, ROAS, or scaling threshold. Treat Meta-reported attribution as operating evidence, not proof of incrementality.
 
+## Transfer Across Markets
+
+Treat each advertiser or company market, ad-account context, targeted audience location, destination market, language, locale, currency, billing basis, attribution setting, consent and data boundary, creative and rights context, and business-outcome source as a separate evidence boundary. A US export, result, creative winner, threshold, or account structure does not validate another market. Translation and currency conversion do not establish local customer value, economics, or performance.
+
+For mainland China, keep legal entity, market, language, locale, account, target audience location, placement, destination, identity, payment, invoice, currency, data, consent, content, advertising, support, and locally accountable review separate. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct provider sources and local expertise; do not infer account, audience, placement, payment, or provider availability and do not make legal, tax, regulatory, causal, or performance conclusions. Missing local evidence is `unavailable`, not a reason to reuse another market's result.
+
 ## Deliver In Order
 
 Return:
 
-1. mode, decision, owner, market, dates, currency, objective, qualified outcome, and economic boundary;
+1. mode, decision, owner, advertiser market, account context, target audience location, destination market, language, locale, dates, currency, billing basis, objective, qualified outcome, and economic boundary;
 2. input inventory, definitions, evidence states, coverage, validation results, and limitations;
 3. account and delivery observations;
 4. creative concept, variant, execution, fatigue-signal, creator, and rights coverage;
