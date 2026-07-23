@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Video"
+  short_description: "Create and audit marketing video systems"
+  default_prompt: "Use $marketing-video to brief, script, create, adapt, or audit this marketing video."
