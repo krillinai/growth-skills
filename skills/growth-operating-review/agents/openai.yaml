@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Operating Review"
+  short_description: "Turn growth reviews into governed decisions"
+  default_prompt: "Use $growth-operating-review to build a decision-focused weekly, monthly, or quarterly growth review from supplied evidence."
