@@ -1,67 +1,65 @@
-# Postmortem Contract
+# Growth Postmortem Contract
 
-## Define The Reviewable Unit
+## Reviewed Unit
 
-Use one bounded unit with a stable ID:
+Define one unit before review:
 
-- growth initiative or portfolio bet;
-- experiment or alternative evidence design;
-- product, feature, migration, or market launch;
-- campaign, channel, lifecycle, pricing, incentive, or partnership change;
-- market entry or exit decision;
-- data, metric, infrastructure, process, or organization change;
-- target, forecast, budget, planning, or resource decision;
-- incident only after immediate response and specialist investigation are separated.
+- initiative, experiment, campaign, launch, pricing or packaging change, market entry, incentive, partnership, growth-system change, incident, or planning period;
+- unit ID and version, source decision, accountable owner, product, customer, participant roles, market, locale, start and end, exposure and maturity windows, state, scope, exclusions, and related units;
+- eligibility and inclusion rule, including completed, stopped, cancelled, expired, harmful, invalid, inconclusive, active, and never-launched states;
+- intended postmortem decisions, required approver, evidence cutoff, correction cutoff, review date, next refresh, and expiry.
 
-Split units when decisions, customers, products, markets, metrics, owners, timelines, evidence, economics, or actions differ materially. Coordinate shared effects without blending them.
-
-## Freeze Required Fields
-
-| Field | Requirement |
-| --- | --- |
-| Identity | Postmortem ID, version, mode, state, reviewed-unit type and ID, and superseded record |
-| Original lineage | Plan, decision, metric, target, forecast, budget, experiment, release, strategy, and approval versions as applicable |
-| Accountability | Review owner, original decision owner, outcome owner, artifact owners, contributors, approvers, and participant-account boundary |
-| Scope | Customer and participant roles, product, model, market, locale, included outcomes, exclusions, and non-goals |
-| Time | Original decision cutoffs, planned and actual periods, event and processing time, evidence cutoff, maturity, review, follow-up, and expiry |
-| Governance | Source access, privacy, employment, legal and risk handoffs, correction rights, publication, system, spend, and external-action boundaries |
-
-Do not silently change the reviewed unit after outcomes are visible.
-
-## Use Explicit States
-
-| State | Meaning |
-| --- | --- |
-| `draft` | Scope, lineage, owners, or required evidence is incomplete |
-| `evidence-pending` | Required outcomes, corrections, maturity, or specialist evidence is unavailable |
-| `review-ready` | The record is complete enough for accountable interpretation and decisions |
-| `accepted` | The accountable owner accepted the bounded findings and decisions, with evidence |
-| `actions-open` | Accepted follow-up commitments remain unresolved |
-| `closed` | Required review obligations and actions have attributable completion or expiry records |
-| `superseded` | A later version replaces this record while preserving history |
-| `expired` | A finding, action, transfer rule, or review period lapsed without renewal |
-
-None of these states proves a root cause, business impact, action effectiveness, or system improvement.
-
-## Preserve The Original Snapshot
-
-For each original decision record:
-
-- problem, customer state, decision, alternatives, exclusions, and owner;
-- evidence, counterevidence, unavailable inputs, assumptions, and uncertainty;
-- metric, baseline, target, forecast, scenario, opportunity, economics, and capacity;
-- expected mechanism, outcome, maturity, guardrails, risks, and failure signals;
-- approval, authorization, scope, budget, dependencies, stop, rollback, and review rules;
-- artifact IDs, versions, sources, timestamps, and effective periods.
-
-Keep later outcomes and interpretations separate. Evaluate the decision against this snapshot, not the final result.
+Do not combine units merely because they share a quarter, team, metric, or executive sponsor. Use a portfolio view only after each unit has a stable identity and compatible evidence.
 
 ## Select Reviews Consistently
 
-Define the population and trigger for mandatory, sampled, or optional postmortems. Include positive, negative, flat, harmful, inconclusive, invalid, stopped, cancelled, expired, and never-launched work when the trigger applies.
+Define the complete population and trigger for mandatory, sampled, or optional postmortems before outcomes are selected. Useful triggers include material customer or economic exposure, an unexpected outcome, guardrail breach, irreversible commitment, large resource use, important uncertainty resolved or left unresolved, repeated failure, reusable capability change, or a portfolio decision.
 
-Useful triggers include material customer or economic exposure, unexpected outcome, guardrail breach, irreversible commitment, large resource use, important uncertainty resolved or left unresolved, repeated failure, reusable capability change, or portfolio decision. Do not select only stories useful for celebration or blame.
+Include positive, negative, flat, harmful, inconclusive, invalid, stopped, cancelled, expired, active, and never-launched work when the trigger applies. If sampling is necessary, preserve the frame, method, exclusions, missing cases, and bias. Do not select only stories useful for celebration or blame.
 
-## Separate Evidence And Accounts
+## Source Artifact Manifest
 
-Use `verified`, `inferred`, `unavailable`, or `not applicable` for evidence. Preserve stakeholder or participant statements as attributable accounts with date, role, scope, and limitation. Agreement among participants does not independently verify a metric, event, cause, or action.
+| Artifact | Required fields |
+| --- | --- |
+| Strategy and constraint | ID, version, customer, market, choice, exclusion, mechanism, owner, cutoff |
+| Decision | question, alternatives, evidence, uncertainty, rationale, owner, approver, date, expiry |
+| Metrics | entity, eligibility, numerator, denominator, window, cohort, maturity, source, version |
+| Baseline and target | definition, value, period, segment, source, basis, owner, approval state |
+| Forecast and scenario | vintage, as-of date, horizon, assumptions, method, range, owner, use |
+| Opportunity and economics | unit, eligible population, value basis, costs, cash, timing, uncertainty |
+| Plan and initiative | outcome, workstreams, milestones, capacity, budget, dependencies, guardrails, stop rules |
+| Implementation and exposure | release, eligibility, assignment, exposure, adoption, change, rollback, verification |
+| Outcomes and incidents | customer, business, economic, quality, trust, harm, support, maturity, correction |
+| Follow-up | decision, proposed owner, approval, artifact, evidence gate, proof, review, expiry |
+
+For every artifact preserve source, owner, date, version, as-of and evidence cutoff, effective period, state, market, segment, entity, limitations, contradictions, amendment, superseded version, and decision served.
+
+## Evidence States
+
+Use exactly:
+
+- `verified`: attributable evidence directly supports the bounded claim;
+- `inferred`: explicit reasoning connects evidence to a claim but does not directly verify it;
+- `unavailable`: required evidence is absent, inaccessible, immature, incompatible, or not supplied;
+- `not applicable`: the field does not apply to the declared unit and decision.
+
+Keep a participant's attributable account as a `reported signal` until corroborated. Do not use labels such as complete, approved, severe, successful, failed, causal, adopted, or closed as evidence states.
+
+## State And Outcome
+
+Postmortem state:
+
+- `draft`: contract exists but review is incomplete;
+- `evidence-pending`: required outcomes, corrections, maturity, or specialist evidence is unavailable;
+- `review-ready`: the record is complete enough for accountable interpretation and decisions;
+- `accepted`: an attributable accountable owner accepted the bounded findings and decisions;
+- `actions-open`: accepted follow-up commitments remain unresolved;
+- `closed`: required review obligations and actions have completion, supersession, cancellation, or expiry records;
+- `superseded`: a later version replaces this record without erasing it;
+- `expired`: the review no longer supports the intended decision.
+
+Classify each outcome dimension separately as `beneficial`, `harmful`, `flat`, `directional`, `inconclusive`, `invalid`, `not mature`, or `unavailable`, with evidence and scope. Do not reduce customer, business, economic, quality, risk, or learning outcomes to one success label.
+
+## Authority Boundary
+
+Record who may review, decide, approve, authorize, execute, verify, and accept follow-up work. These may be different roles. A postmortem owner, facilitator, contributor, meeting attendee, comment, recommendation, or action row does not prove decision authority, acceptance, authorization, or execution.

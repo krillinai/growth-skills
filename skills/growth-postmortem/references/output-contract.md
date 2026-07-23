@@ -4,57 +4,54 @@
 
 Return:
 
-1. mode, postmortem ID and version, state, reviewed unit and original artifact versions, owners, scope, market, periods, cutoffs, maturity, review, expiry, privacy, and external-action boundary;
-2. original-state snapshot with evidence, assumptions, targets, forecasts, alternatives, decisions, approvals, plans, risks, guardrails, and unavailable inputs;
-3. source and evidence ledger plus versioned proposal-to-follow-up timeline, participant accounts, contradictions, corrections, and unknowns;
-4. planned-versus-actual input, activity, output, exposure, customer, business, economic, capacity, opportunity-cost, guardrail, and residual-obligation reconciliation;
-5. separate outcome, decision, evidence, execution, coordination, system, protection, and learning quality review;
-6. mechanism and causal-status ledger with alternatives, counterevidence, confounding, interference, maturity, and next evidence;
-7. durable learning and action register with transfer boundaries, owners, gates, proof, expiry, and operating-review handoffs;
-8. market, privacy, governance, corrections, pinned sources, approval-ready external actions, and completion record.
+1. postmortem ID and version, mode and state, reviewed unit and inclusion rule, source decision and artifact versions, owner, authority, scope, market, period, evidence and correction cutoffs, maturity, privacy, prior version, intended decisions, and external-action boundary;
+2. source artifact and evidence manifest with states, owners, versions, lineages, amendments, contradictions, maturity, missing inputs, and decisions served;
+3. ex-ante record and version bridges for strategy, assumptions, alternatives, metrics, baseline, target, forecast, opportunity, plan, budget, capacity, risks, approvals, and decision rules;
+4. versioned timeline covering decisions, implementation, eligibility, assignment, exposure, adoption, outcomes, concurrent changes, incidents, stops, rollback, recovery, corrections, and review;
+5. planned-versus-actual reconciliation for activity, exposure, customer value, business outcome, economics, cash, capacity, opportunity cost, quality, trust, harm, and residual obligations;
+6. causal and cause register with identification, assumptions, uncertainty, counterevidence, alternatives, status, discriminating evidence, and specialist route;
+7. separate outcome, decision, evidence, execution, coordination, system, protection, and learning quality findings;
+8. learning and action registers with transfer limits, affected artifacts, owner roles, approvals, dependencies, gates, completion and effectiveness proof, review, and expiry;
+9. portfolio eligibility, market transfer, privacy, people, harm, incident, governance, and residual-risk boundaries;
+10. specialist and operating-review handoffs, relevant pinned Growth Playbook sources, proposed external actions, and completion record.
 
-## Original-State Register
+## Planned-Versus-Actual Register
 
-| Original artifact and version | Decision and owner | Evidence / assumptions / unknowns | Baseline / target / forecast / plan | Alternatives / exclusions | Approval / authorization / guardrails | Cutoff / effective / review |
+| Layer | Original plan / basis | Compatible actual | Variance / bridge | Maturity and quality | Evidence and contradiction | Interpretation and decision |
 | --- | --- | --- | --- | --- | --- | --- |
 
-Keep ex-ante and ex-post evidence separate.
+Do not treat variance as cause or activity as impact. Use separate views when definitions or value bases differ.
 
-## Evidence And Timeline Register
+## Causal And Cause Register
 
-| Event or evidence | Time / timezone / maturity | Unit and scope | Source / version / owner | Evidence state / account boundary | Contradiction / correction / unknown | Decision effect |
+| Observation | Claim type | Method and assumptions | Supporting / contradictory / missing evidence | Scope and uncertainty | Cause status | Next evidence / route |
 | --- | --- | --- | --- | --- | --- | --- |
 
-Separate decision, approval, authorization, exposure, outcome, rollback, recovery, and correction.
+Claim type must distinguish observation, sequence, association, attribution, contribution, causal estimate, and root cause. Cause status must be `supported`, `plausible`, `contradicted`, `unresolved`, or `not tested`.
 
-## Planned-Versus-Actual Reconciliation
+## Quality Register
 
-| Layer | Planned or expected | Observed and mature | Metric / source / evidence | Variance / revision / residual | Cost / capacity / guardrail | Interpretation boundary |
-| --- | --- | --- | --- | --- | --- | --- |
+| Dimension | Finding | Evidence and counterevidence | Controllable / external / unresolved | Decision implication |
+| --- | --- | --- | --- | --- |
 
-Do not turn delivery into impact, a target miss into a cause, or gross revenue into net value.
+Use separate rows for outcome, decision, evidence, execution, coordination, system, protection, and learning quality. Do not score people or collapse dimensions into one rating.
 
-## Quality Review
+## Learning Register
 
-| Quality layer | Original standard | Evidence and outcome | Strength | Failure or tradeoff | Decision implication | Owner and follow-up |
-| --- | --- | --- | --- | --- | --- | --- |
+| Observation | Interpretation | Evidence and causal status | Decision implication | Valid scope and transfer boundary | Artifact change | Owner / approval | Adoption and effectiveness proof | Review / expiry |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-Use separate outcome, decision, evidence, execution, coordination, system, protection, and learning views without a composite score.
+Do not count documentation, distribution, or lesson volume as adoption.
 
-## Mechanism And Causal Ledger
+## Action And Handoff Register
 
-| Observation or candidate | Population / onset / lag | Supporting evidence | Contradiction / alternative / confounding | Causal status | Next discriminating evidence | Owner and decision |
-| --- | --- | --- | --- | --- | --- | --- |
+| Class | Decision / artifact / state | Evidence and risk | Proposed owner / approver | Dependencies / capacity | Due or maturity / expiry | Gate / guardrail / stop / rollback | Completion and effectiveness proof | Route / acceptance / permission |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-Use `descriptive`, `associated`, `causally supported`, `contradicted`, `invalid`, or `unresolved` only when warranted.
+A proposed action, owner, deadline, approval request, or handoff does not prove acceptance, authorization, execution, completion, adoption, or effect.
 
-## Learning And Action Register
+## Completion Record
 
-| Learning or action | Retain / revise / invalidate / unresolved / transfer state | Evidence / counterevidence / boundary | Decision or artifact changed | Owner / dependency / approval | Date / proof / expiry | Guardrail / stop / rollback / handoff |
-| --- | --- | --- | --- | --- | --- | --- |
+State which required sections pass, fail, or remain unavailable; which conclusions are blocked; which source and postmortem versions remain current; which specialist decisions and evidence are required; what external actions were proposed; and whether any external action occurred.
 
-Generic advice, publication, training attendance, or open-ended status is not adoption or completion.
-
-## Completion Gate
-
-Confirm that postmortem, version, mode, state, reviewed unit, original plan, decision, metric, target, forecast, budget, experiment, release, strategy, owner, participants, customer, product, model, market, locale, scope, periods, cutoffs, maturity, sources, evidence, assumptions, alternatives, approvals, authorization, timeline, exposure, outcomes, economics, capacity, opportunity cost, guardrails, obligations, quality layers, mechanisms, causal status, counterevidence, learning, transfer, actions, proof, expiry, privacy, governance, corrections, handoffs, pinned sources, and external actions are explicit; review selection was not biased to visible outcomes; history was not rewritten; activities were not called impact; target and forecast variance were not called causes; favorable evidence was not cherry-picked; value was not double counted; costs and harms were not omitted; experiment invalidity was not hidden; sequence and belief did not become root cause; result quality did not become decision quality; blame and sensitive data were excluded; generic lessons became no false adoption; market transfer was revalidated; execution and improvement were not invented; and no external action occurred.
+Confirm the reviewed unit, inclusion rule, source artifacts, original and later versions, evidence states, timeline, compatibility, maturity, customer and business outcomes, economics, capacity, opportunity costs, guardrails, harm, causal boundaries, causes, quality dimensions, learning, actions, owners, approvals, gates, transfer, privacy, handoffs, pinned sources, and action boundaries are explicit; hindsight did not rewrite history; selection did not hide negative or missing evidence; status and activity did not become impact; customers and value were not duplicated; attribution and sequence did not become causality; result did not become decision quality; people were not ranked; generic lessons did not become adoption; and no unapproved external action or result was claimed.

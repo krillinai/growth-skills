@@ -1,54 +1,60 @@
 # Governance, Market Transfer, And Actions
 
-## Facilitate Accountability Without Blame
+## Portfolio Eligibility And Selection
 
-Define the review owner, decision owner, evidence owners, contributors, approvers, and facilitators. Use roles in the shared artifact unless a name is necessary and authorized. Separate who held a decision right, supplied evidence, executed work, approved risk, and owned follow-up.
+Define the complete eligible population before selecting postmortems. Include benefit, harm, flat, directional, inconclusive, invalid, stopped, cancelled, expired, active, and never-launched states under a consistent rule. If sampling is necessary, preserve the frame, selection method, exclusions, missing cases, and bias.
 
-Do not publish private messages, rank people, assign personal fault from company outcomes, or use the postmortem for compensation, performance, promotion, termination, or other consequential employment decisions. Route those decisions to accountable HR, employment, legal, fairness, and management processes with independent evidence.
+Do not measure learning quality with postmortem count, win rate, experiment velocity, document volume, or lesson volume alone. Use decision changes, reused evidence, corrected systems, retired work, prevented repetition, and verified follow-through with their own limitations.
 
-Blameless does not mean ownerless. Preserve decisions, accepted commitments, missed obligations, overrides, escalations, and completion proof without humiliation or retaliation.
+## Accountability Without Blame
+
+Use roles, decision rights, accepted commitments, interfaces, approvals, controls, escalation, and inspectable proof. Do not infer motive, competence, negligence, intent, or personal causality from an initiative outcome. Do not publish private messages, performance reviews, ratings, compensation, or raw employee records.
+
+Employment, bonus, promotion, termination, legal, insurance, credit, health, housing, pricing, service denial, and other consequential individual decisions require separate authorized processes. Do not rank people or provide a postmortem score for those uses.
 
 ## Protect Review Integrity
 
 Predeclare scope, evidence cutoff, selection rule, participants, conflict handling, correction process, acceptance owner, publication boundary, and review expiry. Preserve dissent, contradictory sources, and unresolved findings. Seniority and consensus do not determine evidence state.
 
-Record amendments and corrections with prior text, new evidence, owner, date, reason, affected decisions, and whether the postmortem must reopen. Do not silently edit a distributed record.
+Record every amendment or correction with the prior statement, new evidence, owner, date, reason, affected decisions, and whether the postmortem must reopen. Do not silently edit a distributed record.
 
-## Transfer Across Markets
+## Privacy And Fairness
 
-Treat every market as a separate evidence and operating boundary. Revalidate:
+Use the minimum evidence necessary. Prefer aggregate, redacted, pseudonymous, access-controlled records with small-cell suppression. Define purpose, authority, lawful and ethical basis, consent where required, access, retention, deletion, audit, correction, and incident handling.
 
-- customer and payer roles, problem, value, product, offer, channel, platform, and exposure;
-- metric definitions, baseline, target, forecast, maturity, source, attribution, and causal status;
-- price, currency, payment, invoice, cost, contribution, cash, capacity, and opportunity cost;
-- data, consent, privacy, security, fraud, accessibility, content, advertising, support, and customer protection;
-- calendars, holidays, staffing, lead times, owners, approvals, remedies, stop, rollback, and residual obligations.
+Keep credentials, payment details, private messages, health and financial data, protected traits, precise locations, raw identities, complete histories, employee reviews, compensation, and performance ratings out of the postmortem unless separately authorized and strictly necessary. Preserve customer, employee, accessibility, fairness, trust, retaliation, and misuse risks.
 
-For mainland China, separate market from Simplified Chinese language and distinguish legal entity, locale, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, staffing, and locally accountable review. Translation and currency conversion do not establish transfer. Use current direct sources and local expertise; avoid legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
+## Harm And Incident Boundary
 
-## Minimize Personal Data
+Preserve reported harm, affected scope, source, time, current operating state, missing evidence, and supplied response artifacts. Do not infer severity, containment, rollback, recovery, remediation, notification duty, or closure from a request, ticket, dashboard, or meeting.
 
-Use aggregate, redacted, pseudonymous, minimum-necessary evidence. Define purpose, authority, consent where required, access, retention, deletion, audit, small-cell suppression, and incident handling.
+Route active response to the authorized incident, safety, security, privacy, legal, compliance, product, support, or operational owner. The postmortem may reconcile verified response evidence after the fact; it does not operate the response or delay containment for documentation.
 
-Do not include credentials, payment details, private messages, health or financial data, protected traits, precise location, compensation, performance ratings, employee reviews, raw identity, or full histories. Do not rank individuals for consequential customer, pricing, service, employment, credit, insurance, health, housing, or similar decisions.
+## Market Transfer
 
-Review fairness, accessibility, customer, employee, trust, retaliation, and misuse risks. Route sensitive use to accountable review without claiming approval.
+Revalidate for every market:
 
-## Prepare External Actions Without Executing
+- customer, participant and payer, product, offer, price, incentive, contract, support, and trust;
+- channel, platform, app distribution, identity, payment, invoice, tax, refund, attribution, and data access;
+- metric, baseline, target, forecast, outcome maturity, economics, capacity, calendar, and currency;
+- cause, remedy, guardrail, stop, rollback, residual obligation, owner, approval, and effectiveness test.
 
-For each proposed external action record:
+Translation, a local domain, or currency conversion does not validate a cause, lesson, remedy, benchmark, or rollout conclusion.
 
-| Field | Requirement |
-| --- | --- |
-| Action | Exact system, data correction, mutation, assignment, message, purchase, exposure, rollback, or deployment |
-| Scope | Affected population, market, data, budget, duration, and reversibility |
-| Accountability | Action owner, decision owner, required approver, operator, and segregation of duties |
-| Preconditions | Evidence, maturity, capacity, access, privacy, security, legal, finance, customer, and employee review |
-| Controls | Least privilege, dry run, monitoring, cap, stop, rollback, correction, audit, and incident path |
-| Completion | Attributable execution and verification evidence, separate from outcome and improvement |
+For mainland China, distinguish market, legal entity, Simplified Chinese language, locale, product, platform, app store, identity, payment, invoice, data, consent, storage, transfer, content, advertising, holidays, support, staffing, cost, lead time, source access, approval, and locally accountable review. Require current direct sources and local expertise for time-sensitive conditions. Do not provide legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
 
-Without separate task-level authorization, create local artifacts only. Do not log in, export, correct, assign, approve, change, pause, roll back, contact, publish, send, spend, procure, or deploy.
+## External Actions
+
+Without separate task-level authorization, limit work to supplied local files and local outputs. Do not:
+
+- authenticate to analytics, data, experiment, project, CRM, billing, advertising, product, cloud, support, HR, finance, procurement, or communication systems;
+- export, join, enrich, or disclose personal data;
+- correct a dashboard, definition, target, forecast, plan, budget, permission, assignment, approval, or record;
+- pause, launch, ramp, roll back, contact, publish, send, spend, procure, deploy, or delete;
+- claim that an action, correction, handoff, adoption, prevention, recovery, system change, or business result occurred.
+
+For a proposed external action, record the exact system and mutation, accountable owner, authorized operator, eligible scope, prerequisites, evidence, approval, dry run or preview, guardrails, stop, rollback, audit, verification, residual obligations, and expiry. Producing this record is not executing the action.
 
 ## Preserve Residual Obligations
 
-Closure, cancellation, supersession, or expiry does not erase customer support, refund, communication, data deletion, access removal, monitoring, rollback, vendor, contractual, security, maintenance, documentation, or decommissioning obligations. Assign an owner, date, evidence, escalation, and verification.
+Closure, cancellation, supersession, or expiry does not erase customer support, refunds, communication, data deletion, access removal, monitoring, rollback, vendor, contractual, security, maintenance, documentation, migration, or decommissioning obligations. Preserve the proposed owner, date, evidence, escalation, permission boundary, and verification state without claiming assignment or completion.

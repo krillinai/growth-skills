@@ -1,115 +1,98 @@
 ---
 name: growth-postmortem
-description: Use when a team needs to build, audit, or refresh an evidence-bounded postmortem, retrospective, or after-action review for a completed, stopped, failed, successful, harmful, or inconclusive growth initiative, experiment, launch, campaign, market move, system change, target, forecast, or planning decision; reconstruct what was known, decided, executed, and observed; or turn outcomes into accountable learning and system changes without hindsight, blame, or causal overreach.
+description: Use when a growth initiative, experiment, campaign, launch, pricing change, market move, system change, incident, or planning period needs a decision-ready postmortem; when an existing retrospective may contain hindsight, blame, selective evidence, duplicate impact, weak causal claims, or unactionable lessons; or when mature evidence requires a versioned refresh and operating handoff.
 ---
 
 # Growth Postmortem
 
-Turn one reviewable growth unit into a durable decision and learning record. Preserve what was knowable at the time, reconstruct events and evidence, reconcile intended and observed outcomes, separate outcome quality from decision and execution quality, bound causal claims, and govern follow-up. A postmortem improves the next decision; it is not a victory story, blame ritual, incident-response substitute, or execution authorization.
+Turn a bounded body of growth work into an evidence-bounded record of what was known, decided, executed, observed, learned, and changed. Preserve history, separate outcome from decision and execution quality, and make learning reusable without manufacturing causality, blaming people, or executing follow-up work.
 
-Read [postmortem-contract.md](references/postmortem-contract.md) before accepting the reviewed unit, original plan, decision, target, forecast, owner, period, evidence cutoff, state, or participants. Read [timeline-outcomes-and-evidence.md](references/timeline-outcomes-and-evidence.md) before reconstructing events, selecting evidence, reconciling outcomes, judging quality, or making causal claims. Read [decisions-learning-and-actions.md](references/decisions-learning-and-actions.md) before evaluating decisions, retaining lessons, assigning actions, transferring learning, or closing the record. Read [governance-market-transfer-and-actions.md](references/governance-market-transfer-and-actions.md) before facilitating review, using personal data, transferring across markets, correcting records, or proposing external actions. Read [output-contract.md](references/output-contract.md) before delivery. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis.
+Read [postmortem-contract.md](references/postmortem-contract.md) before accepting the reviewed unit, source artifacts, evidence cutoff, state, authority, or outcome. Read [timeline-outcomes-and-evidence.md](references/timeline-outcomes-and-evidence.md) before reconstructing events, comparing plans and actuals, combining evidence, assigning impact, or naming causes. Read [decisions-learning-and-actions.md](references/decisions-learning-and-actions.md) before rating quality, retaining lessons, creating follow-up records, transferring learning, or closing the record. Read [governance-market-transfer-and-actions.md](references/governance-market-transfer-and-actions.md) before reviewing a portfolio, people, harm, incidents, markets, private data, or external actions. Read [output-contract.md](references/output-contract.md) before delivery. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis.
 
 ## Select One Mode
 
 | Mode | Use |
 | --- | --- |
-| `build` | Create a postmortem from supplied original artifacts, evidence, outcomes, changes, and attributable participant accounts |
-| `audit` | Inspect an existing postmortem for lineage, selection, hindsight, blame, reconciliation, causality, learning, action, and governance failures |
-| `refresh` | Version a postmortem after evidence matures, corrections arrive, actions change state, or transfer decisions change |
+| `build` | Create a postmortem for one bounded unit from supplied versioned decisions, plans, evidence, events, and outcomes |
+| `audit` | Inspect an existing postmortem for hindsight, evidence selection, causal overreach, duplicate impact, blame, weak actions, and missing governance |
+| `refresh` | Version a postmortem after evidence matures, a correction arrives, an action changes state, or a transfer claim is tested |
 
-Name one mode and state: `draft`, `evidence-pending`, `review-ready`, `accepted`, `actions-open`, `closed`, `superseded`, or `expired`. State does not prove cause, correction, action completion, adoption, system change, or business improvement.
+Use one state: `draft`, `evidence-pending`, `review-ready`, `accepted`, `actions-open`, `closed`, `superseded`, or `expired`. State is not root-cause proof, approval, authorization, publication, adoption, correction, action effectiveness, system improvement, or business impact.
 
-Route unexpected metric triage and mechanism investigation to `growth-anomaly-investigation`, causal design and experiment readout to `experiment-design`, one initiative contract and execution plan to `growth-initiative-planning`, annual or quarterly plan reconciliation to `growth-planning-cycle`, recurring decisions and action follow-up to `growth-operating-review`, and domain-specific readouts to the relevant lifecycle, channel, campaign, launch, pricing, market, or infrastructure Skill. This Skill synthesizes a bounded after-action record; it does not rerun every specialist analysis.
+Use `growth-operating-review` for recurring current decisions and open commitments; `growth-anomaly-investigation` for an unresolved unexpected metric change; `experiment-design` for causal design and readout integrity; `attribution-analysis` for journey credit; `growth-forecasting` for forecast error and vintages; and the source initiative, campaign, launch, infrastructure, or specialist Skill for its own detailed analysis. This Skill owns retrospective reconciliation, learning, and governed handoff. It does not recreate every specialist analysis or operate a response.
 
 ## Freeze The Postmortem Contract
 
-Record postmortem ID and version, mode and state, reviewed-unit type and stable ID, original plan, decision, metric, target, forecast, budget, experiment, release, and strategy versions as applicable; accountable review owner, original decision owner, outcome owner, artifact owners, contributors and participant-account boundaries; customer and participant roles, product and business model, market and locale, scope and exclusions, planned and actual periods, original cutoffs, postmortem evidence cutoff, maturity and follow-up dates, review and acceptance dates, superseded record, privacy boundary, and external-action boundary.
+Record the postmortem ID and version, mode and state, reviewed unit and eligibility rule, source decision and artifact versions, accountable review owner, facilitator, contributors, decision owner and required approver, product and business model, customer and participant roles, market and locale, planned and actual periods, evidence cutoff, maturity and correction dates, scope and exclusions, evidence access, privacy boundary, intended decisions, prior and superseded postmortems, and external-action boundary.
 
-Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` for evidence-bearing claims. Keep reported signal, observation, actual, baseline, target, forecast, opportunity, scenario, plan, budget, attribution, association, causal estimate, recommendation, decision, approval, authorization, action, completion, verification, and result separate. Preserve source, owner, date, version, entity, definition, population, market, period, currency, accounting basis, maturity, limitations, contradictions, corrections, and lineage.
+Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` for evidence-bearing claims. Preserve an attributable participant account as a `reported signal`. Keep actual, baseline, target, forecast, scenario, opportunity, plan, budget, attributed value, causal estimate, recommendation, decision, approval, authorization, action, completion, adoption, and business result separate.
 
-Do not invent original intent, evidence, targets, forecasts, decisions, exposure, outcomes, costs, causes, confidence, participant views, action completion, or improvement. Missing evidence remains unavailable and may keep the record `evidence-pending`.
+Do not invent source artifacts, metrics, denominators, events, effects, costs, causes, confidence, severity, approvals, assignments, dates, corrections, adoption, or results. Missing material evidence creates an `evidence-pending` record, blocked conclusion, named request, or specialist handoff; it does not become a convenient assumption.
 
-## Preserve The Ex-Ante Record
+## Reconstruct The Ex-Ante Record
 
-Reconstruct what was known, inferred, unavailable, assumed, forecast, targeted, decided, rejected, approved, authorized, planned, and protected at each original decision cutoff. Link original artifacts by stable ID and version. Keep later evidence and interpretation in a separate ex-post layer.
+Freeze what was knowable at each decision: customer problem, strategy and constraint, alternatives, assumptions, thesis and mechanism, metric contracts, baseline, target, forecast vintage, opportunity, expected range, plan, budget, capacity, dependencies, risks, guardrails, approvals, stop and rollback rules, and intended decision. Preserve rejected options, amendments, missed milestones, unknowns, contradictions, and superseded versions.
 
-Do not overwrite the original plan with actuals, replace the original forecast or target, backdate a mechanism, hide missed gates, remove rejected alternatives, or claim participants predicted the outcome. Build explicit bridges for later data, definition, source, method, assumption, scope, decision, and correction changes.
+Do not replace an original baseline, forecast, plan, or rationale with final data. Create an explicit version bridge for later definitions, source revisions, corrections, assumptions, decisions, and evidence. Evaluate a decision against information, authority, alternatives, reversibility, and constraints available at the time, not only against its eventual result.
 
-Assess decision quality against the information, alternatives, authority, uncertainty, reversibility, downside, and controls available at the time. A favorable outcome can follow a weak decision; an unfavorable outcome can follow a sound bounded decision.
+## Reconstruct The Timeline
 
-## Reconstruct Evidence And Timeline
+Order attributable decisions, approvals, implementation, eligibility, assignment, exposure, adoption, customer events, metric and data changes, concurrent work, incidents, stops, rollbacks, recovery, outcome maturity, corrections, and review. Preserve event time, ingestion time, availability time, decision time, and revision time when they differ.
 
-Define a consistent review eligibility rule that includes successful, failed, flat, harmful, inconclusive, invalid, stopped, cancelled, expired, and never-launched units as applicable. Do not review only visible wins and failures or use postmortem count and win rate as learning quality.
+A launch date is not universal exposure; a rollback request is not verified rollback; a dashboard recovery is not a proven mechanism. Keep unresolved gaps and conflicting accounts visible. Do not call an initiative complete while material exposure, maturity, harm, correction, decommissioning, or residual obligations remain unresolved.
 
-Version proposal, decision, approval, authorization, build, QA, eligibility, assignment, access, exposure, adoption, customer outcome, business outcome, guardrail, incident, change, rollback, recovery, correction, and follow-up separately. Distinguish event time, processing time, reporting time, and maturity.
+## Reconcile Plan And Actual Without Duplicate Impact
 
-Use original artifacts, reproducible data, direct records, and attributable accounts with their limitations. Preserve contradictory accounts and unavailable evidence. A participant statement is not independent verification; a screenshot verifies only what is visibly captured.
+Compare compatible entities, eligibility, identities, products, markets, segments, channels, cohorts, periods, windows, maturity, currencies, conversion dates, accounting bases, sources, definitions, and versions. Use bridges or separate views when comparability fails. Immature or absent evidence is `unavailable`, not zero.
 
-Freeze metric entity, eligibility, identity, numerator, denominator, event or state, source, segment, market, window, cohort, cutoff, maturity, missingness, exclusions, currency, accounting basis, and version. Missing, late, censored, suppressed, and immature are not zero.
+Reconstruct the chain from input and activity through implementation, eligible exposure, customer value, retained or protected value, business outcome, economics, cash, quality, trust, harm, capacity, opportunity cost, and residual obligation. Shipping, task closure, spend, traffic, utilization, or a presentation can verify activity; they cannot verify impact.
 
-## Reconcile Intended And Observed Outcomes
+Deduplicate shared customers and value. Do not add attributed revenue, experiment lift, opportunity headroom, forecast upside, scenario value, portfolio halo, planned impact, and realized outcomes. Preserve overlap, interaction, cannibalization, residual, unresolved reconciliation, refunds, incentives, ongoing costs, displaced work, and customer harm.
 
-Trace inputs, activities, outputs, eligible exposure, first value, repeated or protected value, retained customer outcome, business outcome, economics, capacity, and guardrails. Tasks, shipping, launch, spend, traffic, utilization, meetings, and decks are execution evidence, not impact by themselves.
+## Bound Causal And Root-Cause Claims
 
-Compare compatible original baseline, target, forecast, plan, budget, and guardrails with mature actuals. Build variance and revision bridges without treating a target miss or forecast error as a cause. Preserve absolute and relative movement, numerator and denominator, maturity, uncertainty, mix, and unknown residual.
+Separate observation, temporal sequence, association, attribution, contribution, candidate mechanism, causal estimate, root-cause conclusion, and business result. Preserve the identification method, assumptions, uncertainty, tested population, interference, contamination, missingness, guardrails, and counterevidence. A before-after change, executive belief, dashboard attribution, rollback recovery, or favorable point estimate does not establish cause.
 
-Reconcile identities and lifecycle states without duplicate customers or value. Keep accountable ownership, contribution, attribution, association, causal estimate, forecast, opportunity, portfolio effect, and realized outcome distinct. Expose overlap, interaction, cannibalization, residual, and unresolved effects.
+Classify each cause claim as `supported`, `plausible`, `contradicted`, `unresolved`, or `not tested`. Distinguish symptom, trigger, contributing condition, mechanism, control failure, root cause, and corrective action. Route unresolved anomalies, experiments, attribution, forecasts, metrics, economics, or incidents to their owning Skill. Never force one root cause when evidence supports several candidates or none.
 
-Include incremental and ongoing media, incentive, refund, chargeback, support, sales, implementation, infrastructure, fraud, risk, compliance, maintenance, incident, migration, decommissioning, and opportunity costs as applicable. Separate revenue, gross profit, contribution, cash, capacity, and valuation. Preserve existing-customer value, quality, accessibility, trust, fairness, reliability, and harm independently.
+## Separate Quality Dimensions
 
-## Evaluate Quality In Separate Layers
+Assess outcome, customer protection, decision, evidence, execution, coordination, system, and learning quality separately. Do not create a composite score that hides tradeoffs. A good outcome can follow a weak decision; a bad outcome can follow a sound reversible decision; a negative or flat result can still produce decision-changing evidence.
 
-Review without a composite score:
+Use accountable roles, decisions, interfaces, commitments, and controls. Do not rank, shame, diagnose, or assign personal fault. Employment, compensation, promotion, termination, legal, and other consequential individual judgments remain outside the postmortem.
 
-1. `outcome quality`: mature customer, business, economic, and guardrail result;
-2. `decision quality`: ex-ante alternatives, evidence, uncertainty, authority, reversibility, and rules;
-3. `evidence quality`: definitions, coverage, maturity, validity, counterevidence, and reproducibility;
-4. `execution quality`: plan adherence, adaptation, readiness, delivery, QA, and completion proof;
-5. `coordination quality`: ownership, handoffs, dependencies, escalation, and communication;
-6. `system quality`: data, experimentation, platform, process, resilience, and maintenance;
-7. `protection quality`: customer, employee, privacy, security, accessibility, fairness, and trust controls;
-8. `learning quality`: whether evidence changes a decision, reusable artifact, system, capability, or retirement rule.
+## Convert Findings Into Durable Learning
 
-Keep luck, external change, variance, and unresolved causality visible. Do not convert good results into good decisions, bad results into incompetence, or activity speed into learning velocity.
+For every retained learning, state the observation, interpretation, evidence and counterevidence, decision implication, valid scope, transfer boundary, owner, affected artifact or operating state, adoption evidence, effectiveness test, review trigger, and expiry. A lesson count, document, presentation, archive, or publication is not learning adoption.
 
-## Bound Causal Claims
+Classify follow-up as `preserve`, `correct`, `prevent`, `detect`, `mitigate`, `investigate`, `experiment`, `reuse`, `standardize`, `retire`, or `route`. Record the proposed owner or owner role, decision and artifact, prerequisites, capacity, approval, due or maturity date, evidence gate, completion proof, guardrails, stop, rollback, escalation, expiry, and residual obligations. Generic advice such as "communicate better" or "move faster" is not an action contract.
 
-Separate symptom, observation, descriptive contributor, mechanism, root-cause claim, counterfactual, and corrective action. Temporal order, rollback recovery, dashboard attribution, segment correlation, customer quote, senior belief, or forecast variance does not prove cause.
+Hand open decisions, commitments, and verification to `growth-operating-review`; route specialist changes to their owning Skills. A handoff record does not assign work, approve a change, or prove adoption.
 
-For each candidate mechanism record affected population, expected onset and lag, supporting and contradictory evidence, alternatives, confounding, concurrent changes, selection, interference, maturity, causal status, and next discriminating evidence. Use `descriptive`, `associated`, `causally supported`, `contradicted`, `invalid`, or `unresolved` only when the evidence warrants it.
+## Audit Or Refresh Without Rewriting History
 
-For experiments, preserve assignment, exposure, intent-to-treat population, sample ratio, power, peeking, multiplicity, metric amendments, maturity, guardrails, interference, and analysis version. A positive point estimate from an invalid or inconclusive design is not conclusive learning.
+In `audit`, test eligibility and selection, version integrity, evidence completeness, comparison compatibility, maturity, causal claims, planned-versus-actual reconciliation, guardrails, decision and execution quality, learning contracts, action ownership, privacy, transfer, and external actions. Preserve wins, losses, flat, harmful, invalid, inconclusive, cancelled, expired, and never-launched work under one declared inclusion rule.
 
-## Convert Evidence Into Durable Learning
+In `refresh`, preserve the prior postmortem and add the trigger, new evidence cutoff, matured outcomes, corrections, changed evidence states, revised conclusions, affected decisions, action-state evidence, and superseded artifacts. Never backdate knowledge, erase misses, relabel an old decision, or claim adoption from a new document.
 
-For each learning state observation, interpretation, evidence and counterevidence, boundary, decision implication, owner, target artifact or system, transfer condition, failure signal, expiry, and review. A lesson is durable only when it changes or preserves a bounded decision, standard, template, metric, experiment design, initiative, training artifact, platform, portfolio rule, interface, maintenance obligation, or retirement choice.
+## Handle Markets, People, Harm, And Incidents
 
-Classify follow-up as `preserve`, `correct`, `prevent`, `detect`, `mitigate`, `investigate`, `experiment`, `reuse`, `standardize`, `retire`, or `route`. Record decision, artifact or operating state, accountable owner, dependencies, capacity, approval, due or maturity date, evidence, completion proof, guardrails, priority, stop, rollback, escalation, expiry, and residual obligation.
+Treat every market as a new evidence and operating boundary. Revalidate customers, product, channels, platforms, app distribution, metrics, prices, costs, payments, invoices, data, consent, advertising, calendars, support, owners, causes, remedies, approvals, and transfer tests. Translation and currency conversion do not validate transfer.
 
-Do not end with generic advice, assign actions to everyone, or carry actions forever. Route open actions and repeated-mistake or reuse review to `growth-operating-review`. A handoff does not mean the action occurred.
+For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, lead times, evidence, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
 
-## Audit Or Refresh
+Use aggregate, redacted, pseudonymous, minimum-necessary evidence and suppress small groups. Do not expose credentials, private messages, payment details, health or financial data, protected traits, precise locations, employee reviews, compensation, ratings, or full histories. Do not rank individuals for consequential decisions.
 
-In `audit`, inspect scope and selection, original artifact lineage, hindsight edits, evidence coverage, metric and maturity contracts, timeline, outcome and economic reconciliation, duplicate impact, quality layers, causal language, blame and privacy, learning adoption, actions, residual obligations, market transfer, and external-action claims.
-
-In `refresh`, preserve the prior record and add mature outcomes, corrections, newly available sources, changed causal status, action states, transfer evidence, and superseded learning by version. Record who changed what, why, from which evidence, which earlier statements remain valid, and which downstream decisions require reopening. Do not silently repair the narrative.
-
-## Handle Markets, People, And Actions
-
-Treat every market as a new customer, product, channel, platform, metric, baseline, exposure, evidence, calendar, economic, operating, causal, remedy, owner, and approval boundary. Translation and currency conversion do not validate transfer.
-
-For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, costs, lead times, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
-
-Use aggregate, redacted, pseudonymous, minimum-necessary evidence. Use accountable roles rather than unnecessary names. Do not expose credentials, private messages, payment details, health or financial data, protected traits, precise locations, employee reviews, compensation, performance ratings, raw identities, or full histories. Do not rank individuals for consequential customer or employment decisions.
+When active harm or an incident is reported, preserve the signal and supplied response evidence, but do not declare severity, containment, rollback, recovery, or closure without attributable proof. Route authorized response and specialist review outside the postmortem.
 
 ## Deliver In Order
 
-Follow [output-contract.md](references/output-contract.md). Deliver the postmortem contract; original-state snapshot; evidence and timeline; planned-versus-actual customer, business, economic, capacity, guardrail, and obligation reconciliation; quality review; causal ledger; learning and action register; governance, market, privacy, handoffs, pinned sources, external actions, and completion record.
+Follow [output-contract.md](references/output-contract.md). Deliver the contract and source manifest; ex-ante record and version bridges; timeline; planned-versus-actual outcome and economics reconciliation; causal and cause register; separate quality findings; learning and action registers; portfolio, market, privacy, incident, transfer, and governance limits; specialist handoffs; pinned sources; external-action record; and completion gate.
 
 ## External-Action Boundary
 
-Create and read local artifacts only. Do not access authenticated analytics, data, experiment, project, planning, CRM, billing, advertising, product, cloud, support, HR, finance, procurement, or communication systems; export or join personal data; correct metrics, targets, forecasts, dashboards, data, or records; assign work; pause or roll back; contact people; publish; send; spend; procure; deploy; or claim correction, action completion, adoption, system improvement, or business impact without separate task-level authorization and controls.
+Create and read local artifacts only. Do not access authenticated analytics, data, experiment, project, CRM, billing, advertising, product, cloud, support, HR, finance, procurement, or communication systems; export or join personal data; correct records; assign work; change metrics, targets, plans, prices, budgets, permissions, or systems; pause, launch, roll back, contact, publish, send, spend, procure, deploy, or claim correction, adoption, completion, system improvement, or business impact without separate task-level authorization and controls.
 
 ## Completion Gate
 
-Confirm the output passes [output-contract.md](references/output-contract.md); the eligible unit and original versions are frozen; ex-ante and ex-post evidence remain separate; outcomes, costs, capacity, guardrails, and obligations reconcile; result and decision quality are distinct; causal language matches evidence; contradictory, negative, harmful, invalid, and inconclusive evidence remains visible; learning changes a bounded decision or artifact; actions have owners and proof; blame and sensitive data are excluded; market transfer is revalidated; specialist work is routed; and no external action occurred.
+Confirm the output passes [output-contract.md](references/output-contract.md); the reviewed unit and inclusion rule are explicit; original artifacts and evidence cutoffs remain frozen; versions and timelines are traceable; comparisons are compatible; activity, outcome, attribution, causality, quality, and completion remain separate; customers and value are not duplicated; costs, harms, maturity, counterevidence, and unknowns remain visible; root causes do not exceed evidence; learning changes a bounded decision or system; actions have gates without implied authorization; market, privacy, people, and incident boundaries hold; and no external action occurred.
