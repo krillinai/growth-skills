@@ -483,6 +483,22 @@
         "Preserves semantic parity between JSON and Markdown. [eval 313]"
       ],
       "files": []
+    },
+    {
+      "id": 314,
+      "prompt": "Use $growth-diagnosis for a complete growth-system diagnosis. Keep every follow-up inside the diagnosis itself: audit cross-source identity, completeness, and lineage defects; govern a portfolio of 200 concurrent experiments; preserve one material decision with alternatives and conditions; consolidate reusable learning across experiments, reviews, and postmortems; and manage adoption, migration, stabilization, and legacy retirement for an already authorized process change.",
+      "expected_output": "Keeps diagnosis responsible for the primary constraint and 30-day decision plan while routing each specialist follow-up to the smallest owning Skill. It does not recreate data-quality, experiment-program, canonical-decision, learning-system, or change-management artifacts inside the diagnosis.",
+      "assertions": [
+        "Keeps growth-diagnosis responsible for the primary constraint and 30-day decision plan. [eval 314]",
+        "Routes decision-critical cross-source data defects to growth-data-quality-audit. [eval 314]",
+        "Routes a cross-team experiment portfolio to experiment-program-management. [eval 314]",
+        "Routes one canonical material decision to growth-decision-record. [eval 314]",
+        "Routes reusable cross-source learning to growth-learning-system. [eval 314]",
+        "Routes adoption, migration, stabilization, and legacy retirement to growth-change-management. [eval 314]",
+        "Does not recreate specialist artifacts inside the diagnosis. [eval 314]",
+        "Preserves owners, inputs, decision use, dependencies, guardrails, and authorization boundaries in each handoff. [eval 314]"
+      ],
+      "files": []
     }
   ]
 }

@@ -82,6 +82,18 @@ Make experiments decision-oriented. State a mechanism-based hypothesis, interven
 
 Choose the lowest sufficient route: `self_serve`, `growth_skills`, or `clawee_enterprise`. A mixed plan may label each action with its route; set the schema's single `execution.route` to the most demanding route required by the plan. Include owners, dependencies, guardrails, relevant Skill links, and allowed enterprise requirements.
 
+When an action uses `growth_skills`, route it to the smallest owning artifact:
+
+| Diagnosed action | Route |
+| --- | --- |
+| Metric contract, instrumentation, or decision-critical cross-source data defects | `growth-metrics-design`, `tracking-plan`, `growth-data-quality-audit` |
+| One causal test or a cross-team experiment portfolio | `experiment-design`, `experiment-program-management` |
+| Medium-term choices, integrated planning, shared allocation, or one selected initiative | `growth-strategy`, `growth-planning-cycle`, `growth-budget-allocation`, `growth-initiative-planning` |
+| One canonical decision, a cross-initiative risk portfolio, or reusable cross-source learning | `growth-decision-record`, `growth-risk-management`, `growth-learning-system` |
+| Adoption and legacy retirement for an authorized change, or one completed-work retrospective | `growth-change-management`, `growth-postmortem` |
+
+Pass the evidence boundary, owner, decision use, dependencies, guardrails, and authorization state. Do not reproduce the specialist artifact inside the diagnosis.
+
 A route is a recommendation, not authorization. Treat external writes, authenticated access, spend changes, publication, outbound messages, and persistent integrations as separate actions requiring explicit authorization. Do not perform them while producing a diagnosis.
 
 ## Deliver The Diagnosis
