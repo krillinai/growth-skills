@@ -8,11 +8,12 @@ Return:
 2. model scope and business-specific topology;
 3. node, edge, stock-flow, capacity, and guardrail registers;
 4. evidence, definition, compatibility, causal-status, and limitation ledger;
-5. equation and reconciliation register;
-6. baseline and scenario comparison with ranges, lags, sensitivity, and downside;
-7. primary model constraint or discriminating evidence plan plus alternatives;
-8. 30-day validation plan and model-update triggers;
-9. adjacent-Skill handoffs and pinned Growth Playbook sources.
+5. Four Fits and model-coherence register;
+6. equation and reconciliation register;
+7. baseline and scenario comparison with ranges, lags, sensitivity, and downside;
+8. primary model constraint or discriminating evidence plan plus alternatives;
+9. 30-day validation plan and model-update triggers;
+10. adjacent-Skill handoffs and pinned Growth Playbook sources.
 
 ## Model Map
 
@@ -23,6 +24,13 @@ Use a compact text graph plus registers. Do not rely on a decorative arrow diagr
 
 | Edge | From -> to | Event and join | Numerator / denominator | Window, lag, cohort, maturity | Causal status | Cost, quality, uncertainty, alternatives |
 | --- | --- | --- | --- | --- | --- | --- |
+
+## Four Fits Register
+
+| Fit | Nodes and edges tested | Supporting and contradictory evidence | Uncertainty | Failure signal | Decision implication | Revalidation trigger |
+| --- | --- | --- | --- | --- | --- | --- |
+
+Include Market-Product, Product-Channel, Channel-Model, and Model-Market Fit. Keep them connected to the model rather than assigning a context-free score.
 
 ## Equation Register
 

@@ -169,7 +169,7 @@
         "Selects map or scenario mode for the upmarket move. [eval 3712]",
         "Creates a new version rather than overwriting the self-serve model. [eval 3712]",
         "Redefines user, buyer, payer, account, problem, and value conditions. [eval 3712]",
-        "Revalidates Product-Channel, Channel-Model, and Model-Market assumptions. [eval 3712]",
+        "Revalidates Market-Product, Product-Channel, Channel-Model, and Model-Market assumptions. [eval 3712]",
         "Includes sales cycle, implementation, support, security, procurement, retention, and capacity. [eval 3712]",
         "Includes payback, contribution, cash timing, and downside. [eval 3712]",
         "Does not treat the change as price only. [eval 3712]"

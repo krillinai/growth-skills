@@ -53,6 +53,8 @@ Separate stocks from flows. Reconcile opening populations to retained and churne
 
 Keep the baseline unchanged and label every scenario input as supplied, observed, inferred, or assumed. Change one decision-relevant assumption or a declared bundle, preserve ranges and lags, and show outcome sensitivity plus guardrail effects. A scenario is not a forecast; a fitted relationship is not automatically causal or incremental.
 
+Test Market-Product, Product-Channel, Channel-Model, and Model-Market Fit as connected assumptions before treating the topology as coherent. A change to customer, product, channel, price, route, or target scale can invalidate several Fits at once; do not preserve old coefficients by changing one label.
+
 Identify a primary model constraint only when compatible evidence shows it limits the declared retained customer, durable value, contribution, cash, or other outcome within the horizon. Compare impact, sensitivity, evidence strength, control, time to learn, economics, capacity, externalities, and risk. The lowest conversion rate, largest volume, longest delay, or first funnel stage is not automatically the constraint. Preserve credible alternatives when evidence cannot distinguish them.
 
 ## Route Specialist Work
@@ -68,11 +70,12 @@ Return:
 1. mode, decision, owner, horizon, model version, and boundary;
 2. business-specific node, edge, stock-flow, capacity, and guardrail map;
 3. evidence, definition, compatibility, causal-status, and limitation ledger;
-4. equation register with units, values, sources, maturity, and reconciliation;
-5. baseline and scenario results with ranges, lags, sensitivity, and downside;
-6. primary model constraint or discriminating evidence plan plus alternatives;
-7. a bounded 30-day validation and model-update cadence;
-8. adjacent-Skill handoffs, Playbook references, and external-action boundary.
+4. Four Fits and model-coherence register;
+5. equation register with units, values, sources, maturity, and reconciliation;
+6. baseline and scenario results with ranges, lags, sensitivity, and downside;
+7. primary model constraint or discriminating evidence plan plus alternatives;
+8. a bounded 30-day validation and model-update cadence;
+9. adjacent-Skill handoffs, Playbook references, and external-action boundary.
 
 For China work, keep market, language, locale, product surface, identity, app distribution, payment, invoice, channel, consent, regulation, and data availability separate. Do not infer platform, payment, advertising, CRM, survey, or analytics conditions from market or language.
 
@@ -82,4 +85,4 @@ This Skill creates and reads local artifacts only. Do not access analytics, ware
 
 ## Completion Gate
 
-Confirm that the decision, model version, customer, value, entities, periods, stocks, flows, edges, equations, sources, evidence states, causal status, economics, reinvestment, capacity, guardrails, uncertainty, scenarios, constraint, owner, and update trigger are explicit; definitions and cohorts are compatible; reconciliations close or differences remain visible; stocks and flows are not double counted; loops close before being named; scenarios are not forecasts; the constraint is not selected by rate alone; adjacent Skills remain bounded; Playbook sources are pinned; and no external action occurred.
+Confirm that the decision, model version, customer, value, entities, periods, stocks, flows, edges, equations, sources, evidence states, causal status, economics, reinvestment, capacity, Four Fits, guardrails, uncertainty, scenarios, constraint, owner, and update trigger are explicit; definitions and cohorts are compatible; reconciliations close or differences remain visible; stocks and flows are not double counted; loops close before being named; scenarios are not forecasts; the constraint is not selected by rate alone; adjacent Skills remain bounded; Playbook sources are pinned; and no external action occurred.

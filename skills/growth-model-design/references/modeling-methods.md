@@ -84,6 +84,21 @@ For paid or sales-capacity reinvestment, include contribution, payback, cash ava
 
 Route detailed closure, K-factor, referral, marketplace, content, data, or reinvestment-loop work to `growth-loop-design`.
 
+## Four Connected Fits
+
+Audit all four as linked model assumptions:
+
+| Fit | Decision question | Failure evidence |
+| --- | --- | --- |
+| Market-Product Fit | Does the product solve an important problem for a defined market under the required conditions? | Weak first or repeated value, churn, workaround dependence, or exceptional manual rescue |
+| Product-Channel Fit | Does the product and promise match how qualified customers discover, evaluate, adopt, and share it? | Reach without retained value, activation mismatch, or channel-driven product distortion |
+| Channel-Model Fit | Can marginal channel economics and operating effort support the price, contribution, cash, and payback model? | CAC, sales effort, incentives, service cost, or payback exceeds retained value |
+| Model-Market Fit | Can reachable demand, price, frequency, retention, economics, and capacity support the intended scale? | Strong local execution but an insufficient, saturated, concentrated, or uneconomic market |
+
+Do not score the Fits as an independent checklist. Record the relevant nodes, edges, evidence, counterevidence, uncertainty, and decision implication for each. A change to customer, product, channel, price, package, route, geography, or intended scale can weaken several Fits and requires a new model version.
+
+Moving upmarket is not a price-only scenario. Revalidate user, buyer, payer, problem, promise, product requirements, security, procurement, channel, sales cycle, implementation, support, retention, expansion, contribution, cash timing, capacity, and all four Fits.
+
 ## Scenario And Sensitivity
 
 1. Freeze a versioned baseline with sources and reconciliation.
