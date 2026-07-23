@@ -1,0 +1,4 @@
+interface:
+  display_name: "Positioning"
+  short_description: "Build and audit evidence-bounded positioning"
+  default_prompt: "Use $positioning to build or audit positioning from attributable evidence."
