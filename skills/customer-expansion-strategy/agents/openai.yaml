@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Expansion Strategy"
+  short_description: "Grow retained value inside existing customers"
+  default_prompt: "Use $customer-expansion-strategy to audit our expansion motion and design a value-led growth plan for existing customers."
