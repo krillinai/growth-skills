@@ -98,7 +98,11 @@ Use `refresh` when a durable assumption or choice may have changed. Preserve unc
 | Product-Market Fit | `product-market-fit-assessment` |
 | Acquisition, lifecycle, loops, and networks | `acquisition-strategy`, `activation`, `retention`, `customer-expansion-strategy`, `growth-loop-design`, `network-effects-strategy` |
 | Monetization, pricing, and economics | `monetization`, `pricing-and-packaging-strategy`, `unit-economics-analysis`, `ltv-analysis` |
-| Metrics, data, experiments, and forecasts | `growth-metrics-design`, `tracking-plan`, `experiment-design`, `growth-forecasting` |
+| Metrics, data quality, experiments, and forecasts | `growth-metrics-design`, `tracking-plan`, `growth-data-quality-audit`, `experiment-design`, `experiment-program-management`, `growth-forecasting` |
+| Annual, quarterly, or rolling integrated planning | `growth-planning-cycle` |
+| One opportunity, investment case, shared allocation, or selected 30-90 day initiative | `growth-opportunity-sizing`, `growth-investment-case`, `growth-budget-allocation`, `growth-initiative-planning` |
+| Recurring review, one canonical decision, cross-initiative risks, reusable learning, or one completed-work retrospective | `growth-operating-review`, `growth-decision-record`, `growth-risk-management`, `growth-learning-system`, `growth-postmortem` |
+| Adoption and legacy retirement for an authorized strategic change | `growth-change-management` |
 | Infrastructure and organization | `growth-infrastructure-assessment`, `growth-organization-design` |
 
 A handoff defines the input, owner, decision, expected artifact, dependency, and permission boundary. It does not imply execution.
