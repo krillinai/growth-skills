@@ -60,3 +60,14 @@ Tolerances depend on the decision and failure cost. Do not average dimensions in
 Every test records test ID and version, requirement, dimension, source, population, fields, period, denominator, query or deterministic procedure, expected result, tolerance, observed result, evidence state, coverage, exceptions, owner, execution time, limitations, and downstream decision effect.
 
 If the supplied artifacts cannot run or reproduce the test, provide the exact test specification and mark the result unavailable. Do not claim a test ran or passed.
+
+## Require Readiness Before Quality Commitments
+
+Certification, scores, tolerances, SLOs, severity, response targets, control schedules, owners, and remediation commitments require:
+
+- a bounded decision, intended and prohibited uses, eligible population, products, markets, periods, sources, fields, versions, and consumers;
+- reproducible tests with denominators, observed baselines, variation, sample limits, maturity, and source lineage;
+- decision-specific failure costs, materiality, customer effects, risk policy, current controls, and incident history;
+- operating calendars, watermarks, system constraints, maintenance windows, action authority, accountable owners, approvers, and review triggers.
+
+When any material condition is unavailable, use `draft` or `evidence-pending`. Do not invent a readiness score, certification, traffic light, target, threshold, tolerance, SLO, severity tier, response time, error budget, cadence, review date, expiry, owner, approver, deadline, phase, or 30/60/90-day plan. Return unvalued test and control contracts plus evidence required to set them.

@@ -13,6 +13,8 @@ Return:
 7. findings, severity, evidence, uncertainty, counterevidence, customer and decision impact, preventive, detective, reconciliation, monitoring, incident, correction, and review controls;
 8. governance, market and privacy boundaries, specialist handoffs, pinned sources, approval-ready external actions, and completion record.
 
+Include certification, scores, control values, severity, owners, dates, or phased remediation only when the quality-commitment readiness gate passes. Otherwise preserve supplied numbers as bounded evidence and return unvalued test, control, incident, and remediation contracts with readiness conditions.
+
 ## Data Quality Contract
 
 | Audit / version / state | Decision / uses / exclusions | Owners / reviewers / approvers | Products / customers / markets / entities | Period / cutoff / watermark / maturity | Sources / systems / versions / access | Privacy / review / expiry / action boundary |
@@ -63,3 +65,5 @@ Do not average blockers into a composite score.
 ## Completion Gate
 
 Confirm audit, version, mode, state, decision, uses, owner, reviewers, approvers, scope, exclusions, products, business models, customers, roles, markets, locales, entities, identity, eligibility, populations, partitions, sources, tables, fields, events, metrics, models, reports, periods, cutoffs, watermarks, maturity, samples, evidence, access, schemas, code, transformations, lineage, versions, coverage, completeness, uniqueness, idempotency, validity, sequence, cardinality, timeliness, consistency, observed and non-observed value states, outliers, exclusions, source authority, currencies, accounting, reconciliation, residuals, backfills, overrides, corrections, incidents, historical revisions, findings, severity, customer and decision effects, controls, monitoring, SLOs, owners, privacy, market transfer, retention, review, expiry, handoffs, pinned sources, and external actions are explicit; public and sample evidence was not generalized; missing did not become zero; entities and value were not duplicated; definitions and maturity were not mixed; modeled values remained labeled; records were not removed for favorable results; sources were not forced to reconcile; history was not rewritten; uptime did not become quality; recommendations did not become remediation; and no external action occurred.
+
+When readiness did not pass, also confirm that no score, certification, traffic light, tolerance, target, threshold, SLO, severity, response time, error budget, schedule, review date, expiry, owner, approver, deadline, phase, or remediation plan was invented; unsupported fields remain unavailable; and no control or correction was represented as operating.

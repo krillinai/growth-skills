@@ -15,6 +15,8 @@ Keep these separate:
 
 Use `verified blocker`, `material defect`, `bounded defect`, `monitor`, `unavailable`, or `not applicable` only with decision-specific rationale. Do not average blockers with passing dimensions.
 
+When affected population, count, denominator, failure cost, materiality, decision effect, baseline, policy, or authority is unavailable, do not infer `material defect`, incident severity, priority, or remediation deadline. Use `unavailable` or a bounded blocker statement and name the evidence that could support classification.
+
 ## Design Controls In Layers
 
 | Control type | Purpose | Required fields |
@@ -33,7 +35,11 @@ Connect every control to a decision, data product, entity, field or event, popul
 
 Keep availability, reliability, coverage, completeness, freshness, validity, uniqueness, consistency, reconciliation, model calibration, decision readiness, and customer impact separate. Pipeline uptime proves only the bounded availability measure it actually observes.
 
+Before setting a control value, define entity, eligible population, numerator, denominator, source, baseline distribution, tolerance basis, failure cost, materiality, decision use, operating calendar, watermark, owner, authority, response capability, review trigger, and expiry. If these are unavailable, describe the SLI, test, control, routing, and evidence fields without a numeric SLO, threshold, severity, response time, schedule, or owner assignment.
+
 For alerts define baseline, threshold or change rule, schedule, evaluation window, watermark, minimum population, severity, routing, deduplication, suppression, maintenance window, escalation, runbook, auto-action prohibition or authority, and close evidence. Measure alert precision, known coverage limits, time to detect, acknowledge, contain, recover and verify, recurrence, false positives, missed incidents, and fatigue.
+
+Do not import generic reliability targets or create a provisional severity taxonomy to make an incomplete audit actionable. Control recommendations are not approved policies, deployed alerts, assigned incidents, or operating commitments.
 
 ## Transfer Across Markets
 

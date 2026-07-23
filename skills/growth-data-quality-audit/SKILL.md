@@ -27,6 +27,12 @@ Record audit ID and version, mode and state, decision and intended uses, account
 
 Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` for evidence-bearing claims. Keep reported signal, observed value, derived value, imputation, prediction, attribution, adjustment, finding, recommendation, decision, approval, authorization, correction, deployment, verification, and result separate. Do not invent data, tests, coverage, quality, owners, causes, corrections, approvals, or outcomes.
 
+## Gate Certification, Scores, Controls, And Remediation
+
+Issue a certification, score, traffic light, tolerance, SLO, threshold, severity level, response time, error budget, control schedule, review or expiry date, owner assignment, deadline, or phased remediation commitment only when a bounded decision and population, reproducible source and test evidence, baseline and variation, failure cost and materiality, current controls and incident history, operating calendar, system constraints, accountable owner, and approval authority support it. A screenshot, uptime claim, row count, favorable sample, generic benchmark, executive request, or desire for a complete plan does not pass this gate.
+
+If any decision-critical input is unavailable, keep the audit `draft` or `evidence-pending`. Preserve supplied numbers as bounded reported or diagnostic facts, but do not replace missing evidence with a readiness score, provisional SLO, severity taxonomy, role assignment, or 30/60/90-day plan. Return test, finding, control, incident, and remediation contracts with unsupported values marked `unavailable`, the first limiting evidence gate, and conditions for a later control or commitment version. Required role types may be named; assignments and authority remain unavailable.
+
 ## Inventory Sources, Fields, And Evidence
 
 Create a complete supplied-evidence manifest with stable IDs, owners, source type, extraction method, as-of time, expected and observed periods, row or aggregate counts, entities, keys, fields, semantics, versions, transformations, access state, sample design, limitations, contradictions, and downstream consumers.
@@ -73,7 +79,11 @@ In `refresh`, preserve original as-of data, audit, dashboards, exports, evidence
 
 For each finding record requirement, observed evidence, affected population and period, dimension, defect, count and rate, materiality, decision and customer effect, supporting and contradictory evidence, uncertainty, cause status, current control, recommendation, owner, prerequisites, verification, residual risk, review, and expiry. Do not average blockers into a universal score.
 
+Do not label severity or assign priority, owner, deadline, review, or expiry when the affected population, failure cost, decision effect, policy, baseline, authority, or operating evidence is unavailable. Preserve the finding and required fields without invented values.
+
 In `control-design`, connect each preventive, detective, reconciliation, monitoring, incident, correction, or review control to a decision, field or population, failure mode, test, denominator, threshold, baseline, schedule, watermark, owner, severity, routing, runbook, escalation, suppression, stop, rollback, correction, audit, and SLO. Pipeline uptime does not prove semantic validity, completeness, reconciliation, or decision readiness.
+
+Treat threshold, baseline, schedule, owner, severity, response, escalation, and SLO as required contract fields, not values to fill from convention. Leave them unavailable until the certification and control gate passes.
 
 ## Deliver In Order
 
