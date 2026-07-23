@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Metrics Design"
+  short_description: "Design decision-ready growth metric systems"
+  default_prompt: "Use $growth-metrics-design to audit these metrics and produce an evidence-bounded metric system."
