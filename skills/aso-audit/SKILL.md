@@ -41,6 +41,14 @@ Choose one primary mode from the decision requested, then add only necessary mod
 3. Order findings by verified fail, verified partial, inferred adverse partial; then fixed-point deduction, validation dependencies, and lower effort. Keep public-surface changes separate from evidence-collection tasks. Each finding has ID, scoped source/date/check, observed impact, action, observable completion proof, and `S`/`M`/`L` effort.
 4. Treat popularity and premium appearance as context, never proof of discoverability, relevance, quality, conversion, or installs. Treat platform requirements as verified only when a current primary source supplies its URL and retrieval date; add publication/update date only if exposed. Otherwise mark the exact rule unavailable and point to [platform sources](references/source-notes.md).
 
+## Handle Market Transfer And China
+
+Treat each store, country or storefront, locale, listing version, and capture date as a new evidence boundary. A listing, score, query capture, experiment, conversion signal, or recommendation from one boundary does not validate another. Do not substitute another store, market, locale, or historical capture when the requested surface is unavailable.
+
+For mainland China, keep market, language, locale, Apple App Store or Google Play product, app availability, app distribution, listing, account, submission, payment, data, content, and locally accountable review separate. When Simplified Chinese is requested, write native Simplified Chinese. Do not infer platform or app availability, submission eligibility, compliance, ranking, conversion, installs, or performance. Use current direct official sources for platform-specific claims or mark them `unavailable`; do not provide legal or regulatory conclusions.
+
+An audit authorizes local artifacts only. Do not access App Store Connect, Play Console, analytics, attribution, experiment, publishing, or release systems; change listing copy or assets; submit; publish; or deploy without separate task-level authorization and capability review.
+
 ## Deliver
 
 Present scope and limits; evidence states; fixed-card point trace; score and coverage with numerators/denominators; unavailable register; findings/actions/completion; prioritized roadmap; and validation plan. Generate HTML only when requested. For a standalone offline report, follow [HTML report](references/html-report.md). Hand implementation-ready listing-copy or creative briefs to the owning marketing/content/design team; hand app-code and release work to engineering/release operations.
