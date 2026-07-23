@@ -32,6 +32,20 @@ One portfolio can contain many risks but must share a coherent decision use, sco
 
 Record transition source, owner, date, definition, evidence, affected population, and version. A missed target is not automatically a risk event, incident, loss, or cause.
 
+## Apply The Readiness Gate
+
+| Portfolio field or transition | Minimum attributable basis |
+| --- | --- |
+| Assessed risk or rating | Complete risk statement, bounded population and horizon, compatible evidence, method, uncertainty, source, owner, and version |
+| Appetite, tolerance, limit, or trigger | Objective, risk class, metric contract, baseline, current exposure, authority, rationale, period, breach response, review, and expiry |
+| Owner, assignment, or deadline | Exact accountability, authority, explicit acceptance, capacity, scope, dependency, calendar basis, and effective period |
+| Current control or effectiveness | Risk and population, approved design, implementation evidence, observed operation, coverage, test method, exceptions, failures, verifier, and period |
+| Treatment plan or expected effect | Supported mechanism, affected exposure, alternatives, capacity, cost, dependencies, approver, owner acceptance, verification, and lifecycle |
+| Residual-risk acceptance | Exact residual exposure and version, alternatives, controls, evidence, authority, conditions, monitoring, effective period, and expiry |
+| Closure or propagation | Accountable closure or consumer evidence, exact version and scope, retained obligations, acknowledgement, independent verification, date, and reopen rule |
+
+If the minimum basis is absent, keep the field `unavailable`. Put user-specified values in a separate request ledger without calculating dates, creating 30/60/90 plans, proposing assignments, or promoting candidate controls and treatments into portfolio commitments. Urgency, seniority, completeness, a favorable label, and a user-requested value do not satisfy this gate.
+
 ## Form A Complete Risk Statement
 
 Use:

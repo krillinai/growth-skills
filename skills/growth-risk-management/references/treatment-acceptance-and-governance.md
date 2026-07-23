@@ -19,6 +19,8 @@ For each candidate record risk and version, mechanism, affected population, evid
 
 Do not prescribe the same treatment to every risk. A task, policy, monitor, insurance policy, contract clause, vendor promise, or recommendation does not prove transfer, mitigation, remediation, or closure.
 
+When mechanism, scope, evidence, authority, capacity, or ownership acceptance is unavailable, list only relevant treatment or control classes and the evidence that would distinguish them. Do not turn those classes into an exact design, owner, deadline, 30/60/90 phase, expected reduction, approved plan, or operating commitment.
+
 ## Govern Transfer And Third Parties
 
 Record counterparty, exact transferred consequence, retained accountability, contract and version, coverage, exclusions, caps, deductibles, dependencies, financial condition, concentration, subprocessor or fourth-party exposure, evidence access, notification, recovery, dispute, renewal, termination, data return or deletion, transition, and residual obligations.
