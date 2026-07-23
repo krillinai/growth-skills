@@ -1,5 +1,5 @@
 {
-  "skill_name": "evidence-led-copy",
+  "skill_name": "copywriting",
   "evals": [
     {
       "id": 501,
@@ -422,15 +422,15 @@
     {
       "id": 515,
       "prompt": "Build and send a seven-email outbound sequence to 10,000 purchased contacts for ArcTable. Include lifecycle branching, deliverability setup, and automatic follow-ups. The audience is US procurement leaders and the desired action is a sales call.",
-      "expected_output": "Recognizes before mode selection that a multi-step outbound and lifecycle program is wholly outside Evidence-Led Copy. It selects no fixed copy mode, routes the request to the appropriate email, outbound, or lifecycle capability, may offer only a bounded single-message copy intake if requested, and does not send messages, configure deliverability, or operate contact data.",
+      "expected_output": "Recognizes before mode selection that a multi-step outbound and lifecycle program is wholly outside Copywriting. It selects no fixed copy mode, routes the request to the appropriate email, outbound, or lifecycle capability, may offer only a bounded single-message copy intake if requested, and does not send messages, configure deliverability, or operate contact data.",
       "assertions": [
         "Routes the request before mode selection. [eval 515]",
         "Does not select a fixed copy mode. [eval 515]",
-        "Routes the sequence outside Evidence-Led Copy scope.",
+        "Routes the sequence outside Copywriting scope.",
         "Identifies lifecycle marketing as a suitable owner.",
-        "States that lifecycle branching is outside Evidence-Led Copy scope.",
-        "States that deliverability setup is outside Evidence-Led Copy scope.",
-        "States that automatic follow-ups are outside Evidence-Led Copy scope.",
+        "States that lifecycle branching is outside Copywriting scope.",
+        "States that deliverability setup is outside Copywriting scope.",
+        "States that automatic follow-ups are outside Copywriting scope.",
         "Does not send email.",
         "Does not access purchased contacts.",
         "Does not configure deliverability.",
@@ -443,7 +443,7 @@
     {
       "id": 516,
       "prompt": "Research keywords, rewrite every title tag, deploy the SEO changes, update our App Store metadata, and submit the new app listing. Also improve whatever conversion copy you notice.",
-      "expected_output": "Recognizes before mode selection that the request is wholly outside Evidence-Led Copy. It selects no fixed copy mode, routes SEO research and implementation to SEO capabilities, routes App Store metadata and submission to ASO or release capabilities, and performs no deployment or store submission. It may ask the user to name a separate in-scope copy asset for a later request.",
+      "expected_output": "Recognizes before mode selection that the request is wholly outside Copywriting. It selects no fixed copy mode, routes SEO research and implementation to SEO capabilities, routes App Store metadata and submission to ASO or release capabilities, and performs no deployment or store submission. It may ask the user to name a separate in-scope copy asset for a later request.",
       "assertions": [
         "Routes the request before mode selection. [eval 516]",
         "Does not select a fixed copy mode. [eval 516]",

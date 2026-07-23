@@ -1,9 +1,9 @@
 ---
-name: lifecycle-messaging
+name: lifecycle-marketing
 description: Use when planning, drafting, reviewing, or localizing welcome, activation, transactional, retention, win-back, or campaign messaging across email, international SMS, Mainland China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, or WhatsApp.
 ---
 
-# Lifecycle Messaging
+# Lifecycle Marketing
 
 Plan lifecycle programs from bounded evidence and current channel permission. Public product information is enough to begin a useful blueprint. Private CRM, CDP, event, consent, account, and analytics artifacts are optional; record missing or declined private data as `unavailable`, never as failure, and do not request declined access again.
 

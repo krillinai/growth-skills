@@ -2,7 +2,7 @@
 
 Use channel notes to keep the asset usable without claiming platform compliance or taking execution actions.
 
-Route a wholly out-of-scope request before selecting any Evidence-Led Copy mode. Select a fixed mode only when a bounded in-scope copy asset or focused copy intake remains.
+Route a wholly out-of-scope request before selecting any Copywriting mode. Select a fixed mode only when a bounded in-scope copy asset or focused copy intake remains.
 
 ## Mode And Surface Boundaries
 
@@ -43,7 +43,7 @@ Route work whose primary object is outside conversion copy:
 | CMS changes, component work, publishing, code deployment, release | Web, engineering, content operations, or release owner |
 | Ad-account creation, audience upload, targeting, spend, trafficking, launch | Paid media or advertising operations |
 
-For a mixed request, identify the exact copy asset that Evidence-Led Copy can own. Complete that asset only when its blocking context is available, then give a concise handoff containing the owner, required inputs, dependency, validation step, and authorization boundary for the remaining work.
+For a mixed request, identify the exact copy asset that Copywriting can own. Complete that asset only when its blocking context is available, then give a concise handoff containing the owner, required inputs, dependency, validation step, and authorization boundary for the remaining work.
 
 ## Authorization Boundary
 

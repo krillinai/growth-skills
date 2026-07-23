@@ -1,9 +1,9 @@
 ---
-name: evidence-led-copy
+name: copywriting
 description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel, especially for native Simplified Chinese or Mainland China work.
 ---
 
-# Evidence-Led Copy
+# Copywriting
 
 Write persuasive copy from supportable product truth. Match the audience, decision context, market, language, locale, and channel without inventing evidence or silently taking implementation actions.
 

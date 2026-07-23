@@ -1,9 +1,9 @@
 ---
-name: copy-quality-review
+name: copy-editing
 description: Use when existing marketing, product, campaign, or localized copy needs editing for clarity, voice, factual support, risk, channel fit, or native market adaptation without creating a new strategy.
 ---
 
-# Copy Quality Review
+# Copy Editing
 
 Review existing copy without silently changing factual meaning. Preserve the submitted text, return revised copy, and account for every material edit with exact spans.
 
