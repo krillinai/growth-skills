@@ -68,7 +68,19 @@ Aggregate accuracy can hide systematic harm. A model may reconcile annually whil
 
 ## Route Specialist Work
 
-This Skill owns the forecast contract, as-of snapshot, actual and forecast periods, baselines, driver and method selection, assumptions, uncertainty, forecast vintages, back-testing, calibration, bias, revision bridge, comparison, and refresh governance. Route full business topology and stock-flow mechanism design to `growth-model-design`; commercial pipeline, stages, bookings, contracts, finance, and cash reconciliation to `revops-audit`; customer lifetime value to `ltv-analysis`; metric contracts to `growth-metrics-design`; cohort construction to `cohort-analysis`; activation, retention, monetization, and expansion mechanisms to their specialist Skills; causal effects to `experiment-design`; acquisition spend-band and channel allocation to `acquisition-strategy`; and organization targets, staffing, and initiative portfolios to `growth-organization-design`.
+This Skill owns the forecast contract, as-of snapshot, actual and forecast periods, baselines, driver and method selection, assumptions, uncertainty, forecast vintages, back-testing, calibration, bias, revision bridge, comparison, and refresh governance. Route adjacent artifacts without treating the forecast as their approval:
+
+| Need | Route |
+| --- | --- |
+| Full business topology and stock-flow mechanism design | `growth-model-design` |
+| Commercial pipeline, stages, bookings, contracts, finance, and cash reconciliation | `revops-audit` |
+| Customer lifetime value, metric contracts, cohort construction, or decision-critical input defects | `ltv-analysis`, `growth-metrics-design`, `cohort-analysis`, `growth-data-quality-audit` |
+| Activation, retention, monetization, expansion, or causal mechanisms | `activation`, `retention`, `monetization`, `customer-expansion-strategy`, `experiment-design` |
+| Acquisition spend bands and channel allocation | `acquisition-strategy` |
+| Organization targets or annual, quarterly, and rolling integrated plans | `growth-target-setting`, `growth-planning-cycle` |
+| One investment case or shared cross-functional budget and resource allocation | `growth-investment-case`, `growth-budget-allocation` |
+| Recurring weekly, monthly, or quarterly decision review | `growth-operating-review` |
+| Organization structure, decision rights, staffing, or one selected initiative plan | `growth-organization-design`, `growth-initiative-planning` |
 
 A specialist output may become a forecast input only with compatible entity, market, version, as-of date, horizon, uncertainty, and owner. The forecast does not approve budgets, hiring, targets, prices, campaigns, product changes, or customer treatment.
 
