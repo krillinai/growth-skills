@@ -1,0 +1,4 @@
+interface:
+  display_name: "RevOps Audit"
+  short_description: "Audit revenue workflows, data, and controls"
+  default_prompt: "Use $revops-audit to audit this revenue process, evidence, and operating system."
