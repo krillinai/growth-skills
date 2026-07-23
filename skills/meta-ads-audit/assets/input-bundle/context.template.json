@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "decision": "Decide what to test or measure before the next Meta Ads review",
+  "owner": "Growth team",
+  "market": "US",
+  "start_date": "2026-06-01",
+  "end_date": "2026-06-30",
+  "currency": "USD",
+  "objective": "Qualified purchases",
+  "qualified_outcome": "First orders from new customers after refund maturation",
+  "attribution_context": "Meta-reported attribution is available; incrementality is unavailable",
+  "constraints": [
+    "Read-only audit",
+    "No live account access"
+  ]
+}

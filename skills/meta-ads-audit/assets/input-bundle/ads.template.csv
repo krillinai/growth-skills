@@ -1,0 +1,2 @@
+ad_id,campaign_id,campaign_name,ad_set_id,ad_set_name,ad_name,status,objective,destination_url
+ad-1,campaign-1,Prospecting,adset-1,Broad,Customer proof video,active,purchase,https://example.com/product
