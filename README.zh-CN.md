@@ -61,6 +61,7 @@
     <tr><td><a href="skills/geo/">GEO 诊断</a></td><td>基于证据评估网站面向 AI 生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>
     <tr><td><a href="skills/structured-data-builder/">结构化数据构建</a></td><td>基于页面可见内容或可归因的权威数据，生成、诊断、修复或模板化可追溯的 JSON-LD，并提供区分产品平台和市场情境的验证与限制说明</td></tr>
     <tr><td><a href="skills/search-site-planner/">搜索站点规划</a></td><td>基于边界明确的页面或 URL 清单，规划或审查站点层级、导航、网址、面包屑、内部链接与迁移映射，并提供完整对账和市场适配验证</td></tr>
+    <tr><td><a href="skills/b2b-outbound-messaging/">B2B 外联沟通</a></td><td>基于可归因证据，为适配市场且已获许可的渠道起草一对一 B2B 消息、边界明确的序列、跟进与原生本地化内容，并明确权限、停止状态、隐私和外部操作边界</td></tr>
   </tbody>
 </table>
 
