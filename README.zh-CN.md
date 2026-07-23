@@ -51,6 +51,7 @@
     <tr><td><a href="skills/acquisition-strategy/">获客策略</a></td><td>基于客户意图、来源到留存价值的质量、渠道与商业模式匹配、归因与增量、完整及边际经济性、饱和度、依赖关系、承载能力和市场进入证据，诊断、设计、比较、排序、扩展、限制或停止获客渠道与渠道组合</td></tr>
     <tr><td><a href="skills/growth-model-design/">增长模型设计</a></td><td>围绕客户价值、生命周期行为、渠道、Four Fits（四种匹配）、经济性、传播、再投资、容量、护栏与决策相关约束，映射、审查、计算、版本化并进行业务特定增长模型的情景测试</td></tr>
     <tr><td><a href="skills/growth-infrastructure-assessment/">增长基础设施评估</a></td><td>评估数据、指标、实验、决策、执行、创意与治理能力，判断哪些能力适合中心化或应保留本地决策，对比自建、采购、组合、整合或退役方案，并制定按依赖关系排序的基础设施路线图</td></tr>
+    <tr><td><a href="skills/revops-audit/">RevOps&nbsp;诊断</a></td><td>诊断收入实体、生命周期定义、买方进展、路由、归属、交接、系统、销售管道、预测、商业与财务对账、客户价值、续约、扩张及控制，并制定按依赖关系排序的修复路线图</td></tr>
     <tr><td><a href="skills/growth-organization-design/">增长组织设计</a></td><td>围绕当前约束诊断并设计结果归属、决策权、中心与嵌入边界、人员配置情景、项目组合、运行节奏、长期维护、组织健康与基于证据的重组触发条件</td></tr>
     <tr><td><a href="skills/incentive-system-design/">激励系统设计</a></td><td>基于留存增量贡献、完整成本、激励后行为、欺诈、蚕食、公平与信任，诊断、设计、递减或停止奖励、折扣、额度、补贴、推荐、忠诚度、进度、身份与结构性激励</td></tr>
     <tr><td><a href="skills/product-market-fit-assessment/">产品市场匹配评估</a></td><td>综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证</td></tr>
