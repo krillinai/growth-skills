@@ -1,8 +1,8 @@
-# Mainland China Platforms
+# China Platforms
 
 ## Scope And Collection Rule
 
-Treat Mainland China as a first-class market, written `Mainland China (CN)`, and keep it separate from language. A Chinese-language capture in another market is not a Mainland China capture; a Mainland China capture in another language is not a `zh-CN` capture. Select both values before collection.
+Treat China as a first-class market, written `China (CN)`, and keep it separate from language. A Chinese-language capture in another market is not a China capture; a China capture in another language is not a `zh-CN` capture. Select both values before collection.
 
 Use this note only for Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek consumer-product observations. It was produced from the direct official pages listed below and bounded, explicitly recorded product behavior. Do not import third-party crawler lists, optimization guidance, or generalized product claims.
 

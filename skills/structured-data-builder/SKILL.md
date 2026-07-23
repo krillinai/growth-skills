@@ -1,6 +1,6 @@
 ---
 name: structured-data-builder
-description: Use when generating, auditing, repairing, or templating Schema.org structured data or JSON-LD from captured page content or attributable authoritative data, including multi-entity graphs, conflicting markup, provider-specific eligibility checks, international locales, or Mainland China.
+description: Use when generating, auditing, repairing, or templating Schema.org structured data or JSON-LD from captured page content or attributable authoritative data, including multi-entity graphs, conflicting markup, provider-specific eligibility checks, international locales, or China.
 ---
 
 # Structured Data Builder
@@ -18,7 +18,7 @@ Choose one primary mode:
 | `repair` | Supported corrections to existing markup | Parseable revised JSON-LD plus complete change ledger |
 | `template` | A repeatable page or CMS pattern | Non-factual field contract and, only when supported, parseable example output |
 
-If the request mixes modes, name a primary mode and list secondary work. Read [build-and-audit.md](references/build-and-audit.md) for all modes and output contracts. Read [vocabulary-and-validation.md](references/vocabulary-and-validation.md) whenever selecting types or properties, checking existing markup, validating output, or discussing eligibility. Read [market-platform-notes.md](references/market-platform-notes.md) for any provider, market, language, locale, rich-result, or Mainland China claim.
+If the request mixes modes, name a primary mode and list secondary work. Read [build-and-audit.md](references/build-and-audit.md) for all modes and output contracts. Read [vocabulary-and-validation.md](references/vocabulary-and-validation.md) whenever selecting types or properties, checking existing markup, validating output, or discussing eligibility. Read [market-platform-notes.md](references/market-platform-notes.md) for any provider, market, language, locale, rich-result, or China claim.
 
 ## Establish The Evidence Boundary
 
@@ -52,7 +52,7 @@ Use the ladder in [vocabulary-and-validation.md](references/vocabulary-and-valid
 
 Search-product eligibility and required or recommended properties require a current direct official document for the exact provider, product, result type, market where applicable, and property set. Do not transfer Google behavior to Bing, Baidu, or another product. If a current direct official claim cannot be inspected, mark it `unavailable` and provide a bounded validation or owner handoff.
 
-For Mainland China, use native Simplified Chinese for user-facing work when the requested language is Simplified Chinese. Research direct official Baidu documentation, record access limitations, and never infer equivalence from Google documentation. Source records must include title, direct URL, publisher or product, exposed update date or `not exposed`, retrieval date, exact supported claim, and limitation/access state.
+For China, use native Simplified Chinese for user-facing work when the requested language is Simplified Chinese. Research direct official Baidu documentation, record access limitations, and never infer equivalence from Google documentation. Source records must include title, direct URL, publisher or product, exposed update date or `not exposed`, retrieval date, exact supported claim, and limitation/access state.
 
 ## Deliver
 

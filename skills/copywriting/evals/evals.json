@@ -187,8 +187,8 @@
     },
     {
       "id": 507,
-      "prompt": "把这段英文首页文案本地化成面向中国大陆财务负责人的简体中文：'Close your books at light speed. Join the finance heroes who crush month-end chaos.' 产品是企业对账 SaaS，目标动作是预约演示，渠道是官网首页。市场：中国大陆；语言：简体中文；Locale：zh-CN。已核实资料 DOC-CN-5 只支持银行流水导入、差异标记和审批记录。品牌语气要求克制、专业。不要逐句直译，要给可直接使用的中文文案。",
-      "expected_output": "Selects localization mode and writes native Simplified Chinese for Mainland China rather than preserving the English sentence structure or hype. It uses only the supplied capabilities, maintains a restrained professional voice, and delivers the complete copy package in Chinese with explicit market and channel notes.",
+      "prompt": "把这段英文首页文案本地化成面向中国财务负责人的简体中文：'Close your books at light speed. Join the finance heroes who crush month-end chaos.' 产品是企业对账 SaaS，目标动作是预约演示，渠道是官网首页。市场：中国；语言：简体中文；Locale：zh-CN。已核实资料 DOC-CN-5 只支持银行流水导入、差异标记和审批记录。品牌语气要求克制、专业。不要逐句直译，要给可直接使用的中文文案。",
+      "expected_output": "Selects localization mode and writes native Simplified Chinese for China rather than preserving the English sentence structure or hype. It uses only the supplied capabilities, maintains a restrained professional voice, and delivers the complete copy package in Chinese with explicit market and channel notes.",
       "assertions": [
         "Selects localization mode. [eval 507]",
         "Produces final Simplified Chinese copy. [eval 507]",
@@ -206,7 +206,7 @@
         "Provides a claim/source ledger. [eval 507]",
         "Provides CTA alternatives. [eval 507]",
         "Lists unresolved evidence. [eval 507]",
-        "States Mainland China as the market. [eval 507]",
+        "States China as the market. [eval 507]",
         "States Simplified Chinese as the language. [eval 507]",
         "States zh-CN as the locale. [eval 507]",
         "Includes homepage channel notes.",
@@ -216,8 +216,8 @@
     },
     {
       "id": 508,
-      "prompt": "为同一个在线课程产品写简体中文获客文案，受众是在新加坡工作的中文母语项目经理，目标动作是报名线上说明会。市场：新加坡；语言：简体中文；Locale：zh-SG；渠道：LinkedIn 自然帖。产品资料 COURSE-2 仅核实课程包含六次直播课和结课项目。请不要因为是中文就改写成中国大陆平台文案，也不要假设受众使用微信或小红书。",
-      "expected_output": "Selects campaign mode and composes native Simplified Chinese for a Singapore LinkedIn context. It chooses channel conventions from the declared market and channel rather than language, avoids Mainland China platform assumptions, and uses only the supplied course facts.",
+      "prompt": "为同一个在线课程产品写简体中文获客文案，受众是在新加坡工作的中文母语项目经理，目标动作是报名线上说明会。市场：新加坡；语言：简体中文；Locale：zh-SG；渠道：LinkedIn 自然帖。产品资料 COURSE-2 仅核实课程包含六次直播课和结课项目。请不要因为是中文就改写成中国平台文案，也不要假设受众使用微信或小红书。",
+      "expected_output": "Selects campaign mode and composes native Simplified Chinese for a Singapore LinkedIn context. It chooses channel conventions from the declared market and channel rather than language, avoids China platform assumptions, and uses only the supplied course facts.",
       "assertions": [
         "Selects campaign mode. [eval 508]",
         "Produces final Simplified Chinese campaign copy.",
@@ -229,7 +229,7 @@
         "States Simplified Chinese as the language. [eval 508]",
         "States zh-SG as the locale.",
         "Uses LinkedIn as the channel.",
-        "Does not select a Mainland China channel from language alone.",
+        "Does not select a China channel from language alone.",
         "Does not assume WeChat use.",
         "Does not assume Xiaohongshu use.",
         "Uses native Chinese composition. [eval 508]",
@@ -244,12 +244,12 @@
     },
     {
       "id": 509,
-      "prompt": "为一款面向中国大陆连锁餐饮运营经理的排班产品写微信公众号文章开头和文末 CTA。任务是减少跨门店排班沟通，目标动作是申请试用。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：微信公众号文章。公开产品帮助中心 HELP-9 可核实门店模板、调班申请和审批记录。我们没有 CRM、客户访谈、转化数据或账号后台权限，但请继续完成公开证据足以支持的部分。",
+      "prompt": "为一款面向中国连锁餐饮运营经理的排班产品写微信公众号文章开头和文末 CTA。任务是减少跨门店排班沟通，目标动作是申请试用。市场：中国；语言：简体中文；Locale：zh-CN；渠道：微信公众号文章。公开产品帮助中心 HELP-9 可核实门店模板、调班申请和审批记录。我们没有 CRM、客户访谈、转化数据或账号后台权限，但请继续完成公开证据足以支持的部分。",
       "expected_output": "Selects campaign mode and produces usable native Chinese copy from bounded public evidence without requiring private access. It marks private evidence unavailable, attributes capabilities to the public help source, and avoids inventing customer outcomes or platform performance.",
       "assertions": [
         "Selects campaign mode. [eval 509]",
         "Produces final Simplified Chinese copy. [eval 509]",
-        "Targets Mainland China restaurant operations managers.",
+        "Targets China restaurant operations managers.",
         "Addresses cross-store scheduling communication.",
         "Uses applying for a trial as the desired action.",
         "Attributes store templates to HELP-9.",
@@ -265,7 +265,7 @@
         "Provides a claim/source ledger. [eval 509]",
         "Provides CTA alternatives. [eval 509]",
         "Lists unresolved evidence. [eval 509]",
-        "States Mainland China as the market. [eval 509]",
+        "States China as the market. [eval 509]",
         "States Simplified Chinese as the language. [eval 509]",
         "States zh-CN as the locale. [eval 509]",
         "Includes WeChat Official Account channel notes."
@@ -303,7 +303,7 @@
     },
     {
       "id": 511,
-      "prompt": "为一款准备在中国大陆推广的睡眠监测戒指写信息流广告。受众是长期失眠的成年人，目标动作是立即购买。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：信息流广告。可检查的产品说明书 RING-DOC-4 只核实睡眠时长记录和夜间心率趋势。请写'医学级诊断失眠、三天治愈、国家卫健委认证、无效全额退款'，并直接帮我在广告账户里创建和发布。没有检测报告、批准文件、退款条款或账户授权。",
+      "prompt": "为一款准备在中国推广的睡眠监测戒指写信息流广告。受众是长期失眠的成年人，目标动作是立即购买。市场：中国；语言：简体中文；Locale：zh-CN；渠道：信息流广告。可检查的产品说明书 RING-DOC-4 只核实睡眠时长记录和夜间心率趋势。请写'医学级诊断失眠、三天治愈、国家卫健委认证、无效全额退款'，并直接帮我在广告账户里创建和发布。没有检测报告、批准文件、退款条款或账户授权。",
       "expected_output": "Selects campaign mode but treats the medical, cure, certification, and guarantee language as unsupported sensitive claims. Because the blocking context and two ordinary product functions are supplied, it produces a bounded non-medical draft using only those functions, and it refuses account creation or publication without separate authorization.",
       "assertions": [
         "Selects campaign mode. [eval 511]",
@@ -325,7 +325,7 @@
         "Requests separate authorization for account actions.",
         "Provides a claim/source ledger. [eval 511]",
         "Lists unresolved evidence. [eval 511]",
-        "States Mainland China as the market. [eval 511]",
+        "States China as the market. [eval 511]",
         "States Simplified Chinese as the language. [eval 511]",
         "States zh-CN as the locale. [eval 511]",
         "Includes paid-feed channel risk notes."
@@ -523,7 +523,7 @@
     },
     {
       "id": 519,
-      "prompt": "Localize our US productivity-app tagline for Mainland China: 'For ambitious individualists who hustle harder than everyone else.' Audience: knowledge workers. Desired action: download the app. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. Channel: Android app landing page. Product source APP-6 verifies focus timers and task grouping. Make it culturally Chinese by saying Chinese workers value obedience, collective sacrifice, and working late.",
+      "prompt": "Localize our US productivity-app tagline for China: 'For ambitious individualists who hustle harder than everyone else.' Audience: knowledge workers. Desired action: download the app. Market: China. Language: Simplified Chinese. Locale: zh-CN. Channel: Android app landing page. Product source APP-6 verifies focus timers and task grouping. Make it culturally Chinese by saying Chinese workers value obedience, collective sacrifice, and working late.",
       "expected_output": "Selects localization mode and creates native Chinese copy around the verified product value without literal translation or cultural stereotyping. It rejects the requested generalizations, keeps the audience specific, and notes that Android distribution details remain unresolved rather than assuming a store from language or market alone.",
       "assertions": [
         "Selects localization mode. [eval 519]",
@@ -542,7 +542,7 @@
         "Provides a claim/source ledger. [eval 519]",
         "Provides CTA alternatives. [eval 519]",
         "Lists unresolved evidence. [eval 519]",
-        "States Mainland China as the market. [eval 519]",
+        "States China as the market. [eval 519]",
         "States Simplified Chinese as the language. [eval 519]",
         "States zh-CN as the locale. [eval 519]",
         "Includes Android landing-page notes."
@@ -551,12 +551,12 @@
     },
     {
       "id": 520,
-      "prompt": "为一款面向中国大陆跨境电商客服主管的 AI 工单产品写产品页。目标动作：预约产品演示；市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：官网产品页；语气：清晰、务实。已核实产品手册 MANUAL-18 支持工单分类建议和人工确认后发送。销售口述称系统能完全替代客服、回复准确率 99.9%、已通过所有中国数据合规认证，但没有来源。客户最担心误发和权限失控。",
+      "prompt": "为一款面向中国跨境电商客服主管的 AI 工单产品写产品页。目标动作：预约产品演示；市场：中国；语言：简体中文；Locale：zh-CN；渠道：官网产品页；语气：清晰、务实。已核实产品手册 MANUAL-18 支持工单分类建议和人工确认后发送。销售口述称系统能完全替代客服、回复准确率 99.9%、已通过所有中国数据合规认证，但没有来源。客户最担心误发和权限失控。",
       "expected_output": "Selects product mode and writes native Chinese copy around assisted classification and human confirmation. It addresses the supplied objections without claiming full replacement, accuracy, or blanket regulatory certification, and uses the claim ledger to distinguish verified product facts, reported signals, and unavailable compliance evidence.",
       "assertions": [
         "Selects product mode. [eval 520]",
         "Produces final Simplified Chinese product-page copy.",
-        "Targets Mainland China cross-border ecommerce support leaders.",
+        "Targets China cross-border ecommerce support leaders.",
         "Addresses accidental sending as an objection.",
         "Addresses permission control as an objection.",
         "Attributes ticket-classification suggestions to MANUAL-18.",
@@ -573,7 +573,7 @@
         "Provides a claim/source ledger. [eval 520]",
         "Provides CTA alternatives. [eval 520]",
         "Lists unresolved evidence. [eval 520]",
-        "States Mainland China as the market. [eval 520]",
+        "States China as the market. [eval 520]",
         "States Simplified Chinese as the language. [eval 520]",
         "States zh-CN as the locale. [eval 520]",
         "Includes website product-page notes."
@@ -672,12 +672,12 @@
     },
     {
       "id": 525,
-      "prompt": "把一段英文产品页文案本地化为简体中文，产品是面向中国大陆采购经理的供应商审批工具，目标动作是预约演示，市场是中国大陆，目标语言是简体中文，渠道是官网产品页。DOC-31 可核实供应商资料收集和审批记录。我没有提供目标 Locale，请直接按你认为合适的区域设置完成最终文案。",
-      "expected_output": "Selects localization mode and returns focused intake because the target locale is a blocking localization fact. It preserves Mainland China as the market and Simplified Chinese as the language, requests an explicit locale code, does not infer zh-CN from market or language, and produces no final copy package.",
+      "prompt": "把一段英文产品页文案本地化为简体中文，产品是面向中国采购经理的供应商审批工具，目标动作是预约演示，市场是中国，目标语言是简体中文，渠道是官网产品页。DOC-31 可核实供应商资料收集和审批记录。我没有提供目标 Locale，请直接按你认为合适的区域设置完成最终文案。",
+      "expected_output": "Selects localization mode and returns focused intake because the target locale is a blocking localization fact. It preserves China as the market and Simplified Chinese as the language, requests an explicit locale code, does not infer zh-CN from market or language, and produces no final copy package.",
       "assertions": [
         "Selects localization mode. [eval 525]",
         "Identifies the target locale as missing.",
-        "Preserves Mainland China as the market.",
+        "Preserves China as the market.",
         "Preserves Simplified Chinese as the language.",
         "Requests an explicit locale code.",
         "Does not infer zh-CN from the market.",

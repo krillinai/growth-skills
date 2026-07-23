@@ -1,6 +1,6 @@
 ---
 name: search-site-planner
-description: Use when planning or reviewing a website or section hierarchy, navigation, URL structure, breadcrumbs, internal links, restructuring decisions, or old-to-new migration mappings from a declared page or URL inventory, including international and Mainland China properties.
+description: Use when planning or reviewing a website or section hierarchy, navigation, URL structure, breadcrumbs, internal links, restructuring decisions, or old-to-new migration mappings from a declared page or URL inventory, including international and China properties.
 ---
 
 # Search Site Planner
@@ -18,7 +18,7 @@ Choose one primary mode:
 | `migration` | Scoped old URLs and proposed target inventory | Give every old URL exactly one explicit migration disposition |
 | `focused` | Named page or section set | Review only that set; do not widen into a site redesign |
 
-If a request mixes modes, name the primary mode and bound any secondary work. Read [planning-contract.md](references/planning-contract.md) for the inventory, evidence, hierarchy, navigation, URL, breadcrumb, internal-link, and output contracts. For `migration`, or when redirects or release validation are involved, also read [migration-and-validation.md](references/migration-and-validation.md). For market, language, locale, domain, provider, indexing, or Mainland China questions, read [market-search-notes.md](references/market-search-notes.md).
+If a request mixes modes, name the primary mode and bound any secondary work. Read [planning-contract.md](references/planning-contract.md) for the inventory, evidence, hierarchy, navigation, URL, breadcrumb, internal-link, and output contracts. For `migration`, or when redirects or release validation are involved, also read [migration-and-validation.md](references/migration-and-validation.md). For market, language, locale, domain, provider, indexing, or China questions, read [market-search-notes.md](references/market-search-notes.md).
 
 ## Freeze The Evidence Boundary
 
@@ -44,7 +44,7 @@ Apply the mode contract:
 - `migration`: preserve a URL when the supplied relationship and implementation evidence support preservation. For every redirect, give the exact source, exact target, and rationale. Never default unmatched URLs to the homepage.
 - `focused`: keep all findings and recommendations inside the named set. Describe external dependencies without redesigning them.
 
-For Mainland China work requested in Simplified Chinese, write user-facing output in native Simplified Chinese. Do not infer market from language or locale, and do not treat a country domain, subdomain, subdirectory, or separate international domain as universally correct.
+For China work requested in Simplified Chinese, write user-facing output in native Simplified Chinese. Do not infer market from language or locale, and do not treat a country domain, subdomain, subdirectory, or separate international domain as universally correct.
 
 ## Deliver In Order
 

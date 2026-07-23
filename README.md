@@ -33,7 +33,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   <tbody>
     <tr><td><a href="https://github.com/krillinai/KrillinAI">Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing</a></td><td>Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering</td></tr>
     <tr><td><a href="https://github.com/krillinai/autosocial-skills">Social&nbsp;Media&nbsp;Publishing</a></td><td>Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata</td></tr>
-    <tr><td><a href="skills/copywriting/">Copywriting</a></td><td>Write evidence-led page, campaign, product, offer, and localization copy with explicit market, language, locale, channel, and claim-source controls, including native Simplified Chinese for Mainland China</td></tr>
+    <tr><td><a href="skills/copywriting/">Copywriting</a></td><td>Write evidence-led page, campaign, product, offer, and localization copy with explicit market, language, locale, channel, and claim-source controls, including native Simplified Chinese for China</td></tr>
     <tr><td><a href="skills/copy-editing/">Copy&nbsp;Editing</a></td><td>Review and edit existing copy for clarity, hierarchy, voice, claims, accessibility, CTA, and market, locale, and channel fit while preserving factual meaning and recording exact edits</td></tr>
   </tbody>
 </table>
@@ -56,7 +56,7 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
     <tr><th width="32%">Skill</th><th>Description</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="skills/lifecycle-marketing/">Lifecycle&nbsp;Marketing</a></td><td>Plan, draft, review, and localize evidence-bounded welcome, activation, transactional, retention, win-back, and campaign messaging across email, international and Mainland China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, and WhatsApp with explicit classification, permission, suppression, and external-action controls</td></tr>
+    <tr><td><a href="skills/lifecycle-marketing/">Lifecycle&nbsp;Marketing</a></td><td>Plan, draft, review, and localize evidence-bounded welcome, activation, transactional, retention, win-back, and campaign messaging across email, international and China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, and WhatsApp with explicit classification, permission, suppression, and external-action controls</td></tr>
   </tbody>
 </table>
 

@@ -4,7 +4,7 @@ Use these records only for the exact narrow claims stated. They are operational 
 
 Retrieval date for every record: **2026-07-23**.
 
-## Mainland China SMS
+## China SMS
 
 ### Tencent Cloud SMS Signature Documentation
 
@@ -13,7 +13,7 @@ Retrieval date for every record: **2026-07-23**.
 - Publisher/product: Tencent Cloud / SMS
 - Exposed date: `unavailable`
 - Exact narrow supported claim: `unavailable`; no relevant article text was directly inspectable in the retrieved response.
-- Limitation/access state: HTTP 200 returned an anti-automation JavaScript shell rather than inspectable documentation text. No signature, template, registration, approval, or Mainland China rule is claimed from this capture. Do not bypass the access control; obtain a current direct provider artifact or owner record.
+- Limitation/access state: HTTP 200 returned an anti-automation JavaScript shell rather than inspectable documentation text. No signature, template, registration, approval, or China rule is claimed from this capture. Do not bypass the access control; obtain a current direct provider artifact or owner record.
 
 ### Tencent Cloud SMS Template Documentation
 

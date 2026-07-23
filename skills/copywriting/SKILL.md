@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel, especially for native Simplified Chinese or Mainland China work.
+description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel, especially for native Simplified Chinese or China work.
 ---
 
 # Copywriting
@@ -11,7 +11,7 @@ Write persuasive copy from supportable product truth. Match the audience, decisi
 
 Read [copy-contract.md](references/copy-contract.md) before deciding whether to ask for intake, use bounded assumptions, classify a claim, or deliver final copy.
 
-Read [market-profiles.md](references/market-profiles.md) for every localization request, every Mainland China request, or whenever market, language, or locale could change proof, offer presentation, or channel expectations.
+Read [market-profiles.md](references/market-profiles.md) for every localization request, every China request, or whenever market, language, or locale could change proof, offer presentation, or channel expectations.
 
 Read [channel-notes.md](references/channel-notes.md) for campaign assets, constrained formats, channel mismatch, mixed implementation requests, or capability routing.
 
@@ -110,7 +110,7 @@ Choose channel treatment from the declared market and channel, never from langua
 
 For Simplified Chinese, compose from the intended meaning, reader context, evidence, and action. Do not preserve English syntax, metaphors, idioms, rhythm, or hype when they are unnatural in Chinese. Use locally natural information order and CTA wording without stereotypes or claims about what a culture supposedly values.
 
-For Mainland China, use current primary sources for platform availability, distribution, advertising, data, sector, or regulatory claims. If a current source is not available, mark the claim unavailable. Do not assume a platform, Android store, payment method, login dependency, restriction, compliance status, or audience behavior from the language or market label.
+For China, use current primary sources for platform availability, distribution, advertising, data, sector, or regulatory claims. If a current source is not available, mark the claim unavailable. Do not assume a platform, Android store, payment method, login dependency, restriction, compliance status, or audience behavior from the language or market label.
 
 Honor only supplied or currently sourced channel limits. If the requested form conflicts with the channel, explain the mismatch, preserve the intended message, and return a channel-appropriate bounded alternative. Never invent a numeric limit from memory.
 

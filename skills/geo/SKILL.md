@@ -1,6 +1,6 @@
 ---
 name: geo
-description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences across declared markets and languages, including Mainland China, a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
+description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences across declared markets and languages, including China, a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
 ---
 
 # GEO Audit
@@ -42,7 +42,7 @@ Never bypass authentication, CAPTCHA, paywalls, rate limits, robots controls, re
 
 For `page`, `site`, or focused technical work, read [page-and-site-audit.md](references/page-and-site-audit.md) and [evidence-and-scoring.md](references/evidence-and-scoring.md). Capture raw and rendered representations separately. Freeze a site sample before inspection, retain every selected URL including failures, report `fetched / selected`, and limit conclusions to the sample.
 
-For `visibility`, `incident`, or a competitive query panel, read [visibility-observation.md](references/visibility-observation.md). Record every attempt, including answered, no-answer, no-feature, brand-absent, unavailable, and error states. Preserve exact denominators and do not call stochastic observations rankings. For Mainland China observations on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, also read [mainland-china-platforms.md](references/mainland-china-platforms.md).
+For `visibility`, `incident`, or a competitive query panel, read [visibility-observation.md](references/visibility-observation.md). Record every attempt, including answered, no-answer, no-feature, brand-absent, unavailable, and error states. Preserve exact denominators and do not call stochastic observations rankings. For China observations on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, also read [china-platforms.md](references/china-platforms.md).
 
 For robots, provider behavior, AI search requirements, or optional protocols such as `llms.txt`, OKF, or knowledge bundles, read [platform-notes.md](references/platform-notes.md). Treat optional artifacts as experiments unless a current primary platform source establishes support and effect. Their existence, absence, validity, or staleness does not itself affect fixed readiness rows.
 

@@ -13,7 +13,7 @@ Record market, language, locale, and channel independently. Do not infer one fro
 | Locale | Which regional spelling, punctuation, formatting, terminology, and conventions apply? |
 | Channel | Where will the audience encounter and act on the copy? |
 
-Simplified Chinese does not imply Mainland China. Mainland China does not imply Chinese-language copy. Use the declared channel; do not switch platforms because of language or market.
+Simplified Chinese does not imply China as the market. A China market does not imply Chinese-language copy. Use the declared channel; do not switch platforms because of language or market.
 
 ## Native Adaptation
 
@@ -33,13 +33,13 @@ Remove literal translations of English hype, identity labels, aggressive metapho
 
 Do not replace audience research with stereotypes about Chinese or international audiences.
 
-## Mainland China
+## China
 
-Treat Mainland China as a declared market boundary. Keep the user-declared language, locale, and channel. Do not assume WeChat, Xiaohongshu, Douyin, Kuaishou, Baidu, an app store, a payment method, or a distribution route.
+Treat China as a declared market boundary. Keep the user-declared language, locale, and channel. Do not assume WeChat, Xiaohongshu, Douyin, Kuaishou, Baidu, an app store, a payment method, or a distribution route.
 
 Use current direct sources for time-sensitive platform requirements, sector restrictions, required disclosures, certifications, approvals, prices, terms, availability, data handling, or distribution claims. If the relevant current source is absent, mark the point `unavailable`; do not rely on memory.
 
-Financial, medical, education, employment, safety, privacy, and other sensitive copy requires source scope appropriate to Mainland China and qualified review where applicable. Do not call the copy compliant or publish-ready merely because risky wording was removed.
+Financial, medical, education, employment, safety, privacy, and other sensitive copy requires source scope appropriate to China and qualified review where applicable. Do not call the copy compliant or publish-ready merely because risky wording was removed.
 
 ## International Contexts
 

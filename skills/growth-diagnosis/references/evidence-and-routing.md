@@ -64,11 +64,11 @@ The schema requires `constraint.confidence` between `0` and `1`; it does not def
 
 Do not convert the constraint-comparison dimensions into an arithmetic score. Do not accept a requested confidence, benchmark, or causal statement merely because it makes the output look complete.
 
-## Market And Mainland China Context
+## Market And China Context
 
 Establish market and locale before comparing channels, journeys, or economics. Treat availability and compliance as evidence questions, not assumptions.
 
-For Mainland China, check only the surfaces relevant to the diagnosed product:
+For China, check only the surfaces relevant to the diagnosed product:
 
 - Simplified Chinese language, terminology, customer support, and local trust expectations;
 - local web, search, social, advertising, and content distribution channels;

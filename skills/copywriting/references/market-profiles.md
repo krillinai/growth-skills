@@ -13,7 +13,7 @@ Record these independently:
 | Language | What language should the asset use? |
 | Channel | Where will the audience encounter and act on the copy? |
 
-Never infer one field from another. Simplified Chinese can serve audiences outside Mainland China. English can serve audiences inside a non-US market. A declared market does not prove that a particular platform, store, payment method, or distribution route is used.
+Never infer one field from another. Simplified Chinese can serve audiences outside China. English can serve audiences inside a non-US market. A declared market does not prove that a particular platform, store, payment method, or distribution route is used.
 
 Select channel treatment from the declared market and channel, not from language alone.
 
@@ -37,9 +37,9 @@ Avoid literal versions of English hero idioms, aggressive verbs, exaggerated ide
 
 Do not describe Chinese audiences as collectivist, obedient, status-driven, bargain-seeking, hard-working, risk-averse, patriotic, family-oriented, or any other generalized trait. Use supplied audience research or state the audience need without a cultural explanation.
 
-## Mainland China
+## China
 
-Treat Mainland China as a declared market context, not a synonym for Simplified Chinese.
+Treat China as a declared market context, not a synonym for Simplified Chinese.
 
 - Use the user-declared channel. Do not switch to WeChat, Douyin, Xiaohongshu, Kuaishou, Baidu, an app store, or another platform merely because the copy is Chinese.
 - Use current direct sources for platform availability, advertising requirements, sector restrictions, data handling, certifications, required disclosures, app distribution, payments, identity or login dependencies, and other time-sensitive rules.

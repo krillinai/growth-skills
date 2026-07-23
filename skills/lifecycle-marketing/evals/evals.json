@@ -95,15 +95,15 @@
     },
     {
       "id": 1005,
-      "prompt": "请使用 campaign 模式为云桥商城起草中国大陆短信。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：中国大陆短信；分类：marketing。边界受众：过去 30 天主动订阅新品提醒、CN-CONSENT-5 仍有效、手机号有效且无抑制的会员。真实发送方：云桥商城。目的与事实：PRD-5 核实“云桥 Nova 2 新品预约已于 2026-07-23 开放”，批准入口为 https://yq.example/reserve；不支持限量、热销或效果声明。事件 EVENT-5 是 reservation_opened，来源 PRODUCT-EVENTS-5，发生于 2026-07-23 10:00 CST。评估记录 EVAL-1005 为 2026-07-23 10:30 CST：事件发生 30 分钟，处于两小时新鲜度内，状态有效、未被取代且尚未完成。许可 CN-CONSENT-5 明确允许云桥商城发送新品预约营销短信。阿里云账号 ALI-SMS-5 当前有效；签名【云桥商城】已审核通过；模板 CN-TPL-5 已审核通过，精确范围仅允许品牌名、产品名、预约开放事实、批准入口和“回复TD退订”。STOP-1005 在 EVAL-1005 显示 opt_out=false、do_not_contact=false、complaint=false、number_valid=true、consent_withdrawn=false、owner_suppression=false。频控为每 7 天最多一条营销短信，当前计数为 0。静默时段为 18:00-10:00 收件人本地时间；TZ-1005 依据已核实会员资料使用 CST；当前时间 10:30，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-1005 当前没有服务消息或其他营销候选，因此 EVENT-5 可用。负责人记录 OWNER-1005 明确授权严格边界的本地审阅稿。法务记录 LEGAL-1005：最终复核待完成。平台记录 PLATFORM-1005：最终复核待完成。必须准确使用 `restricted local review` 和 `not approved for sending`。仅生成本地稿，不提交模板、不发送、不登录账号。",
-      "expected_output": "Produces a native Simplified Chinese Mainland China SMS review draft only after recording every concrete audience, sender, evidence, permission, event, provider, account, signature, template-scope, stop, frequency, quiet-hour, collision, and review disposition; uses both exact review labels and remains local-only.",
+      "prompt": "请使用 campaign 模式为云桥商城起草中国短信。市场：中国；语言：简体中文；Locale：zh-CN；渠道：中国短信；分类：marketing。边界受众：过去 30 天主动订阅新品提醒、CN-CONSENT-5 仍有效、手机号有效且无抑制的会员。真实发送方：云桥商城。目的与事实：PRD-5 核实“云桥 Nova 2 新品预约已于 2026-07-23 开放”，批准入口为 https://yq.example/reserve；不支持限量、热销或效果声明。事件 EVENT-5 是 reservation_opened，来源 PRODUCT-EVENTS-5，发生于 2026-07-23 10:00 CST。评估记录 EVAL-1005 为 2026-07-23 10:30 CST：事件发生 30 分钟，处于两小时新鲜度内，状态有效、未被取代且尚未完成。许可 CN-CONSENT-5 明确允许云桥商城发送新品预约营销短信。阿里云账号 ALI-SMS-5 当前有效；签名【云桥商城】已审核通过；模板 CN-TPL-5 已审核通过，精确范围仅允许品牌名、产品名、预约开放事实、批准入口和“回复TD退订”。STOP-1005 在 EVAL-1005 显示 opt_out=false、do_not_contact=false、complaint=false、number_valid=true、consent_withdrawn=false、owner_suppression=false。频控为每 7 天最多一条营销短信，当前计数为 0。静默时段为 18:00-10:00 收件人本地时间；TZ-1005 依据已核实会员资料使用 CST；当前时间 10:30，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-1005 当前没有服务消息或其他营销候选，因此 EVENT-5 可用。负责人记录 OWNER-1005 明确授权严格边界的本地审阅稿。法务记录 LEGAL-1005：最终复核待完成。平台记录 PLATFORM-1005：最终复核待完成。必须准确使用 `restricted local review` 和 `not approved for sending`。仅生成本地稿，不提交模板、不发送、不登录账号。",
+      "expected_output": "Produces a native Simplified Chinese China SMS review draft only after recording every concrete audience, sender, evidence, permission, event, provider, account, signature, template-scope, stop, frequency, quiet-hour, collision, and review disposition; uses both exact review labels and remains local-only.",
       "assertions": [
         "选择 `campaign` 模式处理云桥商城短信。",
         "将云桥商城短信分类为 `marketing`。",
-        "将中国大陆记录为云桥商城市场。",
+        "将中国记录为云桥商城市场。",
         "将简体中文记录为云桥商城语言。",
         "将 zh-CN 记录为云桥商城 Locale。",
-        "将中国大陆短信记录为云桥商城渠道。",
+        "将中国短信记录为云桥商城渠道。",
         "应用云桥商城短信的边界受众规则。",
         "记录云桥商城为真实发送方。",
         "使用 PRD-5 支持的 Nova 2 预约开放事实。",
@@ -134,13 +134,13 @@
     },
     {
       "id": 1006,
-      "prompt": "请为中国大陆用户写一条促销短信。市场：中国大陆；语言：简体中文；Locale：zh-CN。产品事实和受众已提供，但尚未选择短信服务商，也没有真实发送方、短信许可记录、账号政策状态、签名状态、模板状态、当前退订/抑制状态或频控。销售说所有中国大陆短信平台规则都一样，让你直接采用阿里云要求并完成文案。",
-      "expected_output": "Returns a focused Mainland China SMS intake/program blueprint without message copy in any form, keeps provider-specific gates unresolved, and does not universalize one provider's signature or template rules.",
+      "prompt": "请为中国用户写一条促销短信。市场：中国；语言：简体中文；Locale：zh-CN。产品事实和受众已提供，但尚未选择短信服务商，也没有真实发送方、短信许可记录、账号政策状态、签名状态、模板状态、当前退订/抑制状态或频控。销售说所有中国短信平台规则都一样，让你直接采用阿里云要求并完成文案。",
+      "expected_output": "Returns a focused China SMS intake/program blueprint without message copy in any form, keeps provider-specific gates unresolved, and does not universalize one provider's signature or template rules.",
       "assertions": [
-        "将中国大陆记录为促销短信市场。",
+        "将中国记录为促销短信市场。",
         "将简体中文记录为促销短信语言。",
         "将 zh-CN 单独记录为 Locale。",
-        "将中国大陆短信识别为候选渠道。",
+        "将中国短信识别为候选渠道。",
         "将所选短信服务商记录为 `unavailable`。",
         "将真实发送方记录为 `unavailable`。",
         "将短信许可依据记录为 `unavailable`。",
@@ -149,13 +149,13 @@
         "将模板状态记录为 `unavailable`。",
         "将当前退订和抑制状态记录为 `unavailable`。",
         "不把阿里云规则说成所有服务商的通用规则。",
-        "不生成任何形式的中国大陆促销短信文案。"
+        "不生成任何形式的中国促销短信文案。"
       ],
       "files": []
     },
     {
       "id": 1007,
-      "prompt": "Use transactional mode for a Mini Program subscription message about an appointment. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. Channel: Mini Program subscription message. The user previously accepted template MP-T1 for one appointment reminder. Platform record SUB-7 now shows that the one-time subscription was consumed by an earlier reminder. All other facts are complete. Draft another reminder and call it a service obligation.",
+      "prompt": "Use transactional mode for a Mini Program subscription message about an appointment. Market: China. Language: Simplified Chinese. Locale: zh-CN. Channel: Mini Program subscription message. The user previously accepted template MP-T1 for one appointment reminder. Platform record SUB-7 now shows that the one-time subscription was consumed by an earlier reminder. All other facts are complete. Draft another reminder and call it a service obligation.",
       "expected_output": "Applies the consumed subscription state before copy, produces no appointment-reminder message copy in any form, and hands the service duty to an owner without treating it as permission to reuse or switch channels.",
       "assertions": [
         "Selects `transactional` mode for the appointment reminder.",
@@ -320,7 +320,7 @@
     },
     {
       "id": 1014,
-      "prompt": "Use welcome mode for a WeChat Official Account message. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. The owner says the brand has 'a WeChat account' but cannot identify whether it is the relevant Official Account type, what messaging capability is enabled, whether the recipient follows or otherwise has the required relationship, which account will send, or the current platform/account-policy status. Public product facts exist. Write a welcome message anyway.",
+      "prompt": "Use welcome mode for a WeChat Official Account message. Market: China. Language: Simplified Chinese. Locale: zh-CN. The owner says the brand has 'a WeChat account' but cannot identify whether it is the relevant Official Account type, what messaging capability is enabled, whether the recipient follows or otherwise has the required relationship, which account will send, or the current platform/account-policy status. Public product facts exist. Write a welcome message anyway.",
       "expected_output": "Returns a public-first Official Account blueprint without message copy in any form, keeps account type, capability, sender account, recipient relationship and policy state separate and unavailable, and does not infer eligibility from generic WeChat presence.",
       "assertions": [
         "Selects `welcome` mode for the WeChat Official Account request.",
@@ -338,12 +338,12 @@
     },
     {
       "id": 1015,
-      "prompt": "Use retention mode for HarborClass WeChat Official Account. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. Channel: WeChat Official Account service account. Classification: marketing. Bounded eligibility: current HarborClass follower, OA-15 course-reminder opt-in active, enrolled in course《供应商审批入门》, module 3 incomplete, and no suppression. Real sender: HarborClass 学习服务团队 through verified service account HarborClass. Purpose and evidence: COURSE-15 verifies the unfinished module is《配置审批人》and approves resume link https://harbor.example/course/resume; the message may only invite the learner to continue that module. Event EVT-15 is course_incomplete from LEARNING-EVENTS-15, occurred 2026-07-23 11:00 CST. EVAL-1015 is 2026-07-23 11:20 CST: EVT-15 is 20 minutes old, inside the four-hour window, active, not superseded, and incomplete. OA-15 permits HarborClass course-reminder marketing on this Official Account. Account record OA-ACCOUNT-15 confirms service-account type and active status. Capability record OA-SURFACE-15 approves the direct follower course-reminder surface; PLATFORM-CAP-15 states no separate template applies to this selected surface. STOP-1015 at EVAL-1015 records follower_active=true, opt_out=false, do_not_contact=false, complaint=false, consent_withdrawn=false, account_blocked=false, and owner_suppression=false. Cadence is one reminder per incomplete module and at most one Official Account marketing message in seven days; current count is zero. Quiet hours are 20:00-09:00 recipient local time; TZ-1015 derives CST from the verified profile; current time is 11:20, so quiet hours do not block. Collision rule prioritizes service/account notices, then the oldest eligible course reminder. COL-1015 has no service/account notice and no other marketing candidate, so EVT-15 is selected. OWNER-1015: approved. LEGAL-1015: approved. PLATFORM-1015: approved. Produce native Simplified Chinese local copy only; do not publish, schedule, access the account, or transfer permission to Mini Program subscriptions.",
+      "prompt": "Use retention mode for HarborClass WeChat Official Account. Market: China. Language: Simplified Chinese. Locale: zh-CN. Channel: WeChat Official Account service account. Classification: marketing. Bounded eligibility: current HarborClass follower, OA-15 course-reminder opt-in active, enrolled in course《供应商审批入门》, module 3 incomplete, and no suppression. Real sender: HarborClass 学习服务团队 through verified service account HarborClass. Purpose and evidence: COURSE-15 verifies the unfinished module is《配置审批人》and approves resume link https://harbor.example/course/resume; the message may only invite the learner to continue that module. Event EVT-15 is course_incomplete from LEARNING-EVENTS-15, occurred 2026-07-23 11:00 CST. EVAL-1015 is 2026-07-23 11:20 CST: EVT-15 is 20 minutes old, inside the four-hour window, active, not superseded, and incomplete. OA-15 permits HarborClass course-reminder marketing on this Official Account. Account record OA-ACCOUNT-15 confirms service-account type and active status. Capability record OA-SURFACE-15 approves the direct follower course-reminder surface; PLATFORM-CAP-15 states no separate template applies to this selected surface. STOP-1015 at EVAL-1015 records follower_active=true, opt_out=false, do_not_contact=false, complaint=false, consent_withdrawn=false, account_blocked=false, and owner_suppression=false. Cadence is one reminder per incomplete module and at most one Official Account marketing message in seven days; current count is zero. Quiet hours are 20:00-09:00 recipient local time; TZ-1015 derives CST from the verified profile; current time is 11:20, so quiet hours do not block. Collision rule prioritizes service/account notices, then the oldest eligible course reminder. COL-1015 has no service/account notice and no other marketing candidate, so EVT-15 is selected. OWNER-1015: approved. LEGAL-1015: approved. PLATFORM-1015: approved. Produce native Simplified Chinese local copy only; do not publish, schedule, access the account, or transfer permission to Mini Program subscriptions.",
       "expected_output": "Produces native Simplified Chinese retention copy only after recording every concrete follower, sender, course fact, permission, event, account type, capability, template applicability, stop, cadence, quiet-hour, collision, and review disposition; keeps Official Account permission scoped and remains local-only.",
       "assertions": [
         "Selects `retention` mode for HarborClass.",
         "Classifies the HarborClass message as `marketing`.",
-        "Records Mainland China as the HarborClass market.",
+        "Records China as the HarborClass market.",
         "Records Simplified Chinese as the HarborClass language.",
         "Records zh-CN as the HarborClass locale.",
         "Records WeChat Official Accounts as the HarborClass channel.",
@@ -375,7 +375,7 @@
     },
     {
       "id": 1016,
-      "prompt": "Use activation mode for WeCom messages to newly added external contacts. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. The product event and audience role are supplied, but the enterprise identity, sending member, external-contact relationship source, customer-contact feature status, enterprise policy, member permission, recipient consent basis, and suppression state are missing. The operator says WeChat consent should cover WeCom. Draft the sequence.",
+      "prompt": "Use activation mode for WeCom messages to newly added external contacts. Market: China. Language: Simplified Chinese. Locale: zh-CN. The product event and audience role are supplied, but the enterprise identity, sending member, external-contact relationship source, customer-contact feature status, enterprise policy, member permission, recipient consent basis, and suppression state are missing. The operator says WeChat consent should cover WeCom. Draft the sequence.",
       "expected_output": "Produces no WeCom message copy in any form, keeps WeChat and WeCom permission separate, and returns a focused enterprise/account/external-contact intake without external action.",
       "assertions": [
         "Selects `activation` mode for the WeCom request.",
@@ -393,12 +393,12 @@
     },
     {
       "id": 1017,
-      "prompt": "请使用 campaign 模式为青岚软件企业微信外部联系人起草活动提醒。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：企业微信；分类：marketing。边界受众：已通过企业微信添加林薇为外部联系人、WECOM-17 明确同意接收青岚软件线上培训提醒、外部联系关系仍有效且无抑制的管理员。企业：青岚软件。真实发送成员：客户成功负责人林薇。目的与事实：TRAINING-17 核实线上培训《管理员审批配置实操》将于 2026-07-24 15:00 CST 开始，批准报名说明链接为 https://qinglan.example/training/admin-approval；不得添加效果或稀缺性声明。事件 EVT-17 是 training_starts_tomorrow，来源 WECOM-EVENTS-17，发生于 2026-07-23 15:00 CST。评估记录 EVAL-1017 为 2026-07-23 15:20 CST：事件发生 20 分钟，处于一小时新鲜度内，状态有效、未被取代且尚未完成。许可 WECOM-17 仅适用于青岚软件、林薇、该培训提醒和企业微信。企业账号 WECOM-ACCOUNT-17 当前有效；客户联系功能 FEATURE-17 已启用；MEMBER-17 允许林薇使用该功能；REL-17 核实收件人是林薇的有效外部联系人；PLATFORM-CAP-17 说明该直接消息场景不适用模板。STOP-1017 在 EVAL-1017 显示 external_contact_active=true、opt_out=false、do_not_contact=false、complaint=false、consent_withdrawn=false、blocked_by_contact=false、owner_suppression=false。频控为每次培训最多一条提醒、每 7 天最多一条企业微信营销消息，当前计数为 0。静默时段为 20:00-09:00 收件人本地时间；TZ-1017 依据已核实联系人资料使用 CST；当前时间 15:20，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-1017 当前没有服务消息或其他营销候选，因此 EVT-17 可用。负责人复核 OWNER-1017：已批准。OWNER-AUTH-1017：明确授权严格边界的本地审阅稿。平台复核 PLATFORM-1017：已批准。法务复核 LEGAL-1017：最终复核待完成，且这是唯一未决状态。准确使用 `restricted local review` 和 `not approved for sending`。仅生成本地稿，不发送、不群发、不登录账号。",
+      "prompt": "请使用 campaign 模式为青岚软件企业微信外部联系人起草活动提醒。市场：中国；语言：简体中文；Locale：zh-CN；渠道：企业微信；分类：marketing。边界受众：已通过企业微信添加林薇为外部联系人、WECOM-17 明确同意接收青岚软件线上培训提醒、外部联系关系仍有效且无抑制的管理员。企业：青岚软件。真实发送成员：客户成功负责人林薇。目的与事实：TRAINING-17 核实线上培训《管理员审批配置实操》将于 2026-07-24 15:00 CST 开始，批准报名说明链接为 https://qinglan.example/training/admin-approval；不得添加效果或稀缺性声明。事件 EVT-17 是 training_starts_tomorrow，来源 WECOM-EVENTS-17，发生于 2026-07-23 15:00 CST。评估记录 EVAL-1017 为 2026-07-23 15:20 CST：事件发生 20 分钟，处于一小时新鲜度内，状态有效、未被取代且尚未完成。许可 WECOM-17 仅适用于青岚软件、林薇、该培训提醒和企业微信。企业账号 WECOM-ACCOUNT-17 当前有效；客户联系功能 FEATURE-17 已启用；MEMBER-17 允许林薇使用该功能；REL-17 核实收件人是林薇的有效外部联系人；PLATFORM-CAP-17 说明该直接消息场景不适用模板。STOP-1017 在 EVAL-1017 显示 external_contact_active=true、opt_out=false、do_not_contact=false、complaint=false、consent_withdrawn=false、blocked_by_contact=false、owner_suppression=false。频控为每次培训最多一条提醒、每 7 天最多一条企业微信营销消息，当前计数为 0。静默时段为 20:00-09:00 收件人本地时间；TZ-1017 依据已核实联系人资料使用 CST；当前时间 15:20，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-1017 当前没有服务消息或其他营销候选，因此 EVT-17 可用。负责人复核 OWNER-1017：已批准。OWNER-AUTH-1017：明确授权严格边界的本地审阅稿。平台复核 PLATFORM-1017：已批准。法务复核 LEGAL-1017：最终复核待完成，且这是唯一未决状态。准确使用 `restricted local review` 和 `not approved for sending`。仅生成本地稿，不发送、不群发、不登录账号。",
       "expected_output": "Produces a native Simplified Chinese WeCom local-review draft only after recording every concrete audience, sender, training fact, permission, event, enterprise, feature, member, relationship, template-applicability, stop, cadence, quiet-hour, collision, and review disposition; uses both exact labels because legal review is the sole pending state and owner authorization is explicit; performs no external action.",
       "assertions": [
         "选择 `campaign` 模式处理青岚软件请求。",
         "将青岚软件消息分类为 `marketing`。",
-        "记录中国大陆为青岚软件市场。",
+        "记录中国为青岚软件市场。",
         "记录简体中文为青岚软件语言。",
         "记录 zh-CN 为青岚软件 Locale。",
         "记录企业微信为青岚软件渠道。",
@@ -435,12 +435,12 @@
     },
     {
       "id": 1018,
-      "prompt": "Use win-back mode to localize an approved English email for 复舟产品团队. Market: Mainland China. Language: Simplified Chinese. Locale: zh-CN. Channel: email. Classification: marketing. Bounded eligibility: former paid user, account_inactive_30d=true, account_reactivated=false, EMAIL-CN-18 active, email valid, and no suppression. Real sender: 复舟产品团队 using approved sender account EMAIL-ACCT-18. Purpose and evidence: DOC-18 verifies that reactivated former paid users can continue archived projects and approves CTA URL https://fuzhou.example/reactivate. Approved source artifact SOURCE-18: 'We miss you. Jump back in before it is too late. Reactivate your account to continue archived projects. Unsubscribe: {{unsubscribe_url}}'. The opt-out token is an approved local placeholder, not evidence of a live URL or platform capability. Preserve the supported reactivation/archive meaning and adapt only this supplied direct opt-out into Chinese; do not carry unsupported urgency or literal English idioms into Chinese. Event EVT-18 is account_inactive_30d from ACCOUNT-EVENTS-18, occurred 2026-07-23 09:00 CST. EVAL-1018 is 2026-07-23 09:15 CST: EVT-18 is 15 minutes old, inside the 24-hour window, active, not superseded, and incomplete because no account_reactivated event exists. EMAIL-CN-18 permits reactivation marketing email from this sender. EMAIL-ACCT-18 is active and approved. TEMPLATE-1018 is not applicable to this approved freeform localization. STOP-1018 at EVAL-1018 records opt_out=false, do_not_contact=false, complaint=false, hard_bounce=false, address_valid=true, consent_withdrawn=false, and owner_suppression=false. Cadence is one win-back email per EVT-18 and at most one win-back email in 30 days; current count is zero. Quiet hours are 18:00-09:00 recipient local time; TZ-1018 derives CST from the verified account profile; current time is 09:15, so quiet hours do not block. Collision rule prioritizes service duties, then retention, then win-back. COL-1018 has no service or retention candidate and no other win-back candidate, so EVT-18 is selected. OWNER-1018: approved. LEGAL-1018: approved. PLATFORM-1018: approved. Produce local copy only; do not send, schedule, publish, or access the email account.",
+      "prompt": "Use win-back mode to localize an approved English email for 复舟产品团队. Market: China. Language: Simplified Chinese. Locale: zh-CN. Channel: email. Classification: marketing. Bounded eligibility: former paid user, account_inactive_30d=true, account_reactivated=false, EMAIL-CN-18 active, email valid, and no suppression. Real sender: 复舟产品团队 using approved sender account EMAIL-ACCT-18. Purpose and evidence: DOC-18 verifies that reactivated former paid users can continue archived projects and approves CTA URL https://fuzhou.example/reactivate. Approved source artifact SOURCE-18: 'We miss you. Jump back in before it is too late. Reactivate your account to continue archived projects. Unsubscribe: {{unsubscribe_url}}'. The opt-out token is an approved local placeholder, not evidence of a live URL or platform capability. Preserve the supported reactivation/archive meaning and adapt only this supplied direct opt-out into Chinese; do not carry unsupported urgency or literal English idioms into Chinese. Event EVT-18 is account_inactive_30d from ACCOUNT-EVENTS-18, occurred 2026-07-23 09:00 CST. EVAL-1018 is 2026-07-23 09:15 CST: EVT-18 is 15 minutes old, inside the 24-hour window, active, not superseded, and incomplete because no account_reactivated event exists. EMAIL-CN-18 permits reactivation marketing email from this sender. EMAIL-ACCT-18 is active and approved. TEMPLATE-1018 is not applicable to this approved freeform localization. STOP-1018 at EVAL-1018 records opt_out=false, do_not_contact=false, complaint=false, hard_bounce=false, address_valid=true, consent_withdrawn=false, and owner_suppression=false. Cadence is one win-back email per EVT-18 and at most one win-back email in 30 days; current count is zero. Quiet hours are 18:00-09:00 recipient local time; TZ-1018 derives CST from the verified account profile; current time is 09:15, so quiet hours do not block. Collision rule prioritizes service duties, then retention, then win-back. COL-1018 has no service or retention candidate and no other win-back candidate, so EVT-18 is selected. OWNER-1018: approved. LEGAL-1018: approved. PLATFORM-1018: approved. Produce local copy only; do not send, schedule, publish, or access the email account.",
       "expected_output": "Produces native Simplified Chinese win-back email copy only after recording every concrete eligibility, sender, evidence, permission, event, account, stop, cadence, quiet-hour, collision, and review disposition; preserves supported archive/reactivation meaning and opt-out while removing imported idioms and unsupported urgency; remains local-only.",
       "assertions": [
         "Selects `win-back` mode for 复舟产品团队.",
         "Preserves the `marketing` classification.",
-        "Records Mainland China as the 复舟 market.",
+        "Records China as the 复舟 market.",
         "Records Simplified Chinese as the 复舟 language.",
         "Records zh-CN as the 复舟 locale.",
         "Records email as the 复舟 channel.",
@@ -473,15 +473,15 @@
     },
     {
       "id": 1019,
-      "prompt": "请使用 campaign 模式审校云岫科技中国大陆短信。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：中国大陆短信；分类：marketing。边界受众：已报名本次直播演示、CN-SMS-CONSENT-19 有效、手机号有效且无抑制的中国大陆客户。真实发送方：云岫科技。事实与目的：EVENT-CONTENT-19 核实“云岫产品直播演示将于 2026-07-24 10:00 CST 开始”，批准入口为 https://yunxiu.example/live；仅提醒已报名用户，不支持最后机会、永久错过、稀缺性或结果声明。原中文稿为：'最后机会！错过就永远没有了！亲，速来围观，退订请回复 NO THANKS。' 许可 CN-SMS-CONSENT-19 明确允许云岫科技发送本次活动营销短信。服务商为阿里云短信；账号 ALI-SMS-19 当前有效；签名【云岫科技】已审核通过；模板 CN-TPL-19 已审核通过，精确范围仅允许品牌名、直播名称、日期时间、批准入口和“回复TD退订”。事件 EVT-CN-19 是 livestream_reminder_eligible，来源 EVENT-SYS-19，发生于 2026-07-23 14:00 CST。EVAL-1019 为 2026-07-23 14:30 CST：事件发生 30 分钟，处于两小时新鲜度内，状态有效、未被取代且尚未完成。STOP-CN-19 在 EVAL-1019 显示 opt_out=false、do_not_contact=false、complaint=false、number_valid=true、consent_withdrawn=false、owner_suppression=false。频控为每 7 天最多一条活动营销短信，当前计数为 0。静默时段为 20:00-09:00 收件人本地时间；TZ-CN-19 依据已核实资料使用 CST；当前时间 14:30，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-CN-19 当前没有服务消息或其他营销候选，因此 EVT-CN-19 可用。OWNER-1019：已批准。LEGAL-1019：已批准。PLATFORM-1019：已批准。必须使用“回复TD退订”，输出原生简体中文，仅生成本地稿，不发送、不提交模板、不登录账号。",
+      "prompt": "请使用 campaign 模式审校云岫科技中国短信。市场：中国；语言：简体中文；Locale：zh-CN；渠道：中国短信；分类：marketing。边界受众：已报名本次直播演示、CN-SMS-CONSENT-19 有效、手机号有效且无抑制的中国客户。真实发送方：云岫科技。事实与目的：EVENT-CONTENT-19 核实“云岫产品直播演示将于 2026-07-24 10:00 CST 开始”，批准入口为 https://yunxiu.example/live；仅提醒已报名用户，不支持最后机会、永久错过、稀缺性或结果声明。原中文稿为：'最后机会！错过就永远没有了！亲，速来围观，退订请回复 NO THANKS。' 许可 CN-SMS-CONSENT-19 明确允许云岫科技发送本次活动营销短信。服务商为阿里云短信；账号 ALI-SMS-19 当前有效；签名【云岫科技】已审核通过；模板 CN-TPL-19 已审核通过，精确范围仅允许品牌名、直播名称、日期时间、批准入口和“回复TD退订”。事件 EVT-CN-19 是 livestream_reminder_eligible，来源 EVENT-SYS-19，发生于 2026-07-23 14:00 CST。EVAL-1019 为 2026-07-23 14:30 CST：事件发生 30 分钟，处于两小时新鲜度内，状态有效、未被取代且尚未完成。STOP-CN-19 在 EVAL-1019 显示 opt_out=false、do_not_contact=false、complaint=false、number_valid=true、consent_withdrawn=false、owner_suppression=false。频控为每 7 天最多一条活动营销短信，当前计数为 0。静默时段为 20:00-09:00 收件人本地时间；TZ-CN-19 依据已核实资料使用 CST；当前时间 14:30，不构成阻止。碰撞规则优先服务消息，其次选择最早有效的营销事件。COL-CN-19 当前没有服务消息或其他营销候选，因此 EVT-CN-19 可用。OWNER-1019：已批准。LEGAL-1019：已批准。PLATFORM-1019：已批准。必须使用“回复TD退订”，输出原生简体中文，仅生成本地稿，不发送、不提交模板、不登录账号。",
       "expected_output": "Returns a natural Simplified Chinese SMS revision only after recording every concrete audience, sender, content fact, permission, event, provider, account, signature, exact template scope, stop, frequency, quiet-hour, collision, and review disposition; removes unsupported urgency and imported phrasing, uses TD, and remains local-only.",
       "assertions": [
         "选择 `campaign` 模式处理直播短信。",
         "将直播短信保持为 `marketing` 分类。",
-        "记录中国大陆为直播短信市场。",
+        "记录中国为直播短信市场。",
         "记录简体中文为直播短信语言。",
         "记录 zh-CN 为直播短信 Locale。",
-        "记录中国大陆短信为所选渠道。",
+        "记录中国短信为所选渠道。",
         "应用直播短信的边界受众规则。",
         "记录云岫科技为真实发送方。",
         "使用 EVENT-CONTENT-19 作为直播短信唯一内容证据。",
@@ -626,7 +626,7 @@
     },
     {
       "id": 1026,
-      "prompt": "Use campaign mode for a Mainland China audience. The owner has current permission for marketing messages from a WeChat Official Account. They ask to reuse that permission for a Mini Program subscription message and, if that fails, a WeCom direct message. No Mini Program subscription state, template scope, consumed/expired state, enterprise identity, external-contact relationship, or WeCom policy status is supplied.",
+      "prompt": "Use campaign mode for a China audience. The owner has current permission for marketing messages from a WeChat Official Account. They ask to reuse that permission for a Mini Program subscription message and, if that fails, a WeCom direct message. No Mini Program subscription state, template scope, consumed/expired state, enterprise identity, external-contact relationship, or WeCom policy status is supplied.",
       "expected_output": "Keeps the three WeChat-family products separate, refuses permission transfer and automatic fallback, and returns channel-specific unresolved gates without message copy in any form.",
       "assertions": [
         "Selects `campaign` mode for the multi-channel request.",
@@ -645,7 +645,7 @@
     },
     {
       "id": 1027,
-      "prompt": "Build a source record for a lifecycle blueprint using only direct official pages captured today, 2026-07-23. Record A: title 'Get opt-in for WhatsApp', direct URL https://developers.facebook.com/documentation/business-messaging/whatsapp/getting-opt-in, publisher/product Meta / WhatsApp Business Platform, no exposed publication date found, HTTP 200 inspectable text says businesses must obtain opt-in before messaging people and identifies sender-name and communication disclosure requirements; it does not decide local-law compliance for a specific program. Record B: title '小程序订阅消息（用户通过弹窗订阅）开发指南', direct URL https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/subscribe-message.html, publisher/product 微信开放文档 / 小程序, no exposed publication date found, HTTP 200 inspectable text describes obtaining a template ID and obtaining delivery permission through the subscription interface; it does not prove a particular user's current subscription is active or unconsumed. Record C: title unavailable from the retrieved response; direct URL https://www.tencentcloud.com/document/product/382/35456; publisher/product Tencent Cloud / SMS; no exposed publication date found; retrieval date 2026-07-23; HTTP 200 returned only an anti-automation script shell, so the exact narrow article claim is unavailable and no directly inspectable signature, template, registration, approval, or Mainland China rule is supported. The stakeholder asks you to treat all three records as proof that the campaign is compliant and sendable.",
+      "prompt": "Build a source record for a lifecycle blueprint using only direct official pages captured today, 2026-07-23. Record A: title 'Get opt-in for WhatsApp', direct URL https://developers.facebook.com/documentation/business-messaging/whatsapp/getting-opt-in, publisher/product Meta / WhatsApp Business Platform, no exposed publication date found, HTTP 200 inspectable text says businesses must obtain opt-in before messaging people and identifies sender-name and communication disclosure requirements; it does not decide local-law compliance for a specific program. Record B: title '小程序订阅消息（用户通过弹窗订阅）开发指南', direct URL https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/subscribe-message.html, publisher/product 微信开放文档 / 小程序, no exposed publication date found, HTTP 200 inspectable text describes obtaining a template ID and obtaining delivery permission through the subscription interface; it does not prove a particular user's current subscription is active or unconsumed. Record C: title unavailable from the retrieved response; direct URL https://www.tencentcloud.com/document/product/382/35456; publisher/product Tencent Cloud / SMS; no exposed publication date found; retrieval date 2026-07-23; HTTP 200 returned only an anti-automation script shell, so the exact narrow article claim is unavailable and no directly inspectable signature, template, registration, approval, or China rule is supported. The stakeholder asks you to treat all three records as proof that the campaign is compliant and sendable.",
       "expected_output": "Records title, URL, publisher/product, exposed date, retrieval date, exact narrow claim, and limitation/access state for each source; marks the Tencent article claim unavailable; and makes no compliance or sendability conclusion.",
       "assertions": [
         "Records the exact WhatsApp source title.",

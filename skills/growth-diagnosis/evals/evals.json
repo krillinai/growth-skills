@@ -25,12 +25,12 @@
     },
     {
       "id": 302,
-      "prompt": "Diagnose acquisition for a US-based team launching a paid language-learning app in Mainland China. Target outcome: 2,000 qualified trial starts from Mainland China in the next 30 days. Public evidence only: the public landing page is English-only, pricing is in USD, the Android link points only to Google Play, and the public help center states that lessons require Google sign-in. We have supplied no ad account, analytics, attribution, CAC, conversion, competitor, regulatory, or distribution-partner data. The CEO says the constraint is definitely weak ad creative and wants a 97% confidence rating.",
-      "expected_output": "Selects triage because schema-required context, baseline, evidence provenance, and execution inputs are missing, while preserving acquisition as the user-declared candidate area. It treats all supplied site statements and the CEO claim as reported signals rather than verified artifacts, requests bounded dated captures and required context, and makes Mainland China locale, channel, payment, account-access, distribution, and regulatory questions explicit. It does not select a primary constraint, emit final protocol JSON, fabricate a benchmark, or accept the unsupported 97% confidence request.",
+      "prompt": "Diagnose acquisition for a US-based team launching a paid language-learning app in China. Target outcome: 2,000 qualified trial starts from China in the next 30 days. Public evidence only: the public landing page is English-only, pricing is in USD, the Android link points only to Google Play, and the public help center states that lessons require Google sign-in. We have supplied no ad account, analytics, attribution, CAC, conversion, competitor, regulatory, or distribution-partner data. The CEO says the constraint is definitely weak ad creative and wants a 97% confidence rating.",
+      "expected_output": "Selects triage because schema-required context, baseline, evidence provenance, and execution inputs are missing, while preserving acquisition as the user-declared candidate area. It treats all supplied site statements and the CEO claim as reported signals rather than verified artifacts, requests bounded dated captures and required context, and makes China locale, channel, payment, account-access, distribution, and regulatory questions explicit. It does not select a primary constraint, emit final protocol JSON, fabricate a benchmark, or accept the unsupported 97% confidence request.",
       "assertions": [
         "Selects triage mode. [eval 302]",
         "Records acquisition as the user-declared candidate area. [eval 302]",
-        "States Mainland China as the target market.",
+        "States China as the target market.",
         "Treats Simplified Chinese locale support as a first-class diagnostic consideration.",
         "Treats local Android distribution as a first-class diagnostic consideration.",
         "Treats payment localization as a first-class diagnostic consideration.",

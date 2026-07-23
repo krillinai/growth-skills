@@ -1,6 +1,6 @@
 ---
 name: growth-diagnosis
-description: Use when a growth symptom, stalled outcome, weak funnel stage, loop, monetization result, or growth operating system needs evidence-backed diagnosis; when a request needs triage across acquisition, activation, retention, monetization, growth loops, or growth systems; or when market-aware execution routing is needed, including Mainland China.
+description: Use when a growth symptom, stalled outcome, weak funnel stage, loop, monetization result, or growth operating system needs evidence-backed diagnosis; when a request needs triage across acquisition, activation, retention, monetization, growth loops, or growth systems; or when market-aware execution routing is needed, including China.
 ---
 
 # Growth Diagnosis
@@ -9,7 +9,7 @@ Turn a growth symptom into one evidence-backed primary constraint, a 30-day deci
 
 ## Read The Contract
 
-Read [evidence-and-routing.md](references/evidence-and-routing.md) before classifying evidence, setting confidence, working with private inputs, diagnosing Mainland China, or choosing an execution route.
+Read [evidence-and-routing.md](references/evidence-and-routing.md) before classifying evidence, setting confidence, working with private inputs, diagnosing China, or choosing an execution route.
 
 Read [output-contract.md](references/output-contract.md) before producing final JSON or Markdown. Use [protocol.schema.json](assets/protocol.schema.json) unchanged as the canonical machine-readable contract. Use [playbook-sources.md](references/playbook-sources.md) to cite the relevant pinned Growth Playbook chapter.
 
@@ -56,7 +56,7 @@ Serialize the last two modes as the schema enum values `growth_loops` and `growt
 
 Do not invent data, benchmarks, causal claims, source access, metric definitions, or results. A public observation can verify what is visible; it cannot verify a private funnel, motive, or business effect.
 
-Treat Mainland China as a first-class market context when relevant. Establish locale, channel and platform availability, app distribution, payments, identity or login dependencies, content and advertising rules, data handling, and sector-specific regulation from current sources. Never infer that a service is available, blocked, compliant, or effective from team location, domain, language, or general memory.
+Treat China as a first-class market context when relevant. Establish locale, channel and platform availability, app distribution, payments, identity or login dependencies, content and advertising rules, data handling, and sector-specific regulation from current sources. Never infer that a service is available, blocked, compliant, or effective from team location, domain, language, or general memory.
 
 ## Select The Constraint
 

@@ -17,7 +17,7 @@ Visibility is an observed answer-panel result, not a readiness-score input. A pa
 
 Use a primary mode of `visibility` for a repeated answer panel. Select primary `incident` whenever a stakeholder reports a citation or mention decline, whether or not comparison artifacts are supplied. Competitive comparison is a modifier to visibility, not a separate primary mode.
 
-Select market and language before collection; neither may be inferred from the operator's location, IP address, interface language, top-level domain, or query text. Treat Mainland China as a first-class market recorded as `Mainland China (CN)`, separate from `zh-CN`. If the product exposes no market or language control, retain the declared collection value, record the control as `unexposed`, and do not claim that the product enforced it.
+Select market and language before collection; neither may be inferred from the operator's location, IP address, interface language, top-level domain, or query text. Treat China as a first-class market recorded as `China (CN)`, separate from `zh-CN`. If the product exposes no market or language control, retain the declared collection value, record the control as `unexposed`, and do not claim that the product enforced it.
 
 ## Evidence And Panel Schema
 
@@ -85,7 +85,7 @@ Normalize a supplied legacy panel record deterministically and retain every orig
 
 Compatibility is only for already supplied legacy records. It does not permit omission of any field from a newly collected panel and never permits silent guessing.
 
-For Mainland China panels on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, read [mainland-china-platforms.md](mainland-china-platforms.md). Use a current direct official source only for the exact product or surface statement it supports. If official documentation does not establish a capability, record it `unavailable`; only an explicitly captured manual observation may describe the bounded product behavior actually displayed.
+For China panels on Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek, read [china-platforms.md](china-platforms.md). Use a current direct official source only for the exact product or surface statement it supports. If official documentation does not establish a capability, record it `unavailable`; only an explicitly captured manual observation may describe the bounded product behavior actually displayed.
 
 ## Outcome Distinctions
 

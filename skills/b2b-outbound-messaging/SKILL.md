@@ -24,7 +24,7 @@ If a request mixes modes, name one primary mode and keep secondary work explicit
 
 Record ICP; recipient role/company or bounded identity supplied by the user; sender's real identity and organization; relationship/contact source; verifiable personalization evidence; problem hypothesis; offer; proof; CTA; market; language; locale; channel; sequence limits; permission/consent/legal/policy constraints; stop and suppression state; and available source artifacts.
 
-Keep `market`, `language`, `locale`, and `channel` separate. Chinese language does not imply Mainland China, and Mainland China does not imply business email, WeCom, or WeChat availability or permission. Channel availability never implies permission or compliance.
+Keep `market`, `language`, `locale`, and `channel` separate. Chinese language does not imply China as the market, and a China market does not imply business email, WeCom, or WeChat availability or permission. Channel availability never implies permission or compliance.
 
 Before treating copy as final or sendable, resolve the permission record described in `evidence-and-safety.md`. Permission is contextual to recipient, source, relationship, sender, purpose, market, channel, owner/legal review, platform/account policy, and opt-out/do-not-contact state. Pending legal or platform review may permit a local review draft when the owner has supplied a bounded permission basis, account-policy status, and clear stop state; it blocks final/sendable status and every external action. Such a draft must carry both exact literals `local review only` and `not final or sendable`. Both labels are required and not paraphrasable. Never claim legal compliance. State that this Skill is not legal advice and owner/legal review remains responsible.
 
@@ -59,7 +59,7 @@ When drafting is allowed, return in this order:
 9. unresolved permission and evidence;
 10. local review and external-action handoff.
 
-For Mainland China work requested in Simplified Chinese, write native Simplified Chinese rather than literal English syntax. Use current direct official sources for platform or regulatory claims and record title, URL, publisher/product, exposed date, retrieval date, exact supported claim, and limitation/access state. If direct current text is unavailable, mark the claim `unavailable`; never transfer rules across markets or platforms.
+For China work requested in Simplified Chinese, write native Simplified Chinese rather than literal English syntax. Use current direct official sources for platform or regulatory claims and record title, URL, publisher/product, exposed date, retrieval date, exact supported claim, and limitation/access state. If direct current text is unavailable, mark the claim `unavailable`; never transfer rules across markets or platforms.
 
 Drafting permits local text only. It never authorizes sending, connection requests, contact import, account access, CRM reads/writes, automation, list upload, bulk collection, attachments, campaign launch, or monitoring. Sending, enrichment, and contact discovery remain out of scope even if requested. Provide a separate handoff requiring task-level authorization and capability review.
 

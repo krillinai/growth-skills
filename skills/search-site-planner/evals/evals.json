@@ -67,7 +67,7 @@
     },
     {
       "id": 803,
-      "prompt": "Use migration mode on this captured old-site inventory. Inventory source: release manifest MIG-44. Captured: 2026-07-23 08:15 UTC, approved release candidate. Scope and total known old URLs: 7; inspected: 7: https://old.example.com/en/pricing, /en/docs/start, /en/docs/install, /en/docs/old-sdk, /zh-cn/docs/start, /search?q=api, and /guide#install. Candidate new inventory has /en/pricing, /en/docs/get-started, /en/docs/install, /zh-cn/docs/get-started, and /en/docs. Exclusions: assets and URLs outside the manifest. Market: United States and Mainland China. Languages: English and Simplified Chinese. Locales: en-US and zh-CN. Limitations: no traffic, backlink, ranking, conversion, log, or redirect-server evidence. Produce the migration mapping and checks; do not deploy anything.",
+      "prompt": "Use migration mode on this captured old-site inventory. Inventory source: release manifest MIG-44. Captured: 2026-07-23 08:15 UTC, approved release candidate. Scope and total known old URLs: 7; inspected: 7: https://old.example.com/en/pricing, /en/docs/start, /en/docs/install, /en/docs/old-sdk, /zh-cn/docs/start, /search?q=api, and /guide#install. Candidate new inventory has /en/pricing, /en/docs/get-started, /en/docs/install, /zh-cn/docs/get-started, and /en/docs. Exclusions: assets and URLs outside the manifest. Market: United States and China. Languages: English and Simplified Chinese. Locales: en-US and zh-CN. Limitations: no traffic, backlink, ranking, conversion, log, or redirect-server evidence. Produce the migration mapping and checks; do not deploy anything.",
       "expected_output": "Reconciles all seven old URLs exactly once, prefers preserving supported unchanged URLs, uses exact source-to-target mappings for redirects, handles query and fragment semantics explicitly, preserves locale and market, and reports gaps rather than inventing targets.",
       "assertions": [
         "The MIG-44 plan selects `migration` mode.",
@@ -118,7 +118,7 @@
     },
     {
       "id": 805,
-      "prompt": "请用 new-site 模式规划中国大陆与国际站点。清单来源：已批准候选页表 CNINT-6；捕获时间：2026-07-23 11:00 CST；状态：版本 2 已冻结。范围共 6 页，已检查 6 页：中国大陆 zh-CN 的首页、产品页、支持页，以及国际 en-001 的首页、产品页、支持页。候选结构尚未决定，可能使用 example.cn、cn.example.com、example.com/zh-cn/ 或独立国际域名。排除：博客、价格、法律页面及未列出的页面。市场：中国大陆、国际；语言：简体中文、英语；Locale：zh-CN、en-001。限制：没有 ICP/托管决策、分析数据、站长平台数据或需求数据。请用原生简体中文输出，并直接认定子目录方案最利于所有搜索引擎。",
+      "prompt": "请用 new-site 模式规划中国与国际站点。清单来源：已批准候选页表 CNINT-6；捕获时间：2026-07-23 11:00 CST；状态：版本 2 已冻结。范围共 6 页，已检查 6 页：中国 zh-CN 的首页、产品页、支持页，以及国际 en-001 的首页、产品页、支持页。候选结构尚未决定，可能使用 example.cn、cn.example.com、example.com/zh-cn/ 或独立国际域名。排除：博客、价格、法律页面及未列出的页面。市场：中国、国际；语言：简体中文、英语；Locale：zh-CN、en-001。限制：没有 ICP/托管决策、分析数据、站长平台数据或需求数据。请用原生简体中文输出，并直接认定子目录方案最利于所有搜索引擎。",
       "expected_output": "使用原生简体中文，分别记录市场、语言和 Locale，仅规划六个候选页，并根据实施约束比较域名、子域名与子目录情境而不把任何一种结构当作普遍正确答案。",
       "assertions": [
         "CNINT-6 规划选择 `new-site` 模式。",
@@ -127,7 +127,7 @@
         "记录版本 2 已冻结。",
         "记录范围内总数为 6。",
         "记录已检查数量为 6。",
-        "将中国大陆与国际分别记录为市场。",
+        "将中国与国际分别记录为市场。",
         "将简体中文与英语分别记录为语言。",
         "将 zh-CN 与 en-001 分别记录为 Locale。",
         "CNINT-6 规划使用原生简体中文输出。",
@@ -207,7 +207,7 @@
     },
     {
       "id": 809,
-      "prompt": "Migration review for localized routes. Inventory source: locale manifest LOC-21. Captured 2026-07-23 14:00 UTC, release candidate 1. Scope total known and inspected: 7 raw old URLs: /en-us/shop, /en-gb/shop, /zh-cn/shop, /en-us/search?q=red, /zh-cn/search?q=red, /en-us/manual#setup, and /en-us/manual#install. Candidate target inventory contains /shop, /search, /manual, and /getting-started. The proposed table maps the first three shop URLs to /shop, both search URLs to /search, /en-us/manual#setup to /manual#setup, and /en-us/manual#install to /getting-started#install as if the two fragments were separate server sources. Exclusions: any unlisted locale. Markets: United States, United Kingdom, Mainland China. Languages: English and Simplified Chinese. Locales: en-US, en-GB, zh-CN. Limitations: no hreflang, canonical, redirect server, or search-index evidence. Check raw URL coverage, request-source grouping, locale/market preservation, and query/fragment handling.",
+      "prompt": "Migration review for localized routes. Inventory source: locale manifest LOC-21. Captured 2026-07-23 14:00 UTC, release candidate 1. Scope total known and inspected: 7 raw old URLs: /en-us/shop, /en-gb/shop, /zh-cn/shop, /en-us/search?q=red, /zh-cn/search?q=red, /en-us/manual#setup, and /en-us/manual#install. Candidate target inventory contains /shop, /search, /manual, and /getting-started. The proposed table maps the first three shop URLs to /shop, both search URLs to /search, /en-us/manual#setup to /manual#setup, and /en-us/manual#install to /getting-started#install as if the two fragments were separate server sources. Exclusions: any unlisted locale. Markets: United States, United Kingdom, China. Languages: English and Simplified Chinese. Locales: en-US, en-GB, zh-CN. Limitations: no hreflang, canonical, redirect server, or search-index evidence. Check raw URL coverage, request-source grouping, locale/market preservation, and query/fragment handling.",
       "expected_output": "Reconciles seven raw URLs, detects locale and market loss, groups both manual fragments under one HTTP request source, rejects their competing server targets, holds the single path-level disposition until resolved, and validates both destination anchors separately.",
       "assertions": [
         "The LOC-21 review selects `migration` mode.",
@@ -216,7 +216,7 @@
         "Flags en-US locale loss in `/en-us/shop` to `/shop`.",
         "Flags en-GB locale loss in `/en-gb/shop` to `/shop`.",
         "Flags zh-CN locale loss in `/zh-cn/shop` to `/shop`.",
-        "Flags Mainland China market loss in `/zh-cn/shop` to `/shop`.",
+        "Flags China market loss in `/zh-cn/shop` to `/shop`.",
         "Requires a decision for the `q=red` query semantics.",
         "Does not silently drop search query parameters.",
         "Reconciles `/en-us/manual#setup` as a raw URL.",
@@ -357,7 +357,7 @@
     },
     {
       "id": 815,
-      "prompt": "请审查一次中国大陆与国际站迁移，并只使用以下已捕获的官方来源记录，不要声称本次重新联网。清单来源：MKT-9；捕获时间：2026-07-23 18:00 CST；状态：迁移草案；范围：4 个旧 URL，已知总数 4，已检查 4；排除未列 URL；市场：中国大陆、国际；语言：简体中文、英语；Locale：zh-CN、en-001。限制：没有站长平台私有数据。Google 记录：标题 'Site Moves and Migrations'，URL https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes，发布者/产品 Google Search Central，页面显示日期 'Last updated 2025-12-10 UTC'，检索日期 2026-07-23，可访问；精确主张：在有 URL 变更的迁移中准备 URL mapping，并将旧 URL 的服务器端永久重定向指向对应新 URL；限制：仅适用于该 Google 文档情境，不代表百度或 Bing。Bing 记录：标题 'Bing Webmaster Tools'，URL https://www.bing.com/webmasters/，发布者 Microsoft，产品 Bing Webmaster Tools，页面日期未显示，检索日期 2026-07-23，仅可访问登录外壳；没有暴露可支持迁移或索引规则的当前正文。百度记录：标题 '百度搜索资源平台'，URL https://ziyuan.baidu.com/，发布者百度，产品百度搜索资源平台，页面日期未显示，检索日期 2026-07-23，仅可访问公开入口；没有暴露可支持改版或索引规则的当前正文。请把 Google 规则直接套给百度和 Bing。",
+      "prompt": "请审查一次中国与国际站迁移，并只使用以下已捕获的官方来源记录，不要声称本次重新联网。清单来源：MKT-9；捕获时间：2026-07-23 18:00 CST；状态：迁移草案；范围：4 个旧 URL，已知总数 4，已检查 4；排除未列 URL；市场：中国、国际；语言：简体中文、英语；Locale：zh-CN、en-001。限制：没有站长平台私有数据。Google 记录：标题 'Site Moves and Migrations'，URL https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes，发布者/产品 Google Search Central，页面显示日期 'Last updated 2025-12-10 UTC'，检索日期 2026-07-23，可访问；精确主张：在有 URL 变更的迁移中准备 URL mapping，并将旧 URL 的服务器端永久重定向指向对应新 URL；限制：仅适用于该 Google 文档情境，不代表百度或 Bing。Bing 记录：标题 'Bing Webmaster Tools'，URL https://www.bing.com/webmasters/，发布者 Microsoft，产品 Bing Webmaster Tools，页面日期未显示，检索日期 2026-07-23，仅可访问登录外壳；没有暴露可支持迁移或索引规则的当前正文。百度记录：标题 '百度搜索资源平台'，URL https://ziyuan.baidu.com/，发布者百度，产品百度搜索资源平台，页面日期未显示，检索日期 2026-07-23，仅可访问公开入口；没有暴露可支持改版或索引规则的当前正文。请把 Google 规则直接套给百度和 Bing。",
       "expected_output": "使用原生简体中文，逐项记录三个已捕获官方来源及其访问限制，仅把 URL mapping 和对应永久重定向主张归于 Google，并将当前 Bing 与百度的具体迁移/索引主张标为不可用。",
       "assertions": [
         "MKT-9 审查使用原生简体中文输出。",

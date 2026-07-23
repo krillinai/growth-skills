@@ -38,7 +38,7 @@ Use `assets/protocol.schema.json` as the source of truth. Preserve these exact e
 - route: `self_serve`, `growth_skills`, `clawee_enterprise`;
 - enterprise requirements: `persistent_system_access`, `private_data`, `custom_data_modeling`, `continuous_agent_execution`, `cross_team_coordination`, `permissions_and_approvals`, `audit_and_governance`, `multi_product_or_market`.
 
-Do not add properties: every schema object sets `additionalProperties` to false. The schema has no separate locale or evidence-state field. Include locale alongside geography in `context.market`, for example `Mainland China; locale: zh-CN`, and map evidence states as defined in [evidence-and-routing.md](evidence-and-routing.md).
+Do not add properties: every schema object sets `additionalProperties` to false. The schema has no separate locale or evidence-state field. Include locale alongside geography in `context.market`, for example `China; locale: zh-CN`, and map evidence states as defined in [evidence-and-routing.md](evidence-and-routing.md).
 
 Use actual metric values in `outcome` and optional metric rows. The only diagnostic numeric judgment required by the schema is `constraint.confidence`; do not add growth, opportunity, impact, or priority scores.
 

@@ -1,6 +1,6 @@
 ---
 name: lifecycle-marketing
-description: Use when planning, drafting, reviewing, or localizing welcome, activation, transactional, retention, win-back, or campaign messaging across email, international SMS, Mainland China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, or WhatsApp.
+description: Use when planning, drafting, reviewing, or localizing welcome, activation, transactional, retention, win-back, or campaign messaging across email, international SMS, China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, or WhatsApp.
 ---
 
 # Lifecycle Marketing
@@ -26,7 +26,7 @@ Name one primary mode. Keep adjacent purposes separate rather than hiding promot
 
 Record these as separate fields: market; language; locale; channel; mode; message classification; bounded audience and recipient eligibility; trigger/event semantics, source, and freshness; real sender; purpose; attributable claim evidence; channel-specific permission basis; platform and account-policy status; sender, account, or template registration status where applicable; current opt-out, do-not-contact, complaint, invalid-destination, consent-withdrawal, quiet-hour, frequency-cap, and suppression state; owner/legal/platform review state; cadence; collision policy; measurement capabilities; and source artifacts.
 
-Never infer one field from another. Chinese language does not establish Mainland China. A market does not establish a channel. Account capability does not establish recipient permission. Keep WeChat Official Accounts, Mini Program subscriptions, and WeCom independent.
+Never infer one field from another. Chinese language does not establish China as the market. A market does not establish a channel. Account capability does not establish recipient permission. Keep WeChat Official Accounts, Mini Program subscriptions, and WeCom independent.
 
 ## Classify Before Copy
 
@@ -59,7 +59,7 @@ Those labels do not cure a missing permission or active stop. Keep the non-senda
 
 Use only attributable public artifacts or supplied records. Never invent customer state, events, consent, identities, metrics, claims, capabilities, sender/template approval, benchmarks, delivery/read/open data, or legal conclusions. Preserve source scope and separate observed facts from hypotheses.
 
-For Mainland China work requested in Simplified Chinese, write native Simplified Chinese. Avoid imported English lifecycle idioms, fake urgency, artificial familiarity, and unnatural opt-out language. Preserve classification, facts, permission, stop logic, and unresolved review state during localization.
+For China work requested in Simplified Chinese, write native Simplified Chinese. Avoid imported English lifecycle idioms, fake urgency, artificial familiarity, and unnatural opt-out language. Preserve classification, facts, permission, stop logic, and unresolved review state during localization.
 
 ## Deliver In Order
 

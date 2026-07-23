@@ -51,7 +51,7 @@ Rules:
 
 Keep the message proportionate to the channel and relationship. Establish the legitimate context, use at most the supported personalization needed for relevance, distinguish the problem hypothesis from known facts, state only verified offer/proof, use one low-friction CTA, identify the sender honestly, and make refusal easy. Do not manufacture familiarity, urgency, scarcity, a prior thread, a referral, or a recipient event.
 
-`localization` is message design for the declared market, language, locale, channel, and relationship, not sentence-by-sentence translation. Preserve factual meaning and permission boundaries while rewriting syntax, register, salutation, CTA, and opt-out language natively. For Mainland China in Simplified Chinese, use native Simplified Chinese; do not import English cold-email idioms.
+`localization` is message design for the declared market, language, locale, channel, and relationship, not sentence-by-sentence translation. Preserve factual meaning and permission boundaries while rewriting syntax, register, salutation, CTA, and opt-out language natively. For China in Simplified Chinese, use native Simplified Chinese; do not import English cold-email idioms.
 
 ## Stop Register
 

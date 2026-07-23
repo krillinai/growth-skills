@@ -2,9 +2,9 @@
 
 ## Market Record
 
-Record `market`, `language`, and `locale` independently before collection. Do not infer market from language, locale from domain, or language from operator location. `zh-SG` does not establish Mainland China; `en-CN` does not establish Simplified Chinese.
+Record `market`, `language`, and `locale` independently before collection. Do not infer market from language, locale from domain, or language from operator location. `zh-SG` does not establish China as the market; `en-CN` does not establish Simplified Chinese.
 
-For `Mainland China (CN)` plus Simplified Chinese, use native Simplified Chinese for the user-facing report and handoff. Keep source titles in their original language. Do not translate a provider's terminology into another provider's product contract.
+For `China (CN)` plus Simplified Chinese, use native Simplified Chinese for the user-facing report and handoff. Keep source titles in their original language. Do not translate a provider's terminology into another provider's product contract.
 
 ## Source Record Contract
 
@@ -30,7 +30,7 @@ Use the exact current Search Central page for the requested result type. Keep vo
 
 Use a current direct Microsoft/Bing page whose article text exposes the exact claim. The inspected URL above did not expose relevant article content, so current Bing format support, required/recommended properties, result-type eligibility, and equivalence with Google are `unavailable` in this source set. Provide the direct URL and a bounded owner/browser retry; do not substitute Google's validator.
 
-### Baidu And Mainland China
+### Baidu And China
 
 Research in native Simplified Chinese when the requested language is Simplified Chinese. The accessible Baidu page is historical and describes a submission tool, not a current general contract for inline Schema.org JSON-LD. Therefore, within this inspected source set, all of the following are `unavailable`:
 
@@ -40,7 +40,7 @@ Research in native Simplified Chinese when the requested language is Simplified 
 - a current public Baidu rich-result validator equivalent to Google's tool;
 - any promise of rich presentation, ranking, traffic, or AI citation.
 
-Do not call Google validation a Baidu validation. Handoff by recording the intended Baidu product/surface, market `Mainland China (CN)`, language, locale, exact claim to verify, official URL attempted, access state, and owner. Ask the owner to supply a current direct official Baidu document or an inspectable authorized product result. Keep the generated JSON-LD limited to evidence-backed Schema.org vocabulary while labeling Baidu consumption and eligibility unverified.
+Do not call Google validation a Baidu validation. Handoff by recording the intended Baidu product/surface, market `China (CN)`, language, locale, exact claim to verify, official URL attempted, access state, and owner. Ask the owner to supply a current direct official Baidu document or an inspectable authorized product result. Keep the generated JSON-LD limited to evidence-backed Schema.org vocabulary while labeling Baidu consumption and eligibility unverified.
 
 ## Access Boundaries
 

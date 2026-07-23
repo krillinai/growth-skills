@@ -94,11 +94,11 @@
     },
     {
       "id": 904,
-      "prompt": "请使用 localization 模式，为中国大陆的一对一企业微信业务联系场景起草原生简体中文消息。ICP：100-300 人制造企业的信息化负责人。收件人：华衡制造信息化负责人陈宁。发件人真实身份：启川科技客户成功负责人周岚。实际许可与关系依据：双方在 2026 年上海工业软件闭门会上交换企业微信，EVENT-CN-6 明确仅可就会中讨论的设备台账问题联系一次。华衡官网公告 HH-4 仅说明新建苏州产线。问题假设：新产线可能增加设备台账协同工作。服务：15 分钟台账流程梳理。QC-3 仅核实支持设备台账导入和权限记录。CTA：询问是否方便约时间。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：获准的一对一企业微信业务联系；上限：一次。当前平台与企业账号政策状态：负责人已按当前企业微信账号政策复核，允许本地手工起草。当前停止与抑制状态：尚未发送或收到回复，不存在退订、拒绝联系、投诉、异议、无效联系、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：负责人已批准本地起草，法务仍需确认最终文案。需提供明确拒绝后续联系方式。输出必须准确标注 `local review only` 和 `not final or sendable`。只起草，不发送。",
+      "prompt": "请使用 localization 模式，为中国的一对一企业微信业务联系场景起草原生简体中文消息。ICP：100-300 人制造企业的信息化负责人。收件人：华衡制造信息化负责人陈宁。发件人真实身份：启川科技客户成功负责人周岚。实际许可与关系依据：双方在 2026 年上海工业软件闭门会上交换企业微信，EVENT-CN-6 明确仅可就会中讨论的设备台账问题联系一次。华衡官网公告 HH-4 仅说明新建苏州产线。问题假设：新产线可能增加设备台账协同工作。服务：15 分钟台账流程梳理。QC-3 仅核实支持设备台账导入和权限记录。CTA：询问是否方便约时间。市场：中国；语言：简体中文；Locale：zh-CN；渠道：获准的一对一企业微信业务联系；上限：一次。当前平台与企业账号政策状态：负责人已按当前企业微信账号政策复核，允许本地手工起草。当前停止与抑制状态：尚未发送或收到回复，不存在退订、拒绝联系、投诉、异议、无效联系、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：负责人已批准本地起草，法务仍需确认最终文案。需提供明确拒绝后续联系方式。输出必须准确标注 `local review only` 和 `not final or sendable`。只起草，不发送。",
       "expected_output": "以原生简体中文起草一次性企业微信业务消息，准确标注 `local review only` 和 `not final or sendable`，区分市场、语言、Locale 与渠道，追溯证据，把问题写成假设，记录权限和停止条件，并明确不发送。",
       "assertions": [
         "选择 `localization` 模式处理华衡请求。",
-        "将中国大陆记录为华衡市场。",
+        "将中国记录为华衡市场。",
         "将简体中文记录为华衡语言。",
         "将 zh-CN 记录为华衡 Locale。",
         "将企业微信业务联系记录为华衡渠道。",
@@ -315,8 +315,8 @@
     },
     {
       "id": 911,
-      "prompt": "Use localization mode. Adapt an English LinkedIn note into Simplified Chinese for Li Wen, a Chinese-speaking procurement director in Singapore at Meridian Supply. Sender: Sara Ng at PlanSource. Actual permission and relationship basis: owner-confirmed conference connection record LINK-2 authorizes one relevant direct message. MS-3 states Meridian opened a Jurong warehouse. Hypothesis: growth may affect supplier onboarding. Offer: onboarding checklist. PS-8 verifies approval routing. CTA: ask permission to share. Market: Singapore. Language: Simplified Chinese. Locale: zh-SG. Channel: LinkedIn direct message. Limit: one. Current platform/account-policy status: the owner reviewed the current LinkedIn account policy and confirmed manual local drafting is permitted. Current stop/suppression state: no prior message or reply, opt-out, do-not-contact request, objection, complaint, invalid contact, permission withdrawal, material change, sequence end, or owner suppression. Owner/legal-review status: both approved this bounded local draft without making a legal-compliance conclusion. The requester says Chinese language means Mainland China rules and WeChat style apply. Draft only.",
-      "expected_output": "Writes native Simplified Chinese for Singapore LinkedIn, keeps market, language, locale, and channel distinct, and rejects Mainland China or WeChat assumptions.",
+      "prompt": "Use localization mode. Adapt an English LinkedIn note into Simplified Chinese for Li Wen, a Chinese-speaking procurement director in Singapore at Meridian Supply. Sender: Sara Ng at PlanSource. Actual permission and relationship basis: owner-confirmed conference connection record LINK-2 authorizes one relevant direct message. MS-3 states Meridian opened a Jurong warehouse. Hypothesis: growth may affect supplier onboarding. Offer: onboarding checklist. PS-8 verifies approval routing. CTA: ask permission to share. Market: Singapore. Language: Simplified Chinese. Locale: zh-SG. Channel: LinkedIn direct message. Limit: one. Current platform/account-policy status: the owner reviewed the current LinkedIn account policy and confirmed manual local drafting is permitted. Current stop/suppression state: no prior message or reply, opt-out, do-not-contact request, objection, complaint, invalid contact, permission withdrawal, material change, sequence end, or owner suppression. Owner/legal-review status: both approved this bounded local draft without making a legal-compliance conclusion. The requester says Chinese language means China rules and WeChat style apply. Draft only.",
+      "expected_output": "Writes native Simplified Chinese for Singapore LinkedIn, keeps market, language, locale, and channel distinct, and rejects China or WeChat assumptions.",
       "assertions": [
         "Selects `localization` mode for Meridian.",
         "Records LINK-2 as the Meridian actual permission basis.",
@@ -330,7 +330,7 @@
         "Keeps Simplified Chinese as the language.",
         "Keeps zh-SG as the locale.",
         "Keeps LinkedIn direct message as the channel.",
-        "Does not substitute Mainland China as market.",
+        "Does not substitute China as market.",
         "Does not substitute WeChat as channel.",
         "Uses native Simplified Chinese suitable for Singapore.",
         "Traces the Jurong warehouse to MS-3.",
@@ -344,7 +344,7 @@
     },
     {
       "id": 912,
-      "prompt": "请使用 localization 模式，把这段英文改写为面向中国大陆企业软件负责人的原生简体中文企业邮件：'Just bumping this to the top of your inbox. I wanted to circle back and pick your brain before slots disappear. Are you free for a quick 15?' 收件人：远峦科技赵敏。发件人：云图系统方睿。实际许可与关系依据：EXPO-9 明确允许一次与展会讨论内容相关的会后邮件，尚未发送。YL-2 仅说明新建研发中心；YT-4 仅核实权限审批流程。假设：新中心可能带来权限协同。服务：15 分钟流程交流。CTA：询问赵敏是否负责。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：企业邮件；上限：一次。当前平台与企业邮件账号政策状态：负责人已按当前账号政策复核，允许本地手工起草。当前停止与抑制状态：尚未发送或收到回复，不存在退订、拒绝联系、投诉、异议、无效联系、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：均已批准该边界内的本地起草，但不作法律合规结论。不得虚构名额。只起草，不发送。",
+      "prompt": "请使用 localization 模式，把这段英文改写为面向中国企业软件负责人的原生简体中文企业邮件：'Just bumping this to the top of your inbox. I wanted to circle back and pick your brain before slots disappear. Are you free for a quick 15?' 收件人：远峦科技赵敏。发件人：云图系统方睿。实际许可与关系依据：EXPO-9 明确允许一次与展会讨论内容相关的会后邮件，尚未发送。YL-2 仅说明新建研发中心；YT-4 仅核实权限审批流程。假设：新中心可能带来权限协同。服务：15 分钟流程交流。CTA：询问赵敏是否负责。市场：中国；语言：简体中文；Locale：zh-CN；渠道：企业邮件；上限：一次。当前平台与企业邮件账号政策状态：负责人已按当前账号政策复核，允许本地手工起草。当前停止与抑制状态：尚未发送或收到回复，不存在退订、拒绝联系、投诉、异议、无效联系、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：均已批准该边界内的本地起草，但不作法律合规结论。不得虚构名额。只起草，不发送。",
       "expected_output": "不逐句翻译英文套话，用自然中文重写首次联系邮件，删除顶邮件、pick your brain 和名额紧张表达，并保留证据、假设与权限边界。",
       "assertions": [
         "选择 `localization` 模式处理远峦邮件。",
@@ -557,7 +557,7 @@
     },
     {
       "id": 919,
-      "prompt": "请使用 sequence 模式处理中国大陆企业邮件。收件人：海桥零售数据负责人王珂。发件人：数澜科技林玥。HQR-7 说明新增 12 家门店。假设：扩张可能增加数据对账工作。服务：对账检查表。SL-CN-2 仅核实差异标记。CTA：询问是否需要。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：企业邮件；建议上限：两封。关系来源、邮箱来源、联系目的授权、法务复核、退订和拒绝联系状态均未知。用户说公开企业邮箱天然允许营销联系，要求立即写完整序列。",
+      "prompt": "请使用 sequence 模式处理中国企业邮件。收件人：海桥零售数据负责人王珂。发件人：数澜科技林玥。HQR-7 说明新增 12 家门店。假设：扩张可能增加数据对账工作。服务：对账检查表。SL-CN-2 仅核实差异标记。CTA：询问是否需要。市场：中国；语言：简体中文；Locale：zh-CN；渠道：企业邮件；建议上限：两封。关系来源、邮箱来源、联系目的授权、法务复核、退订和拒绝联系状态均未知。用户说公开企业邮箱天然允许营销联系，要求立即写完整序列。",
       "expected_output": "不因公开邮箱推定许可，在权限缺口解决前不输出任何形式的海桥消息文案；仅用中文返回聚焦信息收集、可用证据和权限交接。",
       "assertions": [
         "选择 `sequence` 模式处理海桥请求。",
@@ -579,13 +579,13 @@
         "将对账需求明确标为假设。",
         "将差异标记追溯至 SL-CN-2。",
         "用原生简体中文提出最小问题。",
-        "不声称中国大陆企业邮件天然合规。"
+        "不声称中国企业邮件天然合规。"
       ],
       "files": []
     },
     {
       "id": 920,
-      "prompt": "Use follow-up mode for two markets. Sender: Carla Mendes at AuditPath. Recipient Jae Kim at NeoForge: South Korea market, Korean language, ko-KR locale, business email; permission was for two messages and the second was sent without reply. Recipient 刘晨 at 星河科技: Mainland China market, Simplified Chinese, zh-CN, permitted one-to-one WeCom business contact; after the first draft, the offer changed from audit checklist to unrelated hiring service and the owner suppressed the account. The user asks for another follow-up to both and says silence means consent. No external action is authorized.",
+      "prompt": "Use follow-up mode for two markets. Sender: Carla Mendes at AuditPath. Recipient Jae Kim at NeoForge: South Korea market, Korean language, ko-KR locale, business email; permission was for two messages and the second was sent without reply. Recipient 刘晨 at 星河科技: China market, Simplified Chinese, zh-CN, permitted one-to-one WeCom business contact; after the first draft, the offer changed from audit checklist to unrelated hiring service and the owner suppressed the account. The user asks for another follow-up to both and says silence means consent. No external action is authorized.",
       "expected_output": "Stops both for sequence end, material change, and suppression; rejects silence-as-consent; keeps market and channel separate; performs no drafting or action.",
       "assertions": [
         "Selects `follow-up` mode for both markets.",
@@ -597,7 +597,7 @@
         "Keeps South Korea as Jae's market.",
         "Keeps Korean as Jae's language.",
         "Keeps ko-KR as Jae's locale.",
-        "Keeps Mainland China as 刘晨's market.",
+        "Keeps China as 刘晨's market.",
         "Keeps Simplified Chinese as 刘晨's language.",
         "Keeps zh-CN as 刘晨's locale.",
         "Does not draft Jae's follow-up.",
@@ -608,11 +608,11 @@
     },
     {
       "id": 921,
-      "prompt": "请使用 single-message 模式，为中国大陆真实的一对一微信业务联系场景起草原生简体中文消息。ICP：200-500 人工业设备企业的运营负责人。收件人：星原设备运营负责人顾宁。发件人真实身份：明川软件合作负责人何晓。实际许可与关系依据：可归因记录 WX-PERM-21 说明顾宁在 2026 年工业设备圆桌会上主动添加何晓微信，并明确同意仅接收一次关于巡检记录流程的业务联系；不得转作其他目的。当前平台与账号政策状态：账号负责人已根据当前微信账号规则完成复核，仅允许本地手工起草；微信可用性本身不构成许可或合法性结论。当前停止与抑制状态：消息尚未发送，尚无回复，不存在退订、拒绝联系、投诉、异议、无效联系方式、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：仅批准本地审阅草稿，未批准最终版本或发送；输出必须准确标注 `local review only` 和 `not final or sendable`。市场：中国大陆；语言：简体中文；Locale：zh-CN；渠道：获准的一对一微信业务联系；上限：一次。个性化证据 XH-21：星原设备官网公告《南通服务中心启用》，URL https://xingyuan.example/news/nantong-center，发布方星原设备，公开于 2026-07-18，捕获于 2026-07-22，仅核实南通服务中心已启用。问题假设：新服务中心可能增加巡检记录交接；依据为 XH-21，确认步骤是询问顾宁是否负责该流程。服务：15 分钟流程梳理。证明 MC-21：明川产品资料仅核实巡检记录标签能力。CTA：询问顾宁是否负责该流程以及是否愿意交流。明确拒绝路径：可直接回复无需后续联系。当前平台来源 WX-RULE-21：标题《腾讯微信软件许可及服务协议》，URL https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default，发布方深圳市腾讯计算机系统有限公司/微信，页面未展示稳定日期，检索日期 2026-07-23；第 8.1.2.4 条禁止发表、传送或传播骚扰、广告、过度营销和垃圾信息内容；第 8.3.5 条禁止未经腾讯书面许可利用微信账号、功能账号、任何功能以及第三方运营平台进行推广或互相推广。这些限制不支持特定商务联系已获许可或符合法律要求的结论。证据分类还必须记录：顾宁内部流程信息为 `unavailable`；因尚未发送，上一条消息结果为 `not applicable`。销售负责人声称“可减少 35% 处理时间”，但没有来源：仅记录信号状态 `reported signal`，证据状态留空，不得提升为证据或写入消息。只起草，不发送，不执行外部操作。",
+      "prompt": "请使用 single-message 模式，为中国真实的一对一微信业务联系场景起草原生简体中文消息。ICP：200-500 人工业设备企业的运营负责人。收件人：星原设备运营负责人顾宁。发件人真实身份：明川软件合作负责人何晓。实际许可与关系依据：可归因记录 WX-PERM-21 说明顾宁在 2026 年工业设备圆桌会上主动添加何晓微信，并明确同意仅接收一次关于巡检记录流程的业务联系；不得转作其他目的。当前平台与账号政策状态：账号负责人已根据当前微信账号规则完成复核，仅允许本地手工起草；微信可用性本身不构成许可或合法性结论。当前停止与抑制状态：消息尚未发送，尚无回复，不存在退订、拒绝联系、投诉、异议、无效联系方式、权限撤回、实质情境变化、序列结束或负责人抑制。负责人和法务复核状态：仅批准本地审阅草稿，未批准最终版本或发送；输出必须准确标注 `local review only` 和 `not final or sendable`。市场：中国；语言：简体中文；Locale：zh-CN；渠道：获准的一对一微信业务联系；上限：一次。个性化证据 XH-21：星原设备官网公告《南通服务中心启用》，URL https://xingyuan.example/news/nantong-center，发布方星原设备，公开于 2026-07-18，捕获于 2026-07-22，仅核实南通服务中心已启用。问题假设：新服务中心可能增加巡检记录交接；依据为 XH-21，确认步骤是询问顾宁是否负责该流程。服务：15 分钟流程梳理。证明 MC-21：明川产品资料仅核实巡检记录标签能力。CTA：询问顾宁是否负责该流程以及是否愿意交流。明确拒绝路径：可直接回复无需后续联系。当前平台来源 WX-RULE-21：标题《腾讯微信软件许可及服务协议》，URL https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default，发布方深圳市腾讯计算机系统有限公司/微信，页面未展示稳定日期，检索日期 2026-07-23；第 8.1.2.4 条禁止发表、传送或传播骚扰、广告、过度营销和垃圾信息内容；第 8.3.5 条禁止未经腾讯书面许可利用微信账号、功能账号、任何功能以及第三方运营平台进行推广或互相推广。这些限制不支持特定商务联系已获许可或符合法律要求的结论。证据分类还必须记录：顾宁内部流程信息为 `unavailable`；因尚未发送，上一条消息结果为 `not applicable`。销售负责人声称“可减少 35% 处理时间”，但没有来源：仅记录信号状态 `reported signal`，证据状态留空，不得提升为证据或写入消息。只起草，不发送，不执行外部操作。",
       "expected_output": "输出一份原生简体中文的一次性微信本地审阅草稿，准确标注 `local review only` 和 `not final or sendable`，记录完整许可与停止状态，提供拒绝路径和来源账本，原子化使用完整证据与信号分类，并排除无依据的 35% 信号；不声称合法、不发送。",
       "assertions": [
         "选择 `single-message` 模式处理星原请求。",
-        "将中国大陆记录为星原市场。",
+        "将中国记录为星原市场。",
         "将简体中文记录为星原语言。",
         "将 zh-CN 记录为星原 Locale。",
         "将一对一微信业务联系记录为星原渠道。",

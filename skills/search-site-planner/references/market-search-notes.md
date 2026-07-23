@@ -2,9 +2,9 @@
 
 ## Market Record
 
-Record `market`, `language`, and `locale` independently. A Simplified Chinese page does not by itself establish Mainland China as the market, and a China-targeted property may contain more than one language or locale.
+Record `market`, `language`, and `locale` independently. A Simplified Chinese page does not by itself establish China as the market, and a China-targeted property may contain more than one language or locale.
 
-For Mainland China work requested in Simplified Chinese, use native Simplified Chinese in the user-facing plan and handoff. Keep official source titles in their published language. Do not translate a Google instruction into a Baidu or Bing rule.
+For China work requested in Simplified Chinese, use native Simplified Chinese in the user-facing plan and handoff. Keep official source titles in their published language. Do not translate a Google instruction into a Baidu or Bing rule.
 
 ## Architecture Contexts
 

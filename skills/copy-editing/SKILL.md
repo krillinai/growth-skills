@@ -13,7 +13,7 @@ Read [review-contract.md](references/review-contract.md) for every request.
 
 Read [claims-and-evidence.md](references/claims-and-evidence.md) whenever copy contains factual claims, proof, prices, metrics, outcomes, comparisons, testimonials, certifications, guarantees, regulated statements, or user-supplied facts.
 
-Read [localization-review.md](references/localization-review.md) for every localization request, every Mainland China request, every Simplified Chinese asset, or any review where market, language, locale, or channel fit matters.
+Read [localization-review.md](references/localization-review.md) for every localization request, every China request, every Simplified Chinese asset, or any review where market, language, locale, or channel fit matters.
 
 ## Confirm Review Scope
 

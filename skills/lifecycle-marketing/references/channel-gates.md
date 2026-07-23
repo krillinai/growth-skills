@@ -4,7 +4,7 @@ Use this reference to keep permission, account capability, recipient relationshi
 
 ## Shared Rule
 
-Permission belongs to the named recipient or cohort, sender, purpose, market, channel, provider/account, and current state. Do not transfer email consent to SMS; international SMS assumptions to Mainland China; WeChat Official Account permission to Mini Program subscriptions; WeChat permission to WeCom; or one provider, account, or market rule to another.
+Permission belongs to the named recipient or cohort, sender, purpose, market, channel, provider/account, and current state. Do not transfer email consent to SMS; international SMS assumptions to China; WeChat Official Account permission to Mini Program subscriptions; WeChat permission to WeCom; or one provider, account, or market rule to another.
 
 Fallback is a new channel decision. Verify independent eligibility, permission, sender/account status, current suppression, routing, and content fit before drafting. Otherwise record fallback `unavailable` and keep the original duty in owner handoff.
 
@@ -18,9 +18,9 @@ Resolve destination country, recipient number eligibility, provider, route, send
 
 Do not present a character count, sender type, opt-out keyword, registration rule, or consent rule as universal. Use current direct country/provider sources or supplied owner constraints. A phone number collected for security or account recovery is not marketing SMS permission.
 
-## Mainland China SMS
+## China SMS
 
-Keep Mainland China, Simplified Chinese, `zh-CN`, provider, channel, sender, and classification separate. Resolve the selected provider and account before applying provider requirements. When that provider requires them, record the sender signature, template, account/brand registration, review state, and exact approved scope. Do not borrow another provider's signature or template rule.
+Keep China, Simplified Chinese, `zh-CN`, provider, channel, sender, and classification separate. Resolve the selected provider and account before applying provider requirements. When that provider requires them, record the sender signature, template, account/brand registration, review state, and exact approved scope. Do not borrow another provider's signature or template rule.
 
 Require a real sender, bounded recipient eligibility, attributable purpose and claims, current SMS consent basis, trigger freshness, current unsubscribe/do-not-contact/complaint/invalid-number/withdrawal/suppression state, owner-approved quiet hours and frequency, and a deterministic collision rule.
 

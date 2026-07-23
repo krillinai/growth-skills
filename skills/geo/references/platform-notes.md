@@ -6,7 +6,7 @@ These notes contain only claims needed to interpret access mechanisms and option
 
 Robots directives express access preferences for the agent and path they address. They do not prove that a fetch occurred, that content was indexed or trained on, or that an answer cited the site. Never transfer a conclusion between ordinary indexing, training collection, automated search/browse retrieval, and user-triggered fetching.
 
-For Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek consumer observations in Mainland China, read [mainland-china-platforms.md](mainland-china-platforms.md). Its bounded official sources establish only the product identity or page text they expose. Treat undocumented crawler, robots, retrieval, indexing, training, citation, and ranking claims as `unavailable`; do not borrow another provider's rules.
+For Baidu, Quark, Doubao, Tencent Yuanbao, Kimi, or DeepSeek consumer observations in China, read [china-platforms.md](china-platforms.md). Its bounded official sources establish only the product identity or page text they expose. Treat undocumented crawler, robots, retrieval, indexing, training, citation, and ranking claims as `unavailable`; do not borrow another provider's rules.
 
 ## Current Primary Platform Sources
 
