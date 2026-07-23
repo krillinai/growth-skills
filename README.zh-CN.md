@@ -58,6 +58,7 @@
     <tr><th width="32%">技能</th><th>说明</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="skills/cohort-analysis/">Cohort 分析</a></td><td>定义基于时间、曝光、行为或状态的 Cohort，使用用户提供的事件或汇总数据构建考虑成熟度的矩阵，比较兼容群体，并在不虚构因果结论的前提下区分 Mix 变化与 Cohort 内部变化</td></tr>
     <tr><td><a href="skills/experiment-design/">实验设计</a></td><td>判断何时适合实验，设计或审查可信的因果及替代证据方案，并通过明确的分配、曝光、指标、功效、SRM、干扰、护栏和决策规则解读成熟结果</td></tr>
     <tr><td><a href="skills/funnel-analysis/">漏斗分析</a></td><td>冻结实体、资格、事件、分母、窗口、成熟度与 cohort 定义，分析价值状态间的转化和绝对流失，区分观察到的掉点与原因，诊断约束并设计证据边界清晰的改进方案</td></tr>
   </tbody>
