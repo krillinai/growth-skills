@@ -62,6 +62,12 @@ Route causal tests to `experiment-design`, transition analysis to `funnel-analys
 | Treating attributed growth as incremental | Preserve attribution as an operating view and require a credible counterfactual for causality |
 | Copying a famous feature or loop | Begin with this product's value, entities, next input, constraints, and evidence |
 
+## Transfer Across Markets
+
+Treat every market as a new loop evidence boundary. Revalidate participants, jobs, value exchange, eligible source population, action, output, next input, response, realized and retained value, re-entry, identity, channels, permissions, incentives, payments, abuse, capacity, saturation, economics, sources, and owners. Translation, currency conversion, or a familiar mechanism does not validate transfer.
+
+For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, account, consent, incentive, payment, invoice, data, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, causal, or performance conclusions. Keep the verdict `hypothesis` or `partially observed` until compatible local closure evidence supports another state.
+
 ## Deliver In Order
 
 Return:
