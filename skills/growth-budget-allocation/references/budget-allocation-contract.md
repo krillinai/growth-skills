@@ -59,6 +59,21 @@ declared envelope
 
 Show unresolved residuals. Do not treat a budget request, target, prior-year amount, accounting allocation, open role, shared team, executive preference, or forecast as availability.
 
+Do not subtract reported spend from a reported envelope until the record establishes whether the envelope includes that spend, the fiscal and cash period, destination, accounting basis, commitment state, recoverability, and source. Arithmetic validity does not establish resource availability.
+
+## Require A Numeric Readiness Gate
+
+Recommended numbers require all of the following:
+
+- a verified envelope with period, currency, accounting and cash bases, restrictions, and treatment of prior spend;
+- reconciled approved, authorized, committed, encumbered, spent, accrued, prepaid, recoverable, available, protected, discretionary, contingent, and reserved states;
+- attributable protection standards, owners, floors, exceptions, and residual obligations rather than an arbitrary reserve;
+- compatible allocation units or explicit separate views with source-backed minimum, staged, and maximum resource ranges;
+- feasible capacity, dependencies, lead times, transferability, and no double booking;
+- named accountable decision owner, required approvers, effective window, review, expiry, and external-action boundary.
+
+When any material condition is unavailable, use `draft` or `reconciling` and omit recommended amounts, percentages, weights, ceilings, floors, reserves, deltas, dates, phases, return thresholds, and release bands. Provide the unresolved ledger and the conditions under which a numeric version could be built. Do not normalize incomplete requests to 100 percent or invent a balancing reserve.
+
 ## Classify Costs And Capacity
 
 | Class | Decision question |

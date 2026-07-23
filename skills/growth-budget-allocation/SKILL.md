@@ -35,6 +35,12 @@ Separate cash, accountable people, specialist time, management attention, produc
 
 Separate sunk, fixed, variable, step, allocated, shared, committed, avoidable, recoverable, salvage, exit, decommissioning, opportunity, and residual cost. Sunk cost, work completed, publicity, or sponsorship does not justify future allocation. Compare continuation with stage, narrow, preserve, defer, pause, stop, salvage, and responsible exit from the current decision point.
 
+## Gate Numeric Allocation
+
+Produce recommended amounts, percentages, weights, ceilings, floors, reserves, source-to-destination deltas, or dated release bands only when the envelope and prior spend share a verified basis; restrictions, commitments, encumbrances, recoveries, protected obligations, and discretionary availability reconcile; allocation units have compatible evidence or explicit separate views; capacity and dependencies are feasible; and accountable owners and required approvers are attributable. A reported total, list of requests, verbal approval, executive demand, or arithmetic remainder does not pass this gate.
+
+If any decision-critical condition is unavailable, keep the state `draft` or `reconciling`. Preserve user-supplied numbers as reported states and show valid arithmetic only for diagnosis; do not turn them into a recommended allocation. Return a nonnumeric portfolio structure, unresolved resource ledger, first limiting gate, evidence requests, and conditions for a later numeric version. Do not invent allocation ratios, normalized scores, protected floors, uncertainty reserves, approval roles, deadlines, phases, ordering, return thresholds, or release criteria to make the proposal look complete.
+
 ## Build The Portfolio Ledger
 
 For each allocation unit record stable ID and version, portfolio class, owner and decision rights, customer and problem, strategic choice, mechanism, customer value, retained outcome, incremental business effect, evidence and counterevidence, current resource, requested band, resource type and period, maturity, full and marginal economics, cash, capacity, dependencies, overlap, opportunity cost, concentration, risk, guardrails, obligations, earliest decision-changing evidence, and scale, cap, stop, rollback, exit, expiry, and review rules.
@@ -62,6 +68,8 @@ Do not call protected work nongrowth or offset noncompensable harm with financia
 Build conditional scenarios only for uncertainties that change an allocation decision. Keep assumptions, sources, ranges, contradictions, lags, maturity, cash, capacity, risk, trigger, and response explicit. Do not invent probabilities, average incompatible scenarios into an expected return, show unsupported decimal precision, or guarantee performance.
 
 Identify robust commitments, protected reserves, contingent commitments, hedges, options, and irreversible commitments. Use sensitivity to name the threshold where a decision changes. Allocate in evidence-gated bands with prerequisites, amount or resource range, maturity, owner, positive, negative, harmful, invalid, and inconclusive rules, cap, stop, rollback, expiry, and next review.
+
+When the numeric gate does not pass, describe only the role of possible pools, bands, reserves, options, and gates. Do not assign a value, percentage, order, date, or owner that the supplied evidence and authority do not support.
 
 ## Decide And Reallocate
 

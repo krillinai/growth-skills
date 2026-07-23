@@ -13,6 +13,8 @@ Return:
 7. current and proposed allocation bands plus source-to-destination change register, decision states, approvals, effective dates, caps, stops, rollbacks, expiries, and reviews;
 8. governance, market and privacy boundaries, specialist handoffs, pinned sources, approval-ready external actions, and completion record.
 
+Include numeric allocation tables only when the numeric readiness gate passes. Otherwise preserve supplied numbers only as reported or diagnostic facts and return nonnumeric pool roles, unresolved states, evidence requests, and readiness conditions.
+
 ## Allocation Contract
 
 | Decision and version | Owner / reviewers / approvers | Scope / products / customers / markets | Period / horizon / cutoff / maturity | Currency / accounting / cash / units | Strategy / cycle / source lineage | Privacy / action / review / expiry |
@@ -63,3 +65,5 @@ Use `preserve`, `fund`, `stage`, `cap`, `reduce`, `pause`, `stop`, `reserve`, `r
 ## Completion Gate
 
 Confirm allocation, version, mode, state, decision, owner, reviewers, approvers, scope, exclusions, products, business models, customers, roles, markets, locales, fiscal and calendar periods, horizon, currencies, exchange-rate basis, accounting, cash, units, strategy, planning cycle, target, forecast, opportunity, investment, initiatives, evidence, cutoff, maturity, resource states, protected pools, commitments, recoveries, availability, residual, allocation units, customer value, mechanisms, full and marginal economics, working capital, cash timing, payback, capacity, ramp, dependencies, overlap, cannibalization, concentration, opportunity cost, risk, guardrails, scenarios, sensitivity, decision gates, source and destination changes, caps, stops, rollbacks, effective dates, reviews, expiry, privacy, market transfer, residual obligations, handoffs, pinned sources, and external actions are explicit; resources and outcomes were not duplicated; requests did not become availability; target, attribution, historical averages, and sunk cost did not become future return; incompatible views were not blended; protected obligations were not removed; uncertainty was not hidden; recommendations did not become approvals or transfers; and no external action occurred.
+
+When numeric readiness did not pass, also confirm that no recommended amount, percentage, normalized weight, ceiling, floor, reserve, delta, deadline, phase, approval role, return threshold, or release band was invented; the state remains `draft` or `reconciling`; and the output names the first limiting gate and conditions for a later numeric version.

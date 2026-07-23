@@ -25,9 +25,13 @@ Identify:
 - `options` that preserve future choice at acceptable cost;
 - `irreversible commitments` that require the strongest evidence and authority.
 
+A scenario cannot supply missing current-state evidence by assumption. Do not use a hypothetical floor, reserve, approval, capacity, deadline, sequence, or return threshold as the recommended base allocation. Keep hypothetical quantities inside a labeled scenario and only when the user supplied or explicitly authorized the assumptions.
+
 ## Set Allocation Bands
 
 Do not impose an equal split or universal core, adjacent, exploratory, system, channel, lifecycle, product, or market ratio. Derive bands from the declared strategy and constraint, verified envelope, required protections, credible alternatives, incremental evidence, marginal economics, cash, capacity, dependencies, risk, reversibility, and time to decision-changing evidence.
+
+Pass the numeric readiness gate in [budget-allocation-contract.md](budget-allocation-contract.md) before specifying any recommended band. If it fails, return qualitative pool roles, incompatibilities, the first limiting gate, and evidence needed to derive bands. Do not create exact amounts, percentages, normalized weights, ceilings, reserves, dates, phases, approvers, or hurdle rates merely because the user requests a complete allocation.
 
 For each band define minimum viable resource, proposed range, maximum exposure, period, purpose, decision served, owner, prerequisites, measurement, maturity, positive, negative, harmful, invalid, and inconclusive outcomes, next decision, cap, stop, rollback, expiry, and residual obligations.
 
@@ -81,6 +85,8 @@ For `reallocate`, preserve the current approved allocation and record each propo
 | Control | Evidence gate, cap, stop, rollback, correction, audit, maturity, expiry, and next review |
 
 Do not move resources from an immature, underpowered, selectively reported, invalid, incompatible, or guardrail-harming result. Preserve the current allocation, reduce exposure, or request a bounded evidence band until the decision is supportable.
+
+If the current approved allocation or discretionary source pool is unavailable, do not quantify preservation, reduction, evidence bands, or destination deltas. Mark the change `unresolved` and specify the record needed to reopen it.
 
 ## Check Portfolio Coherence
 
