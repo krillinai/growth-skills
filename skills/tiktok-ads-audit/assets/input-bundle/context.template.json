@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "platform_scope": "TikTok Ads Manager (international)",
+  "decision": "Decide what to test or measure before the next TikTok Ads review",
+  "owner": "Growth team",
+  "market": "US",
+  "start_date": "2026-06-01",
+  "end_date": "2026-06-30",
+  "currency": "USD",
+  "objective": "Qualified customer acquisition",
+  "qualified_outcome": "New customer with a matured first purchase",
+  "destination_type": "website"
+}

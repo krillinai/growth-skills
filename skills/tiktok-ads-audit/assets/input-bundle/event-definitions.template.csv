@@ -1,0 +1,2 @@
+event_id,event_name,source,status,optimization_event,qualified_outcome,platform,counting_rule,value_rule,deduplication_rule,attribution_setting,consent_status,captured_at
+event-1,CompletePayment,pixel_and_events_api,active,true,true,web,every transaction,dynamic,event_id,declared account setting,documented,2026-06-30

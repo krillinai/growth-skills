@@ -1,0 +1,2 @@
+landing_page_id,ad_id,url,destination_type,market,language,offer,primary_message,proof,cta,app_or_shop_state,status,captured_at
+landing-1,ad-1,https://example.com/product,website,US,en,demo,Reduce manual reporting time,Attributable customer case,Book a demo,not applicable,live,2026-06-30

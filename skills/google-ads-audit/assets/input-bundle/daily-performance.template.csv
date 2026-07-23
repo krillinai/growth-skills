@@ -1,0 +1,2 @@
+date,campaign_id,ad_group_id,ad_id,channel_type,spend,impressions,clicks,conversions,all_conversions,view_through_conversions,engaged_view_conversions,conversion_value,invalid_clicks,currency,conversion_action_scope
+2026-06-01,campaign-1,adgroup-1,ad-1,SEARCH,125.50,24000,420,18,20,0,0,1800.00,3,USD,primary actions

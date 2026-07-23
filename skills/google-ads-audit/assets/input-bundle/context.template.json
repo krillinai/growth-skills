@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "decision": "Decide what to test or measure before the next Google Ads review",
+  "owner": "Growth team",
+  "market": "US",
+  "start_date": "2026-06-01",
+  "end_date": "2026-06-30",
+  "currency": "USD",
+  "objective": "Qualified customer acquisition",
+  "qualified_outcome": "New customer with a matured first purchase",
+  "channel_types": ["SEARCH", "PERFORMANCE_MAX"]
+}

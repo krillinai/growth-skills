@@ -1,0 +1,2 @@
+ad_id,campaign_id,ad_group_id,ad_name,status,ad_type,destination_url,concept_id,offer,proof,cta
+ad-1,campaign-1,adgroup-1,Customer proof RSA,ENABLED,RESPONSIVE_SEARCH_AD,https://example.com/reporting,concept-proof-1,demo,attributable customer case,Book a demo

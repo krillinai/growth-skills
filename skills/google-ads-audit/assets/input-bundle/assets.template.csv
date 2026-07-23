@@ -1,0 +1,2 @@
+asset_id,campaign_id,ad_group_id,asset_group_id,asset_name,asset_type,concept_id,status,persona,pillar,angle,offer,proof,format,rights_status,performance_label
+asset-1,campaign-1,adgroup-1,,Customer proof headline,HEADLINE,concept-proof-1,ENABLED,operations lead,time saved,customer proof,demo,attributable customer case,text,verified,GOOD

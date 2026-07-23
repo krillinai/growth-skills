@@ -1,0 +1,2 @@
+keyword_id,campaign_id,ad_group_id,keyword_text,match_type,status,final_url,quality_score,first_page_cpc,negative
+keyword-1,campaign-1,adgroup-1,reporting automation,PHRASE,ENABLED,https://example.com/reporting,7,2.40,false

@@ -1,0 +1,2 @@
+adgroup_id,campaign_id,adgroup_name,status,placement_type,optimization_goal,bid_strategy,budget_amount,schedule_start,schedule_end,audience_summary,destination_type
+adgroup-1,campaign-1,Broad,active,tiktok,complete_payment,lowest_cost,500.00,2026-06-01,2026-06-30,Broad eligible adults in declared market,website

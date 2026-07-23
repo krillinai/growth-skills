@@ -1,0 +1,3 @@
+campaign_id,campaign_name,status,advertising_channel_type,advertising_channel_sub_type,bidding_strategy_type,budget_amount,budget_period,start_date,end_date,network_settings,optimization_score
+campaign-1,Brand search,ENABLED,SEARCH,SEARCH_STANDARD,MAXIMIZE_CONVERSIONS,250.00,DAILY,2026-01-01,,google_search,0.82
+campaign-2,Product growth,ENABLED,PERFORMANCE_MAX,PERFORMANCE_MAX,MAXIMIZE_CONVERSION_VALUE,400.00,DAILY,2026-01-01,,,0.76

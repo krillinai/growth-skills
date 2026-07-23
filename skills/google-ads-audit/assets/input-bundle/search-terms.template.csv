@@ -1,0 +1,2 @@
+date,campaign_id,ad_group_id,search_term,keyword_text,match_type,impressions,clicks,spend,conversions,conversion_value,currency,search_term_status
+2026-06-01,campaign-1,adgroup-1,automated reporting software,reporting automation,PHRASE,200,20,45.00,2,200.00,USD,ADDED

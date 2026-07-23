@@ -1,0 +1,2 @@
+ad_id,campaign_id,campaign_name,adgroup_id,adgroup_name,ad_name,status,objective,destination_type,placement_type,optimization_goal,identity_type,spark_ad,destination_url
+ad-1,campaign-1,Prospecting,adgroup-1,Broad,Customer proof video,active,conversion,website,tiktok,complete_payment,custom_identity,false,https://example.com/product

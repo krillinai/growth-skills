@@ -1,0 +1,2 @@
+date,campaign_id,product_id,product_title,product_category,status,merchant_center_id,feed_label,availability,price,spend,clicks,conversions,conversion_value,gross_margin,currency
+2026-06-01,campaign-2,product-1,Workflow template,Software,ELIGIBLE,merchant-1,US,in_stock,99.00,80.00,120,8,792.00,0.75,USD

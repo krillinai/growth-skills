@@ -1,0 +1,2 @@
+date,aggregation_level,entity_id,orders,qualified_leads,new_customers,gross_revenue,refunds,cost_of_goods,creator_costs,variable_costs,contribution_margin,currency,maturation_window
+2026-06-01,ad,ad-1,16,0,12,1600.00,100.00,480.00,120.00,140.00,760.00,USD,30 days

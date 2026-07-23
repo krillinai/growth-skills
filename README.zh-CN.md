@@ -87,6 +87,8 @@
   <tbody>
     <tr><td><a href="skills/monetization/">变现</a></td><td>梳理用户、购买者与付款人的价值关系，分析产品方案、包装、定价、付费转化、留存收入和单位经济性，并设计兼顾迁移、公平性与市场条件的商业体系</td></tr>
     <tr><td><a href="skills/meta-ads-audit/">Meta Ads 诊断</a></td><td>在不访问或更改 Meta 实时账户的前提下，诊断用户提供的 Ads Manager CSV、创意清单、落地页、测量证据及聚合业务结果</td></tr>
+    <tr><td><a href="skills/google-ads-audit/">Google Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 Google Ads 广告活动、转化、搜索、购物、Performance Max、创意、落地页、测量与聚合业务证据</td></tr>
+    <tr><td><a href="skills/tiktok-ads-audit/">TikTok Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 TikTok 国际广告结构、短视频创意、Spark Ads 权限、落地页、事件、归因与聚合业务证据</td></tr>
     <tr><td><a href="skills/seo-audit/">SEO 诊断</a></td><td>基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO 诊断</a></td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/geo/">GEO 诊断</a></td><td>基于证据评估网站面向 AI 生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>

@@ -1,0 +1,2 @@
+landing_page_id,campaign_id,ad_group_id,ad_id,url,market,language,offer,primary_message,proof,cta,status,captured_at
+landing-1,campaign-1,adgroup-1,ad-1,https://example.com/reporting,US,en,demo,Reduce manual reporting time,Attributable customer case,Book a demo,live,2026-06-30

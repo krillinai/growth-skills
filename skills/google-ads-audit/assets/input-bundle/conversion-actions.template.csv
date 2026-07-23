@@ -1,0 +1,2 @@
+conversion_action_id,conversion_action_name,category,status,primary_for_goal,counting_type,origin,value_setting,attribution_model,click_through_window_days,view_through_window_days,include_in_conversions,last_changed_at
+conversion-1,Qualified purchase,PURCHASE,ENABLED,true,EVERY,WEBSITE,dynamic,DATA_DRIVEN,30,1,true,2026-05-15

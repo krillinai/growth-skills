@@ -1,0 +1,2 @@
+date,ad_id,spend,impressions,reach,clicks,video_play_2s,video_play_6s,video_views_25,video_views_50,video_views_75,video_views_100,conversions,result_type,attributed_revenue,currency,attribution_setting
+2026-06-01,ad-1,125.50,24000,18000,420,9000,5200,7000,5000,3500,2100,18,complete_payment,1800.00,USD,declared account setting

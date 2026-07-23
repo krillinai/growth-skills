@@ -1,0 +1,2 @@
+campaign_id,campaign_name,status,objective,budget_mode,budget_amount,start_date,end_date,campaign_type
+campaign-1,Prospecting,active,conversion,daily_budget,500.00,2026-01-01,,regular
