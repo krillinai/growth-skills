@@ -1,0 +1,346 @@
+{
+  "skill_name": "activation",
+  "evals": [
+    {
+      "id": 1201,
+      "prompt": "Use public information only to assess activation for https://briefboard.example. The site says teams can turn meeting notes into assigned work, but I cannot provide analytics, CRM, support, research, or account data. Tell me our activation rate and the main onboarding problem.",
+      "expected_output": "Selects analysis mode but does not fabricate an activation rate or onboarding cause. Uses public product context only to draft a customer-job and first-value hypothesis, builds a calculation-ready activation contract, marks private evidence unavailable, and requests the smallest aggregate inputs needed for the decision.",
+      "assertions": [
+        "Selects analysis mode for the Briefboard request. [eval 1201]",
+        "Treats assigned work from meeting notes as a candidate first-value event rather than a verified event. [eval 1201]",
+        "Produces a draft customer-job, eligibility, start-event, value-event, quality, and window contract. [eval 1201]",
+        "Marks analytics evidence unavailable. [eval 1201]",
+        "Marks CRM evidence unavailable. [eval 1201]",
+        "Marks support evidence unavailable. [eval 1201]",
+        "Marks research evidence unavailable. [eval 1201]",
+        "Does not invent a Briefboard activation rate. [eval 1201]",
+        "Does not invent a Briefboard onboarding cause. [eval 1201]",
+        "Requests only decision-relevant aggregate inputs. [eval 1201]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1202,
+      "prompt": "Calculate 7-day activation. We have 1,000 eligible new users, including 100 who encountered an import error. A verified 420 users completed the qualifying first-value event within seven days. The analyst removed the 100 error users and reported 420/900=46.7% because they never had a fair chance.",
+      "expected_output": "Selects analysis mode and calculates activation as 420/1,000 or 42%. It keeps error-affected users in the eligible denominator because product friction is part of the path, reports the error cohort as a diagnostic segment, and rejects the silently narrowed 46.7% rate.",
+      "assertions": [
+        "Selects analysis mode for the 7-day activation calculation. [eval 1202]",
+        "Uses 420 qualifying users as the numerator. [eval 1202]",
+        "Uses all 1,000 eligible users as the denominator. [eval 1202]",
+        "Calculates 7-day activation as 42 percent. [eval 1202]",
+        "Keeps the 100 import-error users in the eligible denominator. [eval 1202]",
+        "Treats import errors as a diagnostic segment. [eval 1202]",
+        "Rejects the analyst's 46.7 percent rate. [eval 1202]",
+        "Does not redefine eligibility after observing failure. [eval 1202]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1203,
+      "prompt": "Compare 7-day activation at a 2026-07-31 UTC cutoff. The 2026-07-01 cohort has 400 eligible users and 160 verified first-value events within seven days. The 2026-07-29 cohort has 100 eligible users and 30 first-value events in its first two days. The dashboard says activation improved from 40% to 30%, so decide the trend.",
+      "expected_output": "Selects analysis mode, calculates the mature July 1 cohort as 160/400 or 40%, and marks the July 29 cohort's 7-day activation unavailable because its window is right-censored. It does not compare the cohorts or treat first-two-day activity as a mature seven-day rate.",
+      "assertions": [
+        "Selects analysis mode for the cohort-maturity request. [eval 1203]",
+        "Calculates the July 1 cohort's 7-day activation as 40 percent. [eval 1203]",
+        "Records 2026-07-31 UTC as the observation cutoff. [eval 1203]",
+        "Marks the July 29 cohort's 7-day activation unavailable. [eval 1203]",
+        "Identifies the July 29 window as right-censored. [eval 1203]",
+        "Does not accept 30 percent as a mature seven-day rate. [eval 1203]",
+        "Does not conclude activation improved. [eval 1203]",
+        "Does not conclude activation declined. [eval 1203]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1204,
+      "prompt": "Our signup completion is 82% and onboarding checklist completion is 76%. We have not defined a customer job, first-value event, quality threshold, or downstream validation. Declare activation at 76% and use a competitor's five-invites Aha Moment as our target.",
+      "expected_output": "Selects analysis mode and refuses to treat signup or checklist completion as activation without a validated value event. It also refuses to copy the competitor threshold, returns a first-value measurement specification, and keeps both supplied percentages as process diagnostics only.",
+      "assertions": [
+        "Selects analysis mode for the undefined activation request. [eval 1204]",
+        "Reports 82 percent signup completion only as a process diagnostic. [eval 1204]",
+        "Reports 76 percent checklist completion only as a process diagnostic. [eval 1204]",
+        "Does not declare activation at 76 percent. [eval 1204]",
+        "Does not treat signup completion as first value. [eval 1204]",
+        "Does not treat onboarding completion as first value. [eval 1204]",
+        "Does not copy the competitor's five-invites threshold. [eval 1204]",
+        "Requests the customer job and qualifying value event. [eval 1204]",
+        "Requests a quality threshold and downstream validation horizon. [eval 1204]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1205,
+      "prompt": "Report time to first value for a mature 48-hour cohort of 300 eligible users. The dashboard provides only an average of four hours among the 200 users who activated. It does not provide raw timestamps, a median, percentiles, or timing for the 100 users who did not activate.",
+      "expected_output": "Selects analysis mode and preserves four hours only as the reported mean among 200 completers. It reports 200/300 completion coverage, marks the cohort median and percentiles unavailable, keeps the 100 non-completers visible, and requests raw start and qualifying-event timestamps with a censoring rule.",
+      "assertions": [
+        "Selects analysis mode for the time-to-first-value request. [eval 1205]",
+        "Attributes the four-hour mean only to the 200 completers. [eval 1205]",
+        "Reports completion coverage as 200 of 300. [eval 1205]",
+        "Keeps the 100 non-completers visible. [eval 1205]",
+        "Marks the cohort time-to-first-value median unavailable. [eval 1205]",
+        "Marks time-to-first-value percentiles unavailable. [eval 1205]",
+        "Does not treat the completer mean as the full-cohort distribution. [eval 1205]",
+        "Requests raw start and qualifying-event timestamps. [eval 1205]",
+        "Requires an explicit censoring rule. [eval 1205]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1206,
+      "prompt": "Reconcile an activation funnel. There are 1,000 eligible entrants; 800 complete step 1; 600 of those complete step 2; 300 complete the qualifying first-value event. Report step conversion and end-to-end activation from the supplied counts.",
+      "expected_output": "Selects analysis mode and reports step 1 conversion as 800/1,000 or 80%, step 2 conversion as 600/800 or 75%, first-value conversion from step 2 as 300/600 or 50%, and end-to-end activation as 300/1,000 or 30%. It keeps step-specific and original-cohort denominators explicit.",
+      "assertions": [
+        "Selects analysis mode for the activation funnel. [eval 1206]",
+        "Calculates step 1 conversion as 80 percent. [eval 1206]",
+        "Uses 800 step-1 completers as the step-2 eligible denominator. [eval 1206]",
+        "Calculates step 2 conversion as 75 percent. [eval 1206]",
+        "Uses 600 step-2 completers as the first-value step denominator. [eval 1206]",
+        "Calculates first-value conversion from step 2 as 50 percent. [eval 1206]",
+        "Calculates end-to-end activation as 30 percent. [eval 1206]",
+        "Uses the original 1,000 entrants for end-to-end activation. [eval 1206]",
+        "Keeps step and end-to-end denominators explicit. [eval 1206]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1207,
+      "prompt": "Our invited collaborators activate at 80%: 80 of 100 complete the shared-document value event. Self-directed new users activate at 50%: 300 of 600 complete the same event in the same window. Blend them into one onboarding benchmark and conclude invitations cause better activation.",
+      "expected_output": "Selects analysis mode, reports each entry-state rate and may report the clearly labeled aggregate 380/700 or 54.3% if useful, but does not use it as one path benchmark. It explains that invited users arrive with pre-existing artifact and social context, and does not claim invitations cause activation without a credible design.",
+      "assertions": [
+        "Selects analysis mode for the mixed-entry-state request. [eval 1207]",
+        "Reports invited-collaborator activation as 80 percent. [eval 1207]",
+        "Reports self-directed activation as 50 percent. [eval 1207]",
+        "Keeps invited and self-directed entry states separate. [eval 1207]",
+        "Recognizes pre-existing artifact context for invited collaborators. [eval 1207]",
+        "Recognizes pre-existing social context for invited collaborators. [eval 1207]",
+        "Does not use a blended rate as one onboarding-path benchmark. [eval 1207]",
+        "Does not claim invitations cause better activation. [eval 1207]",
+        "Requires causal validation for an invitation effect. [eval 1207]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1208,
+      "prompt": "For 1,000 eligible users, 500 generated a report, 400 reports completed without error, 250 were judged usable against the user's stated task, and 150 produced a meaningful decision. Call all 500 users activated because output was generated.",
+      "expected_output": "Selects analysis mode and presents the supplied quality tiers separately: generated, technically successful, usable, and meaningful. It does not equate generated output with activation, identifies meaningful decision support as the strongest supplied first-value candidate, and requests a downstream validation horizon before finalizing the definition.",
+      "assertions": [
+        "Selects analysis mode for the first-value-quality request. [eval 1208]",
+        "Reports 500 generated reports as an output tier. [eval 1208]",
+        "Reports 400 error-free reports as a technical-success tier. [eval 1208]",
+        "Reports 250 task-usable reports as a usability tier. [eval 1208]",
+        "Reports 150 decision-producing reports as a meaningful-value tier. [eval 1208]",
+        "Does not declare all 500 users activated. [eval 1208]",
+        "Does not equate generated output with customer value. [eval 1208]",
+        "Nominates meaningful decision support as the strongest supplied activation candidate. [eval 1208]",
+        "Requests downstream retained-value validation. [eval 1208]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1209,
+      "prompt": "Calculate week-4 retained activation. A mature cohort has 420 users who completed the verified activation event. All 420 had a valid week-4 return opportunity, and 210 repeated the qualifying value event in week 4. Our total original signup cohort was 1,000.",
+      "expected_output": "Selects analysis mode and calculates retained activation as 210/420 or 50%, using activated users eligible to return as the denominator. It keeps this distinct from original-cohort week-4 retention and from the original 42% activation rate.",
+      "assertions": [
+        "Selects analysis mode for retained activation. [eval 1209]",
+        "Uses 210 repeat-value users as the numerator. [eval 1209]",
+        "Uses 420 activated users eligible to return as the denominator. [eval 1209]",
+        "Calculates week-4 retained activation as 50 percent. [eval 1209]",
+        "Does not use the 1,000 original signups as the retained-activation denominator. [eval 1209]",
+        "Keeps retained activation separate from the original 42 percent activation rate. [eval 1209]",
+        "Keeps retained activation separate from original-cohort retention. [eval 1209]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1210,
+      "prompt": "Activated users show 70% day-60 retention and non-activated users show 25% day-60 retention within the same mature cohort. Declare that the activation event causes a 45-point retention lift and ship a mandatory version of the behavior.",
+      "expected_output": "Selects diagnosis mode and calculates the observed 45-point difference only as predictive association. It preserves selection and intent alternatives, checks definition and cohort compatibility, and requires a controlled or otherwise credible causal validation before mandating the behavior.",
+      "assertions": [
+        "Selects diagnosis mode for the activation-retention association. [eval 1210]",
+        "Calculates the observed retention difference as 45 percentage points. [eval 1210]",
+        "Labels the 45-point difference as observational. [eval 1210]",
+        "Does not call the difference a causal lift. [eval 1210]",
+        "Identifies user intent as a possible confounder. [eval 1210]",
+        "Identifies selection into the activation behavior as a possible confounder. [eval 1210]",
+        "Checks cohort and definition compatibility. [eval 1210]",
+        "Requires causal validation before mandating the behavior. [eval 1210]",
+        "Does not authorize product rollout. [eval 1210]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1211,
+      "prompt": "For a B2B product, verified user activation is 70%, workspace activation is 40%, and 90% of contracted accounts have paid an invoice. Give one activation score and say the product is healthy.",
+      "expected_output": "Selects analysis mode, keeps user and workspace activation separate, and refuses to treat invoice payment as activation without evidence of received product value. It does not create one blended score or declare health without account, payer, quality, and downstream evidence.",
+      "assertions": [
+        "Selects analysis mode for the B2B activation request. [eval 1211]",
+        "Reports user activation as 70 percent at the user level. [eval 1211]",
+        "Reports workspace activation as 40 percent at the workspace level. [eval 1211]",
+        "Keeps user and workspace activation separate. [eval 1211]",
+        "Does not treat 90 percent paid status as activation. [eval 1211]",
+        "Keeps payer evidence separate from product-value evidence. [eval 1211]",
+        "Does not create one blended activation score. [eval 1211]",
+        "Does not declare the product healthy from the supplied metrics alone. [eval 1211]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1212,
+      "prompt": "A marketplace has 1,000 new sellers who published a listing, 300 who received a qualified match, and 200 who completed a successful transaction. Buyers have a separate journey, but no buyer data is supplied. Use listing publication as marketplace activation and report both sides activated.",
+      "expected_output": "Selects analysis mode and refuses to use listing publication as received marketplace value without validation. It separates seller and buyer activation, presents listing, qualified match, and successful transaction as distinct stages, and marks buyer activation unavailable.",
+      "assertions": [
+        "Selects analysis mode for the marketplace request. [eval 1212]",
+        "Reports 1,000 published listings as a seller setup stage. [eval 1212]",
+        "Reports 300 qualified matches as a distinct marketplace stage. [eval 1212]",
+        "Reports 200 successful transactions as a distinct value stage. [eval 1212]",
+        "Does not automatically treat listing publication as seller activation. [eval 1212]",
+        "Keeps seller activation separate from buyer activation. [eval 1212]",
+        "Marks buyer activation evidence unavailable. [eval 1212]",
+        "Does not report both marketplace sides activated. [eval 1212]",
+        "Requests side-specific value and return definitions. [eval 1212]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1213,
+      "prompt": "Define activation for our AI research assistant as sending 10 prompts or generating 5,000 tokens in the first day. We do not measure whether the answer is correct, useful, verified, edited, retried, or used in the customer's workflow.",
+      "expected_output": "Selects analysis mode and rejects prompt or token volume as activation by itself. It drafts a successful-task or workflow value event with relevance, verification, retries, latency, cost, trust, and repeatability dimensions, while marking current activation unavailable.",
+      "assertions": [
+        "Selects analysis mode for the AI product request. [eval 1213]",
+        "Does not define 10 prompts as activation. [eval 1213]",
+        "Does not define 5,000 generated tokens as activation. [eval 1213]",
+        "Requires a successful customer task or workflow outcome. [eval 1213]",
+        "Includes result relevance in the value specification. [eval 1213]",
+        "Includes verification and retries in the quality specification. [eval 1213]",
+        "Includes latency and cost as guardrails. [eval 1213]",
+        "Includes trust and repeatability in downstream validation. [eval 1213]",
+        "Marks the current activation definition unavailable. [eval 1213]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1214,
+      "prompt": "Design activation for a home-buying product where a customer may not make another purchase for years. The team wants a daily streak and a 7-day return requirement because that is standard for consumer apps.",
+      "expected_output": "Selects design mode and rejects a forced daily habit model for a low-frequency job. It defines activation around meaningful task completion or readiness, saved state, trust, and the next credible opportunity, with opportunity-based downstream validation instead of arbitrary seven-day return.",
+      "assertions": [
+        "Selects design mode for the low-frequency product. [eval 1214]",
+        "Identifies home buying as a low-frequency customer job. [eval 1214]",
+        "Rejects a daily streak as the default activation mechanism. [eval 1214]",
+        "Rejects an arbitrary seven-day return requirement. [eval 1214]",
+        "Defines meaningful task completion or readiness as a value candidate. [eval 1214]",
+        "Includes saved state and trust where relevant. [eval 1214]",
+        "Defines the next credible customer opportunity. [eval 1214]",
+        "Uses opportunity-based downstream validation. [eval 1214]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1215,
+      "prompt": "Our implementation consultants configure every customer, import all data, and run the first workflow. Accounts are marked activated when the consultant finishes. We do not track customer participation, human hours, knowledge transfer, independent repetition, support burden, or margin. Diagnose activation.",
+      "expected_output": "Selects diagnosis mode and treats consultant completion as assisted setup rather than verified independent customer activation. It requests attribution of human and customer work, defines a customer-received first-value event plus independent repetition, and keeps support burden, implementation time, margin, and account retention visible.",
+      "assertions": [
+        "Selects diagnosis mode for assisted activation. [eval 1215]",
+        "Classifies consultant completion as human-assisted setup. [eval 1215]",
+        "Does not equate consultant completion with independent customer activation. [eval 1215]",
+        "Requests attribution of consultant work. [eval 1215]",
+        "Requests attribution of customer participation. [eval 1215]",
+        "Defines a customer-received first-value event. [eval 1215]",
+        "Defines an independent repeat-value check. [eval 1215]",
+        "Keeps implementation time and human hours visible. [eval 1215]",
+        "Keeps support burden and margin visible. [eval 1215]",
+        "Keeps account retention as downstream validation. [eval 1215]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1216,
+      "prompt": "Design an intervention for a flexible planning product. Verified evidence shows that eligible self-directed users abandon a blank workspace before creating the first useful plan. No evidence supports a reminder or discount mechanism. Propose the activation design and validation plan.",
+      "expected_output": "Selects design mode and targets the verified blank-state barrier for self-directed users. It may propose templates, example structure, safe defaults, or progressive setup, while defining relevance and transfer risks, first-plan quality, eligible reach, a comparison design, downstream repeated planning, guardrails, owner, and decision rule.",
+      "assertions": [
+        "Selects design mode for the blank-workspace barrier. [eval 1216]",
+        "Limits eligibility to the verified self-directed entry state. [eval 1216]",
+        "Names blank-state burden as the supported mechanism. [eval 1216]",
+        "Proposes a mechanism-matched starting-context intervention. [eval 1216]",
+        "Does not default to reminders. [eval 1216]",
+        "Does not default to discounts. [eval 1216]",
+        "Defines first-plan usefulness and relevance quality. [eval 1216]",
+        "Includes template or default transfer-risk guardrails. [eval 1216]",
+        "Includes a comparison design and downstream repeated-planning outcome. [eval 1216]",
+        "Assigns an owner and decision rule. [eval 1216]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1217,
+      "prompt": "We shortened onboarding. Checklist completion rose from 60% to 80%, but meaningful first-value completion fell from 45% to 35%, activation-related support contacts doubled, and downstream retained activation is not mature. Declare the redesign a success and roll it out.",
+      "expected_output": "Selects diagnosis mode and refuses to call the redesign successful from checklist completion. It reports the deterioration in meaningful first value and support burden, marks downstream retained activation unavailable, and recommends stopping, constraining, or revising exposure under a declared decision rule rather than authorizing rollout.",
+      "assertions": [
+        "Selects diagnosis mode for the shortened-onboarding result. [eval 1217]",
+        "Reports checklist completion rising from 60 to 80 percent. [eval 1217]",
+        "Reports meaningful first value falling from 45 to 35 percent. [eval 1217]",
+        "Reports activation-related support contacts doubling. [eval 1217]",
+        "Marks downstream retained activation unavailable because it is immature. [eval 1217]",
+        "Does not declare the redesign successful. [eval 1217]",
+        "Does not optimize checklist completion in isolation. [eval 1217]",
+        "Recommends a bounded stop, constraint, or revision decision. [eval 1217]",
+        "Does not authorize rollout. [eval 1217]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1218,
+      "prompt": "Design activation for customers in China using zh-CN content. Assume the product is a WeChat Mini Program, use OpenID as identity, require WeChat Pay, and send Mini Program subscription messages. I have not supplied the product surface, login, payment, messaging permissions, app distribution, or data architecture.",
+      "expected_output": "Selects design mode but does not infer Mini Program, OpenID, WeChat Pay, messaging permission, distribution, or data architecture from China and zh-CN. It records market and locale independently, marks the missing dimensions unavailable, and produces a platform-neutral activation contract until direct evidence is available.",
+      "assertions": [
+        "Selects design mode for the China activation request. [eval 1218]",
+        "Records China as the market. [eval 1218]",
+        "Records zh-CN as the locale. [eval 1218]",
+        "Does not infer a WeChat Mini Program surface. [eval 1218]",
+        "Does not infer OpenID as the identity key. [eval 1218]",
+        "Does not infer WeChat Pay as the payment method. [eval 1218]",
+        "Does not infer Mini Program messaging permission. [eval 1218]",
+        "Does not infer app distribution or data architecture. [eval 1218]",
+        "Marks the missing platform conditions unavailable. [eval 1218]",
+        "Provides a platform-neutral activation contract pending verification. [eval 1218]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1219,
+      "prompt": "I can upload raw customer names, emails, phone numbers, private document contents, AI prompts and outputs, signed import links, support transcripts, and complete event histories. Use all of it to diagnose activation, although pseudonymous account IDs and aggregate event tables are available.",
+      "expected_output": "Applies data minimization before analysis. Requests aggregate or pseudonymous fields sufficient for the activation contract, excludes direct identifiers, signed links, private payloads, prompts, outputs, and unrelated history, and documents purpose and access scope without claiming deletion occurred.",
+      "assertions": [
+        "Applies data minimization to the activation dataset. [eval 1219]",
+        "Prefers pseudonymous account IDs over customer names. [eval 1219]",
+        "Excludes raw email addresses and phone numbers. [eval 1219]",
+        "Excludes private document contents. [eval 1219]",
+        "Excludes AI prompt and output contents when unnecessary. [eval 1219]",
+        "Excludes signed import links. [eval 1219]",
+        "Excludes unrelated support and event history. [eval 1219]",
+        "Requests only fields needed for the activation contract. [eval 1219]",
+        "Documents purpose and access scope. [eval 1219]",
+        "Does not claim private data was deleted. [eval 1219]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1220,
+      "prompt": "Rewrite our onboarding screens, draft the activation email sequence, query production analytics for eligible users, change the onboarding configuration, enroll users in the sequence, launch the experiment, and send the first email. We have no account credentials, approved query scope, copy claims, consent snapshot, suppression snapshot, experiment approval, or deployment authorization.",
+      "expected_output": "Keeps activation analysis and design local-only. It may specify onboarding content requirements, eligibility, instrumentation, and an experiment handoff, but routes screen copy to copywriting and lifecycle email copy to lifecycle-marketing. It refuses production queries, configuration changes, enrollment, experiment launch, deployment, and sending without separate authorization.",
+      "assertions": [
+        "Keeps the activation work local-only. [eval 1220]",
+        "May specify onboarding content requirements without drafting screen copy. [eval 1220]",
+        "Routes onboarding screen copy to copywriting. [eval 1220]",
+        "Routes activation email copy to lifecycle-marketing. [eval 1220]",
+        "Records consent and suppression snapshots as unresolved. [eval 1220]",
+        "Refuses the unauthorized production analytics query. [eval 1220]",
+        "Refuses the unauthorized onboarding configuration change. [eval 1220]",
+        "Refuses unauthorized user enrollment. [eval 1220]",
+        "Refuses unauthorized experiment launch and deployment. [eval 1220]",
+        "Refuses unauthorized email sending. [eval 1220]",
+        "Produces no onboarding or email copy. [eval 1220]"
+      ],
+      "files": []
+    }
+  ]
+}

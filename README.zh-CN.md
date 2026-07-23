@@ -56,6 +56,7 @@
     <tr><th width="32%">技能</th><th>说明</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="skills/activation/">激活</a></td><td>基于证据定义并分析第一价值，诊断新手引导与激活路径约束，设计适用于不同入口状态、产品层级及消费级、B2B、平台型、AI、低频或人工辅助产品的激活干预</td></tr>
     <tr><td><a href="skills/lifecycle-marketing/">生命周期营销</a></td><td>在明确消息分类、渠道许可、抑制状态与外部操作边界的前提下，规划、撰写、审校和本地化覆盖欢迎、激活、事务服务、留存、召回与活动推广的邮件、短信、微信公众号、小程序订阅消息、企业微信和 WhatsApp 沟通</td></tr>
     <tr><td><a href="skills/retention/">留存</a></td><td>基于证据定义并分析同期群留存，诊断持续价值、流失与复活机制，设计覆盖用户、账户、产品和收入层级的留存体系</td></tr>
   </tbody>
