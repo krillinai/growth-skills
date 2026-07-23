@@ -65,8 +65,8 @@ Retrieval date for every record: **2026-07-23**.
 - URL: https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default
 - Publisher/product: 深圳市腾讯计算机系统有限公司 / 微信
 - Exposed date: unavailable on the inspected page
-- Exact supported claim: the agreement governs use of Weixin, requires users to follow the linked Weixin personal-account use rules, describes user responsibility for account behavior, and permits platform action following violations or complaints.
-- Limitation/access state: `verified` for current retrieved text; public page returned HTTP 200. The inspected text does not support a general permission claim for business outreach and is not a substitute for WeCom rules or Mainland China legal review.
+- Exact supported claim: section 8.1.2.4 prohibits publishing, transmitting, or disseminating harassment, advertising, over-marketing, or spam content; section 8.3.5 prohibits using Weixin accounts, feature accounts, any function, or third-party operating platforms for promotion or mutual promotion without Tencent's written permission.
+- Limitation/access state: `verified` for sections 8.1.2.4 and 8.3.5 in the current retrieved text; public page returned HTTP 200. These restrictions do not establish that a particular business contact is permitted or legally compliant, and the agreement is not a substitute for WeCom rules or Mainland China legal review.
 
 ### Unavailable Current Text
 

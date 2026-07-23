@@ -31,7 +31,7 @@ Channel availability, a public profile, a public company address, a work title, 
 - opt-out, do-not-contact, complaint, bounce, withdrawal, and suppression state;
 - sequence limit, cadence owner, and material changes since approval.
 
-If the actual permission basis, account-policy status, or stop state is unresolved, do not draft message copy. Pending legal or platform review may allow a clearly labeled local review draft only when those three fields are supplied; it blocks final/sendable status and all external action. Ask the fewest questions needed and retain useful public or supplied evidence. Do not claim compliance. This Skill is not legal advice; the owner remains responsible for current market, sector, recipient, platform, and account review.
+If the actual permission basis, account-policy status, or stop state is unresolved, do not draft message copy. Pending legal or platform review may allow a local review draft only when those three fields are supplied; it blocks final/sendable status and all external action. It must carry both exact literals `local review only` and `not final or sendable`; both labels are required and not paraphrasable. Ask the fewest questions needed and retain useful public or supplied evidence. Do not claim compliance. This Skill is not legal advice; the owner remains responsible for current market, sector, recipient, platform, and account review.
 
 ## Prohibited Data And Conduct
 
@@ -56,4 +56,4 @@ For a legitimate next step, provide a separate handoff that states the exact pro
 
 ## Completion Check
 
-Confirm that every personalization claim has a ledger row; canonical states are exact; `reported signal` rows have blank evidence state; hypotheses remain questions or possibilities; unsupported claims are excluded; private data is minimized; sender identity is real; the permission record is complete; all current stop states were applied; cadence is owner-approved; no benchmark or platform capability was invented; market, language, locale, and channel remain separate; and no external action occurred.
+Confirm that every personalization claim has a ledger row; canonical states are exact; `reported signal` rows have blank evidence state; hypotheses remain questions or possibilities; unsupported claims are excluded; private data is minimized; sender identity is real; the permission record is complete; every pending-review draft contains exact label `local review only`; every pending-review draft contains exact label `not final or sendable`; neither label was paraphrased; all current stop states were applied; cadence is owner-approved; no benchmark or platform capability was invented; market, language, locale, and channel remain separate; and no external action occurred.

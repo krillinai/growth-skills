@@ -15,13 +15,13 @@ Capture these fields without merging them:
 - permission, consent, legal or policy review, opt-out, do-not-contact, and suppression state;
 - available public or supplied artifacts and their scope.
 
-A final or sendable draft requires a bounded recipient, real sender, selected channel, sufficient evidence for every factual statement, and a resolved permission record for the intended contact. A clearly labeled local review draft may retain pending legal or platform review only when the bounded permission basis, account-policy status, and stop state are supplied; pending review remains visible and blocks every external action. A sequence also requires an owner-approved limit and cadence. An approved count plus bounded window is sufficient for draft-only sequencing; do not invent exact dates or times. A follow-up requires the captured conversation state. When a blocker remains, return the known context, blocking gaps, smallest questions that can resolve them, useful public or supplied evidence, and a handoff. Do not fill gaps with invented copy.
+A final or sendable draft requires a bounded recipient, real sender, selected channel, sufficient evidence for every factual statement, and a resolved permission record for the intended contact. A local review draft may retain pending legal or platform review only when the bounded permission basis, account-policy status, and stop state are supplied; pending review remains visible and blocks every external action. It must carry both exact literals `local review only` and `not final or sendable`; both labels are required and not paraphrasable. A sequence also requires an owner-approved limit and cadence. An approved count plus bounded window is sufficient for draft-only sequencing; do not invent exact dates or times. A follow-up requires the captured conversation state. When a blocker remains, return the known context, blocking gaps, smallest questions that can resolve them, useful public or supplied evidence, and a handoff. Do not fill gaps with invented copy.
 
 ## Draft Package
 
 When the intake gate passes, deliver:
 
-1. **Boundary record**: mode; recipient; sender; market; language; locale; channel; source scope; sequence limit.
+1. **Boundary record**: mode; recipient; sender; market; language; locale; channel; source scope; sequence limit; both exact labels when pending review restricts the output.
 2. **Permission record**: relationship/contact source; intended recipient; market; channel; sender; purpose; owner or legal review; platform/account policy; opt-out and do-not-contact state; unresolved items.
 3. **Message drafts**: subject where applicable, body, CTA, and visible refusal or opt-out path appropriate to the approved context.
 4. **Personalization/source ledger**: one row per factual or personalized statement.
