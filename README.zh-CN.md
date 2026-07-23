@@ -50,7 +50,7 @@
     <tr><td><a href="skills/growth-diagnosis/">增长诊断</a></td><td>基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径</td></tr>
     <tr><td><a href="skills/growth-model-design/">增长模型设计</a></td><td>围绕客户价值、生命周期行为、渠道、Four Fits（四种匹配）、经济性、传播、再投资、容量、护栏与决策相关约束，映射、审查、计算、版本化并进行业务特定增长模型的情景测试</td></tr>
     <tr><td><a href="skills/growth-infrastructure-assessment/">增长基础设施评估</a></td><td>评估数据、指标、实验、决策、执行、创意与治理能力，判断哪些能力适合中心化或应保留本地决策，对比自建、采购、组合、整合或退役方案，并制定按依赖关系排序的基础设施路线图</td></tr>
-    <tr><td><a href="skills/growth-organization-design/">增长组织设计</a></td><td>诊断或设计与增长约束一致的结果归属、决策权、中心化与嵌入式团队边界、人员配置方案、项目组合、运营节奏、组织健康、维护责任及基于证据的重组触发条件</td></tr>
+    <tr><td><a href="skills/growth-organization-design/">增长组织设计</a></td><td>围绕当前约束诊断并设计结果归属、决策权、中心与嵌入边界、人员配置情景、项目组合、运行节奏、长期维护、组织健康与基于证据的重组触发条件</td></tr>
     <tr><td><a href="skills/incentive-system-design/">激励系统设计</a></td><td>基于留存增量贡献、完整成本、激励后行为、欺诈、蚕食、公平与信任，诊断、设计、递减或停止奖励、折扣、额度、补贴、推荐、忠诚度、进度、身份与结构性激励</td></tr>
     <tr><td><a href="skills/product-market-fit-assessment/">产品市场匹配评估</a></td><td>综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证</td></tr>
     <tr><td><a href="skills/positioning/">市场定位</a></td><td>围绕明确的购买情境、真实替代方案、能力到价值的证据链、最佳适配与排除条件、品类决策、信息架构及验证计划，构建、诊断或修订证据边界清晰的市场定位</td></tr>
