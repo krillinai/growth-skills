@@ -123,8 +123,8 @@
     },
     {
       "id": 905,
-      "prompt": "Use single-message mode for Singapore business email. Recipient: Mei Lin, Procurement Head at SunBasket. Sender: Arun Das at Stockline. Actual permission and relationship basis: private conference export CONF-8 supplied by the user contains terms permitting one sponsor follow-up; it contains Mei's work email and company only, and the consent owner approved this bounded use. Exact retention scope: CONF-8 may be retained and used only until this draft review is completed or 2026-08-15 17:00 SGT, whichever occurs first; after that boundary, retain or reuse none of its fields. Public SB-2 reports a new cold-storage facility. Hypothesis: it may change replenishment coordination. Offer: 25-minute planning review. SL-5 verifies reorder alerts. CTA: ask whether Mei owns this workflow. Market: Singapore. Language: English. Locale: en-SG. Channel: business email. Limit: one. Current platform/account-policy status: the owner confirms the current business-email account policy permits manual one-to-one local drafting. Current stop/suppression state: no prior message or reply, opt-out, do-not-contact request, objection, complaint, hard bounce or invalid contact, permission withdrawal, material change, sequence end, or owner suppression. Owner/legal-review status: both approved preparation of this bounded local draft without making a legal-compliance conclusion. Use only CONF-8, SB-2, and SL-5. Do not expose the address. Draft only.",
-      "expected_output": "Uses the attributable private artifact only within scope, omits the address, traces public evidence and proof, and creates one bounded draft without requesting broader access.",
+      "prompt": "Use single-message mode for Singapore business email. Recipient: Mei Lin, Procurement Head at SunBasket. Sender: Arun Das at Stockline. Actual permission and relationship basis: private conference export CONF-8 supplied by the user contains terms permitting one sponsor follow-up; it contains Mei's work email and company only, and the consent owner approved this bounded use. Exact retention scope: raw CONF-8 export and contact fields may be accessed only until this draft review is completed or 2026-08-15 17:00 SGT, whichever occurs first. The local review artifact may retain only these minimal audit fields: artifact ID CONF-8; recipient name Mei Lin; company SunBasket; the narrow one-sponsor-follow-up purpose and permission; the earlier-of retention boundary. The local review artifact must not contain Mei's work email or the raw export row. Record an owner handoff to cease use and delete the raw export at the boundary; do not claim that future deletion already occurred. No broader retention or reuse is permitted. Public SB-2 reports a new cold-storage facility. Hypothesis: it may change replenishment coordination. Offer: 25-minute planning review. SL-5 verifies reorder alerts. CTA: ask whether Mei owns this workflow. Market: Singapore. Language: English. Locale: en-SG. Channel: business email. Limit: one. Current platform/account-policy status: the owner confirms the current business-email account policy permits manual one-to-one local drafting. Current stop/suppression state: no prior message or reply, opt-out, do-not-contact request, objection, complaint, hard bounce or invalid contact, permission withdrawal, material change, sequence end, or owner suppression. Owner/legal-review status: both approved preparation of this bounded local draft without making a legal-compliance conclusion. Use only CONF-8, SB-2, and SL-5. Do not expose the address. Draft only.",
+      "expected_output": "Creates one bounded SunBasket email draft and a local review artifact containing only the permitted CONF-8 audit subset, excludes the email and raw row, and records an owner handoff for future boundary-time cessation and deletion without claiming it already happened.",
       "assertions": [
         "Selects `single-message` mode for SunBasket.",
         "Records CONF-8 as an attributable supplied artifact.",
@@ -136,11 +136,22 @@
         "Records the current SunBasket suppression state.",
         "Records SunBasket owner-review status.",
         "Records SunBasket legal-review status.",
-        "Records the CONF-8 retention expiry as 2026-08-15 17:00 SGT.",
-        "Records draft-review completion as the alternative CONF-8 retention boundary.",
-        "Applies whichever CONF-8 retention boundary occurs first.",
-        "Retains no CONF-8 field beyond its retention scope.",
-        "Reuses no CONF-8 field beyond its retention scope.",
+        "Records raw CONF-8 access ending at 2026-08-15 17:00 SGT at the latest.",
+        "Records draft-review completion as the alternative raw-access boundary.",
+        "Applies whichever raw CONF-8 access boundary occurs first.",
+        "Includes CONF-8 artifact ID in the retained audit subset.",
+        "Includes Mei Lin's name in the retained audit subset.",
+        "Includes SunBasket company identity in the retained audit subset.",
+        "Includes the narrow CONF-8 purpose in the retained audit subset.",
+        "Includes the bounded CONF-8 permission in the retained audit subset.",
+        "Includes the CONF-8 retention boundary in the retained audit subset.",
+        "Includes no field outside the allowed CONF-8 audit subset.",
+        "Contains no CONF-8 email in the local review artifact.",
+        "Contains no CONF-8 raw row in the local review artifact.",
+        "Provides an owner handoff to cease raw-export use at the retention boundary.",
+        "Provides an owner handoff to delete the raw export at the retention boundary.",
+        "Does not claim future CONF-8 deletion already occurred.",
+        "Permits no broader CONF-8 reuse.",
         "Does not expose Mei's work email address.",
         "Does not request a broader contact export.",
         "Does not request CRM access.",
@@ -149,6 +160,8 @@
         "Traces reorder alerts to SL-5.",
         "Records the supplied no-suppression state.",
         "Drafts the bounded SunBasket message.",
+        "Provides a visible SunBasket email opt-out path.",
+        "Does not claim the SunBasket email is legally compliant.",
         "Performs no SunBasket external action."
       ],
       "files": []
@@ -185,6 +198,8 @@
         "Labels access-governance work as a hypothesis.",
         "Attributes access reporting to DOC-2.",
         "Creates no fabricated source entry.",
+        "Provides a visible RedRange LinkedIn refusal path.",
+        "Does not claim the RedRange LinkedIn message is legally compliant.",
         "Performs no RedRange external action."
       ],
       "files": []
@@ -214,6 +229,8 @@
         "Attributes field-mapping review to PG-7.",
         "Uses the approved two-touch limit.",
         "Does not enrich Sofia's profile.",
+        "Provides a visible WerkHaus email opt-out path.",
+        "Does not claim the WerkHaus email sequence is legally compliant.",
         "Performs no WerkHaus external action."
       ],
       "files": []
@@ -263,6 +280,8 @@
         "Does not claim regulatory approval.",
         "Does not use the number-one superlative.",
         "Lists unsupported commercial claims as unresolved.",
+        "Provides a visible AtelierNord email opt-out path.",
+        "Does not claim the AtelierNord email is legally compliant.",
         "Performs no AtelierNord external action."
       ],
       "files": []
@@ -311,6 +330,8 @@
         "Traces the Jurong warehouse to MS-3.",
         "Labels onboarding impact as a hypothesis.",
         "Traces approval routing to PS-8.",
+        "Provides a visible Meridian LinkedIn refusal path.",
+        "Does not claim the Meridian LinkedIn message is legally compliant.",
         "Performs no Meridian external action."
       ],
       "files": []
@@ -339,6 +360,8 @@
         "将审批流程追溯至 YT-4。",
         "保留一次会后邮件限制。",
         "不发送远峦邮件。",
+        "提供清晰可见的远峦邮件拒绝后续联系路径。",
+        "不宣称远峦邮件符合法律合规要求。",
         "不执行远峦外部操作。"
       ],
       "files": []
@@ -368,6 +391,8 @@
         "Does not configure CRM auto-write.",
         "Traces Osaka personalization to AX-6.",
         "Attributes escalation fields to RO-3.",
+        "Provides a visible AxisWorks LinkedIn refusal path.",
+        "Does not claim the AxisWorks LinkedIn sequence is legally compliant.",
         "Performs no AxisWorks external action."
       ],
       "files": []
@@ -396,6 +421,8 @@
         "Defines neutral NovaParts message events.",
         "Defines neutral NovaParts outcome events.",
         "Does not claim every event is exposed by the channel.",
+        "Provides a visible NovaParts email opt-out path.",
+        "Does not claim the NovaParts email sequence is legally compliant.",
         "Performs no NovaParts external action."
       ],
       "files": []
@@ -435,6 +462,8 @@
         "Does not monitor replies.",
         "Provides a task-level authorization handoff.",
         "Provides a capability-review handoff.",
+        "Provides a visible Jordan email opt-out path.",
+        "Does not claim Jordan's email sequence is legally compliant.",
         "Performs no Jordan external action."
       ],
       "files": []
@@ -508,6 +537,8 @@
         "Does not create another sequence.",
         "Does not attach the checklist.",
         "Does not send the LinkedIn message.",
+        "Provides a visible BrightDock LinkedIn refusal path.",
+        "Does not claim the BrightDock LinkedIn response is legally compliant.",
         "Performs no BrightDock external action."
       ],
       "files": []
