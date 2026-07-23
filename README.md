@@ -22,6 +22,23 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
 - **Acquisition and conversion** - Audience development, lead generation, activation, and conversion improvement.
 - **Marketing strategy** - Positioning, go-to-market planning, campaign design, and growth planning.
 
+## How to choose
+
+| Start with this job | Use this Skill |
+| --- | --- |
+| Diagnose the current growth constraint | [`growth-diagnosis`](skills/growth-diagnosis/) |
+| Choose medium-term growth direction | [`growth-strategy`](skills/growth-strategy/) |
+| Build an annual, quarterly, or rolling plan | [`growth-planning-cycle`](skills/growth-planning-cycle/) |
+| Evaluate one investment | [`growth-investment-case`](skills/growth-investment-case/) |
+| Allocate budget and cross-functional resources | [`growth-budget-allocation`](skills/growth-budget-allocation/) |
+| Plan one selected 30-90 day initiative | [`growth-initiative-planning`](skills/growth-initiative-planning/) |
+| Preserve one material decision | [`growth-decision-record`](skills/growth-decision-record/) |
+| Manage risks across initiatives | [`growth-risk-management`](skills/growth-risk-management/) |
+| Run a recurring weekly, monthly, or quarterly review | [`growth-operating-review`](skills/growth-operating-review/) |
+| Retrospect one completed, stopped, harmful, or inconclusive initiative | [`growth-postmortem`](skills/growth-postmortem/) |
+| Consolidate reusable learning across sources | [`growth-learning-system`](skills/growth-learning-system/) |
+| Manage adoption, transition, stabilization, and legacy retirement | [`growth-change-management`](skills/growth-change-management/) |
+
 ## Skill Catalog
 
 ### Content & Creative
