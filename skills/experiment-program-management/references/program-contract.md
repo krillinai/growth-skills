@@ -28,6 +28,18 @@ request -> recommendation -> decision -> approval -> authorization
 
 No earlier state proves a later state.
 
+## Require Program Readiness Before Precision
+
+Numeric targets and operating commitments require:
+
+- a complete eligible inventory and stable denominator, including unfavorable and incomplete states;
+- current baselines with compatible definitions, sources, windows, maturity, segmentation, and corrections;
+- a time-phased traffic, identity, surface, sensitivity, holdout, engineering, analysis, review, support, and decision-owner capacity model;
+- explicit decision portfolio, dependencies, interference, opportunity cost, incident history, long-term obligations, and risk policy;
+- attributable owners, reviewers, approvers, authorization boundaries, effective periods, review triggers, and expiry.
+
+When any material condition is unavailable, use `draft` or `reconciling`. Do not invent target percentages, score weights, quotas, portfolio ratios, deadlines, service levels, retention periods, traffic ceilings, schedule phases, risk-tier thresholds, cadences, owners, approvers, or approval matrices. Keep supplied goals as requests or scenarios and return metric definitions, nonnumeric workflow, unresolved evidence, and readiness conditions.
+
 ## Maintain A Complete Inventory
 
 Use states only when attributable records support them:

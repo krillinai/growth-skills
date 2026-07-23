@@ -30,11 +30,15 @@ Only `applied` with an attributable artifact change demonstrates use; `validated
 
 Do not collapse the layers into one score or universal maturity target. Experiment count and win rate can diagnose workload or selection but should not drive performance incentives.
 
+Before setting any health target, define the entity, eligible population, numerator, denominator, source, baseline, window, maturity, segmentation, owner, decision use, gaming risk, and review trigger. A desirable property such as full registration, complete retention, fast review, or zero invalid use is a control objective, not automatically a numeric target or service level. When baseline, capacity, risk, and authority are unavailable, leave the target and deadline unavailable.
+
 ## Assign Risk-Tiered Decision Rights
 
 For each tier define who proposes, reviews, decides, approves, authorizes, executes, can stop, verifies, and receives escalation. Centralize stable contracts, automated checks, shared-surface controls, complex methods, incidents, and high-risk review when evidence supports it. Keep contextual product and customer judgment with accountable teams under common semantics and guardrails.
 
 Avoid both central approval of every reversible low-risk decision and uncontrolled self-service for pricing, safety, privacy, financial, network, persistent, shared-surface, regulated, or high-exposure decisions. Define service levels, queue limits, exceptions, override, audit, correction, and expiry.
+
+Define risk dimensions and required governance questions before naming tiers, thresholds, approvers, or service levels. When the organization, workload, policy, authority, and incident evidence are unavailable, return a candidate governance structure without tier numbers, approval assignments, cadence, or deadlines.
 
 ## Transfer Across Markets
 

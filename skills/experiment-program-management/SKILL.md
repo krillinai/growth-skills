@@ -27,6 +27,12 @@ Record program ID and version, mode and state, decision purpose, accountable pro
 
 Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` for evidence-bearing claims. Keep request, recommendation, decision, approval, authorization, assignment, eligibility, exposure, implementation, result, follow-through, verification, and customer or business outcome separate. Do not invent experiments, traffic, capacity, assignment, results, power, validity, causal effects, decisions, approvals, adoption, or impact.
 
+## Gate Program Targets And Operating Commitments
+
+Set numeric targets, percentages, ratios, score weights, deadlines, service levels, retention periods, throughput ceilings, traffic allocations, reserves, schedule phases, meeting cadences, risk-tier thresholds, or approval matrices only when a complete inventory and denominator, current baselines, compatible definitions, traffic and capacity model, maturity and incident evidence, decision needs, risk policy, accountable owners, and approval authority support them. An executive goal, desired experiment count, win rate, generic best practice, or need to start immediately does not pass this gate.
+
+If any decision-critical input is unavailable, keep the state `draft` or `reconciling`. Preserve user-supplied numbers as requests or diagnostic scenarios, but do not replace them with invented precision. Return disaggregated metric contracts with current values and targets marked unavailable, a nonnumeric operating structure, the first limiting gate, evidence requests, and conditions for a later target or operating version. Do not express unavailable authorization or traffic as `0%`; say that new exposure is not supported or authorized while preserving the unknown current state.
+
 ## Build Complete Intake And Inventory
 
 Require each item to name a bounded decision, owner, important uncertainty, customer and business relevance, current evidence, mechanism, credible alternative, eligible population, controllable intervention or evidence source, intended outcome, meaningful threshold, guardrails, maturity, risk, required resources, dependencies, decision states, follow-through, expiry, and external-action boundary. A solution, feature, button color, stakeholder request, or hypothesis count is not sufficient intake.
@@ -39,9 +45,13 @@ Classify work as `core optimization`, `adjacency`, `exploration`, `system qualit
 
 Compare decision importance, customer value, strategic relevance, uncertainty reduction, current evidence, causal need, traffic, sensitivity, maturity, engineering and analysis capacity, decision-owner attention, dependencies, interference, reversibility, risk, opportunity cost, and expected next decision on compatible bases. Preserve system quality, guardrail, proxy-validation, and delayed-outcome work that prevents attractive short-term tests from consuming the program.
 
+When the operating gate does not pass, do not invent queue order, portfolio ratios, quotas, score weights, reserves, dates, or owners. Define the comparison dimensions and unresolved conflicts only.
+
 ## Reconcile Traffic, Capacity, And Concurrency
 
 Time-phase eligible populations, identities, randomization units, product surfaces, markets, traffic, minimum sensitivity, maturation windows, holdouts, engineering, data, platform, analysis, specialist review, support, and decision-owner capacity. Do not double-book users, samples, people, systems, or review attention or treat overlapping populations as independent capacity.
+
+Do not publish a calendar, traffic percentage, sample plan, duration, wave, sequence, randomization unit, power threshold, or readout date until the owning experiment specifications and program capacity records support it. A recommendation to withhold new exposure is not a verified `0%` system state and does not stop existing exposure.
 
 Map namespaces, layers, mutual exclusion, interaction designs, sequencing, carryover, washout, novelty, contamination, spillovers, cross-device and cross-product identity, network interference, shared metrics, and concurrent product, price, channel, or market changes. Sequence or explicitly model collisions; never assume simultaneous interventions are independent.
 
@@ -72,6 +82,8 @@ A document, repository row, search, citation, or training session is not learnin
 ## Measure Program Health Without Gaming
 
 Keep reliability, adoption, efficiency, question quality, validity, conclusiveness, decision cycle, follow-through, learning reuse, long-term calibration, mature customer and business outcomes, incidents, and risk separate. Experiment count, win rate, setup speed, platform uptime, self-service adoption, publication volume, and citations cannot prove better decisions or growth.
+
+Define each health measure's entity, eligible population, numerator, denominator, source, window, maturity, segmentation, baseline, owner, decision use, gaming risk, and review trigger before setting a target. When those fields are unavailable, provide the metric contract without a target, deadline, service level, or maturity stage.
 
 Do not rank people by wins or use program measures for consequential employment, pricing, targeting, or service decisions. Protect negative results and honest incident reporting from performance incentives.
 

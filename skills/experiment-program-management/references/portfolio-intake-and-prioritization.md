@@ -15,6 +15,8 @@
 
 A feature, tactic, stakeholder request, solution, idea count, or desired result is not a complete experiment candidate. Return exact missing fields and route detailed design to `experiment-design`.
 
+Do not rank or schedule an incomplete population. If decision importance, traffic, capacity, maturity, interference, risk, or opportunity cost cannot be compared, preserve separate views and mark ordering unresolved. Do not fill gaps with a score, executive priority, request age, equal quota, universal portfolio ratio, or invented reserve.
+
 ## Choose The Evidence Design Family
 
 The program records the design family and why it can inform the decision; `experiment-design` owns the detailed specification.

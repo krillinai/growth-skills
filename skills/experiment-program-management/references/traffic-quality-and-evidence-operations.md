@@ -15,6 +15,12 @@ Map:
 
 Do not assume independent samples or effects. Record expected interaction, detection limits, unresolved residual, sequencing, and specialist review. A technically available slot is not available if maturity, decision attention, support, or risk capacity is unavailable.
 
+## Gate Schedules And Traffic Plans
+
+Specify dates, phases, traffic percentages, sample sizes, sensitivity, power, duration, randomization units, namespaces, holdouts, readout windows, reserves, or owners only from attributable experiment specifications and reconciled program capacity. Do not manufacture a safe-looking calendar from category labels or requested experiment count.
+
+When the current inventory, exposure, traffic, capacity, maturity, or authorization state is unavailable, mark the schedule and new exposure decision unresolved. State that no new exposure is supported or authorized by the program record; do not label an unknown live system `0%`, imply existing tests stopped, or create placeholder dates and allocations.
+
 ## Apply Risk-Tiered Preflight Gates
 
 Use `verified ready`, `bounded pilot only`, `specified not verified`, `verified blocker`, `unavailable`, or `not applicable` for each gate:

@@ -13,6 +13,8 @@ Return:
 7. maturity, readout, recommendation, decision, follow-through, completion-proof, mature-outcome, proxy, long-term-validation, and reopen registers;
 8. learning reuse, disaggregated health, decision rights, market and privacy boundaries, handoffs, pinned sources, approval-ready external actions, and completion record.
 
+Include numeric targets, portfolio ratios, schedules, traffic plans, service levels, cadences, risk tiers, or approval matrices only when the program-readiness gate passes. Otherwise preserve supplied numbers as requests or diagnostic scenarios and return metric contracts, nonnumeric operating components, unresolved evidence, and readiness conditions.
+
 ## Program Contract
 
 | Program / version / state | Purpose / scope / exclusions | Owner / reviewers / approvers | Products / customers / markets | Period / cutoff / maturity / expiry | Strategy / metrics / systems / sources | Privacy / authorization / action boundary |
@@ -63,3 +65,5 @@ Documents, searches, citations, and attendance do not prove reuse.
 ## Completion Gate
 
 Confirm program, version, mode, state, purpose, owner, portfolio and decision owners, reviewers, approvers, scope, exclusions, customers, products, markets, locales, periods, evidence cutoff, maturity horizon, strategy, metrics, systems, sources, access, intake population, decisions, uncertainties, mechanisms, alternatives, evidence designs, inventory states, portfolio classes, selection, traffic, identity, units, assignment, exposure, surfaces, holdouts, engineering, data, analysis, review, support, decision capacity, dependencies, interactions, interference, contamination, spillovers, carryover, novelty, opportunity cost, preflight gates, risk tiers, quality checks, incidents, exceptions, corrections, result states, maturity, readouts, recommendations, decisions, authorization, follow-through, proof, outcomes, guardrails, proxies, long-term validation, learning reuse, health layers, decision rights, privacy, market transfer, expiry, residual obligations, handoffs, pinned sources, and external actions are explicit; unfavorable work was not removed; volume and win rate did not become quality; traffic and capacity were not duplicated; quality and maturity were not bypassed; shipping did not become impact; documents did not become learning; people were not ranked; recommendations did not become execution; and no external action occurred.
+
+When program readiness did not pass, also confirm that no replacement target, percentage, ratio, score weight, deadline, service level, retention period, queue order, risk tier, cadence, traffic value, schedule, owner, approver, or approval matrix was invented; the state remains `draft` or `reconciling`; and existing exposure was not represented as changed.
