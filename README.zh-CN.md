@@ -46,6 +46,7 @@
   </thead>
   <tbody>
     <tr><td><a href="skills/growth-diagnosis/">增长诊断</a></td><td>基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径</td></tr>
+    <tr><td><a href="skills/product-market-fit-assessment/">产品市场匹配评估</a></td><td>综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证</td></tr>
     <tr><td><a href="skills/positioning/">市场定位</a></td><td>围绕明确的购买情境、真实替代方案、能力到价值的证据链、最佳适配与排除条件、品类决策、信息架构及验证计划，构建、诊断或修订证据边界清晰的市场定位</td></tr>
     <tr><td><a href="skills/growth-loop-design/">增长循环设计</a></td><td>诊断增长机制是否真正闭合，衡量创造价值的关键转化，并在不执行外部操作的前提下，设计证据边界清晰的协作、推荐、内容、市场、数据或再投资循环</td></tr>
     <tr><td><a href="skills/customer-research/">客户研究</a></td><td>规划负责任的客户研究，综合可归因的访谈、评论、问卷、支持、赢单、输单和行为证据，并将边界清晰的发现、反证与不确定性转化为可决策的客户洞察</td></tr>
