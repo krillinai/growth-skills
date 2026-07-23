@@ -33,6 +33,12 @@ Use exactly `verified`, `inferred`, `unavailable`, or `not applicable` for evide
 
 Keep proposal, signal, analysis, recommendation, decision, approval, authorization, funding, assignment, implementation, verification, outcome, causal estimate, and success separate. A Slack message, executive belief, repetition, attendance, vote, recommendation, or lack of objection does not establish all later states. Do not invent consensus, authority, evidence, confidence, approval, or execution.
 
+## Gate Governing Fields
+
+Populate `decided-record`, `approved-record`, `authorized-record`, `active-record`, canonical status, accountable ownership, confidence, effective date, review, expiry, acknowledgement, or propagation only from attributable evidence for that exact state, bounded scope, authority, conditions, and version. Record local authorship separately from organization-specific decision authority and system-of-record canonical status.
+
+When readiness is missing, keep the record `draft` or `evidence-pending` and leave unsupported governing fields `unavailable`. Preserve user-requested owners, scores, confidence, relative dates, durations, deadlines, states, and actions only as exact reported requests with source and unsupported status. Do not convert `tomorrow`, `90 days`, `six months`, or similar requests into calendar dates; derive a review date; label them as proposed commitments; or assign roles merely to complete the template. State the minimum attributable evidence needed for each promotion without inventing an owner, deadline, acceptance, approval, acknowledgement, or action.
+
 ## Establish Baseline And Credible Alternatives
 
 Record current-state and do-nothing baselines without assuming failure. Include credible smaller, staged, reversible, preserve, defer, partner, build, buy, compose, pause, stop, salvage, and exit alternatives as applicable. Do not use strawmen.
@@ -87,4 +93,4 @@ Create and read local artifacts only. Do not access authenticated planning, proj
 
 ## Completion Gate
 
-Confirm the output passes [output-contract.md](references/output-contract.md); one decision and owner are explicit; sources and evidence states remain bounded; alternatives are credible; decision inputs are not conflated; causality does not exceed evidence; false scoring does not replace rationale; downside and dissent remain visible; recommendation, decision, approval, authorization, execution, and result are separate; applicability and expiry are explicit; canonical versions and downstream consumers reconcile; history is not rewritten; outcome quality does not become decision quality; market and privacy boundaries hold; specialist work is routed; and no external action occurred.
+Confirm the output passes [output-contract.md](references/output-contract.md); one decision and owner are explicit or unavailable with the missing authority recorded; sources and evidence states remain bounded; alternatives are credible; decision inputs are not conflated; causality does not exceed evidence; false scoring does not replace rationale; unsupported governing, numeric, time, ownership, acknowledgement, and propagation fields remain unavailable; downside and dissent remain visible; recommendation, decision, approval, authorization, execution, and result are separate; applicability and expiry are explicit only when supported; canonical versions and downstream consumers reconcile; history is not rewritten; outcome quality does not become decision quality; market and privacy boundaries hold; specialist work is routed; and no external action occurred.

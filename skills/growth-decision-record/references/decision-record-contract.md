@@ -33,6 +33,22 @@ One record covers one choice with one decision owner, authority path, alternativ
 
 Never infer a later state from an earlier one.
 
+## Apply The Readiness Gate
+
+| Field or transition | Minimum attributable basis |
+| --- | --- |
+| `decided-record` | Exact question, bounded scope, selected alternative, accountable decision owner, decision authority, date, rationale, and conditions |
+| `approved-record` | Required approval class, attributable approver, exact version and scope approved, conditions, effective period, and expiry basis |
+| `authorized-record` | Named external action, system and scope, authorizer authority, prerequisites, controls, effective period, and expiry |
+| `active-record` | Supported authorized version plus supplied evidence that follow-through is currently in effect |
+| Canonical status | Stable ID, field or decision class, source-of-record rule, owner, authority, scope, version, and effective period |
+| Owner or assignment | Named or role-based accountability, authority, explicit acceptance, capacity, scope, and period |
+| Confidence or score | Defined construct, method, compatible evidence, calibration or sensitivity, owner, version, and limitations |
+| Effective date, review, or expiry | Attributable governing source, authority, exact scope, conditions, timezone and counting convention, version, and approval state |
+| Acknowledgement or propagation | Exact consumer and version, attributable response or independent system evidence, date, scope, and verification |
+
+If the minimum basis is absent, keep the record `draft` or `evidence-pending` and the governing field `unavailable`. Preserve requested values in a separate request ledger without calculating relative dates, creating proposed commitments, assigning owners, or implying acceptance. Urgency, seniority, silence, output completeness, and a user-specified value do not satisfy this gate.
+
 ## Preserve Source And Evidence States
 
 Use only `verified`, `inferred`, `unavailable`, or `not applicable` for evidence-bearing claims. A statement may remain a `reported signal` when speaker, role, date, exact wording, context, and limitations are attributable but independent support is absent.
