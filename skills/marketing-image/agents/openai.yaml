@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Image"
+  short_description: "Create and audit marketing image systems"
+  default_prompt: "Use $marketing-image to brief, create, adapt, or audit these marketing images."
