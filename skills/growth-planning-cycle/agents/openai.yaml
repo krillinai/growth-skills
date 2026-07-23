@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Planning Cycle"
+  short_description: "Reconcile annual and quarterly growth plans"
+  default_prompt: "Use $growth-planning-cycle to build a coherent annual or quarterly growth planning cycle from supplied artifacts."
