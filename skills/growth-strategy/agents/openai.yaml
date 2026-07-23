@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Strategy"
+  short_description: "Make evidence-bounded growth choices"
+  default_prompt: "Use $growth-strategy to design a coherent growth strategy with explicit choices, sequencing, and review triggers."
