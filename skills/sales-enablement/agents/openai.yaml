@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Enablement"
+  short_description: "Build evidence-led sales assets and workflows"
+  default_prompt: "Use $sales-enablement to build or audit sales assets and enablement for this buying motion."
