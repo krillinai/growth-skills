@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Infrastructure Assessment"
+  short_description: "Assess and prioritize reusable growth capabilities"
+  default_prompt: "Use $growth-infrastructure-assessment to assess this growth stack and prioritize the next reusable capability."

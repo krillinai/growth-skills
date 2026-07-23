@@ -47,6 +47,7 @@
   <tbody>
     <tr><td><a href="skills/growth-diagnosis/">增长诊断</a></td><td>基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径</td></tr>
     <tr><td><a href="skills/growth-model-design/">增长模型设计</a></td><td>围绕客户价值、生命周期行为、渠道、Four Fits（四种匹配）、经济性、传播、再投资、容量、护栏与决策相关约束，映射、审查、计算、版本化并进行业务特定增长模型的情景测试</td></tr>
+    <tr><td><a href="skills/growth-infrastructure-assessment/">增长基础设施评估</a></td><td>评估数据、指标、实验、决策、执行、创意与治理能力，判断哪些能力适合中心化或应保留本地决策，对比自建、采购、组合、整合或退役方案，并制定按依赖关系排序的基础设施路线图</td></tr>
     <tr><td><a href="skills/product-market-fit-assessment/">产品市场匹配评估</a></td><td>综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证</td></tr>
     <tr><td><a href="skills/positioning/">市场定位</a></td><td>围绕明确的购买情境、真实替代方案、能力到价值的证据链、最佳适配与排除条件、品类决策、信息架构及验证计划，构建、诊断或修订证据边界清晰的市场定位</td></tr>
     <tr><td><a href="skills/icp-segmentation/">ICP&nbsp;与客户分群</a></td><td>通过可观察规则、明确排除条件、可比的价值与经济证据、差异化路径，以及隐私和公平性控制，发现、定义、验证并治理真正改变决策的客户分群与 ICP</td></tr>
@@ -98,6 +99,7 @@
     <tr><td><a href="skills/tiktok-ads-audit/">TikTok Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 TikTok 国际广告结构、短视频创意、Spark Ads 权限、落地页、事件、归因与聚合业务证据</td></tr>
     <tr><td><a href="skills/douyin-ads-audit/">抖音广告诊断</a></td><td>在不访问实时账户的前提下，诊断用户提供的巨量引擎、巨量千川、DOU+、创意与达人权限、商品或直播电商、转化、归因及聚合业务证据</td></tr>
     <tr><td><a href="skills/seo-audit/">SEO 诊断</a></td><td>基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议</td></tr>
+    <tr><td><a href="skills/programmatic-seo/">程序化&nbsp;SEO</a></td><td>围绕明确意图、可靠数据源、有用模板、页面状态、质量门槛、分批发布、下游价值、维护与退场机制，验证、设计、诊断并治理可规模化的搜索页面系统</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO 诊断</a></td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/geo/">GEO 诊断</a></td><td>基于证据评估网站面向 AI 生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>
     <tr><td><a href="skills/structured-data-builder/">结构化数据构建</a></td><td>基于页面可见内容或可归因的权威数据，生成、诊断、修复或模板化可追溯的 JSON-LD，并提供区分产品平台和市场情境的验证与限制说明</td></tr>
