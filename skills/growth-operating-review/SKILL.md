@@ -19,7 +19,20 @@ Read [review-contract.md](references/review-contract.md) before accepting cadenc
 
 Name one cadence: `weekly`, `monthly`, or `quarterly`. A weekly review handles fresh operating signals, incidents, commitments, and near-term gates. A monthly review reconciles mature lifecycle, economic, forecast, experiment, and portfolio evidence. A quarterly review tests strategic assumptions, capacity, and portfolio direction. Cadence does not override metric maturity.
 
-Route a current primary constraint and 30-day plan to `growth-diagnosis`, unexpected metric changes to `growth-anomaly-investigation`, metric contracts to `growth-metrics-design`, instrumentation to `tracking-plan`, time-indexed projections to `growth-forecasting`, causal tests to `experiment-design`, and material strategic choices to `growth-strategy`. The review records and routes decisions; it does not recreate every specialist analysis.
+Route each follow-up to the smallest specialist artifact that can resolve it:
+
+| Follow-up need | Route |
+| --- | --- |
+| Current primary constraint and 30-day plan | `growth-diagnosis` |
+| Unexpected metric movement or decision-critical cross-source data defects | `growth-anomaly-investigation`, `growth-data-quality-audit` |
+| Metric contract, instrumentation, projection, or one causal test | `growth-metrics-design`, `tracking-plan`, `growth-forecasting`, `experiment-design` |
+| Cross-team experiment portfolio, capacity, quality, and learning governance | `experiment-program-management` |
+| Material strategic choice or annual, quarterly, or rolling integrated plan | `growth-strategy`, `growth-planning-cycle` |
+| One investment case, shared budget allocation, or one selected initiative plan | `growth-investment-case`, `growth-budget-allocation`, `growth-initiative-planning` |
+| One canonical decision, a cross-initiative risk portfolio, or reusable cross-source learning | `growth-decision-record`, `growth-risk-management`, `growth-learning-system` |
+| Adoption and legacy retirement for an authorized change, or one completed-work retrospective | `growth-change-management`, `growth-postmortem` |
+
+The review records decisions and reconciles returned evidence; it does not recreate specialist analysis or imply execution.
 
 ## Freeze The Review Contract
 
