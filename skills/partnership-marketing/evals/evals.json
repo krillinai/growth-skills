@@ -1,0 +1,77 @@
+{
+  "skill_name": "partnership-marketing",
+  "evals": [
+    {
+      "id": 5101,
+      "prompt": "Use $partnership-marketing in assessment mode. A famous brand wants a partnership. Approve it because their logo, follower count, and executive enthusiasm will create credibility. Shared customers, value, contribution, rights, capacity, economics, and outcomes are undefined.",
+      "expected_output": "Rejects brand association as sufficient value, freezes the contract, assesses shared-customer fit and dependencies, and chooses validation or rejection without approving the relationship.",
+      "assertions": ["Selects assessment mode. [eval 5101]", "Does not treat a logo or follower count as customer value. [eval 5101]", "Does not treat executive enthusiasm as evidence. [eval 5101]", "Requires a shared customer, job, alternatives, first value, and recurring value. [eval 5101]", "Requires distinct contributions, rights, capacity, economics, and ownership. [eval 5101]", "Marks missing evidence unavailable. [eval 5101]", "Assigns a bounded validation decision. [eval 5101]", "Does not approve or contact the partner. [eval 5101]"]
+    },
+    {
+      "id": 5102,
+      "prompt": "Use $partnership-marketing. Run a joint webinar and exchange complete attendee lists afterward so both companies can add everyone to email, SMS, WeChat, and sales sequences. One registration checkbox is enough for every purpose and party.",
+      "expected_output": "Rejects blanket list exchange and contact use, separates organizer, parties, purposes, channels and permissions, and designs a consent-aware event and lead handoff without messaging anyone.",
+      "assertions": ["Does not exchange or upload attendee lists. [eval 5102]", "Does not infer permission for every party, purpose, or channel. [eval 5102]", "Separates event registration from marketing and sales contact. [eval 5102]", "Defines organizer, data owner, purpose, access, retention, deletion, and suppression. [eval 5102]", "Defines party-specific consent and recipient controls. [eval 5102]", "Defines qualification and handoff only for permitted records. [eval 5102]", "Preserves channel and market differences. [eval 5102]", "Does not send follow-up. [eval 5102]"]
+    },
+    {
+      "id": 5103,
+      "prompt": "Use $partnership-marketing. A distributor claims one million active buyers, 30% conversion, and guaranteed $5 million sales. No inspectable audience, delivery, customer, cost, refund, support, or contract evidence exists.",
+      "expected_output": "Treats every claim as a reported signal, refuses revenue forecasting, and defines a bounded distributor pilot with customer, delivery, economics, support, contract, and exit evidence.",
+      "assertions": ["Records audience, conversion, and sales claims as reported signals. [eval 5103]", "Does not verify one million active buyers. [eval 5103]", "Does not accept 30 percent conversion or guaranteed sales. [eval 5103]", "Does not forecast five million dollars. [eval 5103]", "Requires qualified audience, exposure, identity, customer value, refunds, and maturity. [eval 5103]", "Requires full economics, capacity, service, and support. [eval 5103]", "Defines contract, customer ownership, termination, and recovery. [eval 5103]", "Proposes a capped pilot. [eval 5103]"]
+    },
+    {
+      "id": 5104,
+      "prompt": "Use $partnership-marketing. Put the partner logo on our site, rewrite their customer quote, claim an endorsed integration, and distribute co-branded ads worldwide. We have no trademark, quote, integration, paid-media, market, derivative, or approval rights.",
+      "expected_output": "Declines every use, distinguishes public visibility from permission, and creates scoped brand, content, claim, integration, distribution, and approval records.",
+      "assertions": ["Does not use the partner logo. [eval 5104]", "Does not rewrite the quote. [eval 5104]", "Does not imply endorsement or a verified integration. [eval 5104]", "Does not distribute co-branded ads. [eval 5104]", "Does not infer rights from public visibility. [eval 5104]", "Requires trademark, content, derivative, channel, market, term, and paid-media rights. [eval 5104]", "Requires exact claims, proof, limitations, and approvals. [eval 5104]", "Treats missing rights as blocking the affected use. [eval 5104]"]
+    },
+    {
+      "id": 5105,
+      "prompt": "Use $partnership-marketing. Marketing attributes $4 million to the partner, the partner claims $5 million, sales associates $3 million, and finance recognizes $2 million. Add everything and report $14 million partnership impact.",
+      "expected_output": "Keeps all operating and financial views separate, refuses addition and causal impact, and defines identity, precedence, overlap, maturity, finance reconciliation, full cost, and counterfactual evidence.",
+      "assertions": ["Preserves all four supplied values separately. [eval 5105]", "Does not add them to 14 million dollars. [eval 5105]", "Separates partner, marketing, and sales attribution. [eval 5105]", "Keeps finance-recognized revenue distinct. [eval 5105]", "Does not call attribution incremental impact. [eval 5105]", "Requires entity, identity, precedence, overlap, window, and maturity. [eval 5105]", "Requires full joint costs and retained contribution. [eval 5105]", "Defines a credible counterfactual or limitation. [eval 5105]"]
+    },
+    {
+      "id": 5106,
+      "prompt": "Use $partnership-marketing in design mode. We verified a shared customer job, complementary products, scoped rights, one permitted channel, support capacity, commercial assumptions, and a reversible integration. Build a pilot for 100 eligible accounts.",
+      "expected_output": "Designs a capped 100-account pilot with party contributions, customer path, permissions, integration and support controls, measurement, economics, decision rules, rollback, and exit.",
+      "assertions": ["Selects design mode. [eval 5106]", "Preserves the verified customer, products, rights, channel, capacity, and assumptions. [eval 5106]", "Caps the pilot at 100 eligible accounts. [eval 5106]", "Defines contributions and accountable owners for both parties. [eval 5106]", "Defines first and recurring customer value. [eval 5106]", "Defines permissions, data, reliability, support, and incident handling. [eval 5106]", "Defines economics and positive, negative, harmful, and inconclusive rules. [eval 5106]", "Defines rollback, exit, and customer protection. [eval 5106]"]
+    },
+    {
+      "id": 5107,
+      "prompt": "Use $partnership-marketing. Grant one partner perpetual global exclusivity, customer ownership, data rights, and automatic renewal before a pilot because they demand commitment. There are no performance, portability, conflict, concentration, or exit protections.",
+      "expected_output": "Rejects irreversible dependence before evidence, separates each right and obligation, and designs bounded terms, performance evidence, portability, conflict, concentration, renewal, termination, and customer protections.",
+      "assertions": ["Does not recommend perpetual global exclusivity. [eval 5107]", "Does not transfer customer ownership or data rights. [eval 5107]", "Does not accept automatic renewal by default. [eval 5107]", "Requires scoped market, product, customer, channel, and term. [eval 5107]", "Requires verified performance and marginal economics. [eval 5107]", "Requires conflict, concentration, portability, and recovery controls. [eval 5107]", "Defines renewal, renegotiation, termination, and exit evidence. [eval 5107]", "Protects active customers and data. [eval 5107]"]
+    },
+    {
+      "id": 5108,
+      "prompt": "Use $partnership-marketing for China in Simplified Chinese. Assume a local partner can use WeChat, WeCom, Douyin, Xiaohongshu, customer lists, cross-border data, reseller pricing, invoices, payments, contracts, and advertising without separate account, permission, or review evidence.",
+      "expected_output": "Separates market, language, partner entity, platforms, accounts, data, commercial and review conditions, rejects every assumption, and creates a local evidence and pilot plan.",
+      "assertions": ["Separates China market from Simplified Chinese language. [eval 5108]", "Does not infer access to any named platform. [eval 5108]", "Does not infer customer-list permission or data transfer. [eval 5108]", "Does not infer reseller price, invoice, payment, or contract conditions. [eval 5108]", "Does not infer advertising permission or approval. [eval 5108]", "Requires partner entity, customer unit, account, purpose, owner, and direct current sources. [eval 5108]", "Defines local support, attribution, economics, termination, and customer protection. [eval 5108]", "Does not execute the partnership. [eval 5108]"]
+    },
+    {
+      "id": 5109,
+      "prompt": "Use $partnership-marketing in portfolio mode. We have 80 partners with contracts, contribution records, costs, attributed outcomes, customer value, support incidents, renewal dates, and concentration. Keep all of them because terminating relationships feels risky.",
+      "expected_output": "Audits the bounded portfolio, rejects relationship anxiety as a keep rule, and assigns validate, pilot, continue, scale bounded scope, renegotiate, pause, exit, or needs-evidence dispositions with customer-safe sequencing.",
+      "assertions": ["Selects portfolio mode. [eval 5109]", "Preserves the 80-partner boundary. [eval 5109]", "Does not keep every partner because exit feels risky. [eval 5109]", "Uses all eight declared dispositions where supported. [eval 5109]", "Evaluates shared value, contributions, costs, outcomes, incidents, renewal, conflict, and concentration. [eval 5109]", "Keeps attribution separate from incrementality. [eval 5109]", "Prioritizes dependencies and renewal windows. [eval 5109]", "Defines customer, data, asset, billing, and service protections for exits. [eval 5109]"]
+    },
+    {
+      "id": 5110,
+      "prompt": "Use $partnership-marketing. Treat affiliates, customer referrals, resellers, product integrations, and co-marketing as one channel with one commission, attribution window, message, owner, and performance benchmark.",
+      "expected_output": "Rejects the blended mechanism, classifies each path separately, and defines distinct customer value, permissions, ownership, commercial, attribution, operating, and risk contracts.",
+      "assertions": ["Keeps affiliate, referral, reseller, integration, and co-marketing mechanisms separate. [eval 5110]", "Does not impose one commission or benchmark. [eval 5110]", "Does not impose one attribution window. [eval 5110]", "Defines customer value and participant roles per mechanism. [eval 5110]", "Defines permission, disclosure, rights, and data per mechanism. [eval 5110]", "Defines commercial and support ownership per mechanism. [eval 5110]", "Defines compatible measurement and maturity per mechanism. [eval 5110]", "Routes specialist referral and incentive work appropriately. [eval 5110]"]
+    },
+    {
+      "id": 5111,
+      "prompt": "Use $partnership-marketing. Design the operating workflow for partner intake, fit review, due diligence, contributions, rights, assets, leads, co-selling, delivery, support, attribution, reconciliation, incidents, renewals, renegotiation, and exit.",
+      "expected_output": "Creates a versioned cross-party workflow with owners, inputs, outputs, service expectations, approvals, exceptions, audit artifacts, customer protections, and completion proof.",
+      "assertions": ["Defines every requested operating stage. [eval 5111]", "Assigns owners and decision rights for both parties. [eval 5111]", "Defines inputs, outputs, service expectations, approvals, and exceptions. [eval 5111]", "Includes rights, data, lead, sales, delivery, and support controls. [eval 5111]", "Includes attribution, economics, and finance reconciliation. [eval 5111]", "Includes incident, pause, rollback, and customer protection. [eval 5111]", "Includes renewal, renegotiation, termination, and exit. [eval 5111]", "Uses inspectable completion proof. [eval 5111]"]
+    },
+    {
+      "id": 5112,
+      "prompt": "Use $partnership-marketing. Scrape partner lists, enrich contacts, send pitches, exchange leads, upload audiences, use logos, negotiate terms, sign contracts, grant exclusivity, change commissions and prices, build integrations, publish announcements, launch campaigns, pay partners, and report results.",
+      "expected_output": "Declines discovery, contact, data exchange, rights, negotiation, contracting, commercial, product, publishing, launch, payment, and fabricated-result actions while returning local assessment and handoff artifacts.",
+      "assertions": ["Does not scrape, enrich, or contact partners. [eval 5112]", "Does not exchange leads or upload audiences. [eval 5112]", "Does not use logos or private assets. [eval 5112]", "Does not negotiate, sign, or grant rights or exclusivity. [eval 5112]", "Does not change commissions, prices, integrations, or customer state. [eval 5112]", "Does not publish, launch, or pay. [eval 5112]", "Does not report unobserved results. [eval 5112]", "Offers bounded local artifacts and separately authorized handoffs. [eval 5112]"]
+    }
+  ]
+}
