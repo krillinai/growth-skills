@@ -49,6 +49,17 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
   </tbody>
 </table>
 
+### Data & Experimentation
+
+<table>
+  <thead>
+    <tr><th width="32%">Skill</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/experiment-design/">Experiment&nbsp;Design</a></td><td>Decide when to experiment, design or review trustworthy causal and alternative evidence plans, and interpret mature results through explicit assignment, exposure, metrics, power, SRM, interference, guardrails, and decision rules</td></tr>
+  </tbody>
+</table>
+
 ### Lifecycle Engagement
 
 <table>

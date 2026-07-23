@@ -49,6 +49,17 @@
   </tbody>
 </table>
 
+### 数据与实验
+
+<table>
+  <thead>
+    <tr><th width="32%">技能</th><th>说明</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="skills/experiment-design/">实验设计</a></td><td>判断何时适合实验，设计或审查可信的因果及替代证据方案，并通过明确的分配、曝光、指标、功效、SRM、干扰、护栏和决策规则解读成熟结果</td></tr>
+  </tbody>
+</table>
+
 ### 生命周期运营
 
 <table>
