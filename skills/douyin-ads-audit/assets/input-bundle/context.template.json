@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "platform_scope": "Douyin advertising",
+  "decision": "Decide what to test or measure before the next Douyin advertising review",
+  "owner": "Growth team",
+  "market": "China",
+  "start_date": "2026-06-01",
+  "end_date": "2026-06-30",
+  "currency": "CNY",
+  "objective": "Qualified customer acquisition",
+  "qualified_outcome": "New customer with a matured paid order",
+  "source_surfaces": ["ocean_engine", "qianchuan"]
+}

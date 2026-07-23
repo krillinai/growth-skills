@@ -1,0 +1,2 @@
+date,aggregation_level,entity_id,orders,qualified_leads,new_customers,gross_revenue,refunds,cost_of_goods,creator_costs,variable_costs,contribution_margin,currency,maturation_window
+2026-06-01,campaign,campaign-1,0,16,12,16000.00,1000.00,4800.00,0.00,1400.00,8800.00,CNY,30 days

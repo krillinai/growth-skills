@@ -1,0 +1,2 @@
+date,source_surface,aggregation_level,entity_id,paid_orders,gross_merchandise_value,product_id,livestream_id,cancellations,refunds,gross_revenue,platform_fees,creator_commission,product_cost,fulfillment_cost,variable_costs,contribution_margin,currency,maturation_window
+2026-06-01,qianchuan,ad,ad-2,20,10000.00,product-1,,2,500.00,9500.00,300.00,0.00,3000.00,600.00,400.00,5200.00,CNY,30 days

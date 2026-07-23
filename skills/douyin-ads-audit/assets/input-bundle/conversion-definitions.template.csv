@@ -1,0 +1,3 @@
+conversion_id,conversion_name,source_surface,source,status,optimization_event,qualified_outcome,counting_rule,value_rule,deduplication_rule,attribution_setting,consent_status,captured_at
+conversion-1,QualifiedLead,ocean_engine,web,active,true,true,one per qualified submission,declared value,event_id,declared account setting,documented,2026-06-30
+conversion-2,PaidOrder,qianchuan,shop,active,true,true,every paid order,dynamic,order_id,declared account setting,documented,2026-06-30

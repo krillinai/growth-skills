@@ -1,0 +1,3 @@
+campaign_id,campaign_name,status,source_surface,objective,budget_mode,inventory_scope,budget_amount,start_date,end_date,campaign_type
+campaign-1,Douyin prospecting,active,ocean_engine,conversion,daily_budget,douyin_feed,2000.00,2026-01-01,,regular
+campaign-2,Commerce growth,active,qianchuan,product_sales,daily_budget,douyin_ecommerce,3000.00,2026-01-01,,commerce

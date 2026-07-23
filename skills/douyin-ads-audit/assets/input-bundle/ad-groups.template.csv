@@ -1,0 +1,3 @@
+ad_group_id,campaign_id,ad_group_name,status,source_surface,placement,optimization_goal,bid_strategy,budget_amount,schedule_start,schedule_end,audience_summary,destination_type
+adgroup-1,campaign-1,Broad,active,ocean_engine,douyin_feed,qualified_lead,lowest_cost,2000.00,2026-06-01,2026-06-30,Broad eligible adults in China,landing_page
+adgroup-2,campaign-2,Product audience,active,qianchuan,douyin_ecommerce,paid_order,lowest_cost,3000.00,2026-06-01,2026-06-30,Declared product audience,product_page

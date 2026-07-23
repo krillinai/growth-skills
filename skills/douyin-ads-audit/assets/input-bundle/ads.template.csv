@@ -1,0 +1,3 @@
+ad_id,campaign_id,campaign_name,ad_group_id,ad_group_name,ad_name,status,source_surface,inventory_scope,objective,destination_type,placement,optimization_goal,identity_type,douyin_account,destination_ref
+ad-1,campaign-1,Douyin prospecting,adgroup-1,Broad,Customer proof video,active,ocean_engine,douyin_feed,conversion,landing_page,douyin_feed,qualified_lead,brand_account,brand_account,https://example.cn/product
+ad-2,campaign-2,Commerce growth,adgroup-2,Product audience,Product demo video,active,qianchuan,douyin_ecommerce,product_sales,product_page,douyin_ecommerce,paid_order,shop_account,shop_account,product-1

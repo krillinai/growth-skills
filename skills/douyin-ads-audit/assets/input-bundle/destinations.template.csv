@@ -1,0 +1,3 @@
+destination_id,ad_id,destination_type,destination_ref,market,language,offer,price,primary_message,proof,cta,product_or_livestream_state,status,captured_at
+destination-1,ad-1,landing_page,https://example.cn/product,China,zh-CN,demo,,Reduce manual reporting time,Attributable customer case,Request a demo,not applicable,live,2026-06-30
+destination-2,ad-2,product_page,product-1,China,zh-CN,first order,500.00,Product demonstration,Verified product evidence,Buy now,in stock,live,2026-06-30
