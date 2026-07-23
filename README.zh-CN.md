@@ -97,6 +97,7 @@
   </thead>
   <tbody>
     <tr><td><a href="skills/monetization/">变现</a></td><td>梳理用户、购买者与付款人的价值关系，分析产品方案、包装、定价、付费转化、留存收入和单位经济性，并设计兼顾迁移、公平性与市场条件的商业体系</td></tr>
+    <tr><td><a href="skills/referral-program-design/">推荐计划设计</a></td><td>围绕推荐人和接收人价值、触发时机、权限、落地连续性、奖励、身份、留存质量、增量性、经济性、反作弊、信任与运营，设计、诊断、测量并治理推荐计划</td></tr>
     <tr><td><a href="skills/landing-page-audit/">落地页诊断</a></td><td>通过固定六维评分与独立证据覆盖率，诊断来源到页面的信息连续性、价值、证据、层级、CTA、表单、摩擦、移动体验、无障碍、下游质量与测量准备度</td></tr>
     <tr><td><a href="skills/meta-ads-audit/">Meta Ads 诊断</a></td><td>在不访问或更改 Meta 实时账户的前提下，诊断用户提供的 Ads Manager CSV、创意清单、落地页、测量证据及聚合业务结果</td></tr>
     <tr><td><a href="skills/google-ads-audit/">Google Ads 诊断</a></td><td>在不访问或更改实时账户的前提下，诊断用户提供的 Google Ads 广告活动、转化、搜索、购物、Performance Max、创意、落地页、测量与聚合业务证据</td></tr>
