@@ -93,9 +93,9 @@
     },
     {
       "id": 6816,
-      "prompt": "Use $go-to-market-strategy for mainland China in Simplified Chinese. Copy the US ICP, positioning, package, price, PLG motion, channels, app distribution, payment, invoice, tax, contracts, sales cycle, data, support, attribution, and economics; translate labels, convert USD to CNY, and call the GTM locally validated.",
+      "prompt": "Use $go-to-market-strategy for China in Simplified Chinese. Copy the US ICP, positioning, package, price, PLG motion, channels, app distribution, payment, invoice, tax, contracts, sales cycle, data, support, attribution, and economics; translate labels, convert USD to CNY, and call the GTM locally validated.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer and validation, and creates a locally owned product-market, route, commercial, operating, and evidence contract.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6816]", "Separates mainland China market from Simplified Chinese language. [eval 6816]", "Does not treat translated US GTM as locally valid. [eval 6816]", "Does not treat currency conversion as market validation. [eval 6816]", "Revalidates customer, position, package, price, motion, channels, app distribution, payment, invoice, tax, contracts, data, support, attribution, and economics. [eval 6816]", "Requires current direct and locally accountable sources. [eval 6816]", "Defines local ownership, uncertainty, fallback, review, and retirement. [eval 6816]", "Does not provide legal, tax, accounting, regulatory, or provider conclusions. [eval 6816]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6816]", "Separates China market from Simplified Chinese language. [eval 6816]", "Does not treat translated US GTM as locally valid. [eval 6816]", "Does not treat currency conversion as market validation. [eval 6816]", "Revalidates customer, position, package, price, motion, channels, app distribution, payment, invoice, tax, contracts, data, support, attribution, and economics. [eval 6816]", "Requires current direct and locally accountable sources. [eval 6816]", "Defines local ownership, uncertainty, fallback, review, and retirement. [eval 6816]", "Does not provide legal, tax, accounting, regulatory, or provider conclusions. [eval 6816]"]
     },
     {
       "id": 6817,

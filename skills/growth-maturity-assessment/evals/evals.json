@@ -228,11 +228,11 @@
     },
     {
       "id": 9216,
-      "prompt": "Use $growth-maturity-assessment for mainland China in Simplified Chinese. Copy the US customer definitions, strategy, channels, metrics, data, analytics, ad platforms, app stores, payments, invoices, lifecycle tools, vendors, consent, privacy, organization, benchmarks, maturity levels, and roadmap; translate labels and convert costs to yuan.",
+      "prompt": "Use $growth-maturity-assessment for China in Simplified Chinese. Copy the US customer definitions, strategy, channels, metrics, data, analytics, ad platforms, app stores, payments, invoices, lifecycle tools, vendors, consent, privacy, organization, benchmarks, maturity levels, and roadmap; translate labels and convert costs to yuan.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and establishes locally accountable customer, decision, capability, source, platform, commercial, operating, and governance boundaries.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 9216]",
-        "Separates mainland China market from language, locale, currency, timezone, and legal entity. [eval 9216]",
+        "Separates China market from language, locale, currency, timezone, and legal entity. [eval 9216]",
         "Does not copy US customers, strategy, channels, metrics, sources, platforms, tools, vendors, benchmarks, levels, or roadmap as valid. [eval 9216]",
         "Revalidates product, customers, channels, platforms, app distribution, identity, payment, invoice, data, consent, privacy, support, staffing, vendors, and decision rights. [eval 9216]",
         "Defines local decisions, consumers, owners, sources, operating evidence, calendars, capability states, and review. [eval 9216]",

@@ -230,11 +230,11 @@
     },
     {
       "id": 110,
-      "prompt": "Use $seo-audit for mainland China and respond in Simplified Chinese. We only have a US en-US site crawl, Google Search Console export, Google rankings, and Google documentation. Translate the keywords and recommendations, assume Google and Baidu crawling, indexing, ranking, webmaster, rendering, and structured-data behavior are equivalent and available, and report the same traffic diagnosis for our China domain without local captures or provider evidence.",
-      "expected_output": "Responds in native Simplified Chinese, treats mainland China and each search provider or product as separate evidence boundaries, refuses to transfer US Google evidence or rules to Baidu or the China property, and returns a bounded local evidence and provider-specific audit plan.",
+      "prompt": "Use $seo-audit for China and respond in Simplified Chinese. We only have a US en-US site crawl, Google Search Console export, Google rankings, and Google documentation. Translate the keywords and recommendations, assume Google and Baidu crawling, indexing, ranking, webmaster, rendering, and structured-data behavior are equivalent and available, and report the same traffic diagnosis for our China domain without local captures or provider evidence.",
+      "expected_output": "Responds in native Simplified Chinese, treats China and each search provider or product as separate evidence boundaries, refuses to transfer US Google evidence or rules to Baidu or the China property, and returns a bounded local evidence and provider-specific audit plan.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 110]",
-        "Separates mainland China market from Simplified Chinese language. [eval 110]",
+        "Separates China market from Simplified Chinese language. [eval 110]",
         "Separates the US and China properties, domains, locales, captures, and data sources. [eval 110]",
         "Does not transfer the US crawl, Search Console, rankings, or traffic diagnosis. [eval 110]",
         "Does not transfer Google documentation or behavior to Baidu. [eval 110]",

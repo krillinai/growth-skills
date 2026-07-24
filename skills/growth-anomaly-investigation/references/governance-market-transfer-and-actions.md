@@ -25,7 +25,7 @@ Close only when the decision is made, the evidence needed for that decision is m
 
 Treat each market as a new anomaly boundary. Re-establish metric definition, customer and account hierarchy, product and app version, channel and platform, identity and consent, payment and invoice, source and data latency, timezone, weekday and holiday calendar, promotion, release schedule, currency, benchmark, bot and fraud rules, regulation, support, owner, and expected-variation baseline.
 
-Translation, currency conversion, or a shared dashboard does not validate transfer. For mainland China, distinguish market, legal entity, language, locale, timezone, product, channel, platform, app distribution, identity, payment, invoice, data source, storage, transfer, content, advertising, holidays, release, support, and local accountable review. Use current direct sources and local expertise. Do not make legal, regulatory, provider-availability, causal, or performance conclusions.
+Translation, currency conversion, or a shared dashboard does not validate transfer. For China, distinguish market, legal entity, language, locale, timezone, product, channel, platform, app distribution, identity, payment, invoice, data source, storage, transfer, content, advertising, holidays, release, support, and local accountable review. Use current direct sources and local expertise. Do not make legal, regulatory, provider-availability, causal, or performance conclusions.
 
 ## Protect People And Data
 

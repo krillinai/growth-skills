@@ -53,7 +53,7 @@ Treat every market transfer as a new evidence boundary. Preserve what may transf
 - pricing, currency, purchasing power, costs, margin, contribution, cash, and capital requirements;
 - local ownership, review, escalation, source freshness, and exit conditions.
 
-Translation, currency conversion, a local domain, or team presence does not validate a strategy transfer. For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, customer support, and local accountable review. Use current direct sources and locally accountable expertise. Do not provide legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
+Translation, currency conversion, a local domain, or team presence does not validate a strategy transfer. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, customer support, and local accountable review. Use current direct sources and locally accountable expertise. Do not provide legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
 
 Route market selection, readiness, pilot, and exit design to `market-entry-strategy`; market estimates to `market-sizing`; segments to `icp-segmentation`; local customer evidence to `customer-research`; and positioning to `positioning`.
 

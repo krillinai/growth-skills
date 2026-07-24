@@ -75,9 +75,9 @@
     },
     {
       "id": 6013,
-      "prompt": "Use $competitive-intelligence for China in Simplified Chinese. Translate a US competitive matrix and assume the same competitors, categories, capabilities, prices, channels, app availability, buyer criteria, regulations, data hosting, payment methods, and customer proof apply in mainland China.",
+      "prompt": "Use $competitive-intelligence for China in Simplified Chinese. Translate a US competitive matrix and assume the same competitors, categories, capabilities, prices, channels, app availability, buyer criteria, regulations, data hosting, payment methods, and customer proof apply in China.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and creates a locally owned China landscape with separate market, language, product, price, channel, trust, data, and evidence conditions.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6013]", "Separates mainland China market from Simplified Chinese language. [eval 6013]", "Does not transfer the US competitor set or category as validated. [eval 6013]", "Does not infer local capability, price, channel, app, payment, or proof conditions. [eval 6013]", "Does not infer regulatory, hosting, transfer, or provider conditions. [eval 6013]", "Requires current direct and locally accountable sources. [eval 6013]", "Keeps global and China product or offer versions distinct. [eval 6013]", "Creates a local verification, ownership, and review cadence. [eval 6013]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6013]", "Separates China market from Simplified Chinese language. [eval 6013]", "Does not transfer the US competitor set or category as validated. [eval 6013]", "Does not infer local capability, price, channel, app, payment, or proof conditions. [eval 6013]", "Does not infer regulatory, hosting, transfer, or provider conditions. [eval 6013]", "Requires current direct and locally accountable sources. [eval 6013]", "Keeps global and China product or offer versions distinct. [eval 6013]", "Creates a local verification, ownership, and review cadence. [eval 6013]"]
     },
     {
       "id": 6014,

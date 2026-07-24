@@ -55,7 +55,7 @@ Treat every market as a new customer, product, channel, operating, data and evid
 - systems, vendors, data sources, identity, permissions, consent, storage, transfer, retention, metrics and maturity;
 - local owners, capacity, operating hours, holidays, review, approval, authorization, correction, stop, rollback and residual obligations.
 
-For mainland China, keep the market separate from Simplified Chinese language and CNY currency. Do not copy US personas, channels, platform availability, app stores, identity, payment, invoice, data practices, support, metrics, benchmarks, owners, approvals or authorization. Use current direct sources and locally accountable expertise. Do not make legal, tax, regulatory, compliance, provider-availability, approval, authorization or performance conclusions.
+For China, keep the market separate from Simplified Chinese language and CNY currency. Do not copy US personas, channels, platform availability, app stores, identity, payment, invoice, data practices, support, metrics, benchmarks, owners, approvals or authorization. Use current direct sources and locally accountable expertise. Do not make legal, tax, regulatory, compliance, provider-availability, approval, authorization or performance conclusions.
 
 ## Privacy, Fairness, And Sensitive Inference
 

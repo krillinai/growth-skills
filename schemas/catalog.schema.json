@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krillinai/growth-skills/schemas/catalog.schema.json",
+  "title": "Growth Skills Catalog",
+  "type": "object",
+  "required": ["schema_version", "default_status", "skills"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "default_status": {
+      "enum": ["experimental", "beta", "stable", "deprecated"]
+    },
+    "skills": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/skill"}
+    }
+  },
+  "$defs": {
+    "skill": {
+      "type": "object",
+      "required": [
+        "id",
+        "path",
+        "category",
+        "status",
+        "name_en",
+        "name_zh",
+        "description_en",
+        "description_zh",
+        "playbook_revisions",
+        "validation"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "path": {"type": "string", "pattern": "^skills/[a-z0-9-]+/$"},
+        "category": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "status": {
+          "enum": ["experimental", "beta", "stable", "deprecated"]
+        },
+        "name_en": {"type": "string", "minLength": 1},
+        "name_zh": {"type": "string", "minLength": 1},
+        "description_en": {"type": "string", "minLength": 1},
+        "description_zh": {"type": "string", "minLength": 1},
+        "playbook_revisions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^[0-9a-f]{7,40}$"}
+        },
+        "validation": {
+          "type": "object",
+          "required": ["structure", "eval_spec", "forward_tested"],
+          "additionalProperties": false,
+          "properties": {
+            "structure": {"type": "boolean"},
+            "eval_spec": {"type": "boolean"},
+            "forward_tested": {"type": ["boolean", "null"]}
+          }
+        }
+      }
+    }
+  }
+}

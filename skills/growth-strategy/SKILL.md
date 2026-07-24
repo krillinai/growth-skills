@@ -111,7 +111,7 @@ A handoff defines the input, owner, decision, expected artifact, dependency, and
 
 Treat every market as a new evidence boundary. Revalidate customers, alternatives, value, product, channels, lifecycle, pricing, payments, invoices, economics, capacity, trust, data, regulation, and local ownership. Translation, currency conversion, or a local domain does not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
 
 ## Deliver In Order
 

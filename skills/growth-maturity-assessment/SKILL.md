@@ -103,7 +103,7 @@ Return:
 6. smallest-sufficient dispositions prioritized by decision, constraint, value, dependencies, risk, capacity, and opportunity cost;
 7. unresolved questions, specialist handoffs, approval-ready requests, residual obligations, and completion status.
 
-For mainland China work, answer in Simplified Chinese when requested and revalidate market, language, locale, currency, timezone, legal entity, product, customer, channel, platform, app distribution, identity, payment, invoice, data, consent, privacy, support, vendor, staffing, and decision rights. Translation and currency conversion do not transfer a capability, benchmark, or roadmap.
+For China work, answer in Simplified Chinese when requested and revalidate market, language, locale, currency, timezone, legal entity, product, customer, channel, platform, app distribution, identity, payment, invoice, data, consent, privacy, support, vendor, staffing, and decision rights. Translation and currency conversion do not transfer a capability, benchmark, or roadmap.
 
 ## External-Action Boundary
 

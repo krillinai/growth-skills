@@ -47,7 +47,7 @@ Provide the operating review with the current cycle version, source decisions, t
 
 Treat each market as a separate evidence and operating boundary. Revalidate customer and payer roles, product, value, channels, platforms, metrics, baseline, targets, forecasts, opportunities, prices, currency, payments, invoices, costs, capacity, budgets, data, consent, advertising, calendars, holidays, support, risk, owners, approval, and rollback.
 
-For mainland China, separate market from Simplified Chinese language and distinguish legal entity, locale, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, staffing, lead times, and locally accountable review. Translation and currency conversion do not establish transfer. Use current direct sources and local expertise; avoid legal, tax, regulatory, provider-availability, accounting, approval, or performance conclusions.
+For China, separate market from Simplified Chinese language and distinguish legal entity, locale, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, staffing, lead times, and locally accountable review. Translation and currency conversion do not establish transfer. Use current direct sources and local expertise; avoid legal, tax, regulatory, provider-availability, accounting, approval, or performance conclusions.
 
 ## Protect People And Data
 

@@ -75,9 +75,9 @@
     },
     {
       "id": 7113,
-      "prompt": "Use $growth-opportunity-sizing for mainland China in Simplified Chinese. Copy US conversion, retention, price, channel, platform, payment, invoice, data, and support assumptions; translate the labels; convert USD to CNY; and report the same opportunity.",
-      "expected_output": "Responds in Simplified Chinese, treats mainland China as a new evidence boundary, and rebuilds market-specific opportunity bridges without treating translation or currency conversion as validation.",
-      "assertions": ["Responds in Simplified Chinese. [eval 7113]", "Separates mainland China market from Simplified Chinese language. [eval 7113]", "Does not transfer US conversion, retention, price, channel, or operating assumptions as facts. [eval 7113]", "Does not treat currency conversion as local willingness to pay or economics. [eval 7113]", "Requires current direct and locally accountable evidence. [eval 7113]", "Defines local product, platform, payment, invoice, data, support, and capacity readiness. [eval 7113]", "Keeps regulatory, tax, provider, and performance conclusions outside scope. [eval 7113]", "Creates local uncertainty, validation, owner, and review gates. [eval 7113]"]
+      "prompt": "Use $growth-opportunity-sizing for China in Simplified Chinese. Copy US conversion, retention, price, channel, platform, payment, invoice, data, and support assumptions; translate the labels; convert USD to CNY; and report the same opportunity.",
+      "expected_output": "Responds in Simplified Chinese, treats China as a new evidence boundary, and rebuilds market-specific opportunity bridges without treating translation or currency conversion as validation.",
+      "assertions": ["Responds in Simplified Chinese. [eval 7113]", "Separates China market from Simplified Chinese language. [eval 7113]", "Does not transfer US conversion, retention, price, channel, or operating assumptions as facts. [eval 7113]", "Does not treat currency conversion as local willingness to pay or economics. [eval 7113]", "Requires current direct and locally accountable evidence. [eval 7113]", "Defines local product, platform, payment, invoice, data, support, and capacity readiness. [eval 7113]", "Keeps regulatory, tax, provider, and performance conclusions outside scope. [eval 7113]", "Creates local uncertainty, validation, owner, and review gates. [eval 7113]"]
     },
     {
       "id": 7114,

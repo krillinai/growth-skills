@@ -228,11 +228,11 @@
     },
     {
       "id": 9116,
-      "prompt": "Use $customer-health-modeling for mainland China in Simplified Chinese. Copy the US customer hierarchy, product value events, telemetry, CRM, support, CSM notes, contracts, payment, invoice, renewal, churn labels, model, thresholds, benchmarks, privacy rules, and actions; translate labels and convert dollars to yuan.",
+      "prompt": "Use $customer-health-modeling for China in Simplified Chinese. Copy the US customer hierarchy, product value events, telemetry, CRM, support, CSM notes, contracts, payment, invoice, renewal, churn labels, model, thresholds, benchmarks, privacy rules, and actions; translate labels and convert dollars to yuan.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and establishes locally accountable customer, product, commercial, data, model, service, and governance contracts.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 9116]",
-        "Separates mainland China market from language, locale, currency, timezone, and legal entity. [eval 9116]",
+        "Separates China market from language, locale, currency, timezone, and legal entity. [eval 9116]",
         "Does not copy US hierarchies, value events, sources, labels, models, thresholds, benchmarks, privacy, or actions as valid. [eval 9116]",
         "Revalidates product, roles, account structure, identity, telemetry, CRM, support, contract, payment, invoice, renewal, and churn states. [eval 9116]",
         "Defines local sources, availability, calendars, maturity, privacy, model, owner, and review contracts. [eval 9116]",

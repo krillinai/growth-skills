@@ -69,7 +69,7 @@ For retention uses, preserve natural opportunity, repeated value, reliability, c
 
 Revalidate customer and contract hierarchy, product value, roles, lifecycle, identity, telemetry, CRM, support, payment, invoice, renewal and churn states, features, labels, prevalence, source availability, model, calibration, threshold, service capacity, privacy, owners and actions in each market.
 
-For mainland China, separate market, legal entity, language, locale, currency, timezone, product, platforms, identity, payment, invoice, data, consent, privacy, support and locally accountable review. Use current direct evidence and local expertise. Translation and currency conversion do not validate transfer. Avoid legal, tax, regulatory, provider, accounting, approval, causal or performance conclusions.
+For China, separate market, legal entity, language, locale, currency, timezone, product, platforms, identity, payment, invoice, data, consent, privacy, support and locally accountable review. Use current direct evidence and local expertise. Translation and currency conversion do not validate transfer. Avoid legal, tax, regulatory, provider, accounting, approval, causal or performance conclusions.
 
 ## Privacy, Fairness, And External Actions
 

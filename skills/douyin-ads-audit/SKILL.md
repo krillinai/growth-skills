@@ -1,6 +1,6 @@
 ---
 name: douyin-ads-audit
-description: Use when a team needs a read-only audit of supplied Douyin advertising exports or evidence from Ocean Engine (巨量引擎), Qianchuan (巨量千川), or DOU+, including campaign structure, short-video or livestream creative, creator and Xingtu authorization evidence, product or livestream commerce performance, landing or lead continuity, conversion tracking, attribution, aggregated business outcomes, or a reported performance change. Do not use for international TikTok audits, live account access, publishing, boosting, authorization-code handling, lead-record processing, audience uploads, bid changes, or budget changes.
+description: Use when a team needs a read-only audit of supplied Douyin advertising evidence from Ocean Engine, Qianchuan, or DOU+, including campaign structure, creative, creator authorization, commerce, destinations, measurement, attribution, business outcomes, or performance changes. Do not use for international TikTok, live account access, publishing, authorization-code handling, lead records, audience uploads, bids, or budgets.
 ---
 
 # Douyin Ads Audit

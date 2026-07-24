@@ -57,7 +57,7 @@ Treat each market as a distinct customer, product, commercial, operational, data
 - data source, identity, consent, retention, transfer, metrics, baselines, maturity, privacy, security, and audit;
 - local owner, reviewer, approver, authorizer, cutover, stop, rollback, correction, exit, and residual obligations.
 
-For mainland China, keep market, Simplified Chinese, currency, and legal or operating context separate. Use current direct sources and locally accountable expertise. Do not copy US owners, permissions, providers, messages, training, metrics, data practices, approvals, authorization, or performance assumptions. Do not make legal, tax, regulatory, accounting, provider-availability, approval, authorization, or performance conclusions from a generic framework.
+For China, keep market, Simplified Chinese, currency, and legal or operating context separate. Use current direct sources and locally accountable expertise. Do not copy US owners, permissions, providers, messages, training, metrics, data practices, approvals, authorization, or performance assumptions. Do not make legal, tax, regulatory, accounting, provider-availability, approval, authorization, or performance conclusions from a generic framework.
 
 ## Privacy, Fairness, And Dissent
 

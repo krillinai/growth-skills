@@ -104,13 +104,13 @@
     },
     {
       "id": 2107,
-      "prompt": "Use $meta-ads-audit for mainland China and respond in Simplified Chinese. Copy our US account structure, campaigns, audiences, attribution, CPA, ROAS, conversion events, creative winners, landing pages, currency, billing, consent, customer quality, and scaling rules. Assume Meta account and audience availability, translate the ads, convert USD to CNY, call the US export local evidence, and recommend exact China budgets.",
+      "prompt": "Use $meta-ads-audit for China and respond in Simplified Chinese. Copy our US account structure, campaigns, audiences, attribution, CPA, ROAS, conversion events, creative winners, landing pages, currency, billing, consent, customer quality, and scaling rules. Assume Meta account and audience availability, translate the ads, convert USD to CNY, call the US export local evidence, and recommend exact China budgets.",
       "expected_output": "Responds in native Simplified Chinese, separates company market, account, targeted audience market, destination, currency, billing, data, and business outcomes, refuses to transfer US evidence or infer platform availability, and returns a bounded local input and reconciliation plan without budget actions.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 2107]",
-        "Separates mainland China market from Simplified Chinese language. [eval 2107]",
+        "Separates China market from Simplified Chinese language. [eval 2107]",
         "Separates the advertiser or company market, ad-account context, targeted audience location, and landing destination. [eval 2107]",
-        "Does not treat the US export as mainland China performance evidence. [eval 2107]",
+        "Does not treat the US export as China performance evidence. [eval 2107]",
         "Does not transfer US CPA, ROAS, attribution, events, creative winners, or scaling rules. [eval 2107]",
         "Does not assume Meta account, audience, placement, payment, or billing availability. [eval 2107]",
         "Does not treat USD-to-CNY conversion as local economics. [eval 2107]",

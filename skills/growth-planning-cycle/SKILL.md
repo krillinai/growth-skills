@@ -81,7 +81,7 @@ In `refresh`, preserve the previous cycle, actuals, forecasts, targets, assumpti
 
 Treat every market as a new evidence and operating boundary. Revalidate customer value, product, channels, platforms, metrics, baselines, targets, forecasts, opportunities, prices, costs, capacity, budget, dependencies, calendars, support, risks, owners, approvals, and rollback. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, lead times, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, approval, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, lead times, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, approval, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence. Do not expose credentials, private messages, payment details, health or financial data, protected traits, precise locations, raw identities, employee reviews, compensation, ratings, or full histories when bounded evidence suffices. Do not rank individuals for consequential pricing, service, employment, credit, insurance, health, housing, or similar decisions.
 

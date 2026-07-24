@@ -228,11 +228,11 @@
     },
     {
       "id": 9016,
-      "prompt": "Use $marketing-mix-modeling for mainland China in Simplified Chinese. Copy the US model, Google and Meta channel taxonomy, data sources, customer outcome, adstock, response curves, holidays, platforms, prices, payments, invoices, privacy, benchmarks, and calibration; translate labels and convert dollars to yuan.",
+      "prompt": "Use $marketing-mix-modeling for China in Simplified Chinese. Copy the US model, Google and Meta channel taxonomy, data sources, customer outcome, adstock, response curves, holidays, platforms, prices, payments, invoices, privacy, benchmarks, and calibration; translate labels and convert dollars to yuan.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and establishes locally accountable market, channel, platform, outcome, source, calendar, model, and governance contracts.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 9016]",
-        "Separates mainland China market from language, locale, currency, timezone, and legal entity. [eval 9016]",
+        "Separates China market from language, locale, currency, timezone, and legal entity. [eval 9016]",
         "Does not copy US channel taxonomy, platforms, sources, outcome, transformations, response curves, benchmarks, or calibration as valid. [eval 9016]",
         "Revalidates product, channels, platforms, app distribution, identity, payment, invoice, media cost, outcome, sources, holidays, and structural changes. [eval 9016]",
         "Defines local model population, time, market, source access, data maturity, privacy, owner, and review contracts. [eval 9016]",

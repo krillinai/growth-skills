@@ -93,7 +93,7 @@
     },
     {
       "id": 5916,
-      "prompt": "Use $ltv-analysis. Copy the US LTV model to Mainland China after converting USD to CNY. Assume identical customer entities, retention, payments, refunds, invoices, tax, channels, attribution, acquisition cost, data access, consent, product usage, support cost, and forecast calibration.",
+      "prompt": "Use $ltv-analysis. Copy the US LTV model to China after converting USD to CNY. Assume identical customer entities, retention, payments, refunds, invoices, tax, channels, attribution, acquisition cost, data access, consent, product usage, support cost, and forecast calibration.",
       "expected_output": "Rejects currency-only transfer, freezes a separate China LTV contract, requires local customer, value, retention, commercial, cost, attribution, data, and calibration evidence, and preserves shared versus local ownership.",
       "assertions": ["Does not copy the US model through currency conversion. [eval 5916]", "Separates market, language, locale, legal entity, product, customer, payer, and value unit. [eval 5916]", "Does not infer retention, payment, refund, invoice, tax, channel, attribution, cost, data, consent, usage, or support compatibility. [eval 5916]", "Requires local cohorts, horizons, currencies, costs, and forecast calibration. [eval 5916]", "Preserves unavailable platform, provider, legal, and commercial conditions. [eval 5916]", "Defines shared metric and evidence standards plus local owners. [eval 5916]", "Requires market-specific sensitivity and back-testing. [eval 5916]", "Makes no legal or provider claim. [eval 5916]"]
     },

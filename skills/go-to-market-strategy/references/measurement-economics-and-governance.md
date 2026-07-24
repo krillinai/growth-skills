@@ -50,7 +50,7 @@ Do not request payment credentials, protected traits, health or financial detail
 
 Revalidate customer and payer, job, alternatives, position, proof, product, offer, price, motion, route, channel, platform, app distribution, payment, invoice, tax, contract, identity, consent, data, storage, transfer, support, advertising, measurement, attribution, economics, source coverage, and owner by market.
 
-Translation and currency conversion do not validate a local GTM. For mainland China, use current direct sources and locally accountable review for time-sensitive platform, payment, app, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
+Translation and currency conversion do not validate a local GTM. For China, use current direct sources and locally accountable review for time-sensitive platform, payment, app, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## External Actions
 

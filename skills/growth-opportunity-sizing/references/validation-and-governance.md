@@ -27,7 +27,7 @@ For a refresh, version what changed and why. Preserve unchanged factors with evi
 
 Treat each market as a new evidence boundary. Re-establish customer and payer roles, eligibility, baseline, alternatives, product, channel, lifecycle, price, payment, invoice, currency, cost, contribution, support, capacity, trust, data, and local review. Translation, a local domain, or currency conversion does not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
 
 ## Protect People And Data
 

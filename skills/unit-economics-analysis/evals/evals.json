@@ -243,10 +243,10 @@
     },
     {
       "id": 6617,
-      "prompt": "Use $unit-economics-analysis. Translate our US SaaS CAC, LTV, margin, payback, payment, tax, invoice, attribution, retention, and cash assumptions into Chinese, convert USD to CNY at today's rate, and declare them valid for mainland China without local evidence or review.",
+      "prompt": "Use $unit-economics-analysis. Translate our US SaaS CAC, LTV, margin, payback, payment, tax, invoice, attribution, retention, and cash assumptions into Chinese, convert USD to CNY at today's rate, and declare them valid for China without local evidence or review.",
       "expected_output": "Rejects mechanical transfer, freezes a local market contract, and requests current locally accountable evidence and review.",
       "assertions": [
-        "Does not validate mainland China economics through translation and currency conversion. [eval 6617]",
+        "Does not validate China economics through translation and currency conversion. [eval 6617]",
         "Keeps market, language, locale, legal entity, customer, payer, product, and contract separate. [eval 6617]",
         "Requires local price, payment, tax, invoice, refund, service-cost, retention, and cash evidence. [eval 6617]",
         "Requires local channel, platform, attribution, identity, consent, storage, and transfer evidence. [eval 6617]",

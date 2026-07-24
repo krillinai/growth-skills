@@ -32,7 +32,7 @@ Treat each market as a new allocation and evidence boundary. Re-establish:
 - identity, consent, data source, storage, transfer, privacy, content, advertising, sector, and applicable review;
 - local baseline, target, forecast, evidence, marginal bands, capacity, risks, protected pools, owners, approvals, gates, expiry, stop, rollback, correction, and exit.
 
-Translation, a local language, currency conversion, or headquarters approval does not validate transfer. For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, costs, staffing, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, causal, or performance conclusions.
+Translation, a local language, currency conversion, or headquarters approval does not validate transfer. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, costs, staffing, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, causal, or performance conclusions.
 
 ## Protect People And Data
 

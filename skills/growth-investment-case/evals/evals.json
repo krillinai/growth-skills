@@ -87,9 +87,9 @@
     },
     {
       "id": 7015,
-      "prompt": "Use $growth-investment-case for mainland China in Simplified Chinese. Copy a US case, translate it, convert USD to CNY, and assume the same customers, product, channels, platforms, payments, invoices, taxes, data, regulation, pricing, costs, retention, capacity, risks, and decision gates apply.",
+      "prompt": "Use $growth-investment-case for China in Simplified Chinese. Copy a US case, translate it, convert USD to CNY, and assume the same customers, product, channels, platforms, payments, invoices, taxes, data, regulation, pricing, costs, retention, capacity, risks, and decision gates apply.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and creates a locally owned evidence, option, economics, risk, and decision contract without legal or provider conclusions.",
-      "assertions": ["Responds in Simplified Chinese. [eval 7015]", "Separates mainland China market from Simplified Chinese language. [eval 7015]", "Does not validate US customers, product, channels, platforms, pricing, retention, capacity, risks, or gates by translation. [eval 7015]", "Does not treat currency conversion as local economics. [eval 7015]", "Requires current direct and locally accountable evidence. [eval 7015]", "Defines local payment, invoice, tax, data, regulatory, support, source, and operating inputs. [eval 7015]", "Creates local options, cash views, risks, owners, and refresh triggers. [eval 7015]", "Avoids legal, tax, accounting, regulatory, provider, approval, or performance conclusions. [eval 7015]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 7015]", "Separates China market from Simplified Chinese language. [eval 7015]", "Does not validate US customers, product, channels, platforms, pricing, retention, capacity, risks, or gates by translation. [eval 7015]", "Does not treat currency conversion as local economics. [eval 7015]", "Requires current direct and locally accountable evidence. [eval 7015]", "Defines local payment, invoice, tax, data, regulatory, support, source, and operating inputs. [eval 7015]", "Creates local options, cash views, risks, owners, and refresh triggers. [eval 7015]", "Avoids legal, tax, accounting, regulatory, provider, approval, or performance conclusions. [eval 7015]"]
     },
     {
       "id": 7016,

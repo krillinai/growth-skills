@@ -75,4 +75,4 @@ Do not request direct identifiers, exact location, private messages, employee no
 
 Revalidate customer and payer entities, product, offer, contract, price, discount, channel, platform, attribution, acquisition, payment, invoice, tax, refund, currency, FX, revenue, costs, contribution, cash, retention, identity, consent, storage, transfer, source coverage, model calibration, and owner for every market.
 
-Translation and currency conversion do not validate a local model. For mainland China, use current direct sources and locally accountable review for time-sensitive platform, payment, app, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
+Translation and currency conversion do not validate a local model. For China, use current direct sources and locally accountable review for time-sensitive platform, payment, app, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.

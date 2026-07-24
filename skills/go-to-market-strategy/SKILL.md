@@ -126,7 +126,7 @@ Return:
 7. measurement, retained economics, uncertainty, target and forecast separation, portfolio, and next-scale decision;
 8. specialist handoffs, privacy, market transfer, governance, pinned Playbook sources, approval-ready actions, and completion record.
 
-For mainland China work, keep market, language, locale, legal entity, customer and payer, product and offer, position, price, motion, channel, platform, app distribution, payment, invoice, tax, contract, identity, consent, data, storage, transfer, support, content review, advertising, measurement, economics, source access, review, and local owner separate. Translation and currency conversion do not validate transferred GTM. Use current direct sources and locally accountable review; do not provide legal, tax, accounting, regulatory, or provider conclusions.
+For China work, keep market, language, locale, legal entity, customer and payer, product and offer, position, price, motion, channel, platform, app distribution, payment, invoice, tax, contract, identity, consent, data, storage, transfer, support, content review, advertising, measurement, economics, source access, review, and local owner separate. Translation and currency conversion do not validate transferred GTM. Use current direct sources and locally accountable review; do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## External-Action Boundary
 

@@ -50,7 +50,7 @@ Do not request payment credentials, tax IDs, protected traits, health or financi
 
 Revalidate market, language, locale, customer, role, job, category, product and version, alternatives, channel, platform, app distribution, frequency, price, payment, tax, invoice, currency, exchange rate, data source, identity, consent, storage, transfer, serviceability, reachability, capacity, and ownership.
 
-For mainland China, require current direct and locally accountable sources for time-sensitive product, platform, payment, app-store, data, advertising, and regulatory conditions. Translation and currency conversion do not validate a local market. Do not provide legal, tax, accounting, or compliance conclusions.
+For China, require current direct and locally accountable sources for time-sensitive product, platform, payment, app-store, data, advertising, and regulatory conditions. Translation and currency conversion do not validate a local market. Do not provide legal, tax, accounting, or compliance conclusions.
 
 ## Source And Model Governance
 

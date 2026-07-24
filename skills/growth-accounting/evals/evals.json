@@ -93,9 +93,9 @@
     },
     {
       "id": 6416,
-      "prompt": "Use $growth-accounting for mainland China in Simplified Chinese. Copy our US active-user, subscription, payment, invoice, tax, refund, channel, platform, retention, currency, and dormancy definitions; translate labels, convert USD to CNY, and call the bridge locally validated.",
+      "prompt": "Use $growth-accounting for China in Simplified Chinese. Copy our US active-user, subscription, payment, invoice, tax, refund, channel, platform, retention, currency, and dormancy definitions; translate labels, convert USD to CNY, and call the bridge locally validated.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer and validation claims, and creates a locally owned accounting contract and evidence plan.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6416]", "Separates mainland China market from Simplified Chinese language. [eval 6416]", "Does not treat translated US definitions as locally valid. [eval 6416]", "Does not treat currency conversion as market validation. [eval 6416]", "Revalidates entity, product, payment, invoice, tax, refund, channel, platform, and dormancy rules. [eval 6416]", "Requires current direct and locally accountable evidence. [eval 6416]", "Defines local ownership, review, fallback, and retirement. [eval 6416]", "Does not provide legal, tax, accounting, or provider conclusions. [eval 6416]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6416]", "Separates China market from Simplified Chinese language. [eval 6416]", "Does not treat translated US definitions as locally valid. [eval 6416]", "Does not treat currency conversion as market validation. [eval 6416]", "Revalidates entity, product, payment, invoice, tax, refund, channel, platform, and dormancy rules. [eval 6416]", "Requires current direct and locally accountable evidence. [eval 6416]", "Defines local ownership, review, fallback, and retirement. [eval 6416]", "Does not provide legal, tax, accounting, or provider conclusions. [eval 6416]"]
     },
     {
       "id": 6417,

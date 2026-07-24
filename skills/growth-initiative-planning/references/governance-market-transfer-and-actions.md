@@ -39,7 +39,7 @@ Treat each market as an independent evidence and operating boundary. Revalidate:
 
 Translation, a local domain, or currency conversion does not validate any of these. Preserve unavailable or contradictory local evidence and use current direct sources and accountable local expertise.
 
-For mainland China, explicitly distinguish market from Simplified Chinese language. Do not infer platform, app-store, provider, payment, invoice, data, consent, content, advertising, regulation, support, staffing, approval, or performance conditions. Avoid legal, tax, regulatory, accounting, or provider-availability conclusions.
+For China, explicitly distinguish market from Simplified Chinese language. Do not infer platform, app-store, provider, payment, invoice, data, consent, content, advertising, regulation, support, staffing, approval, or performance conditions. Avoid legal, tax, regulatory, accounting, or provider-availability conclusions.
 
 ## Protect People And Data
 

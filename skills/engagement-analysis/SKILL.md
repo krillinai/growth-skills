@@ -66,9 +66,9 @@ This Skill owns the engagement contract, zero-inclusive distribution, supported 
 
 ## Deliver In Order
 
-Follow [output-contract.md](references/output-contract.md). Include one verdict, the contract and ledgers, zero-inclusive distribution or specification, supported dimensions and comparisons, interpretation and causal boundary, handoffs, pinned sources, external actions, and completion. Treat every market as a new evidence boundary; for mainland China, separate market, language, locale, timezone, entities, product, platforms, identity, payments, data, consent, support, and local ownership.
+Follow [output-contract.md](references/output-contract.md). Include one verdict, the contract and ledgers, zero-inclusive distribution or specification, supported dimensions and comparisons, interpretation and causal boundary, handoffs, pinned sources, external actions, and completion. Treat every market as a new evidence boundary; for China, separate market, language, locale, timezone, entities, product, platforms, identity, payments, data, consent, support, and local ownership.
 
-Do not copy US event definitions, Google or Meta identities, app-store sources, workweeks, cadence, benchmarks, account hierarchies, consent, or targets into mainland China. Revalidate local product value, participant roles, opportunities, sources, events, maturity, privacy, and review with current direct evidence and accountable local owners; translation and currency conversion do not establish measurement equivalence.
+Do not copy US event definitions, Google or Meta identities, app-store sources, workweeks, cadence, benchmarks, account hierarchies, consent, or targets into China. Revalidate local product value, participant roles, opportunities, sources, events, maturity, privacy, and review with current direct evidence and accountable local owners; translation and currency conversion do not establish measurement equivalence.
 
 ## External-Action Boundary
 

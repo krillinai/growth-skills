@@ -86,7 +86,7 @@ Return:
 7. approval, anonymization, incentive, disclosure, localization, refresh, withdrawal, archive, and retirement controls;
 8. evidence requests, owners, review dates, specialist handoffs, pinned Playbook sources, and approval-ready external actions.
 
-For China work, keep Mainland China, language, locale, legal entity, customer, speaker, role, product, price, contract, metric, currency, tax, invoice, claim, quote, logo, screenshot, consent, usage right, translation, channel, platform, content review, identity, privacy, data access, storage, transfer, evidence source, applicable review, and local owner separate. Translation does not transfer customer permission, product applicability, metric meaning, channel rights, privacy notices, provider conditions, or regulated claims. Do not provide legal, medical, financial, tax, accounting, compliance, or provider conclusions.
+For China work, keep China, language, locale, legal entity, customer, speaker, role, product, price, contract, metric, currency, tax, invoice, claim, quote, logo, screenshot, consent, usage right, translation, channel, platform, content review, identity, privacy, data access, storage, transfer, evidence source, applicable review, and local owner separate. Translation does not transfer customer permission, product applicability, metric meaning, channel rights, privacy notices, provider conditions, or regulated claims. Do not provide legal, medical, financial, tax, accounting, compliance, or provider conclusions.
 
 ## External-Action Boundary
 

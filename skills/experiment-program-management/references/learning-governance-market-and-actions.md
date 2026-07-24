@@ -44,7 +44,7 @@ Define risk dimensions and required governance questions before naming tiers, th
 
 Treat each market as a new program and evidence boundary. Revalidate customer, product, surface, channel, app distribution, identity, eligibility, assignment, exposure, traffic, sensitivity, metrics, maturity, interference, holdouts, outcomes, guardrails, data, consent, storage, transfer, platform, vendor, staffing, support, calendars, sources, decision rights, approvals, and incident response.
 
-Translation or shared tooling does not validate transfer. For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, traffic, capacity, source access, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, regulatory, provider-availability, permissibility, approval, causal, or performance conclusions.
+Translation or shared tooling does not validate transfer. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, traffic, capacity, source access, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, regulatory, provider-availability, permissibility, approval, causal, or performance conclusions.
 
 ## Protect People And Data
 

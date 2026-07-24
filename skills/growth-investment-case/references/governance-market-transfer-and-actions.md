@@ -35,7 +35,7 @@ Treat each market as a new case boundary. Re-establish:
 - identity, consent, data source, storage, transfer, privacy, content, advertising, sector, and regulatory review;
 - local baseline, options, owners, sources, risk, gates, expiry, stop, rollback, and exit.
 
-Translation and currency conversion do not validate value, economics, risk, or readiness. For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, or performance conclusions.
+Translation and currency conversion do not validate value, economics, risk, or readiness. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, or performance conclusions.
 
 ## Protect People And Data
 

@@ -82,7 +82,7 @@ This Skill owns the benchmark question, reference classes, source and lineage le
 
 ## Deliver And Govern
 
-Follow [output-contract.md](references/output-contract.md). Respond in the user's requested language; use Simplified Chinese when requested. Treat every market as a new evidence boundary. For mainland China, separate market, language, locale, currency, timezone, legal entity, product, platforms, app distribution, identity, payment, invoice, tax and accounting basis, source, sample, consent, privacy, support, and local ownership. Translation and currency conversion do not validate transfer.
+Follow [output-contract.md](references/output-contract.md). Respond in the user's requested language; use Simplified Chinese when requested. Treat every market as a new evidence boundary. For China, separate market, language, locale, currency, timezone, legal entity, product, platforms, app distribution, identity, payment, invoice, tax and accounting basis, source, sample, consent, privacy, support, and local ownership. Translation and currency conversion do not validate transfer.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence and suppress unsafe small cells. Do not collect private contracts, raw customer or employee histories, health, financial, protected-trait, precise-location, private-message, or named performance data merely to enrich a peer set. Do not score or rank named people or companies for consequential pricing, service, employment, credit, insurance, or similar decisions.
 

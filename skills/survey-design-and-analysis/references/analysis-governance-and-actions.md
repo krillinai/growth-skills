@@ -74,7 +74,7 @@ Minimize collection, linkage, retention, access, exports, and reporting of perso
 
 Do not collect or expose health, income, precise location, protected traits, named ratings, or other consequential data without a necessary authorized purpose and controls. Do not use survey responses or inferred labels to score or rank named people for employment, pricing, service, credit, insurance, safety, or another consequential decision.
 
-For mainland China and every market transfer, separate market, language, locale, script, currency, legal entity, product, platform, channel, device, frame, recruitment, incentive, consent, privacy, retention, owner, and approval. Do not copy another market's instrument, sample, benchmark, weight, privacy terms, platform, or conclusion. Require current direct sources and locally accountable research, privacy, legal, security, and domain review. Do not make legal or compliance conclusions.
+For China and every market transfer, separate market, language, locale, script, currency, legal entity, product, platform, channel, device, frame, recruitment, incentive, consent, privacy, retention, owner, and approval. Do not copy another market's instrument, sample, benchmark, weight, privacy terms, platform, or conclusion. Require current direct sources and locally accountable research, privacy, legal, security, and domain review. Do not make legal or compliance conclusions.
 
 ## Approval-Ready External Actions
 

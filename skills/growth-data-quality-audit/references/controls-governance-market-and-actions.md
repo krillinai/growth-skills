@@ -45,7 +45,7 @@ Do not import generic reliability targets or create a provisional severity taxon
 
 Treat every market as a new product, entity, identity, eligibility, consent, source, event, metric, currency, accounting, payment, invoice, tax, data-flow, storage, transfer, retention, platform, vendor, calendar, latency, control, incident, owner, and approval boundary.
 
-Translation and currency conversion do not validate transfer. For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, sources, storage, transfer, vendors, calendars, costs, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, or quality conclusions.
+Translation and currency conversion do not validate transfer. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, sources, storage, transfer, vendors, calendars, costs, and locally accountable review. Use current direct sources and local expertise. Do not provide legal, tax, accounting, regulatory, provider-availability, approval, or quality conclusions.
 
 ## Protect People And Data
 

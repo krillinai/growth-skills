@@ -79,7 +79,7 @@ In `refresh`, preserve the prior postmortem and add the trigger, new evidence cu
 
 Treat every market as a new evidence and operating boundary. Revalidate customers, product, channels, platforms, app distribution, metrics, prices, costs, payments, invoices, data, consent, advertising, calendars, support, owners, causes, remedies, approvals, and transfer tests. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, lead times, evidence, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, consent, content, advertising, holidays, support, staffing, lead times, evidence, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence and suppress small groups. Do not expose credentials, private messages, payment details, health or financial data, protected traits, precise locations, employee reviews, compensation, ratings, or full histories. Do not rank individuals for consequential decisions.
 

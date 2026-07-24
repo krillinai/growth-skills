@@ -93,9 +93,9 @@
     },
     {
       "id": 6716,
-      "prompt": "Use $pricing-and-packaging-strategy for mainland China in Simplified Chinese. Copy our US segments, packages, prices, contracts, annual discounts, payment, tax, invoice, app-store, procurement, refund, research, elasticity, and migration assumptions; translate labels, convert USD to CNY, and call the strategy locally validated.",
+      "prompt": "Use $pricing-and-packaging-strategy for China in Simplified Chinese. Copy our US segments, packages, prices, contracts, annual discounts, payment, tax, invoice, app-store, procurement, refund, research, elasticity, and migration assumptions; translate labels, convert USD to CNY, and call the strategy locally validated.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer and validation claims, and creates a locally owned research, commercial, and migration contract.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6716]", "Separates mainland China market from Simplified Chinese language. [eval 6716]", "Does not treat translated US pricing as locally valid. [eval 6716]", "Does not treat currency conversion as market validation. [eval 6716]", "Revalidates segments, value, packages, price, contract, payment, tax, invoice, app-store, procurement, refund, research, and migration. [eval 6716]", "Requires current direct and locally accountable sources. [eval 6716]", "Defines local ownership, uncertainty, fallback, review, and retirement. [eval 6716]", "Does not provide legal, tax, accounting, regulatory, or provider conclusions. [eval 6716]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6716]", "Separates China market from Simplified Chinese language. [eval 6716]", "Does not treat translated US pricing as locally valid. [eval 6716]", "Does not treat currency conversion as market validation. [eval 6716]", "Revalidates segments, value, packages, price, contract, payment, tax, invoice, app-store, procurement, refund, research, and migration. [eval 6716]", "Requires current direct and locally accountable sources. [eval 6716]", "Defines local ownership, uncertainty, fallback, review, and retirement. [eval 6716]", "Does not provide legal, tax, accounting, regulatory, or provider conclusions. [eval 6716]"]
     },
     {
       "id": 6717,

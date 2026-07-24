@@ -79,7 +79,7 @@ Preserve prior inputs, assumptions, formulas, scenarios, risks, recommendation, 
 
 Treat each market as a new evidence boundary. Revalidate customers, value, product, channels, payments, invoices, tax, data, regulation, price, costs, contribution, cash, capacity, risks, sources, owners, and gates. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, accounting, regulatory, provider, approval, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, tax, data, content, advertising, support, source access, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, accounting, regulatory, provider, approval, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary data by default. Do not request sensitive data or rank people for consequential decisions when aggregate evidence is sufficient.
 

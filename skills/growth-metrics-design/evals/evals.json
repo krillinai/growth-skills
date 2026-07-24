@@ -164,11 +164,11 @@
     },
     {
       "id": 3611,
-      "prompt": "Use $growth-metrics-design for mainland China and respond in Simplified Chinese. Copy our US North Star, metric tree, activation and retention definitions, identity rules, source systems, targets, benchmarks, channel and platform assumptions, payment events, data access, and operating cadence. Translate the dashboard labels and treat the existing metric system as decision-ready locally without China-specific evidence.",
-      "expected_output": "Responds in native Simplified Chinese, treats mainland China as a new metric evidence boundary, rejects direct transfer, and returns a locally owned metric-contract, source, quality, target, guardrail, and validation plan without legal or platform conclusions.",
+      "prompt": "Use $growth-metrics-design for China and respond in Simplified Chinese. Copy our US North Star, metric tree, activation and retention definitions, identity rules, source systems, targets, benchmarks, channel and platform assumptions, payment events, data access, and operating cadence. Translate the dashboard labels and treat the existing metric system as decision-ready locally without China-specific evidence.",
+      "expected_output": "Responds in native Simplified Chinese, treats China as a new metric evidence boundary, rejects direct transfer, and returns a locally owned metric-contract, source, quality, target, guardrail, and validation plan without legal or platform conclusions.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 3611]",
-        "Separates mainland China market from Simplified Chinese language. [eval 3611]",
+        "Separates China market from Simplified Chinese language. [eval 3611]",
         "Does not transfer the US North Star or metric tree as decision-ready. [eval 3611]",
         "Does not transfer US activation, retention, identity, target, or benchmark contracts. [eval 3611]",
         "Does not assume US source systems, channels, platforms, payments, or data access apply. [eval 3611]",

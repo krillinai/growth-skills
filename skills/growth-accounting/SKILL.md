@@ -103,7 +103,7 @@ Return:
 7. governance, refresh, revision, privacy, market-transfer, and specialist handoffs;
 8. pinned Playbook sources, approval-ready external actions, and completion record.
 
-For mainland China work, keep market, language, customer and payer entities, product, contract, plan, price, payment, invoice, tax, refund, currency, channel, platform, attribution, identity, data, consent, storage, transfer, source access, dormancy, accounting, review, and local owner separate. Translation and currency conversion do not validate a transferred accounting model. Use current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
+For China work, keep market, language, customer and payer entities, product, contract, plan, price, payment, invoice, tax, refund, currency, channel, platform, attribution, identity, data, consent, storage, transfer, source access, dormancy, accounting, review, and local owner separate. Translation and currency conversion do not validate a transferred accounting model. Use current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## External-Action Boundary
 

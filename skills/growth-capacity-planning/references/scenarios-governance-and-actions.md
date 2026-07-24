@@ -53,7 +53,7 @@ Define participant sides, local network, geography, time, product, listing or in
 
 Revalidate customer, product, market, platforms, demand, workload, calendars, skills, providers, vendors, costs, holidays, lead times, support, service, data access, privacy, owners, and evidence in each market.
 
-For mainland China, separate legal entity, language, locale, currency, timezone, product, app distribution, identity, payment, invoice, data, consent, privacy, staffing, vendors, holidays, support, and local review. Use current direct evidence and locally accountable expertise. Do not copy US ratios, providers, service levels, calendars, or capacity targets. Translation and currency conversion are not operational validation. Avoid legal, labor, tax, regulatory, provider, approval, accounting, or performance conclusions.
+For China, separate legal entity, language, locale, currency, timezone, product, app distribution, identity, payment, invoice, data, consent, privacy, staffing, vendors, holidays, support, and local review. Use current direct evidence and locally accountable expertise. Do not copy US ratios, providers, service levels, calendars, or capacity targets. Translation and currency conversion are not operational validation. Avoid legal, labor, tax, regulatory, provider, approval, accounting, or performance conclusions.
 
 ## Workforce Privacy And Fairness
 

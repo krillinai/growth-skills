@@ -81,9 +81,9 @@
     },
     {
       "id": 7414,
-      "prompt": "Use $growth-target-setting for mainland China in Simplified Chinese. Copy our US targets, benchmark ranges, customer definitions, channel mix, platform assumptions, prices, costs, data access, and cadence; translate labels and convert USD to CNY.",
-      "expected_output": "Responds in Simplified Chinese, treats mainland China as a separate evidence boundary, and rebuilds targets from local customer, metric, forecast, capacity, economic, and governance evidence.",
-      "assertions": ["Responds in Simplified Chinese. [eval 7414]", "Separates mainland China market from Simplified Chinese language. [eval 7414]", "Does not transfer US targets, benchmarks, customers, channels, platforms, prices, or costs as facts. [eval 7414]", "Does not treat currency conversion as local economics. [eval 7414]", "Requires current direct and locally accountable evidence. [eval 7414]", "Defines local metric, product, platform, payment, invoice, data, support, and capacity contracts. [eval 7414]", "Avoids legal, tax, regulatory, provider, or performance conclusions. [eval 7414]", "Creates local owners, guardrails, review, and reset triggers. [eval 7414]"]
+      "prompt": "Use $growth-target-setting for China in Simplified Chinese. Copy our US targets, benchmark ranges, customer definitions, channel mix, platform assumptions, prices, costs, data access, and cadence; translate labels and convert USD to CNY.",
+      "expected_output": "Responds in Simplified Chinese, treats China as a separate evidence boundary, and rebuilds targets from local customer, metric, forecast, capacity, economic, and governance evidence.",
+      "assertions": ["Responds in Simplified Chinese. [eval 7414]", "Separates China market from Simplified Chinese language. [eval 7414]", "Does not transfer US targets, benchmarks, customers, channels, platforms, prices, or costs as facts. [eval 7414]", "Does not treat currency conversion as local economics. [eval 7414]", "Requires current direct and locally accountable evidence. [eval 7414]", "Defines local metric, product, platform, payment, invoice, data, support, and capacity contracts. [eval 7414]", "Avoids legal, tax, regulatory, provider, or performance conclusions. [eval 7414]", "Creates local owners, guardrails, review, and reset triggers. [eval 7414]"]
     },
     {
       "id": 7415,

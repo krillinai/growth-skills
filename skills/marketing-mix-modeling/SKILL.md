@@ -78,7 +78,7 @@ Preserve model, dataset, outcome, source, transformation, prior, calibration, re
 
 ## Handle Markets, Privacy, And Actions
 
-Treat every market as a new product, channel, platform, outcome, currency, calendar, cost, source, structural, calibration, and governance boundary. For mainland China, distinguish market, legal entity, language, locale, currency, timezone, product, platform, app distribution, payment, invoice, data, consent, privacy, media sources, holidays, and locally accountable review. Translation and currency conversion do not validate model transfer. Avoid legal, tax, regulatory, provider, accounting, approval, causal, or performance conclusions.
+Treat every market as a new product, channel, platform, outcome, currency, calendar, cost, source, structural, calibration, and governance boundary. For China, distinguish market, legal entity, language, locale, currency, timezone, product, platform, app distribution, payment, invoice, data, consent, privacy, media sources, holidays, and locally accountable review. Translation and currency conversion do not validate model transfer. Avoid legal, tax, regulatory, provider, accounting, approval, causal, or performance conclusions.
 
 Use aggregate, redacted, minimum-necessary, and small-cell-suppressed data. MMM normally does not require names, direct identifiers, messages, precise locations, protected traits, health, compensation, payment details, private content, or full histories. Do not score people, target vulnerable groups, deny offers, set individual prices, or export person-level data.
 

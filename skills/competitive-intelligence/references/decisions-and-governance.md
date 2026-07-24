@@ -53,7 +53,7 @@ Keep customer, employee, sales, vendor, partner, analyst, public, and modeled ev
 
 Revalidate the alternative set and every decision-changing state by market. Keep country or region, language, locale, customer role, job, category, product and offer version, platform and app access, price, currency, tax, payment, channel, partner, proof, trust, support, contract, identity, consent, data, storage, transfer, review, and local owner separate.
 
-For mainland China, require current direct sources and locally accountable review for time-sensitive product, platform, payment, data, advertising, and regulatory conditions. Do not assume that a global page, translated matrix, currency conversion, overseas app listing, or provider announcement proves local availability or permission. Do not provide legal, tax, accounting, or compliance conclusions.
+For China, require current direct sources and locally accountable review for time-sensitive product, platform, payment, data, advertising, and regulatory conditions. Do not assume that a global page, translated matrix, currency conversion, overseas app listing, or provider announcement proves local availability or permission. Do not provide legal, tax, accounting, or compliance conclusions.
 
 ## Operating Cadence
 

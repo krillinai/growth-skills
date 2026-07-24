@@ -96,7 +96,7 @@ Return:
 7. moderation, volunteer, staffing, platform, commercial, data, incident, migration, and governance controls;
 8. dependency-ordered roadmap, owners, stop rules, completion proof, specialist handoffs, and pinned Playbook sources.
 
-For China work, keep Mainland China, language, locale, legal entity, participant, customer, product, community type, platform, account, group or space, discovery, invitation, message classification, content, moderation, payment, sponsor, identity, consent, data access, storage, transfer, hosting, export, support, evidence source, applicable review, and local owner separate. Do not infer WeChat, WeCom, Xiaohongshu, Douyin, Zhihu, Bilibili, or another provider's access, limits, behavior, data, payment, moderation, or permission from translation or market alone. Do not provide legal, tax, accounting, clinical, or provider conclusions.
+For China work, keep China, language, locale, legal entity, participant, customer, product, community type, platform, account, group or space, discovery, invitation, message classification, content, moderation, payment, sponsor, identity, consent, data access, storage, transfer, hosting, export, support, evidence source, applicable review, and local owner separate. Do not infer WeChat, WeCom, Xiaohongshu, Douyin, Zhihu, Bilibili, or another provider's access, limits, behavior, data, payment, moderation, or permission from translation or market alone. Do not provide legal, tax, accounting, clinical, or provider conclusions.
 
 ## External-Action Boundary
 

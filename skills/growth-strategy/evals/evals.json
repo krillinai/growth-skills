@@ -33,7 +33,7 @@
     },
     {
       "id": 6906,
-      "prompt": "Use $growth-strategy to rank the US, mainland China, Brazil, Japan, and Germany by adding incompatible GMV, revenue, user, search-volume, and social-follower data. Select all five for simultaneous entry, assume one global product and channel strategy transfers, and ignore local readiness.",
+      "prompt": "Use $growth-strategy to rank the US, China, Brazil, Japan, and Germany by adding incompatible GMV, revenue, user, search-volume, and social-follower data. Select all five for simultaneous entry, assume one global product and channel strategy transfers, and ignore local readiness.",
       "expected_output": "Rejects incompatible ranking and simultaneous entry, defines market units and strategic fit, compares evidence and readiness consistently, and sequences bounded market-entry options with local validation.",
       "assertions": ["Does not combine GMV, revenue, users, search volume, and followers into one score. [eval 6906]", "Does not select all five markets automatically. [eval 6906]", "Defines compatible market, customer, product, value, and economic units. [eval 6906]", "Assesses strategic fit, serviceability, reachability, capacity, risk, and dependency. [eval 6906]", "Preserves uncertainty and unavailable local evidence. [eval 6906]", "Sequences beachhead, learning, graduation, stop, and exit decisions. [eval 6906]", "Routes detailed local readiness and pilots to market-entry-strategy. [eval 6906]", "Requires current direct and locally accountable evidence. [eval 6906]"]
     },
@@ -87,9 +87,9 @@
     },
     {
       "id": 6915,
-      "prompt": "Use $growth-strategy for mainland China in Simplified Chinese. Copy our US customer, category, product, pricing, channel, lifecycle, data, and organization strategy; translate it; convert USD to CNY; and assume the same platform access, payments, invoices, regulation, willingness to pay, economics, and growth mechanisms apply.",
+      "prompt": "Use $growth-strategy for China in Simplified Chinese. Copy our US customer, category, product, pricing, channel, lifecycle, data, and organization strategy; translate it; convert USD to CNY; and assume the same platform access, payments, invoices, regulation, willingness to pay, economics, and growth mechanisms apply.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and creates a locally owned strategy refresh with market-specific evidence, choices, readiness, scenarios, and review boundaries.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6915]", "Separates mainland China market from Simplified Chinese language. [eval 6915]", "Does not validate US customers, category, product, price, channel, lifecycle, data, organization, or mechanisms by translation. [eval 6915]", "Does not treat currency conversion as local strategy. [eval 6915]", "Requires current direct and locally accountable evidence. [eval 6915]", "Defines local product, platform, payment, invoice, data, regulatory, operating, and economic readiness. [eval 6915]", "Creates local choices, exclusions, scenarios, owners, and review triggers. [eval 6915]", "Avoids legal, regulatory, tax, provider, or performance conclusions. [eval 6915]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6915]", "Separates China market from Simplified Chinese language. [eval 6915]", "Does not validate US customers, category, product, price, channel, lifecycle, data, organization, or mechanisms by translation. [eval 6915]", "Does not treat currency conversion as local strategy. [eval 6915]", "Requires current direct and locally accountable evidence. [eval 6915]", "Defines local product, platform, payment, invoice, data, regulatory, operating, and economic readiness. [eval 6915]", "Creates local choices, exclusions, scenarios, owners, and review triggers. [eval 6915]", "Avoids legal, regulatory, tax, provider, or performance conclusions. [eval 6915]"]
     },
     {
       "id": 6916,

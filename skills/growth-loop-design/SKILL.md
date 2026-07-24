@@ -1,6 +1,6 @@
 ---
 name: growth-loop-design
-description: Use when a team needs to audit, measure, or design a growth loop, referral loop, collaboration loop, content or UGC loop, marketplace or network loop, data loop, paid reinvestment loop, or sales-capacity loop; distinguish a loop from a funnel or flywheel; define virality, K-factor, cycle-time, retention-adjusted propagation, or loop-sourced growth metrics; diagnose why a loop does not close; or create an evidence-bounded validation plan. Do not use for uploading contacts, sending invitations, issuing rewards, changing products or tracking, buying media, or launching experiments.
+description: Use when a team needs to audit, measure, diagnose, or design a growth, referral, collaboration, content, marketplace, network, data, reinvestment, or sales-capacity loop; distinguish loops from funnels; define propagation and cycle metrics; identify why a loop does not close; or create an evidence-bounded validation plan. Do not use for contact uploads, invitations, rewards, product or tracking changes, media buying, or experiment launches.
 ---
 
 # Growth Loop Design
@@ -66,7 +66,7 @@ Route causal tests to `experiment-design`, transition analysis to `funnel-analys
 
 Treat every market as a new loop evidence boundary. Revalidate participants, jobs, value exchange, eligible source population, action, output, next input, response, realized and retained value, re-entry, identity, channels, permissions, incentives, payments, abuse, capacity, saturation, economics, sources, and owners. Translation, currency conversion, or a familiar mechanism does not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, account, consent, incentive, payment, invoice, data, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, causal, or performance conclusions. Keep the verdict `hypothesis` or `partially observed` until compatible local closure evidence supports another state.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, account, consent, incentive, payment, invoice, data, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, causal, or performance conclusions. Keep the verdict `hypothesis` or `partially observed` until compatible local closure evidence supports another state.
 
 ## Deliver In Order
 

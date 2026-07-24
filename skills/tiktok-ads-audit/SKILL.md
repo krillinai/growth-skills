@@ -1,6 +1,6 @@
 ---
 name: tiktok-ads-audit
-description: Use when a team needs a read-only audit of supplied international TikTok Ads Manager exports, campaign and ad-group structure, short-video or image creative inventories, Spark Ads identity and authorization evidence, creative fatigue signals, landing or app continuity, Pixel, Events API, MMP or attribution evidence, aggregated business outcomes, or a reported TikTok Ads performance change. Do not use for Douyin or Ocean Engine audits, live account access, publishing, pausing, authorization-code handling, audience uploads, bid changes, or budget changes.
+description: Use when a team needs a read-only audit of supplied international TikTok Ads evidence, including campaign structure, creative, Spark Ads identity and authorization, fatigue, destinations, Pixel, Events API, MMP or attribution evidence, business outcomes, or performance changes. Do not use for Douyin or Ocean Engine, live account access, publishing, authorization-code handling, audience uploads, bids, or budgets.
 ---
 
 # TikTok Ads Audit

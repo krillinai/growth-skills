@@ -46,7 +46,7 @@ Invite people because they own evidence, a decision, approval, risk, or commitme
 
 Treat each market as a separate evidence boundary. Revalidate customers, definitions, baselines, cohorts, targets, forecasts, channels, platforms, prices, payments, invoices, economics, capacity, risks, data access, source freshness, owners, and cadence. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Avoid legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Avoid legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
 
 ## Protect People And Data
 

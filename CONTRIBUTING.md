@@ -1,0 +1,50 @@
+# Contributing
+
+Growth Skills accepts focused Agent Skills that solve a clear growth or marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases.
+
+## Repository Structure
+
+Keep Skill directories flat and independently installable:
+
+```text
+skills/<skill-name>/
+├── SKILL.md
+├── agents/openai.yaml
+├── evals/evals.json
+└── references/
+```
+
+Add `scripts/` only for deterministic or repeatedly implemented operations. Add `assets/` only when the Skill directly uses those files in its output. Do not add a README, changelog, installation guide, or other process documentation inside a Skill directory.
+
+## Skill Requirements
+
+- Use a short lowercase hyphenated name that describes the recognizable job.
+- Keep YAML frontmatter to `name` and `description` only.
+- Make the trigger description specific enough to distinguish adjacent Skills.
+- State the primary modes, required inputs, evidence states, outputs, external-action boundary, and completion gate.
+- Treat missing private evidence as `unavailable`; do not invent it or penalize its absence.
+- Use `China` or `中国` consistently for the market name.
+- Keep market, language, locale, platform, account, permissions, data, and current rules separate.
+- Pin attributable Growth Playbook sources when the Skill derives material methods from the Playbook.
+- Add pressure cases that test missing evidence, incompatible data, market transfer, false precision, authority boundaries, and prohibited external actions.
+
+## Catalog And Status
+
+Every Skill must appear exactly once in `catalog/taxonomy.json` and once in `catalog/skills.json`. New Skills start as `experimental`. Promote a Skill only after its structure, eval specification, and realistic forward tests support the new status.
+
+Update English and Simplified Chinese catalog names and descriptions in `catalog/skills.json`. Do not edit generated README tables directly.
+
+## Validation
+
+Run:
+
+```bash
+python3 tooling/generate_readme_catalog.py
+python3 tooling/validate_repo.py
+```
+
+The validator checks Skill structure, Agent metadata, local references, eval shape and global IDs, catalog coverage, taxonomy, bundles, Playbook revision records, generated README freshness, China terminology, and executable validator tests.
+
+## Pull Requests
+
+Keep one Skill or one collection-level structural change per pull request where practical. Explain the user job, boundary with adjacent Skills, reusable resources, evaluation coverage, Playbook basis, and validation performed.

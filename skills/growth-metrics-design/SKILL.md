@@ -73,7 +73,7 @@ Arithmetic decomposition does not establish causality. Correlation does not beco
 
 Treat every market as a new metric evidence boundary. Revalidate customer and payer value, entities, eligibility, events, formulas, identity, windows, cohorts, maturity, segments, sources, lineage, quality, targets, benchmarks, guardrails, business health, owners, and decision rules. Translation, a copied dashboard, or a familiar metric name does not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data source, consent, storage and transfer, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, accounting, causal, or performance conclusions. Keep the system `partially specified` or `hypothesis` until compatible local contracts and evidence support another verdict.
+For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data source, consent, storage and transfer, content, advertising, support, and locally accountable review. When Simplified Chinese is requested, respond in native Simplified Chinese. Use current direct sources and local expertise; do not infer provider availability or make legal, tax, regulatory, accounting, causal, or performance conclusions. Keep the system `partially specified` or `hypothesis` until compatible local contracts and evidence support another verdict.
 
 ## Route Specialist Work
 

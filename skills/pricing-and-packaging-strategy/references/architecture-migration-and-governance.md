@@ -70,7 +70,7 @@ Do not use protected traits, health or financial vulnerability, exact location, 
 
 Revalidate customer and payer roles, job, alternatives, value, package, metric, price, currency, billing, commitment, contract, discount, payment, tax, invoice, refund, channel, app distribution, procurement, data, research validity, economics, fairness, migration, source access, and owner for every market.
 
-Translation and currency conversion do not validate transfer. For mainland China, use current direct sources and locally accountable review for time-sensitive platform, payment, app-store, invoicing, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
+Translation and currency conversion do not validate transfer. For China, use current direct sources and locally accountable review for time-sensitive platform, payment, app-store, invoicing, data, advertising, and provider conditions. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## Specialist Routing
 

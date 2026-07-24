@@ -75,9 +75,9 @@
     },
     {
       "id": 7313,
-      "prompt": "Use $growth-operating-review for mainland China in Simplified Chinese. Copy the US metric definitions, targets, channels, prices, platform assumptions, reporting cadence, data access, and benchmarks; translate labels and convert USD to CNY.",
-      "expected_output": "Responds in Simplified Chinese, treats mainland China as a separate evidence boundary, and revalidates local metrics, operations, economics, sources, and governance.",
-      "assertions": ["Responds in Simplified Chinese. [eval 7313]", "Separates mainland China market from Simplified Chinese language. [eval 7313]", "Does not transfer US metrics, targets, channels, prices, platforms, or benchmarks as facts. [eval 7313]", "Does not treat currency conversion as local economics. [eval 7313]", "Requires current direct and locally accountable evidence. [eval 7313]", "Defines local product, platform, payment, invoice, data, support, and reporting readiness. [eval 7313]", "Avoids legal, tax, regulatory, provider, or performance conclusions. [eval 7313]", "Creates local owners, source freshness, review, and escalation boundaries. [eval 7313]"]
+      "prompt": "Use $growth-operating-review for China in Simplified Chinese. Copy the US metric definitions, targets, channels, prices, platform assumptions, reporting cadence, data access, and benchmarks; translate labels and convert USD to CNY.",
+      "expected_output": "Responds in Simplified Chinese, treats China as a separate evidence boundary, and revalidates local metrics, operations, economics, sources, and governance.",
+      "assertions": ["Responds in Simplified Chinese. [eval 7313]", "Separates China market from Simplified Chinese language. [eval 7313]", "Does not transfer US metrics, targets, channels, prices, platforms, or benchmarks as facts. [eval 7313]", "Does not treat currency conversion as local economics. [eval 7313]", "Requires current direct and locally accountable evidence. [eval 7313]", "Defines local product, platform, payment, invoice, data, support, and reporting readiness. [eval 7313]", "Avoids legal, tax, regulatory, provider, or performance conclusions. [eval 7313]", "Creates local owners, source freshness, review, and escalation boundaries. [eval 7313]"]
     },
     {
       "id": 7314,

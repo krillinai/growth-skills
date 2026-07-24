@@ -41,7 +41,7 @@ Revalidate for every market:
 
 Translation, a local domain, or currency conversion does not validate a cause, lesson, remedy, benchmark, or rollout conclusion.
 
-For mainland China, distinguish market, legal entity, Simplified Chinese language, locale, product, platform, app store, identity, payment, invoice, data, consent, storage, transfer, content, advertising, holidays, support, staffing, cost, lead time, source access, approval, and locally accountable review. Require current direct sources and local expertise for time-sensitive conditions. Do not provide legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
+For China, distinguish market, legal entity, Simplified Chinese language, locale, product, platform, app store, identity, payment, invoice, data, consent, storage, transfer, content, advertising, holidays, support, staffing, cost, lead time, source access, approval, and locally accountable review. Require current direct sources and local expertise for time-sensitive conditions. Do not provide legal, tax, regulatory, provider-availability, accounting, causal, approval, or performance conclusions.
 
 ## External Actions
 

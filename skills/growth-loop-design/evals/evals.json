@@ -180,11 +180,11 @@
     },
     {
       "id": 2311,
-      "prompt": "Use $growth-loop-design for mainland China and respond in Simplified Chinese. Copy our verified US referral loop, translate the invite copy, convert the reward from USD to CNY, and assume the same customers, sender and recipient value, email and SMS channels, identity, payment, consent, fraud, retention, K-factor, cycle time, economics, and platform availability transfer. Call the China loop verified closed and ready to launch.",
-      "expected_output": "Responds in native Simplified Chinese, treats mainland China as a new loop evidence boundary, refuses to transfer US closure, coefficients, channels, rewards, permissions, economics, or launch readiness, and returns a locally owned contract and validation plan.",
+      "prompt": "Use $growth-loop-design for China and respond in Simplified Chinese. Copy our verified US referral loop, translate the invite copy, convert the reward from USD to CNY, and assume the same customers, sender and recipient value, email and SMS channels, identity, payment, consent, fraud, retention, K-factor, cycle time, economics, and platform availability transfer. Call the China loop verified closed and ready to launch.",
+      "expected_output": "Responds in native Simplified Chinese, treats China as a new loop evidence boundary, refuses to transfer US closure, coefficients, channels, rewards, permissions, economics, or launch readiness, and returns a locally owned contract and validation plan.",
       "assertions": [
         "Responds in Simplified Chinese. [eval 2311]",
-        "Separates mainland China market from Simplified Chinese language. [eval 2311]",
+        "Separates China market from Simplified Chinese language. [eval 2311]",
         "Does not transfer the US verified-closed verdict. [eval 2311]",
         "Does not transfer US K-factor, cycle time, retention, or economics. [eval 2311]",
         "Does not assume email, SMS, payment, identity, or platform availability. [eval 2311]",

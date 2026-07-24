@@ -79,7 +79,7 @@ In `reallocate`, preserve the prior version and create an explicit bridge. Immat
 
 ## Govern Markets, People, And Actions
 
-Treat every market as a new customer, product, channel, platform, metric, economic, cash, capacity, risk, operating, evidence, owner, and approval boundary. Translation and currency conversion do not validate transfer. For mainland China, require current direct sources and locally accountable expertise while avoiding legal, tax, accounting, regulatory, provider-availability, approval, causal, or performance conclusions.
+Treat every market as a new customer, product, channel, platform, metric, economic, cash, capacity, risk, operating, evidence, owner, and approval boundary. Translation and currency conversion do not validate transfer. For China, require current direct sources and locally accountable expertise while avoiding legal, tax, accounting, regulatory, provider-availability, approval, causal, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence. Do not expose credentials, payment details, private messages, health or financial data, protected traits, precise locations, employee reviews, compensation, ratings, raw identities, or complete histories. Do not rank individuals for budget, pricing, targeting, service, credit, or employment decisions.
 

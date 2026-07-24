@@ -91,7 +91,7 @@ Keep attendance tied to decision rights. A review is not successful because ever
 
 Treat every market as a new evidence boundary. Revalidate definitions, baselines, cohorts, targets, forecasts, channels, prices, economics, source access, operating capacity, risks, and owners. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence by default. Do not expose credentials, payment details, private messages, health data, protected traits, precise locations, raw identities, employee records, or full histories when bounded aggregates suffice. Do not rank individuals for consequential pricing, employment, credit, insurance, health, housing, or similar decisions.
 

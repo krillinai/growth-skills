@@ -86,7 +86,7 @@ Preserve every target version, basis, approval, effective period, actual, miss, 
 
 Treat every market as a new evidence boundary. Revalidate customer value, metric contracts, baselines, forecasts, opportunities, channels, prices, costs, capacity, guardrails, source access, owners, and review rules. Translation and currency conversion do not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, product, platform, app distribution, identity, payment, invoice, data, content, advertising, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, tax, regulatory, provider-availability, accounting, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary evidence by default. Do not request credentials, private messages, payment histories, health data, protected traits, precise locations, raw identities, employee reviews, or full histories when aggregate evidence suffices. Do not set individual customer targets or rank people for consequential pricing, employment, credit, insurance, health, housing, or similar decisions.
 

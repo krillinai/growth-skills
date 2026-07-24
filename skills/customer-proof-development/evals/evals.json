@@ -93,9 +93,9 @@
     },
     {
       "id": 6216,
-      "prompt": "Use $customer-proof-development for Mainland China in Simplified Chinese. Translate US case studies, names, logos, quotes, prices, ROI, legal claims, screenshots, permissions, privacy notices, and channel approvals. Assume every proof item and consent transfers to China and every platform.",
+      "prompt": "Use $customer-proof-development for China in Simplified Chinese. Translate US case studies, names, logos, quotes, prices, ROI, legal claims, screenshots, permissions, privacy notices, and channel approvals. Assume every proof item and consent transfers to China and every platform.",
       "expected_output": "Responds in Simplified Chinese, rejects translation-only transfer, and creates a China-specific proof, rights, customer, product, metric, privacy, channel, and accountable-review contract.",
-      "assertions": ["Responds in Simplified Chinese. [eval 6216]", "Separates Mainland China market from Simplified Chinese language. [eval 6216]", "Does not transfer names, logos, quotes, screenshots, prices, ROI, or legal claims automatically. [eval 6216]", "Does not transfer consent, privacy notice, channel, or platform approval automatically. [eval 6216]", "Requires current customer, product, metric, market, channel, and usage verification. [eval 6216]", "Requires item-specific rights, translation approval, data, and local review. [eval 6216]", "Preserves unavailable provider and legal conditions. [eval 6216]", "Does not provide legal, tax, accounting, or provider conclusions. [eval 6216]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 6216]", "Separates China market from Simplified Chinese language. [eval 6216]", "Does not transfer names, logos, quotes, screenshots, prices, ROI, or legal claims automatically. [eval 6216]", "Does not transfer consent, privacy notice, channel, or platform approval automatically. [eval 6216]", "Requires current customer, product, metric, market, channel, and usage verification. [eval 6216]", "Requires item-specific rights, translation approval, data, and local review. [eval 6216]", "Preserves unavailable provider and legal conditions. [eval 6216]", "Does not provide legal, tax, accounting, or provider conclusions. [eval 6216]"]
     },
     {
       "id": 6217,

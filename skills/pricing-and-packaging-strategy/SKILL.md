@@ -97,7 +97,7 @@ Return:
 7. migration or validation plan with cohorts, exposure, approvals, communication handoffs, measurement, stop, rollback, correction, refresh, and retirement;
 8. specialist handoffs, pinned Playbook sources, approval-ready external actions, and completion record.
 
-For mainland China work, keep market, language, locale, legal entity, customer and payer, product, offer, package, price, currency, channel, platform, app distribution, contract, payment, invoice, tax, refund, procurement, identity, consent, data, storage, transfer, research, costs, source access, migration, review, and local owner separate. Translation and currency conversion do not validate transferred pricing. Use current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
+For China work, keep market, language, locale, legal entity, customer and payer, product, offer, package, price, currency, channel, platform, app distribution, contract, payment, invoice, tax, refund, procurement, identity, consent, data, storage, transfer, research, costs, source access, migration, review, and local owner separate. Translation and currency conversion do not validate transferred pricing. Use current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## External-Action Boundary
 

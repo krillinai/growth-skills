@@ -109,7 +109,7 @@ Return:
 7. uncertainty, sensitivity, forecast calibration, targets, benchmarks, thresholds, triggers, counterevidence, and decision states;
 8. specialist handoffs, governance, refresh and expiry, pinned Playbook sources, approval-ready external actions, and completion record.
 
-For mainland China work, keep market, language, locale, legal entity, customer and payer, product, offer, contract, price, discount, channel, platform, attribution, acquisition, payment, invoice, tax, refund, currency, exchange rate, revenue, cost, contribution, cash, identity, consent, storage, transfer, source access, model, review, and local owner separate. Translation and currency conversion do not validate a transferred economics model. Require current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
+For China work, keep market, language, locale, legal entity, customer and payer, product, offer, contract, price, discount, channel, platform, attribution, acquisition, payment, invoice, tax, refund, currency, exchange rate, revenue, cost, contribution, cash, identity, consent, storage, transfer, source access, model, review, and local owner separate. Translation and currency conversion do not validate a transferred economics model. Require current direct sources and locally accountable review for time-sensitive conditions; do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## External-Action Boundary
 

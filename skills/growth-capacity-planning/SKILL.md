@@ -64,7 +64,7 @@ For people, account for calendars, leave, meetings, support, maintenance, incide
 
 Do not use invasive employee surveillance or consequential individual productivity scoring. Use aggregate, redacted, pseudonymous, minimum-necessary, and small-cell-suppressed evidence with purpose, accountable basis, access, retention, deletion, correction, audit, fairness, accessibility, employee-health, dissent, appeal, and independent-review controls.
 
-Treat every market as a new evidence and operating boundary. For mainland China, distinguish market, legal entity, language, locale, currency, timezone, product, platform, app distribution, identity, payment, invoice, data, consent, privacy, staffing, vendors, holidays, support, and locally accountable review. Translation, ratio reuse, or currency conversion does not validate transfer. Avoid legal, labor, tax, regulatory, provider, accounting, approval, or performance conclusions.
+Treat every market as a new evidence and operating boundary. For China, distinguish market, legal entity, language, locale, currency, timezone, product, platform, app distribution, identity, payment, invoice, data, consent, privacy, staffing, vendors, holidays, support, and locally accountable review. Translation, ratio reuse, or currency conversion does not validate transfer. Avoid legal, labor, tax, regulatory, provider, accounting, approval, or performance conclusions.
 
 ## Deliver And Stop At The Boundary
 

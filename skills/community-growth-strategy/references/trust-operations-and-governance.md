@@ -44,7 +44,7 @@ Do not sell member identities, prioritize safety by payment, convert every suppo
 
 Revalidate market, language, locale, platform, account ownership, product and app access, identity, membership, roles, content, moderation, consent, data access, storage, transfer, payment, sponsorship, events, notifications, integrations, exports, analytics, and operating ownership.
 
-For mainland China, use current direct platform sources and locally accountable review for time-sensitive provider, data, advertising, payment, event, and regulatory conditions. WeChat, WeCom, Xiaohongshu, Douyin, Bilibili, and other platforms have distinct products, permissions, content systems, data access, and operating models. Do not infer equivalence from translation or market label, and do not provide legal, tax, accounting, employment, or compliance conclusions.
+For China, use current direct platform sources and locally accountable review for time-sensitive provider, data, advertising, payment, event, and regulatory conditions. WeChat, WeCom, Xiaohongshu, Douyin, Bilibili, and other platforms have distinct products, permissions, content systems, data access, and operating models. Do not infer equivalence from translation or market label, and do not provide legal, tax, accounting, employment, or compliance conclusions.
 
 ## External Actions
 

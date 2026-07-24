@@ -1,0 +1,227 @@
+#!/usr/bin/env python3
+"""Generate bilingual README catalog sections from catalog JSON files."""
+
+from __future__ import annotations
+
+import argparse
+import html
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+CATALOG_DIR = ROOT / "catalog"
+
+
+def load_json(name: str) -> dict:
+    with (CATALOG_DIR / name).open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def skill_link(skill: dict, language: str) -> str:
+    label = skill[f"name_{language}"]
+    return f"[`{label}`]({skill['path']})"
+
+
+def table_name(value: str) -> str:
+    return html.escape(value).replace(" ", "&nbsp;")
+
+
+def chooser_section(
+    taxonomy: dict, skills_by_id: dict[str, dict], language: str
+) -> str:
+    if language == "en":
+        lines = [
+            "## Choose by job",
+            "",
+            "| When you need to... | Start with |",
+            "| --- | --- |",
+        ]
+    else:
+        lines = [
+            "## 按任务选择",
+            "",
+            "| 当你需要…… | 建议从这里开始 |",
+            "| --- | --- |",
+        ]
+
+    for category in taxonomy["categories"]:
+        job = category[f"job_{language}"]
+        links = ", ".join(
+            skill_link(skills_by_id[skill_id], language)
+            for skill_id in category["start_skills"]
+        )
+        lines.append(f"| {job} | {links} |")
+    return "\n".join(lines)
+
+
+def bundle_section(bundles: dict, language: str) -> str:
+    if language == "en":
+        lines = [
+            "## Focused bundles",
+            "",
+            "Install a focused bundle instead of loading the entire collection when the job is bounded.",
+            "",
+            "| Bundle | Description | Skills |",
+            "| --- | --- | ---: |",
+        ]
+    else:
+        lines = [
+            "## 精选组合",
+            "",
+            "任务边界明确时，建议安装精选组合，而不是一次加载整个集合。",
+            "",
+            "| 组合 | 说明 | Skill 数量 |",
+            "| --- | --- | ---: |",
+        ]
+
+    for bundle in bundles["bundles"]:
+        lines.append(
+            f"| `{bundle['id']}` · {bundle[f'name_{language}']} | "
+            f"{bundle[f'description_{language}']} | {len(bundle['skills'])} |"
+        )
+    return "\n".join(lines)
+
+
+def catalog_section(
+    taxonomy: dict, skills_by_id: dict[str, dict], language: str
+) -> str:
+    title = "## Skill Catalog" if language == "en" else "## 技能目录"
+    status_heading = "Status" if language == "en" else "状态"
+    skill_heading = "Skill" if language == "en" else "技能"
+    description_heading = "Description" if language == "en" else "说明"
+    status_labels = {
+        "experimental": "Experimental" if language == "en" else "实验性",
+        "beta": "Beta" if language == "en" else "测试版",
+        "stable": "Stable" if language == "en" else "稳定版",
+        "deprecated": "Deprecated" if language == "en" else "已弃用",
+    }
+    lines = [title, ""]
+
+    for category in taxonomy["categories"]:
+        lines.extend(
+            [
+                f"### {category[f'name_{language}']}",
+                "",
+                "<table>",
+                "  <thead>",
+                f'    <tr><th width="32%">{skill_heading}</th><th width="12%">{status_heading}</th><th>{description_heading}</th></tr>',
+                "  </thead>",
+                "  <tbody>",
+            ]
+        )
+        for skill_id in category["skills"]:
+            skill = skills_by_id[skill_id]
+            name = table_name(skill[f"name_{language}"])
+            description = html.escape(skill[f"description_{language}"])
+            status = status_labels.get(skill["status"], html.escape(skill["status"]))
+            lines.append(
+                f'    <tr><td><a href="{skill["path"]}">{name}</a></td>'
+                f"<td>{status}</td><td>{description}</td></tr>"
+            )
+        lines.extend(["  </tbody>", "</table>", ""])
+    return "\n".join(lines).rstrip()
+
+
+def integration_section(integrations: dict, language: str) -> str:
+    if language == "en":
+        lines = [
+            "## Companion integrations",
+            "",
+            "These related projects provide execution capabilities outside this repository.",
+            "",
+            "| Integration | Description |",
+            "| --- | --- |",
+        ]
+    else:
+        lines = [
+            "## 配套集成",
+            "",
+            "以下关联项目提供本仓库之外的执行能力。",
+            "",
+            "| 集成 | 说明 |",
+            "| --- | --- |",
+        ]
+
+    for integration in integrations["integrations"]:
+        lines.append(
+            f"| [{integration[f'name_{language}']}]({integration['url']}) | "
+            f"{integration[f'description_{language}']} |"
+        )
+    return "\n".join(lines)
+
+
+def generated_block(
+    taxonomy: dict,
+    catalog: dict,
+    bundles: dict,
+    integrations: dict,
+    language: str,
+) -> str:
+    skills_by_id = {skill["id"]: skill for skill in catalog["skills"]}
+    sections = [
+        chooser_section(taxonomy, skills_by_id, language),
+        bundle_section(bundles, language),
+        catalog_section(taxonomy, skills_by_id, language),
+        integration_section(integrations, language),
+    ]
+    return (
+        "<!-- BEGIN GENERATED: catalog -->\n"
+        + "\n\n".join(sections)
+        + "\n<!-- END GENERATED: catalog -->"
+    )
+
+
+def replace_block(text: str, block: str, language: str) -> str:
+    begin = "<!-- BEGIN GENERATED: catalog -->"
+    end = "<!-- END GENERATED: catalog -->"
+    if begin in text and end in text:
+        before, remainder = text.split(begin, 1)
+        _, after = remainder.split(end, 1)
+        return before.rstrip() + "\n\n" + block + "\n\n" + after.lstrip("\n")
+
+    start_heading = "## How to choose" if language == "en" else "## 如何选择"
+    end_heading = "## The Growth Lifecycle" if language == "en" else "## 增长全生命周期"
+    start = text.index(start_heading)
+    finish = text.index(end_heading)
+    return text[:start].rstrip() + "\n\n" + block + "\n\n" + text[finish:]
+
+
+def render(path: Path, language: str) -> str:
+    taxonomy = load_json("taxonomy.json")
+    catalog = load_json("skills.json")
+    bundles = load_json("bundles.json")
+    integrations = load_json("integrations.json")
+    block = generated_block(taxonomy, catalog, bundles, integrations, language)
+    return replace_block(path.read_text(encoding="utf-8"), block, language)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--check", action="store_true", help="Fail when generated README content is stale"
+    )
+    args = parser.parse_args()
+
+    targets = [(ROOT / "README.md", "en"), (ROOT / "README.zh-CN.md", "zh")]
+    stale = []
+    for path, language in targets:
+        expected = render(path, language)
+        current = path.read_text(encoding="utf-8")
+        if current != expected:
+            stale.append(path.name)
+            if not args.check:
+                path.write_text(expected, encoding="utf-8")
+
+    if stale and args.check:
+        print("Stale generated README content: " + ", ".join(stale))
+        return 1
+    if stale:
+        print("Updated generated README content: " + ", ".join(stale))
+    else:
+        print("Generated README content is current")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

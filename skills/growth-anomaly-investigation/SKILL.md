@@ -92,7 +92,7 @@ Preserve the frozen contract, required inputs, decision, owner, maturity, expect
 
 Treat each market as a new metric, source, calendar, product, platform, identity, payment, release, data-latency, fraud, benchmark, and expected-variation boundary. Translation does not validate transfer.
 
-For mainland China, distinguish market, legal entity, language, locale, timezone, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, holidays, release, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, regulatory, provider, causal, or performance conclusions.
+For China, distinguish market, legal entity, language, locale, timezone, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, holidays, release, support, and locally accountable review. Use current direct sources and local expertise. Do not make legal, regulatory, provider, causal, or performance conclusions.
 
 Use aggregate, redacted, pseudonymous, minimum-necessary data. Do not request sensitive data, identify or blame people, expose small groups, or rank individuals for consequential decisions.
 

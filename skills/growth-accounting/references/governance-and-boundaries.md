@@ -31,7 +31,7 @@ Identity deletion and consent withdrawal can affect reconciliation. Preserve the
 
 Revalidate entity, eligibility, product, contract, plan, price, payment, invoice, tax, refund, currency, channel, platform, identity, attribution, consent, data, storage, transfer, source access, dormancy, grace, accounting basis, and ownership by market.
 
-For mainland China, use current direct sources and locally accountable review for time-sensitive platform, payment, invoice, tax, advertising, data, and regulatory conditions. Translation and currency conversion do not validate a transferred bridge. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
+For China, use current direct sources and locally accountable review for time-sensitive platform, payment, invoice, tax, advertising, data, and regulatory conditions. Translation and currency conversion do not validate a transferred bridge. Do not provide legal, tax, accounting, regulatory, or provider conclusions.
 
 ## Operating Cadence
 

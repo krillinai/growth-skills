@@ -27,7 +27,7 @@
     },
     {
       "id": 7505,
-      "prompt": "Use $growth-initiative-planning. Combine free consumers, enterprise accounts, marketplace buyers and sellers, US and mainland China, mobile and API products, self-serve and sales-led paths, and several price models into one average customer, one metric, one roadmap, and one owner.",
+      "prompt": "Use $growth-initiative-planning. Combine free consumers, enterprise accounts, marketplace buyers and sellers, US and China, mobile and API products, self-serve and sales-led paths, and several price models into one average customer, one metric, one roadmap, and one owner.",
       "expected_output": "Rejects incompatible aggregation, splits or explicitly coordinates distinct initiative units, and preserves customer, market, product, motion, metric, economics, owner, and evidence boundaries.",
       "assertions": ["Does not average all participants into one customer. [eval 7505]", "Does not impose one metric or roadmap on incompatible units. [eval 7505]", "Separates users, buyers, sellers, accounts, beneficiaries, approvers, and payers as applicable. [eval 7505]", "Separates markets, products, motions, prices, economics, and evidence maturity. [eval 7505]", "Splits initiatives when outcome, owner, dependency, or decision differs materially. [eval 7505]", "Coordinates shared dependencies without blending results. [eval 7505]", "Defines unit-specific owners, gates, guardrails, and handoffs. [eval 7505]", "Uses a portfolio or strategy handoff when several independent initiatives remain. [eval 7505]"]
     },
@@ -87,9 +87,9 @@
     },
     {
       "id": 7515,
-      "prompt": "Use $growth-initiative-planning for mainland China in Simplified Chinese. Copy the US plan, translate tasks, convert USD to CNY, and assume the same customer, product, channel, platform, app store, payment, invoice, data, consent, regulation, holidays, support, staffing, lead times, evidence, and approval path apply.",
+      "prompt": "Use $growth-initiative-planning for China in Simplified Chinese. Copy the US plan, translate tasks, convert USD to CNY, and assume the same customer, product, channel, platform, app store, payment, invoice, data, consent, regulation, holidays, support, staffing, lead times, evidence, and approval path apply.",
       "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and creates a locally owned initiative, dependency, capacity, evidence, governance, and review contract without legal or provider conclusions.",
-      "assertions": ["Responds in Simplified Chinese. [eval 7515]", "Separates mainland China market from Simplified Chinese language. [eval 7515]", "Does not validate US customers, products, channels, platforms, timelines, evidence, or approvals by translation. [eval 7515]", "Does not treat currency conversion as local budget or economics. [eval 7515]", "Requires current direct and locally accountable evidence. [eval 7515]", "Defines local platform, app distribution, payment, invoice, data, consent, holiday, support, staffing, and lead-time dependencies. [eval 7515]", "Defines local owners, gates, guardrails, stop, rollback, and review. [eval 7515]", "Avoids legal, tax, regulatory, provider, approval, or performance conclusions. [eval 7515]"]
+      "assertions": ["Responds in Simplified Chinese. [eval 7515]", "Separates China market from Simplified Chinese language. [eval 7515]", "Does not validate US customers, products, channels, platforms, timelines, evidence, or approvals by translation. [eval 7515]", "Does not treat currency conversion as local budget or economics. [eval 7515]", "Requires current direct and locally accountable evidence. [eval 7515]", "Defines local platform, app distribution, payment, invoice, data, consent, holiday, support, staffing, and lead-time dependencies. [eval 7515]", "Defines local owners, gates, guardrails, stop, rollback, and review. [eval 7515]", "Avoids legal, tax, regulatory, provider, approval, or performance conclusions. [eval 7515]"]
     },
     {
       "id": 7516,

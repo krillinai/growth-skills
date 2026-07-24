@@ -93,7 +93,7 @@ Peer practices are descriptive. Preserve implementation quality, customer, stage
 
 Treat each market as a new reference class and evidence boundary. Separate market, language, locale, currency, timezone, legal entity, product, platform, app distribution, identity, payment, invoice, tax and accounting basis, channel, data, sample, privacy, support, and owner.
 
-For mainland China, do not copy US SaaS metrics, Google or Meta channel definitions, app-store data, workweeks, sources, samples, benchmarks, consent, accounting, or targets. Revalidate local customer value, entities, platforms, source availability, periods, maturity, privacy, and review through current direct evidence and locally accountable expertise. Translation and currency conversion do not establish comparability. Avoid legal, tax, regulatory, provider, approval, accounting, and performance conclusions.
+For China, do not copy US SaaS metrics, Google or Meta channel definitions, app-store data, workweeks, sources, samples, benchmarks, consent, accounting, or targets. Revalidate local customer value, entities, platforms, source availability, periods, maturity, privacy, and review through current direct evidence and locally accountable expertise. Translation and currency conversion do not establish comparability. Avoid legal, tax, regulatory, provider, approval, accounting, and performance conclusions.
 
 ## Privacy, Fairness, And Peer Protection
 

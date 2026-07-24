@@ -55,7 +55,7 @@ Audit calibration and error for decision-relevant groups without using protected
 
 Revalidate entity, customer, product, cohort, channel, platform, app distribution, calendar and seasonality, pricing, payment, tax, invoice, currency, exchange rate, attribution, identity, consent, data, storage, transfer, source access, model, assumptions, calibration, and ownership by market.
 
-For mainland China, use current direct sources and locally accountable review for time-sensitive product, platform, app-store, payment, data, advertising, and regulatory conditions. Translation and currency conversion do not validate a forecast. Require local holdouts, error analysis, fallback, and retirement rules. Do not provide legal, tax, accounting, or compliance conclusions.
+For China, use current direct sources and locally accountable review for time-sensitive product, platform, app-store, payment, data, advertising, and regulatory conditions. Translation and currency conversion do not validate a forecast. Require local holdouts, error analysis, fallback, and retirement rules. Do not provide legal, tax, accounting, or compliance conclusions.
 
 ## Operating Cadence
 
