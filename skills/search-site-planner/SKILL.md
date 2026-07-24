@@ -1,6 +1,6 @@
 ---
 name: search-site-planner
-description: Use when planning or reviewing a website or section hierarchy, navigation, URL structure, breadcrumbs, internal links, restructuring decisions, or old-to-new migration mappings from a declared page or URL inventory, including international and China properties.
+description: Use when planning or reviewing a website or section hierarchy, navigation, URL structure, breadcrumbs, internal links, restructuring decisions, or old-to-new migration mappings from a declared page or URL inventory across markets and locales.
 ---
 
 # Search Site Planner

@@ -1,6 +1,6 @@
 ---
 name: structured-data-builder
-description: Use when generating, auditing, repairing, or templating Schema.org structured data or JSON-LD from captured page content or attributable authoritative data, including multi-entity graphs, conflicting markup, provider-specific eligibility checks, international locales, or China.
+description: Use when generating, auditing, repairing, or templating Schema.org structured data or JSON-LD from captured page content or attributable authoritative data, including multi-entity graphs, conflicting markup, provider-specific eligibility checks, and localized properties.
 ---
 
 # Structured Data Builder

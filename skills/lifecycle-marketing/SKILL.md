@@ -1,6 +1,6 @@
 ---
 name: lifecycle-marketing
-description: Use when planning, drafting, reviewing, or localizing welcome, activation, transactional, retention, win-back, or campaign messaging across email, international SMS, China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, or WhatsApp.
+description: Use when planning, drafting, reviewing, or localizing welcome, activation, transactional, retention, win-back, or campaign messaging across email, SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, or WhatsApp.
 ---
 
 # Lifecycle Marketing

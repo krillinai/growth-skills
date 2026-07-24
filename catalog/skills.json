@@ -9,8 +9,8 @@
       "status": "experimental",
       "name_en": "Copywriting",
       "name_zh": "文案创作",
-      "description_en": "Write evidence-led page, campaign, product, offer, and localization copy with explicit market, language, locale, channel, and claim-source controls, including native Simplified Chinese for China",
-      "description_zh": "在明确市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案，并支持面向中国的原生简体中文表达",
+      "description_en": "Write evidence-led page, campaign, product, offer, and localization copy with explicit audience, market, language, locale, channel, and claim-source controls",
+      "description_zh": "在明确受众、市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案",
       "playbook_revisions": [],
       "validation": {
         "structure": true,
@@ -833,7 +833,7 @@
       "status": "experimental",
       "name_en": "Lifecycle Marketing",
       "name_zh": "生命周期营销",
-      "description_en": "Plan, draft, review, and localize evidence-bounded welcome, activation, transactional, retention, win-back, and campaign messaging across email, international and China SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, and WhatsApp with explicit classification, permission, suppression, and external-action controls",
+      "description_en": "Plan, draft, review, and localize evidence-bounded welcome, activation, transactional, retention, win-back, and campaign messaging across email, SMS, WeChat Official Accounts, Mini Program subscription messages, WeCom, and WhatsApp with explicit classification, permission, suppression, and external-action controls",
       "description_zh": "在明确消息分类、渠道许可、抑制状态与外部操作边界的前提下，规划、撰写、审校和本地化覆盖欢迎、激活、事务服务、留存、召回与活动推广的邮件、短信、微信公众号、小程序订阅消息、企业微信和 WhatsApp 沟通",
       "playbook_revisions": [],
       "validation": {

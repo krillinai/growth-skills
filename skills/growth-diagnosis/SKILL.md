@@ -1,6 +1,6 @@
 ---
 name: growth-diagnosis
-description: Use when a growth symptom, stalled outcome, weak funnel stage, loop, monetization result, or growth operating system needs evidence-backed diagnosis; when a request needs triage across acquisition, activation, retention, monetization, growth loops, or growth systems; or when market-aware execution routing is needed, including China.
+description: Use when a growth symptom, stalled outcome, weak funnel stage, loop, monetization result, or growth operating system needs evidence-backed diagnosis; when a request needs triage across acquisition, activation, retention, monetization, growth loops, or growth systems; or when market-aware execution routing is needed.
 ---
 
 # Growth Diagnosis

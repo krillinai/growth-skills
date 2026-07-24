@@ -1,6 +1,6 @@
 ---
 name: geo
-description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences across declared markets and languages, including China, a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
+description: Use when diagnosing public-content readiness or observed visibility in AI-generated search experiences across declared markets, languages, and platforms, including a page, bounded site sample, repeated query panel, citation or mention incident, matched competitor comparison, or focused GEO evidence question.
 ---
 
 # GEO Audit

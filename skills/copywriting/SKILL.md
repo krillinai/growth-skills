@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel, especially for native Simplified Chinese or China work.
+description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel.
 ---
 
 # Copywriting

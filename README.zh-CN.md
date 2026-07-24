@@ -74,7 +74,7 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><th width="32%">技能</th><th width="12%">状态</th><th>说明</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="skills/copywriting/">文案创作</a></td><td>实验性</td><td>在明确市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案，并支持面向中国的原生简体中文表达</td></tr>
+    <tr><td><a href="skills/copywriting/">文案创作</a></td><td>实验性</td><td>在明确受众、市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案</td></tr>
     <tr><td><a href="skills/copy-editing/">文案编辑</a></td><td>实验性</td><td>在不改变事实含义的前提下，审校并编辑现有文案的清晰度、信息层级、语气、声明、无障碍、行动号召及市场、区域设置与渠道适配，并记录逐项精确修改</td></tr>
     <tr><td><a href="skills/marketing-image/">营销图片</a></td><td>实验性</td><td>围绕概念谱系、产品准确性、文案、品牌、声明、素材权利、人物、平台格式、本地化、无障碍、文件 QA（质量保证）与下游学习，对真实可信的营销图片进行简报、创作、编辑、适配、诊断与治理</td></tr>
     <tr><td><a href="skills/marketing-video/">营销视频</a></td><td>实验性</td><td>围绕产品与声明准确性、源素材、人物、声音、音乐、权利、本地化、无障碍、渲染 QA（质量保证）与下游学习，对真实可信的营销视频进行简报、脚本、分镜、创作、适配、诊断与治理</td></tr>
