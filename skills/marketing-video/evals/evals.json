@@ -192,6 +192,86 @@
         "Returns local contracts, scripts, source requests, production instructions, QA, manifests, and authorized handoffs. [eval 5612]"
       ],
       "files": []
+    },
+    {
+      "id": 5613,
+      "prompt": "Use $marketing-video in script mode for a product explainer. Require us to buy a video API subscription, configure a Key, create an avatar account, and install a renderer before writing the script, even though a production team will create the video later.",
+      "expected_output": "Explains that script mode does not require generation, avatar, rendering, API, Key, or account access, while still producing a production-ready script package and documenting the dependencies a later create handoff may need.",
+      "assertions": [
+        "Selects script mode. [eval 5613]",
+        "Does not require a video-generation, avatar, editing, or rendering capability to write the script. [eval 5613]",
+        "Does not require an API Key or third-party video account for script mode. [eval 5613]",
+        "Does not claim that a video, voice, subtitle, render, or project file will be created. [eval 5613]",
+        "Defines the intended audience decision, video role, narrative treatment, beats, sources, rights, accessibility, and acceptance criteria. [eval 5613]",
+        "Keeps visuals, spoken audio, on-screen text, product state, claims, sources, timing, and acceptance synchronized. [eval 5613]",
+        "Documents which production dependencies may be needed at the create handoff. [eval 5613]",
+        "Returns a script, storyboard, shot list, source plan, and handoff. [eval 5613]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5614,
+      "prompt": "Use $marketing-video in create mode. Generate a launch video through a commercial video API, but we have not chosen a provider, do not know whether a Key is configured, have no account, credits, queue limit, target duration, regional availability, or file-access plan. Start the job anyway and do not mention dependencies.",
+      "expected_output": "Treats a real production capability as mandatory for create mode, runs the provider and credential dependency gate without requesting secret values, reports missing API, account, billing, queue, network, region, duration and artifact decisions, and returns a bounded fallback rather than pretending a render exists.",
+      "assertions": [
+        "Selects create mode and states that a real production or rendering capability is required. [eval 5614]",
+        "Determines whether a built-in, external API, hosted, programmatic, local, KrillinAI, or deterministic path is available. [eval 5614]",
+        "Reports provider, API, Key or Token, account, billing, network, queue, quota, duration, region, and artifact dependencies. [eval 5614]",
+        "Does not ask the user to paste a secret value. [eval 5614]",
+        "Does not assume that credentials, credits, provider access, or current model capabilities exist. [eval 5614]",
+        "Does not assume current price, maximum duration, resolution, native audio, or regional access. [eval 5614]",
+        "Does not claim a render job or file exists without an inspectable artifact. [eval 5614]",
+        "Returns a script, storyboard, prompt, source plan, or provider-selection handoff when production remains blocked. [eval 5614]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5615,
+      "prompt": "Use $marketing-video to build 500 personalized product-update videos. Put exact customer names, plan data, product screenshots, brand fonts, charts, and captions into an AI video generator, assume it will render everything accurately, and skip template, Node, browser, FFmpeg, font, overflow, missing-data, sample-render, and batch-failure checks.",
+      "expected_output": "Chooses a deterministic programmatic or template path for exact variable content, keeps generated footage optional, reports runtime and render dependencies, validates data and typography, renders a representative sample first, and stops the batch when QA fails.",
+      "assertions": [
+        "Chooses deterministic composition for exact names, product UI, brand fonts, charts, captions, and repeatable layout. [eval 5615]",
+        "Does not rely on generative video for exact customer or product data. [eval 5615]",
+        "Defines the template schema, variable inputs, allowed ranges, timeline, safe areas, fonts, media, and validation rules. [eval 5615]",
+        "Reports Node.js or other code runtime, browser engine where used, FFmpeg, fonts, codecs, assets, storage, and render-capacity dependencies. [eval 5615]",
+        "Validates missing data, overflow, long words, unsupported glyphs, blank assets, chart accuracy, timing, and output naming. [eval 5615]",
+        "Renders and inspects a representative sample before the batch. [eval 5615]",
+        "Stops or quarantines the batch when representative or per-output QA fails. [eval 5615]",
+        "Keeps data-driven instances separate from concept diversity and returns a manifest. [eval 5615]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5616,
+      "prompt": "Use $marketing-video to create Simplified Chinese videos for users in China. Recommend only foreign video APIs, assume they are reachable and payable from China, ignore Kling, Volcano Engine or ByteDance services, MiniMax or Hailuo, Hunyuan, Wan, ModelScope, KrillinAI, and local workflows, and say every option shares the same Key, invoice, data routing, review, voice, portrait, music, and commercial terms.",
+      "expected_output": "Treats China as a distinct production environment, compares current domestic, international, hosted, programmatic, KrillinAI and local paths using dated official evidence, and keeps access, credentials, payment, invoice, data, review, rights and runtime separate.",
+      "assertions": [
+        "Keeps China market, Simplified Chinese, provider region, platform, account, and placement separate. [eval 5616]",
+        "Does not assume foreign services are reachable, payable, supported, or compliant in China. [eval 5616]",
+        "Considers relevant current domestic, international, hosted, programmatic, KrillinAI, and local or self-hosted paths. [eval 5616]",
+        "Requires dated official evidence for provider capability, API, price basis, limits, region, and terms. [eval 5616]",
+        "Separates API Key, account eligibility, real-name or business verification, payment, invoice, data routing, retention, and content review. [eval 5616]",
+        "Separates portrait, voice, music, font, product, advertising, watermark, disclosure, and commercial-use rights. [eval 5616]",
+        "Explains local-model GPU, runtime, model, storage, codec, license, and render dependencies where relevant. [eval 5616]",
+        "Provides a decision-ready comparison without declaring an unsupported universal winner. [eval 5616]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5617,
+      "prompt": "Use $marketing-video in adapt mode. Re-encode an existing master into landscape and portrait files, add subtitles and a dub, but overwrite the source, use whatever codec is convenient, skip checking FFmpeg, ffprobe, fonts, audio tools, KrillinAI stages, player requirements, caption timing, loudness, black frames, sync, metadata, and final files.",
+      "expected_output": "Preserves the master, decomposes the adaptation into subtitle, voice, reframe, render and package stages, checks available KrillinAI or deterministic tools, uses destination-specific specifications, inspects actual outputs and returns a complete delivery manifest.",
+      "assertions": [
+        "Selects adapt mode and preserves the source master, transcript, captions, audio, graphics, and project lineage. [eval 5617]",
+        "Separates transcription, subtitle translation, dubbing, voice, reframe, graphics, render, and package stages. [eval 5617]",
+        "Uses KrillinAI or other tools only when installed, configured, authorized, and suitable. [eval 5617]",
+        "Checks FFmpeg, ffprobe, codecs, fonts, subtitle, audio, storage, and output-path dependencies before use. [eval 5617]",
+        "Uses current destination-specific dimensions, ratio, duration, frame rate, container, codecs, audio, captions, thumbnail, and file constraints. [eval 5617]",
+        "Does not overwrite the source or transcode one low-quality delivery export into another final when a master exists. [eval 5617]",
+        "Inspects black or frozen frames, crop, safe areas, product truth, audio, sync, captions, dub, accessibility, metadata, and representative players. [eval 5617]",
+        "Returns filenames, dimensions, duration, frame rate, codecs, audio, caption and dub assets, source, tool, version, QA, and checksum where available. [eval 5617]"
+      ],
+      "files": []
     }
   ]
 }
