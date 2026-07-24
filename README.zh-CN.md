@@ -169,6 +169,7 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/referral-program-design/">推荐计划设计</a></td><td>实验性</td><td>围绕推荐人和接收人价值、触发时机、权限、落地连续性、奖励、身份、留存质量、增量性、经济性、反作弊、信任与运营，设计、诊断、测量并治理推荐计划</td></tr>
     <tr><td><a href="skills/incentive-system-design/">激励系统设计</a></td><td>实验性</td><td>基于留存增量贡献、完整成本、激励后行为、欺诈、蚕食、公平与信任，诊断、设计、递减或停止奖励、折扣、额度、补贴、推荐、忠诚度、进度、身份与结构性激励</td></tr>
     <tr><td><a href="skills/growth-loop-design/">增长循环设计</a></td><td>实验性</td><td>诊断增长机制是否真正闭合，衡量创造价值的关键转化，并在不执行外部操作的前提下，设计证据边界清晰的协作、推荐、内容、市场、数据或再投资循环</td></tr>
+    <tr><td><a href="skills/marketplace-growth-strategy/">Marketplace（多边市场）增长策略</a></td><td>实验性</td><td>围绕原子市场单元、各参与方状态路径、本地流动性、匹配、履约、质量、留存、激励、参与者与平台经济性、信任及证据门槛，诊断、冷启动、优化、复制、治理或停止双边与多边市场增长</td></tr>
     <tr><td><a href="skills/network-effects-strategy/">网络效应策略</a></td><td>实验性</td><td>基于边界明确的网络单元、参与者价值、核心交互、难侧、本地流动性、质量、留存、多归属、拥堵、防御性、因果证据与市场特定的毕业门槛，诊断、冷启动、强化、复制、治理或停止网络效应策略</td></tr>
   </tbody>
 </table>

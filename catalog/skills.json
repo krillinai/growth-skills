@@ -987,6 +987,24 @@
       }
     },
     {
+      "id": "marketplace-growth-strategy",
+      "path": "skills/marketplace-growth-strategy/",
+      "category": "lifecycle-monetization",
+      "status": "experimental",
+      "name_en": "Marketplace Growth Strategy",
+      "name_zh": "Marketplace（多边市场）增长策略",
+      "description_en": "Diagnose, cold-start, optimize, replicate, govern, or stop two-sided and multi-sided marketplaces through atomic market units, side-specific state paths, local liquidity, matching, fulfillment, quality, retention, incentives, participant and platform economics, trust, and evidence-gated expansion",
+      "description_zh": "围绕原子市场单元、各参与方状态路径、本地流动性、匹配、履约、质量、留存、激励、参与者与平台经济性、信任及证据门槛，诊断、冷启动、优化、复制、治理或停止双边与多边市场增长",
+      "playbook_revisions": [
+        "d906be388a79953be86e8fe7ae72490aa741cf9d"
+      ],
+      "validation": {
+        "structure": true,
+        "eval_spec": true,
+        "forward_tested": null
+      }
+    },
+    {
       "id": "network-effects-strategy",
       "path": "skills/network-effects-strategy/",
       "category": "lifecycle-monetization",
