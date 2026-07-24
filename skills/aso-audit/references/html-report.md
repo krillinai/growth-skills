@@ -1,6 +1,12 @@
 # Offline HTML ASO Report
 
-Use this reference only when the requester asks for HTML. Deliver one standalone, script-free, locally openable file named `{app-slug}-{store}-aso-audit.html`; never make HTML the default audit format.
+Use this reference for every in-scope ASO audit unless the requester explicitly opts out or requests a non-HTML-only result. Deliver one standalone, script-free, locally openable file named `{app-slug}-{store}-aso-audit.html` in the same task as the audit. HTML is the default primary artifact.
+
+## Default Delivery Contract
+
+Generate the file without asking for separate confirmation and without deferring it to a later turn. Complete the underlying evidence and scoring record first, render that exact record into HTML, write the file, run the available structural and visual checks, and return the local path with a concise summary. Do not report the audit complete while the default file is missing.
+
+Unavailable private evidence, a partial public capture, rejected images, missing logo, missing brand colors, or low evidence coverage does not justify postponing HTML. Render unavailable states, neutral brand fallbacks, and inert asset placeholders so the report remains complete within the supported evidence boundary. If local file creation is impossible, state the current blocker and provide the complete report content in the response; do not promise to generate it later.
 
 ## Layout B: Evidence And Action Hierarchy
 

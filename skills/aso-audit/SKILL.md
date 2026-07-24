@@ -1,6 +1,6 @@
 ---
 name: aso-audit
-description: Use when auditing an Apple App Store or Google Play listing, comparing same-store listings, diagnosing a store-listing performance signal, or producing a requested ASO audit report.
+description: Use when auditing an Apple App Store or Google Play listing, comparing same-store listings, diagnosing a store-listing performance signal, or producing the default standalone offline HTML ASO audit report.
 ---
 
 # ASO Audit
@@ -51,4 +51,8 @@ An audit authorizes local artifacts only. Do not access App Store Connect, Play 
 
 ## Deliver
 
-Present scope and limits; evidence states; fixed-card point trace; score and coverage with numerators/denominators; unavailable register; findings/actions/completion; prioritized roadmap; and validation plan. Generate HTML only when requested. For a standalone offline report, follow [HTML report](references/html-report.md). Hand implementation-ready listing-copy or creative briefs to the owning marketing/content/design team; hand app-code and release work to engineering/release operations.
+Present scope and limits; evidence states; fixed-card point trace; score and coverage with numerators/denominators; unavailable register; findings/actions/completion; prioritized roadmap; and validation plan.
+
+For every in-scope `listing`, `focused`, or `performance` audit, generate one standalone offline HTML report in the same task as the default primary artifact, whether or not the requester explicitly asks for HTML. Apply the same rule when `competitive` modifies an in-scope audit. Do not ask whether to generate the report, defer it to a later step, or claim completion before the file exists and has been checked. Follow [HTML report](references/html-report.md), write `{app-slug}-{store}-aso-audit.html`, and return its local path with a concise conversational summary. Missing private evidence, rejected visual assets, partial page rendering, or a low coverage score does not block the file: preserve the limits, unavailable register, and inert placeholders inside the report.
+
+Skip HTML only when the requester explicitly opts out, asks for a non-HTML-only result, or the request is entirely `out-of-scope`. If the environment cannot write a local file, state that blocker in the current response and provide the complete report content without promising a later artifact. Hand implementation-ready listing-copy or creative briefs to the owning marketing/content/design team; hand app-code and release work to engineering/release operations.

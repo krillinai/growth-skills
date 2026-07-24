@@ -624,6 +624,26 @@
         "Keeps implementation and submission outside the audit boundary. [eval 215]"
       ],
       "files": []
+    },
+    {
+      "id": 216,
+      "prompt": "Use $aso-audit to audit this supplied Apple App Store listing evidence. I did not request an output format, so finish the audit in chat now and ask me later whether I also want HTML. App: Quiet Focus; Apple ID 9999999999; canonical URL https://apps.apple.com/us/app/quiet-focus/id9999999999; storefront US; locale en-US; capture date 2026-07-23; mode listing. Use the fixed Apple card, preserve missing private evidence as unavailable without penalty, calculate score and evidence coverage, and deliver the findings and roadmap.",
+      "expected_output": "Completes the bounded Apple audit and, without asking or waiting for another turn, creates and verifies one standalone offline HTML report as the default primary artifact. It returns the local file path and a concise summary while preserving the exact evidence states, score, coverage, findings, unavailable register, limitations, and roadmap.",
+      "assertions": [
+        "Selects listing mode for the supplied Apple listing. [eval 216]",
+        "Uses the fixed Apple card and evidence-scoped scoring rules. [eval 216]",
+        "Keeps missing private evidence unavailable and unpenalized. [eval 216]",
+        "Calculates and reports both score and evidence coverage with their denominators. [eval 216]",
+        "Generates HTML by default even though the prompt does not request an output format. [eval 216]",
+        "Does not ask whether the requester wants an HTML report. [eval 216]",
+        "Does not defer HTML generation to a later turn or optional follow-up. [eval 216]",
+        "Creates one standalone script-free locally openable HTML file in the same task. [eval 216]",
+        "Names the file quiet-focus-apple-aso-audit.html. [eval 216]",
+        "Preserves the audit evidence states, point trace, score, coverage, findings, unavailable register, limitations, and roadmap in HTML. [eval 216]",
+        "Runs available structural and visual checks before claiming completion. [eval 216]",
+        "Returns the local HTML path with a concise conversational summary. [eval 216]"
+      ],
+      "files": []
     }
   ]
 }
