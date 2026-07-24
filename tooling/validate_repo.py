@@ -341,6 +341,14 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                     )
             if not str(integration.get("url", "")).startswith("https://"):
                 report.error("catalog/integrations.json: integrations require HTTPS URLs")
+            if integration.get("category") not in category_ids:
+                report.error(
+                    f"{integration_id}: integration category must match the taxonomy"
+                )
+            if integration.get("position") not in {"first", "last"}:
+                report.error(
+                    f"{integration_id}: integration position must be first or last"
+                )
 
 
 def validate_banned_terms(report: Report) -> None:
@@ -373,7 +381,9 @@ def validate_generated_readmes(report: Report) -> None:
 def run_script_tests(report: Report) -> None:
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
-    for test in sorted(SKILLS_DIR.glob("*-ads-audit/scripts/test_validate_input_bundle.py")):
+    tests = sorted((ROOT / "tooling").glob("test_*.py"))
+    tests.extend(sorted(SKILLS_DIR.glob("*-ads-audit/scripts/test_validate_input_bundle.py")))
+    for test in tests:
         result = subprocess.run(
             [sys.executable, str(test)],
             cwd=ROOT,

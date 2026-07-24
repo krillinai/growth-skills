@@ -74,6 +74,7 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><th width="32%">技能</th><th width="12%">状态</th><th>说明</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="https://github.com/krillinai/KrillinAI">视频翻译与配音</a></td><td>集成</td><td>完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化。</td></tr>
     <tr><td><a href="skills/copywriting/">文案创作</a></td><td>实验性</td><td>在明确受众、市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案</td></tr>
     <tr><td><a href="skills/copy-editing/">文案编辑</a></td><td>实验性</td><td>在不改变事实含义的前提下，审校并编辑现有文案的清晰度、信息层级、语气、声明、无障碍、行动号召及市场、区域设置与渠道适配，并记录逐项精确修改</td></tr>
     <tr><td><a href="skills/marketing-image/">营销图片</a></td><td>实验性</td><td>围绕概念谱系、产品准确性、文案、品牌、声明、素材权利、人物、平台格式、本地化、无障碍、文件 QA（质量保证）与下游学习，对真实可信的营销图片进行简报、创作、编辑、适配、诊断与治理</td></tr>
@@ -82,6 +83,7 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/ad-creative/">广告创意</a></td><td>实验性</td><td>围绕可追溯的广告概念与有目的的执行变体开展调研、设计、Brief（创意简报）、诊断、比较、本地化与复盘，并明确客户证据、声明、证明、权利、版位、落地路径、无障碍、下游结果和疲劳控制</td></tr>
     <tr><td><a href="skills/public-relations/">公共关系</a></td><td>实验性</td><td>基于证据规划、撰写、诊断、本地化并治理 PR（公共关系）叙事、新闻稿、媒体材料、发言人简报与事件响应，明确管理事实、声明、引语、权利、审批、披露、纠正、报道测量和危机交接</td></tr>
     <tr><td><a href="skills/customer-proof-development/">客户证据开发</a></td><td>实验性</td><td>将可归因且获得授权的客户证据转化为可信的案例、证言、客户推荐简报、结果故事和可复用证据单元，并严格管理原话、指标、因果边界、隐私、审批、血缘、新鲜度与撤回</td></tr>
+    <tr><td><a href="https://github.com/krillinai/autosocial-skills">社交媒体自动发布</a></td><td>集成</td><td>使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号。</td></tr>
   </tbody>
 </table>
 
@@ -222,15 +224,6 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/experiment-program-management/">实验项目管理</a></td><td>实验性</td><td>通过以决策为中心的准入、组合选择、流量与承载能力、并发控制、实验前门槛、质量事故、成熟度、决策跟进、长期验证、学习复用与治理，审查、设计和更新跨团队实验项目</td></tr>
   </tbody>
 </table>
-
-## 配套集成
-
-以下关联项目提供本仓库之外的执行能力。
-
-| 集成 | 说明 |
-| --- | --- |
-| [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化。 |
-| [社交媒体自动发布](https://github.com/krillinai/autosocial-skills) | 使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号。 |
 <!-- END GENERATED: catalog -->
 
 ## 增长全生命周期

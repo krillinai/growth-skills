@@ -84,7 +84,10 @@ def bundle_section(bundles: dict, language: str) -> str:
 
 
 def catalog_section(
-    taxonomy: dict, skills_by_id: dict[str, dict], language: str
+    taxonomy: dict,
+    skills_by_id: dict[str, dict],
+    integrations: dict,
+    language: str,
 ) -> str:
     title = "## Skill Catalog" if language == "en" else "## 技能目录"
     status_heading = "Status" if language == "en" else "状态"
@@ -96,9 +99,15 @@ def catalog_section(
         "stable": "Stable" if language == "en" else "稳定版",
         "deprecated": "Deprecated" if language == "en" else "已弃用",
     }
+    integration_status = "Integration" if language == "en" else "集成"
     lines = [title, ""]
 
     for category in taxonomy["categories"]:
+        category_integrations = [
+            integration
+            for integration in integrations["integrations"]
+            if integration["category"] == category["id"]
+        ]
         lines.extend(
             [
                 f"### {category[f'name_{language}']}",
@@ -110,6 +119,15 @@ def catalog_section(
                 "  <tbody>",
             ]
         )
+        for integration in category_integrations:
+            if integration["position"] != "first":
+                continue
+            name = table_name(integration[f"name_{language}"])
+            description = html.escape(integration[f"description_{language}"])
+            lines.append(
+                f'    <tr><td><a href="{integration["url"]}">{name}</a></td>'
+                f"<td>{integration_status}</td><td>{description}</td></tr>"
+            )
         for skill_id in category["skills"]:
             skill = skills_by_id[skill_id]
             name = table_name(skill[f"name_{language}"])
@@ -119,36 +137,17 @@ def catalog_section(
                 f'    <tr><td><a href="{skill["path"]}">{name}</a></td>'
                 f"<td>{status}</td><td>{description}</td></tr>"
             )
+        for integration in category_integrations:
+            if integration["position"] != "last":
+                continue
+            name = table_name(integration[f"name_{language}"])
+            description = html.escape(integration[f"description_{language}"])
+            lines.append(
+                f'    <tr><td><a href="{integration["url"]}">{name}</a></td>'
+                f"<td>{integration_status}</td><td>{description}</td></tr>"
+            )
         lines.extend(["  </tbody>", "</table>", ""])
     return "\n".join(lines).rstrip()
-
-
-def integration_section(integrations: dict, language: str) -> str:
-    if language == "en":
-        lines = [
-            "## Companion integrations",
-            "",
-            "These related projects provide execution capabilities outside this repository.",
-            "",
-            "| Integration | Description |",
-            "| --- | --- |",
-        ]
-    else:
-        lines = [
-            "## 配套集成",
-            "",
-            "以下关联项目提供本仓库之外的执行能力。",
-            "",
-            "| 集成 | 说明 |",
-            "| --- | --- |",
-        ]
-
-    for integration in integrations["integrations"]:
-        lines.append(
-            f"| [{integration[f'name_{language}']}]({integration['url']}) | "
-            f"{integration[f'description_{language}']} |"
-        )
-    return "\n".join(lines)
 
 
 def generated_block(
@@ -162,8 +161,7 @@ def generated_block(
     sections = [
         chooser_section(taxonomy, skills_by_id, language),
         bundle_section(bundles, language),
-        catalog_section(taxonomy, skills_by_id, language),
-        integration_section(integrations, language),
+        catalog_section(taxonomy, skills_by_id, integrations, language),
     ]
     return (
         "<!-- BEGIN GENERATED: catalog -->\n"

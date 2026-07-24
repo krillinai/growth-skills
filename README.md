@@ -74,6 +74,7 @@ Install a focused bundle instead of loading the entire collection when the job i
     <tr><th width="32%">Skill</th><th width="12%">Status</th><th>Description</th></tr>
   </thead>
   <tbody>
+    <tr><td><a href="https://github.com/krillinai/KrillinAI">Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing</a></td><td>Integration</td><td>Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering.</td></tr>
     <tr><td><a href="skills/copywriting/">Copywriting</a></td><td>Experimental</td><td>Write evidence-led page, campaign, product, offer, and localization copy with explicit audience, market, language, locale, channel, and claim-source controls</td></tr>
     <tr><td><a href="skills/copy-editing/">Copy&nbsp;Editing</a></td><td>Experimental</td><td>Review and edit existing copy for clarity, hierarchy, voice, claims, accessibility, CTA, and market, locale, and channel fit while preserving factual meaning and recording exact edits</td></tr>
     <tr><td><a href="skills/marketing-image/">Marketing&nbsp;Image</a></td><td>Experimental</td><td>Brief, create, edit, adapt, audit, and govern truthful marketing images through concept lineage, product accuracy, copy, brand, claims, source rights, people, platform formats, localization, accessibility, file QA, and downstream learning</td></tr>
@@ -82,6 +83,7 @@ Install a focused bundle instead of loading the entire collection when the job i
     <tr><td><a href="skills/ad-creative/">Ad&nbsp;Creative</a></td><td>Experimental</td><td>Research, design, brief, audit, compare, localize, and learn from traceable advertising concepts and purposeful variants with explicit customer evidence, claims, proof, rights, placements, landing paths, accessibility, downstream outcomes, and fatigue controls</td></tr>
     <tr><td><a href="skills/public-relations/">Public&nbsp;Relations</a></td><td>Experimental</td><td>Plan, draft, audit, localize, and govern evidence-led PR narratives, press releases, media materials, spokesperson briefs, issue responses, facts, claims, quotes, rights, approvals, disclosures, corrections, coverage measurement, and crisis handoffs</td></tr>
     <tr><td><a href="skills/customer-proof-development/">Customer&nbsp;Proof&nbsp;Development</a></td><td>Experimental</td><td>Turn attributable, permissioned customer evidence into credible case studies, testimonials, reference briefs, outcome stories, and reusable proof units with exact quote, metric, causality, privacy, approval, lineage, freshness, and withdrawal controls</td></tr>
+    <tr><td><a href="https://github.com/krillinai/autosocial-skills">Social&nbsp;Media&nbsp;Publishing</a></td><td>Integration</td><td>Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata.</td></tr>
   </tbody>
 </table>
 
@@ -222,15 +224,6 @@ Install a focused bundle instead of loading the entire collection when the job i
     <tr><td><a href="skills/experiment-program-management/">Experiment&nbsp;Program&nbsp;Management</a></td><td>Experimental</td><td>Audit, design, and refresh multi-team experimentation programs through decision-centered intake, portfolio selection, traffic and capacity, concurrency, preflight gates, quality incidents, maturity, follow-through, long-term validation, learning reuse, and governance</td></tr>
   </tbody>
 </table>
-
-## Companion integrations
-
-These related projects provide execution capabilities outside this repository.
-
-| Integration | Description |
-| --- | --- |
-| [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering. |
-| [Social Media Publishing](https://github.com/krillinai/autosocial-skills) | Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata. |
 <!-- END GENERATED: catalog -->
 
 ## The Growth Lifecycle
