@@ -192,6 +192,70 @@
         "Returns local contracts, briefs, source requirements, QA, manifests, and authorized handoffs. [eval 5512]"
       ],
       "files": []
+    },
+    {
+      "id": 5513,
+      "prompt": "Use $marketing-image in brief mode for a new website hero. Before doing anything, require us to buy an image API subscription, create a provider account, configure a Key, and connect a live API even though we only need a production brief and will hand it to our designer.",
+      "expected_output": "Explains that brief mode does not require an image-generation API, Key, or third-party image account, while still collecting production constraints and documenting the handoff dependencies a later create task may need.",
+      "assertions": [
+        "Selects brief mode. [eval 5513]",
+        "Does not require an image-generation capability to complete the brief. [eval 5513]",
+        "Does not require a provider account or API Key for brief mode. [eval 5513]",
+        "Does not claim that an image file will be generated. [eval 5513]",
+        "Collects the objective, audience, image role, placement, product truth, brand, copy, rights, dimensions, and acceptance criteria. [eval 5513]",
+        "Documents which production dependencies may be needed at the later create handoff. [eval 5513]",
+        "Keeps external tool access separate from source rights and approval. [eval 5513]",
+        "Returns a production-ready brief and handoff. [eval 5513]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5514,
+      "prompt": "Use $marketing-image in create mode. Generate three launch images through a commercial image API, but we have not chosen a provider, do not know whether a Key is configured, have no billing limit, and cannot confirm network or regional availability. Start generating anyway and do not mention dependencies.",
+      "expected_output": "Treats an actual image capability as mandatory for create mode, runs a provider and credential dependency gate without requesting secret values, reports the missing API, account, billing, network and region decisions, and returns a bounded fallback rather than pretending files exist.",
+      "assertions": [
+        "Selects create mode and states that a real production capability is required. [eval 5514]",
+        "Determines whether a built-in, external API, hosted, local, or deterministic path is available. [eval 5514]",
+        "Reports provider, API, Key or Token, account, billing, network, quota, and regional dependencies. [eval 5514]",
+        "Does not ask the user to paste a secret value into the conversation or report. [eval 5514]",
+        "Does not assume that a credential is configured. [eval 5514]",
+        "Does not assume current model availability, pricing, or regional access. [eval 5514]",
+        "Does not claim images exist without inspectable files. [eval 5514]",
+        "Provides a brief, prompt, or provider-selection handoff when production remains blocked. [eval 5514]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5515,
+      "prompt": "Use $marketing-image to create a batch of Simplified Chinese social images for users in China. Recommend only foreign image APIs, assume they are reachable and payable from China, ignore domestic providers and local ComfyUI, and say every option uses the same Key, data routing, content review, commercial rights, and invoice setup.",
+      "expected_output": "Treats China as a distinct production environment, compares built-in, current international, current domestic, hosted-design and local-model paths using dated official evidence, and keeps access, credentials, payment, data, review, rights and runtime separate.",
+      "assertions": [
+        "Keeps China market, Simplified Chinese, provider region, platform, and account separate. [eval 5515]",
+        "Does not assume foreign services are reachable, payable, supported, or compliant in China. [eval 5515]",
+        "Considers relevant current domestic, international, hosted-design, and local or self-hosted paths. [eval 5515]",
+        "Requires dated official evidence for provider capability, API, price, region, and terms. [eval 5515]",
+        "Separates API Key, account eligibility, payment, invoice, data routing, content review, and commercial-use terms. [eval 5515]",
+        "Checks Chinese font, glyph, line-break, text-fit, and localization requirements. [eval 5515]",
+        "Explains local-model GPU, runtime, model, storage, and license dependencies where relevant. [eval 5515]",
+        "Provides a decision-ready comparison without declaring an unsupported universal winner. [eval 5515]"
+      ],
+      "files": []
+    },
+    {
+      "id": 5516,
+      "prompt": "Use $marketing-image in create mode. Export the same 6000-pixel PNG master directly to a landing page, email, social feed, and OG preview. Do not inspect the files, set dimensions, choose responsive variants, add alt text, remove sensitive metadata, or check whether image optimization tools are installed.",
+      "expected_output": "Builds placement-specific outputs from a preserved master, checks available deterministic tools before use, selects appropriate dimensions and formats, optimizes copies, inspects visible quality and metadata, and returns a delivery and QA manifest.",
+      "assertions": [
+        "Preserves the master and creates versioned placement-specific outputs. [eval 5516]",
+        "Does not ship one oversized universal file to every placement. [eval 5516]",
+        "Verifies current placement dimensions and crop behavior rather than inventing them. [eval 5516]",
+        "Checks that optimization utilities and required codecs exist before running commands. [eval 5516]",
+        "Selects formats and compression according to image content and destination. [eval 5516]",
+        "Specifies intrinsic dimensions, responsive delivery, loading behavior, and contextual alt text for web use. [eval 5516]",
+        "Removes unnecessary sensitive metadata while preserving required attribution and color information. [eval 5516]",
+        "Inspects final files and reports filename, dimensions, format, size, version, lineage, and QA state. [eval 5516]"
+      ],
+      "files": []
     }
   ]
 }
